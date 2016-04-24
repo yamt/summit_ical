@@ -1,0 +1,326 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//yosshy/openstackdesignsummitaustin2016//NONSGML v1.0//EN
+SUMMARY:Containers
+BEGIN:VEVENT
+SUMMARY:OpenShift and OpenStack: Devlivering Applications Together
+DTSTART:20160425T214000Z
+DTEND:20160425T222000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Many organizations have had success dabbling with with Linux C
+ ontainers. Once you take a small project and have success\, the epiphany h
+ appens - and you ask yourself: 1. What else can we containerize? 2. Can we
+  put everything in containers? 3. How do we get traditional applications i
+ nto containers? Virtual Machines aren't going anywhere and applications ma
+ de up of Containers and Virtual Machines are becoming the norm.
+LOCATION:Austin Convention Center - Level 4 - Ballroom F
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Project Kuryr - Docker Delivered\, Kubernetes Next!
+DTSTART:20160427T140000Z
+DTEND:20160427T144000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Kuryr was unveiled in the OpenStack Summit in Tokyo.Its goal i
+ s to make Neutron networking available to containainers in their most wide
+ spread usages.Kuryr's aim\, as we move towards the N release\, is to bridg
+ e the gap between the container orchestration engines like Kubernetes and 
+ OpenStack networking models and expose all of the production grade Neutron
+  capabilities and services to big scale container consumers.In this sessio
+ n we will talk about how Kuryr bridged the gap with Docker standalone conf
+ igurations\, how it brings networking to Docker Swarm and what is the road
+ map for the next release.
+LOCATION:Austin Convention Center - Level 4 - MR 18 A/B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mesos and OpenStack: The Perfect Tag Team for Containers
+DTSTART:20160427T140019Z
+DTEND:20160427T144059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Container Orchestration Engines such as Kubernetes and Swarm p
+ rovide full management for containers\, however they assume that the clus
+ ter infrastructure is provided by someone else. OpenStack provides the fu
+ ll infrastructure and Magnum integrates these resources for the Container
+  Orchestration Engine\, but the resource management is left to the users.
+  Mesos on the other hand provides advanced\, highly scalable resource ma
+ nagement.Recent development allows Kubernetes and Swarm to run on Mesos as
+  frameworks. This makes it now possible to bring the 3 layers together to
+  achieve a new level of integration and automation\, yielding many benefi
+ ts: scaling at both the container and the node level\, fine grained resou
+ rce sharing among clusters\, etc.In this talk\, we will take a close look
+  at running Kubernetes and Swarm workloads on Mesos\, hosted on OpenStack
+ . We will show the necessary plumbing for the integration\, and discuss p
+ otential issues in providing networking and storage through Mesos.
+LOCATION:Austin Convention Center - Level 1 - Ballroom C
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Multi-tenancy for Docker Containers With Keystone\, and Adding Quo
+ ta Limits
+DTSTART:20160427T145000Z
+DTEND:20160427T153040Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Docker containers need multi-tenancy feature with keystone whi
+ ch will help to isolate the containers for different users and tenants. Mu
+ lti tenancy will avoid users invading other users' containers\, since th
+ e containers owned will be invisible to other tenants or users except the
+  admin or the owner of the containers.The proposed approach enables the 
+ organization administrator to specify quota limits through keystone ensuri
+ ng budget targets are adhered to in a pay-as-you-go pricing model. Use key
+ stone to validate the identity of a user's username-password\, API key or 
+ authentication token.Proposal is to create a new authentication plugin to
+  talk to keystone and validate the user's credentials.This security featur
+ e allows secure communications between containers. The private networking 
+ enables open connectivity within the environment deployed by a given user.
+LOCATION:Austin Convention Center - Level 1 - Ballroom C
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Persistent Storage for Containers Using Cinder
+DTSTART:20160427T160019Z
+DTEND:20160427T164059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Everyone loves containers\, but nobody wants to talk about the
+  elephant in the room - how can you make storage persist when the whole po
+ int of containers is that they have short lifespans? In this presentation 
+ we'll discuss how to use the REX-Ray volume driver\, backed by Cinder\, to
+  provide persistent\, preemptable storage to Docker container servers host
+ ed on OpenStack.
+LOCATION:Austin Convention Center - Level 1 - Ballroom C
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Managing Container Clusters in OpenStack Native Way
+DTSTART:20160427T165000Z
+DTEND:20160427T173000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:On its journey to become an integration engine of cloud techno
+ logies\, OpenStack has been actively incubating many technologies related 
+ to containers. However\, containers are yet to be treated as first class c
+ itizens on OpenStack. In other words\, it may not be sufficient to just br
+ idge the existing OpenStack services to other container technologies.In th
+ is talk\, the presenters will share their visions and experiences on manag
+ ing container clusters directly using OpenStack native services. The goal 
+ of the work is to explore the feasibility to treat containers as first cla
+ ss citizens in OpenStack rather than above OpenStack. A comprehensive supp
+ ort to containers will help ease the development\, testing\, deployment an
+ d management of containers considering that\, for example\, users have to 
+ work with Python\, Go\, Java\, C\, Scalar code in different projects.
+LOCATION:Austin Convention Center - Level 4 - Ballroom G
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Networking For Nested Containers: Magnum\, Kuryr\, Neutron Integra
+ tion
+DTSTART:20160427T165000Z
+DTEND:20160427T173000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:In the OpenStack ecosystem\, containers were introduced as fir
+ st class citizens recently with the project Magnum and the networking for 
+ containers has also evolved since then. Project Kuryr makes networking ava
+ ilable to containers through Neutron. This all brings together how Neutron
+  networking benefits containers like it does virtual machines. However\, t
+ o make Neutron\, Kuryr and Magnum cover all the use cases for containers\,
+  nested containers inside Nova VMs require networking to work as seamlessl
+ y as it works for virtual machines or bare metal containers. In this sessi
+ on\, we will talk about Magnum\, Kuryr\, Neutron integration and how the p
+ roblem of nested container networking has been solved in the OpenStack com
+ munity\, it's architecture\, the design\, current status and next steps.
+LOCATION:Austin Convention Center - Level 4 - Ballroom F
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Kubernetes Automation on OpenStack Using Ansible
+DTSTART:20160427T185000Z
+DTEND:20160427T193040Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Kubernetes is a popular platform for deploying\, scaling and m
+ anaging microservices due to its ease of use and application centric archi
+ tecture. However\, if you are looking to kick the tires with docker+kubern
+ etes on OpenStack using nova instances and neutron overlay networking\, yo
+ u will soon find that there are very few resources available in terms of d
+ ocs\, automation and code.We realized this issue when we started exploring
+  for resources to build our private kube cluster for one of our internal
+  POCs. Eventhough the Magnum service is available\, we did not use it in
+  our test environment as it lacked hybrid cloud and many of our customers 
+ preferred deploying docker+kubernetes natively without the management com
+ plexity of Magnum. We have since spent time developing the required auto
+ mation in ansible to launch repeatable kubernetes clusters in openstack fr
+ om a cloud yaml spec. This talk will the present the details of the work w
+ e have done and lessons learned and strategies employed.
+LOCATION:Austin Convention Center - Level 1 - Ballroom C
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:To Persist\, or not to Persist (Container Data)\, that is the Ques
+ tion
+DTSTART:20160427T194001Z
+DTEND:20160427T202041Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Containers are fast becoming the standard unit of deployment 
+ for cloud-native applications that follow the design patterns of a "Twelv
+ e-Factor App". Two of those patterns talks about stateless application p
+ rocesses and about backing services.  Application data that needs to pe
+ rsist is typically written to a backing service such as a database and the
+ se types of use-cases is where the topics of data persistence and containe
+ rs meld.In this session\, we will start from the beginning by reviewing wh
+ y/when containers might be a good fit with your OpenStack cloud strategy f
+ ollowed by how OpenStack Cinder can be used with containers (along with ex
+ amples when it shouldn't be) and\, finally\, a review of the orchestration
+  tools available for leveraging persistent storage provided by OpenStack C
+ inder with containers along with a demonstration.
+LOCATION:Austin Convention Center - Level 1 - Ballroom C
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dive into The Migration of Stateful Application to DCOS Platform -
+  the Practice in China Mobile
+DTSTART:20160427T203019Z
+DTEND:20160427T211059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:In the data center OS model\,DCOS behaves like the Operating S
+ ystem\,managing hardware resources and providing that information to appli
+ cation frameworks to schedule tasks across dozens or thousands of machines
+ . Due to the benefits of container\,it can realize the elastic extension a
+ t application-level truely.Our DCOS is a software stack consisting of meso
+ s\,kubernete\,marathon\,etcd.so we can supply more perfect features.The ar
+ thitecture is made up of cloud-provider layer\, core layer and manager Lay
+ er.Cloud-provider layer can support three types of resurces: bare-metal ma
+ chine\,public and private cloud.Perhaps we can provide real hybrid-cloud a
+ t paas level in the future.The core layer consists of task scheduler servi
+ ce(based mesos)\, framework auto-deployment service(based marathon)\,task 
+ discovery and registration service(etcd and haproxy).We can integrate clou
+ d framework and bigdata framework into one platform.The manager layer  i
+ s aim to provide a friendly dashboard.
+LOCATION:Austin Convention Center - Level 1 - Ballroom C
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Your CI/CD Infrastructure is a Monolith Too
+DTSTART:20160427T213019Z
+DTEND:20160427T221059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:The container revolution had left our CI/CD infrastructure in 
+ need of a serious face-life. See how we’ve containerized our CI/CD infra
+ structure using Kubernetes on OpenStack. Featuring on-demand spin up\, dyn
+ amic scaling and siloed workspaces for unit and integration testing.
+LOCATION:Austin Convention Center - Level 1 - Ballroom C
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Docker 101: Introduction to Docker
+DTSTART:20160427T222001Z
+DTEND:20160427T230041Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:This is a comprehensive introduction to Docker\, without an an
+ alogy of shipping containers. Find out what's happening under the hood\, a
+ nd how containers are different from virtual machines. Learn the differenc
+ e between Dockerfiles\, container images\, running containers\, terminated
+  containers\, Docker Registry\, and a demo of the Docker CLI that goes bey
+ ond what you learn from the online simulator.
+LOCATION:Austin Convention Center - Level 1 - Ballroom C
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Orchestrated Containerization with OpenStack
+DTSTART:20160428T140019Z
+DTEND:20160428T144059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Initial cloud designs were based upon the assumption that hard
+ ware emulation via the hypervisor was to be the most significant building 
+ block of cloud compute infrastructure. Many of those clouds were built wit
+ hout a workload in mind\, and with an if you build it they will comemental
+ ity. They often failed to show value to the business. With the emergence o
+ f containerization\, rich orchestration like Kubernetes and container opti
+ mized operating systems\, rather than bringing workloads to the cloud\, we
+  can bring the cloud to the workloads. The benefits of orchestrated contai
+ ner based cloud approaches are manifold  workloadsare portable between clo
+ uds\, clouds can quickly be built using existing bare metal\, legacy virtu
+ alization or next generation cloud providers like OpenStack\, Microsoft Az
+ ure or Amazon AWS. Further integration of DevOps via PaaS only serves to e
+ nhance the organizational benefit of the non-disruptive hybrid cloud appro
+ ach.
+LOCATION:Austin Convention Center - Level 1 - Ballroom C
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Open Container Initiative\, the OpenStack Magnum & Kuryr Proje
+ cts\, the CNCF\, and You!
+DTSTART:20160428T145000Z
+DTEND:20160428T153040Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:The technology industry has been abuzz about cloud workload co
+ ntainerization since the open source Docker project became a phenomenon in
+  early 2014. Meanwhile\, an OpenStack Containers Team was formed and the 
+ Magnum project launched to provide users with a convenient Containers-as-a
+ -Service solution for OpenStack environments. As the potential of both te
+ chnologies emerged\, many wanted to see shared governance over the baselin
+ e container specification and runtime technology to ensure an open cloud e
+ cosystem. This past December\, two new groups were launched with a goal o
+ f creating open\, industry standards. The first called the Open Container 
+ Initiative (http://www.opencontainers.org)\, and the second called the Clo
+ ud Native Computing Foundation (http://cncf.io) 
+LOCATION:Austin Convention Center - Level 1 - Ballroom C
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Magnum or Murano? OpenStack Options for Container Environment Crea
+ tion and Management
+DTSTART:20160428T160019Z
+DTEND:20160428T164059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:OpenStack users who want to create and manage container enviro
+ nments (e.g.\, Kubernetes\, Docker Swarm\, Apache Mesos\, etc.) can do so 
+ with methods native to each solution’s ecology. They can explore OpenSta
+ ck Magnum’s API\, which enables creation of Kubernetes\, Swarm or Mesos 
+ environments\, plus abstract management of container workloads. Or they ca
+ n use Murano\, the application catalog\, which deploys Kubernetes clusters
+ \, pods\, and container applications with Wizard ease.Which to choose? Thi
+ s session will describe:Magnum and Murano: Intentions\, features\, workflo
+ wTrade-offs in control vs. convenience\, and their significance...And disc
+ uss the state of current work aimed at making Magnum deployable and callab
+ le by Murano\, making Magnum more accessible to less-technical users\, and
+  broadening the suite of container solutions Murano can catalog and deploy
+ . Attendees will leave this session with better understanding of options f
+ or container-environment deployment within OpenStack.
+LOCATION:Austin Convention Center - Level 1 - Ballroom C
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Do Containers Become First Class Citizens in the Data Center? - Mo
+ derated by Cliff Grossner\, Ph.D. IHS
+DTSTART:20160428T192000Z
+DTEND:20160428T200040Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Containers quickly rose in popularity among developers with st
+ andardization driving portability\, and have led to new micro-segmented so
+ ftware architectures providing agility for solving large distributed compu
+ ting tasks\, such as big data analytics or motion picture rendering. What 
+ is the proper role for containers in the data center today? Do they become
+  peers with virtual machines and bare metal computing and managed by the s
+ ame platforms? Will they be deployed on all devices\, such as servers\, ne
+ twork adapter cards\, network devices\, etc? This panel will discuss the r
+ ole containers will assume in the data center and how this important techn
+ ology integrates with existing infrastructure in 2016 and beyond.
+LOCATION:Austin Convention Center - Level 1 - Ballroom C
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rolling Your Own Kubernetes Clusters on OpenStack with Ansible and
+  Terraform
+DTSTART:20160428T201001Z
+DTEND:20160428T205041Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:As interest grows around the container ecosystem\, enterprises
+  are looking to explore orchestration tools such as Kubernetes. This talk 
+ will give a tour of the community resources available for deploying Kubern
+ etes clusters on any group of servers\, as well as how to leverage tools l
+ ike Terraform to automate the creation of necessary infrastructure. We wil
+ l end with a demo of a full end-to-end deployment of a small cluster.
+LOCATION:Austin Convention Center - Level 1 - Ballroom C
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:App Development in a Dockerized Universe
+DTSTART:20160428T220019Z
+DTEND:20160428T224059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:As our development projects grew\, and our team more distribut
+ ed\, we needed a better way to onboard new developers\, consistently deplo
+ y new environments\, and predictably test subcomponents.To solve our requi
+ rements\, we turned to containers in order to manage each component and or
+ chestrate the full application stack. Although there is a moderate learnin
+ g curve for new team members\, these tools have given us a huge benefit in
+  lowering the level of effort for each development iteration\, vastly incr
+ eased reproducibility\, and have radically simplified the ease in product 
+ installation.In this session\, we will walk attendees through our developm
+ ent and deployment lifecycle using Docker containers deployed into an Open
+ Stack cloud. We will describe how each stage has been improved\, the chall
+ enges we encountered\, and the solutions that weve implemented.
+LOCATION:Austin Convention Center - Level 1 - Ballroom C
+END:VEVENT
+END:VCALENDAR

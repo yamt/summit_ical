@@ -1,0 +1,198 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//yosshy/openstackdesignsummitaustin2016//NONSGML v1.0//EN
+SUMMARY:HPC / Research
+BEGIN:VEVENT
+SUMMARY:Deploying OpenStack for The National Science Foundation's Newest S
+ upercomputers
+DTSTART:20160427T140019Z
+DTEND:20160427T144059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:The National Science Foundation has recently funded two high p
+ erformance computing resources powered by OpenStack.  The Bridges machine
+  at Pittsburgh Super Computing Center and Jetstream at Indiana University/
+ Texas Advanced Computing Center comprise a combined $16.2 million dollar i
+ nvestment in 18 petabytes of storage\, 40864 processor cores\,and  354 t
+ erabytes of memory.  The architecture\, performance\, use cases\, and dep
+ loyment details of each of these two machines will be covered.
+LOCATION:Austin Convention Center - Level 4 - MR 15
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:High-Performance OpenStack for Science and Data Analytics in a Hyb
+ rid Cloud Environment
+DTSTART:20160427T145000Z
+DTEND:20160427T153040Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Traditionally\, high-performance science and data analytics wo
+ rkloads have been run on specialized clusters tailored to a small number o
+ f applications. OpenStack provides a superior cloud platform that not only
+  accommodates a wider range of applications than specialized clusters but 
+ also reduces costs by running steady state workloads on-premise while prov
+ iding the ability to burst into a variety of off-premise clouds. This sess
+ ion details technology and architectures to optimize OpenStack for technic
+ al and data-intensive computing as well as techniques for tailoring HPC wo
+ rkloads for better portability and performance on private and public cloud
+  platforms. Lastly\, we cover case studies that demonstrate how research o
+ rganizations leverage OpenStack to address these issues in pursuit of thei
+ r life-changing missions.
+LOCATION:Austin Convention Center - Level 4 - MR 15
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Chasing the Rainbow – National Computational Infrastructure’s 
+ Pursuit of High-Performance OpenStack Cloud
+DTSTART:20160427T160000Z
+DTEND:20160427T164000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:With a mission to foster ambitious and aspirational research o
+ bjectives\, the National Computational Infrastructure (NCI) in Australia i
+ s building world-class computing services through a collaboration of natio
+ nal organizations and research-intensive universities.As an increasing num
+ ber of applications such as bioinformatics start to leverage Big Data\, an
+ d more virtual laboratories call for self-service and research results sha
+ ring\, it becomes apparent for NCI that a high performance cloud is needed
+ . This cloud must combine the virtues of cloud to support multi-tenancy\, 
+ self-service and Big Data type of applications\, and of HPC to support com
+ pute-intensive parallel.In this presentation\, NCI and Mellanox will join 
+ hands to discuss the various approaches experimented to construct a high-p
+ erformance cloud\, comparison of the pros and cons of each of the approach
+ es\, preliminary performance results\, and the role of high-speed network 
+ for enhancing cloud performance and efficiency.
+LOCATION:Austin Convention Center - Level 4 - Ballroom F
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Glance and SLURM: User-Defined Image Management on HPC Clusters
+DTSTART:20160427T160000Z
+DTEND:20160427T164000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Los Alamos National Laboratory has developed software that ena
+ bles users to execute a user-defined software stack (UDSS) as part of a no
+ rmal HPC batch job. Glance is used for UDSS image management. A SLURM plug
+ in was written to interface the resource manager with Glance to deploy the
+  requested UDSS image to the user's allocated job nodes. I will describe h
+ ow this plugin works and give a short demonstration of its use.LA-UR-16-20
+ 535
+LOCATION:Austin Convention Center - Level 4 - MR 15
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Bending Ironic for Big Iron
+DTSTART:20160427T165000Z
+DTEND:20160427T173000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Management of bare metal nodes is critical for High Performanc
+ e Computing (HPC) clusters and supercomputers. The Ironic project provides
+  a number of key features required for managing bare metal nodes in a clou
+ d.This talk covers various modifications and extensions made to Ironic by 
+ Cray to meet the requirements of HPC use cases across Cray's compute\, sto
+ rage and analytics product lines.
+LOCATION:Austin Convention Center - Level 4 - MR 15
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Synch into Swift -- A User-Friendly Gateway into Swift Storage Usi
+ ng an Owncloud Frontend
+DTSTART:20160427T185000Z
+DTEND:20160427T193040Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Swift storage is an elegant technical design that can scale we
+ ll but is hamstrung in its uptake by its user interface. We have sought to
+  address this interface challenge by mating an open source sync frontend (
+ we picked ownCloud -- https://www.owncloud.org/ ) to our Swift backend. Th
+ e solution is about to be made available to university research teams acro
+ ss Australia\; patches made in the process of designing the solution have 
+ been accepted upstream into ownCloud and php-opencloud.
+LOCATION:Austin Convention Center - Level 4 - MR 15
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Cloud Infrastructure to Help Researchers Build 21st Century Micros
+ copes
+DTSTART:20160427T194001Z
+DTEND:20160427T202041Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Leveraging the NeCTAR Research Cloud (a national IaaS for rese
+ arch)\, Monash University is building innovative digital environments for 
+ data-oriented research. This work acknowledges the 21st Century Microscope
+  as a composite instrument - using a digital research fabric to support in
+ tegrated data storage\, processing\, analysis and visualisation. The fabri
+ c is orchestrated to solve specific problems and driven by researcher-defi
+ ned workflows. Researchers move their tools to the data.We will discuss:Me
+ chanisms that we employ to engage new (and critically important) communiti
+ es\, with a particular focus on the biological and medical sciencesPragmat
+ ic approaches to architecting and integrating OpenStack for HPCOur experie
+ nces with developing HPC middleware that leverages the advantages offered 
+ by using a cloud model\, and allows us to deploy HPC systems within hoursD
+ esign approaches and specific tuning to bring a KVM based OpenStack up to 
+ scratch for mixed HPC
+LOCATION:Austin Convention Center - Level 4 - MR 15
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Chameleon: An experimental Testbed for Computer Science as Applica
+ tion of Cloud Computing
+DTSTART:20160427T203000Z
+DTEND:20160427T211000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Chameleon is a testbed designed to support cloud computing res
+ earch. To to support Computer Science experiments ranging from operating s
+ ystems and virtualization to networking and security\, Chameleon provides 
+ deep reconfigurability (bare metal\, BIOS reconfiguration\, console access
+ \, etc.). These capabilities are delivered using primarily OpenStack with 
+ Ironic: a cloud computing resarch testbed built as a cloud. The testbed is
+  distributed over University of Chicago and TACC and consists of ~400 node
+ s/10\,000 cores and 5PB of total storage to support HPC and BigData experi
+ ments\, with high-memory\, large-disk\, low-power\, GPU\, and co-processor
+  units planned for deployment this year. Chameleon went public in July 201
+ 5 and currently supports 600+ users as well as many exciting cloud computi
+ ng research and education projects. This talk will describe the goals\, de
+ sign strategy\, implementation\, operation\, and the cloud-related researc
+ h projects taking place on the Chameleon testbed.
+LOCATION:Austin Convention Center - Level 4 - MR 18 A/B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Building Efficient HPC Clouds with MVAPICH2 and OpenStack over SR-
+ IOV Enabled Infiniband Clusters
+DTSTART:20160427T203019Z
+DTEND:20160427T211059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Single Root I/O Virtualization (SR-IOV) technology has been st
+ eadily gaining momentum for high-performance interconnects such as InfiniB
+ and. SR-IOV can deliver near native performance but lacks locality-aware c
+ ommunication support. This talk presents an efficient approach to build HP
+ C clouds based on MVAPICH2 over OpenStack with SR-IOV. We discuss the high
+ -performance design of virtual machine-aware MVAPICH2 library over OpenSta
+ ck-based HPC Clouds with SR-IOV. A comprehensive performance evaluation wi
+ th micro-benchmarks and HPC applications has been conducted on an experime
+ ntal OpenStack-based HPC cloud and Amazon EC2. The evaluation results show
+  that our design can deliver near bare-metal performance. The MVAPICH2 ove
+ r OpenStack software package presented in this talk is publicly available 
+ from http://mvapich.cse.ohio-state.edu.
+LOCATION:Austin Convention Center - Level 4 - MR 15
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:OpenStack for High-Performance Bioinformatics
+DTSTART:20160427T213019Z
+DTEND:20160427T221059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:This talk will describe the bioinformatics use cases\, challen
+ ges and experiences of two leading research institutions: the Francis Cric
+ k Institute and Cambridge University.Adam Huffman will describe how the Fr
+ ancis Crick Institute creates HPC clusters on OpenStack for genomics and s
+ cales them to 5\,000 cores. He will report on the experience of setting up
+  virtual clusters with batch schedulers on OpenStack to provide an HPC env
+ ironment for life sciences users. These users build complex pipelines comp
+ rised of many tools\, operating on multi-terabyte datasets\, historically 
+ on centrally-provided bare-metal clusters. Adam will describe how the prob
+ lems of reliably constructing such clusters were overcome with OpenStack\,
+  and the challenges in achieving high performance on OpenStack with cluste
+ rs of this size.Paul Calleja and Wojciech Turek will describe how Cambridg
+ e University is building an HPC bioinformatics platform upon OpenStack inf
+ rastructure. The performance of this software stack depends on an IO subsy
+ stem optimised for data access patterns characteristic to HPC and current 
+ bioinformatics workloads in genomics. Current high-throughput technologies
+  such as Next-Generation Sequencing (NGS) produce unprecedented scales of 
+ data in genomics and clinical projects\, with many projects producing peta
+ bytes of data. Most existing bioinformatics solutions have problems scalin
+ g and dealing efficiently with current data volumes\, making it hard to st
+ ore\, analyze\, share and visualize the data. Cambridges approach focuses 
+ on solutions that deliver low-latency and high-throughput access to storag
+ e.
+LOCATION:Austin Convention Center - Level 4 - MR 16 A/B
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,159 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//yosshy/openstackdesignsummitaustin2016//NONSGML v1.0//EN
+SUMMARY:Products & Services
+BEGIN:VEVENT
+SUMMARY:Key Requirements for OpenStack Backup and Recovery
+DTSTART:20160425T161519Z
+DTEND:20160425T165559Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:With increasingly complex and critical IT environments\, compa
+ nies are looking for ways to fully protect their business\, while at the s
+ ame time providing easier\, faster and more reliable recovery. One of the 
+ biggest challenges when deploying an OpenStack cloud in an organization is
+  the ability to provide a policy-based\, automated\, comprehensive backup 
+ and recovery solution.This session\, co-presented by Murali Balcha\, one o
+ f the creators of Raksha and co-founder and CTO of Trilio Data\, and Brian
+  Davis\, CTO at OnX Enterprise Solutions and former Director / Portfolio A
+ rchitect Cloud Engineering at American Express\, will discuss the maturing
+  pets vs cattle approach and compare and contrast current approaches to Op
+ enStack backup with what an ideal backup solution looks like. Attendees wi
+ ll come away with a solid understanding of how to cobble together APIs for
+  backup\, and why a more holistic approach will better meet the needs of b
+ usiness-critical OpenStack environments.
+LOCATION:Austin Convention Center - Level 4 - MR 16 A/B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:End-To-End Monitoring of OpenStack Cloud
+DTSTART:20160425T170500Z
+DTEND:20160425T174540Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:With the continuing\, widespread\, rapid adoption of OpenStack
+  cloud platform and its ever-expanding integration with third party produc
+ ts\, there is a need for comprehensive\, end-to-end cloud monitoring solut
+ ions. We present here a Zenoss monitoring solution that monitors OpenStack
+  Cloud\, including various module components\, services\, performance metr
+ ics and events\, as well as several third party products used by the OpenS
+ tack Cloud.We first briefly describe the steps involved in Zenoss System f
+ or monitoring OpenStack Cloud. We next demonstrate the Nova monitoring wit
+ h KVM hypervisor\; Neutron monitoring with OpenvSwitch\, Cisco APIC\; Cind
+ er monitoring with LVM and Ceph. We will also show the interrelationships 
+ and impacts among connected components.
+LOCATION:Austin Convention Center - Level 4 - MR 16 A/B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Three’s Company: Are You Jack\, Janet\, or Chrissy? How Teams Ca
+ n Work Together to Create Better OpenStack Solutions
+DTSTART:20160425T190019Z
+DTEND:20160425T194059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Bringing a third partner to a two partner OpenStack solution i
+ s always a challenge.  When Dell realized a need to extend the Dell Red H
+ at OpenStack Cloud Solution to bring in a “highly available overlay netw
+ ork provider"\, they turned to Midokura Enterprise MidoNet. How did Dell a
+ nd Red Hat then bring Midokura to the table\, encouraging all the differen
+ t teams to work towards one single goal\, to produce a “joint multi-part
+ ner solution" and deliver the solution in a timely fashion?Cross-functiona
+ l teams are the new norm when building OpenStack solutions\, be it Enterpr
+ ise IT deployment strategists or best-of-breed solution providers. We will
+  hear the perspectives seen from each team on how they responded to this t
+ ask and what they saw as challenges.This will be an interactive session an
+ d we will ask those in the audience to relate their experiences. Bring you
+ r tiger team stories and let's learn how everyone can build better solutio
+ ns to leverage the unique skill sets of each contributor!
+LOCATION:Austin Convention Center - Level 4 - MR 16 A/B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Guaranteeing Performance in High-Density OpenStack Environments
+DTSTART:20160425T195000Z
+DTEND:20160425T203040Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:This session will explore VMTurbo's patented framework for Ope
+ nStack performance assurance\, as well as how this framework permits organ
+ izations to safely run ultra-high density OpenStack nodes in order to reap
+  the greatest CapEx savings possible.Participants will learn about the str
+ ucture of VMTurbo's market abstraction algorithm\, which enables OpenStack
+  QoS adherence\, and how Nova\, Cinder\, Neutron\, Ceilometer\, and Keysto
+ ne metrics have been utilized to bring these functions to life.Enterprises
+  choose OpenStack to eliminate OpEx costs\, accelerate application develop
+ ment lifecycles\, and command their business destinies. For those that hav
+ e successfully migrated off a legacy virtualized infrastruture or propriet
+ ary IaaS\, the initial benefits of OpenStack can be slowly eroded without 
+ solid performance and efficiency strategies.Use cases well cover include:A
+ utomated OpenStack Service AssuranceDifferentiating service levels with Op
+ enStack tiered service offeringsand many more
+LOCATION:Austin Convention Center - Level 4 - MR 16 A/B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Winning Marketing Strategies for OpenStack
+DTSTART:20160425T204001Z
+DTEND:20160425T212041Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:This is the story of marketers from diverse organizations\, sh
+ aring their advice and lessons on how to bet big on OpenStack marketing an
+ d win.Once upon a time\, it was easy to market a major tech force like clo
+ ud. Everybody was inexcept for OpenStack. It was too unlikely to even be c
+ onsidered the underdog. Now who's on top of the share-of-voice stack?You p
+ robably know some OpenStack evangelists who are killing it. But their succ
+ ess wasnt linear. They were audaciously pushing rocks uphill for years\, a
+ nd today if you mention OpenStack\, anyone in tech will lend an ear. The q
+ uestion now: how do you capitalize on it?This panel will open source prove
+ n strategies that show you how to win the multifaceted marketing game\, in
+ cluding weaving OpenStack into your companys story and content marketing s
+ trategy\, integrating OpenStack into your product and business cycle\, pow
+ ering your marketing and social channels with cloud data and technology\, 
+ and gaining support internally.
+LOCATION:Austin Convention Center - Level 4 - MR 16 A/B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DevOps At Betfair Using Openstack and SDN
+DTSTART:20160426T161519Z
+DTEND:20160426T165559Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Presentation and Demo which will show how Betfair uses Opensta
+ ck and Nuage for DevOps and continuous delivery of its 200 applications to
+  production. Betfair's exchange does120 million transactions per day\, 2.7
+  billion API transactions and has 1.7 million active users\, all of which 
+ will be hosted on Openstack.This presentation and demo will show how Betfa
+ irs automated deployment pipelines create host aggregates in Openstack\, c
+ reate layer 3 subnets in Nuage mapped to Openstack\, provision instances i
+ nto these subnets\, deploy software and then roll the instances into servi
+ ce on a load balancer in a zero downtime fashion in just 7 minutes.
+LOCATION:Austin Convention Center - Level 4 - MR 16 A/B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Showback & Chargeback!! OpenStack Gnocchi + Cloudkitty as a Whole 
+ Billing System
+DTSTART:20160426T170500Z
+DTEND:20160426T174540Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Openstack gnocchi and cloudkitty are the two shining projects
+  for "Metric aggregation as a service" and "rating and chargeback componen
+ t for openstack" .They are pretty new to the openstack universe\, but are 
+ amazing projects that came to stay and bring a whole new possibilities to 
+ extract priceless information of cloud usage and togheter\, they create w
+ hat we can call\, the first time "Rating and Billing system for openstack"
+ .
+LOCATION:Austin Convention Center - Level 4 - MR 16 A/B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:You Can Build Your OpenStack and Consume it Too
+DTSTART:20160428T211000Z
+DTEND:20160428T215000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:The power of the community is what makes open source initiativ
+ es extremely transformationallike OpenStack. On the other hand\, enterpris
+ e users who are looking at adopting this solution need to go through a ste
+ ep learning curve and deep transformation of their internal team structure
+ . The power of OpenStack is actually greatly amplified by the ecosystem of
+  vendors around it that look at important aspects like support and hardeni
+ ng as well as augmentation of specific aspects (e.g. scalability and perfo
+ rmance) that are needed in production environments bringing the most value
+  to users. Join Rackspace and PLUMgrid product specialists to learn how we
+  jointly enable our Private Cloud enterprise users to consume OpenStack an
+ d Software Defined Networks (SDN) as ONE solution that brings comprehensiv
+ e security\, scalability and performance and a rich set of operational too
+ ls.
+LOCATION:Austin Convention Center - Level 1 - Ballroom C
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,363 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//yosshy/openstackdesignsummitaustin2016//NONSGML v1.0//EN
+SUMMARY:Enterprise IT Strategies
+BEGIN:VEVENT
+SUMMARY:Architect Application Workload for OpenStack Cloud
+DTSTART:20160425T161519Z
+DTEND:20160425T165559Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:The Enterprise Working Group has been discussing various strat
+ egies to help enterprise architects understand how to deploy tenant-level 
+ workloads on OpenStack. With the Project Navigator and Sample Configuratio
+ n in place\, the team has started creating multiple Workload Reference Arc
+ hitecture diagrams targetted for different use cases. In this session\, we
+  will present our work that has been done over the past few months and sha
+ re reference architectures to the audience.
+LOCATION:Austin Convention Center - Level 1 - Ballroom A
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:How One Enterprise Takes Flight with OpenStack
+DTSTART:20160425T161519Z
+DTEND:20160425T165559Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:More and more enterprises are looking at how to bring agile in
+ frastructure to their application developers\, providing developers the to
+ ols they need to create\, deploy and iterate apps faster. But in the real 
+ world\, there are practical limitations like SLA obligations\, latency iss
+ ues\, and resource capacity. These demand caution when moving to agile inf
+ rastructure.Justin Shepherd\, a Distinguished Architect at Rackspace\, and
+  Travis Newhouse\, Chief Architect at AppFormix\, will talk about the pitf
+ alls and challenges of operating agile infrastructure for enterprise users
+  with practical considerations like those mentioned above. They’ll share
+  experiences from enterprises\, such as ViaSat\, a global provider of sate
+ llite broadband and wireless services\, infrastructure\, and technology. 
+ You’ll learn why enterprises are taking the agile journey\, what issues 
+ they encounter along the way\, and how OpenStack helps to deliver a self-s
+ ervice environment so developers can create new value for customers throug
+ h software innovation.
+LOCATION:Austin Convention Center - Level 4 - Ballroom D
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Elephant in the Room: What's the TCO for an OpenStack Cloud?
+DTSTART:20160425T170500Z
+DTEND:20160425T174540Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Starting with a total cost of ownership (TCO) of an OpenStack 
+ cloud\, we examine the strategic tuning knobs you have available to provid
+ e the best solution for your organization. We will introduce the TCO model
+ \, as well as using standard financial accounting practices to build a bas
+ is for calculating the hidden costs of your OpenStack cloud.The presentati
+ on will provide a basic overview of the accounting principles required\, b
+ ut to get the most out of the model\, it helps if you share and talk throu
+ gh with your finance team.
+LOCATION:Austin Convention Center - Level 1 - Ballroom A
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Intelligent Workload HA in Openstack
+DTSTART:20160425T170500Z
+DTEND:20160425T174540Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:One of the primary requirements of an enterprise customer host
+ ed on a private cloud is guaranteed availability of their workload. Althou
+ gh Openstack natively supports some forms of HA\, there is a big gap from 
+ the enterprise perspective.Specifically the gaps are if a compute node goe
+ s down\, the VMs have to be manually evacuated. With most platforms having
+  Predictive failure detection mechanisms\, there is no way to live-migrate
+  VMs to healthier nodes either.This proposal addresses these gaps thru dev
+ eloping a HA framework that is both ReActive and ProActive.With reactive H
+ A\, we will show how the VMs running on a compute node which goes down\, c
+ an automatically be restored.With proactive HA\, we will show how the fram
+ ework triggers Live Migrations in case of high thermal signature\, predict
+ ive hardware failures\, host maintenance mode\, slow application performan
+ ce due to bottlenecks\, and other custom triggers (ceilometer alarms\, zab
+ bix)thus mitigating VM down-time for enterprise workloads
+LOCATION:Austin Convention Center - Level 4 - Ballroom D
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Integrating OpenStack into a Legacy Enterprise Environment
+DTSTART:20160425T190000Z
+DTEND:20160425T194020Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Bringing OpenStack into an existing enterprise environment req
+ uires careful planning to be successful. While it would be nice to have al
+ l your internal developers\, external vendors\, and government regulators 
+ migrate (yesterday!) to the distributed architecture that makes cloud so p
+ owerful\, the reality is that we're still running code from the 1960's in 
+ demanding production environments (hello\, mainframe!) and it's reasonable
+  to expect that there are still years\, if not decades\, left dealing with
+  traditional\, monolithic\, vertically-scaling workloads. This session wil
+ l discuss how you can successfully integrate your upcoming OpenStack deplo
+ yment into the stuff you already have\, maximizing the benefits (automatio
+ n! self-service! scalability!) while mitigating the risk of changing too m
+ uch too soon. Topics will include Active Directory\, DR\, integrating with
+  Windows\, migrating workloads to the cloud\, patch management strategies\
+ , and more.
+LOCATION:Austin Convention Center - Level 4 - Ballroom D
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lift and Shift 
+DTSTART:20160425T190019Z
+DTEND:20160425T194059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:We have lifted xx legacy applications/ Ecommerce sites and shi
+ fted them totheOpenStack cloud. These are non cloud native application/web
+ sites running on Physical infrastructure platforms that generates Billions
+  $ revenue. We orchestrated the entire deployment thru OneOps\, that manag
+ es the VM lifecycle\, application/env provisioning and automated code depl
+ oyment. These websites were scaled horizontally they performed faster and 
+ better on clouds last Holiday season. These sites on the cloud scaled thru
+  xxxxx M page views\, xxxK transactions/sec with 100% uptime thru Holiday.
+  This lift and shift enabled us reduce infrastructure cost and capacity fo
+ r the better thru-put by xxx %. After the migrations we experienced ~ xx% 
+ performance uplift across page responses.This shift enabled improve the sp
+ eed to deliver\, reduce operational and maintenance cost and enabled the d
+ evelopers to be self-sufficient.PS : The XXX will be replaced by actual nu
+ mbers for the Presentaiton
+LOCATION:Austin Convention Center - Level 1 - Ballroom A
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Strategies for Migrating Business Critical Applications to OpenSta
+ ck Clouds
+DTSTART:20160425T195000Z
+DTEND:20160425T203021Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:OpenStack cloud adoption is driving the need for industrialize
+ d migration strategies to move business critical applications\, and their 
+ associated workloads\, from legacy cloud environments to OpenStack cloud p
+ latforms.The challenge: how can enterprise IT perform the migrations of th
+ e complex\, in-production business critical application systems from legac
+ y clouds to OpenStack clouds in an efficient\, reliable\, and industrializ
+ ed manner?Strategies currently being used and perfected in actual migratio
+ ns to OpenStack clouds will be presented\, and specific toolsets and servi
+ ces/process will reviewed and discussed in detail.A tenant migration  mana
+ gement lifecycle model will be presented  discussed. This model will illus
+ trate how the services approach and toolsets described above can be a high
+ ly effective solution in the onboarding\, management\, and optimization of
+  business critical applications within OpenStack clouds.
+LOCATION:Austin Convention Center - Level 4 - Ballroom D
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DEFCON 3: OpenStack Meets the Information Security Department
+DTSTART:20160425T195000Z
+DTEND:20160425T203040Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:A vendor-neutral look at real obstacles and architectural so
+ lutions for Information Security compliance when deploying OpenStack. So 
+ you think the architecure is complete\, but perhaps the security division 
+ didn't really understand it as well as you thought? Bringing OpenStack int
+ o an enterprise environment can often present big challenges for a conven
+ tional Information Security organisation - and big obstacles for the deplo
+ yer.How can long-established approval processes apply to cloud?Can orchest
+ ration and automation work through these barriers?Why do all these network
+  trunks terminate in those boxes?Where do the firewalls go?But CI can impr
+ ove security\, right?This session takes real-life deployment issues from
+  several large-scale deployment projects across different customers (finan
+ cial services\, telecomunications\, manufacturing) and presents solution a
+ pproaches for each.
+LOCATION:Austin Convention Center - Level 1 - Ballroom A
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:“Agile SI” –  A Model and Best Practices for Deploying OpenS
+ tack Platforms
+DTSTART:20160425T204001Z
+DTEND:20160425T212041Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Enterprises with large\, complex\, traditional IT environments
+  and organizations are making the move to OpenStack cloud platforms. While
+  the development organizations have successfully transitioned to agile met
+ hods\, deployments of the cloud are being made into legacy infrastructure 
+  production environments managed by traditional operations and support org
+ anizations.A model and best practices developed in recent real world engag
+ ements for OpenStack SI will be presented. Integration of agile work strea
+ ms into these traditional environments\, with maximum speed and effectiven
+ ess\, will be specifically highlighted. Areas that will be covered are: Pr
+ ogram Management  Governance\; Architecture and System Engineering\; IT an
+ d Deployments\; Production Support and Upgrades.
+LOCATION:Austin Convention Center - Level 4 - Ballroom D
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Hunting for Purple Squirrels: Hiring OpenStack Contributors in the
+  Wild
+DTSTART:20160425T214001Z
+DTEND:20160425T222041Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Hiring Manager: "We're looking for someone with expert python\
+ , puppet\, ansible\, and systems administration knowledge. They also need 
+ to have experience using or working with OpenStack\, have strong communica
+ tion skills\, and for good measure they should probably also want to trave
+ l a lot and maybe also play a musical instrument."Recruiter: *cries/laughs
+ /sighs* "So\, you need a purple squirrel."Are you a recruiter or hiring ma
+ nager looking to expand your team? Or an engineer new to OpenStack who wan
+ ts to know what skills will help you succeed in the OpenStack community?I'
+ ll discuss tips and tricks for screening and interviewing so you can get t
+ he best candidates for your team. I'll also talk about the traits and skil
+ ls that are the best indicators for success for someone new to the OpenSta
+ ck community\, and what red flags to watch out for in interviews. The hiri
+ ng process is daunting\, but you'll leave this talk re-charged and ready t
+ o go find some purple squirrels!
+LOCATION:Austin Convention Center - Level 4 - Ballroom D
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rule Breaker! - Upgrading an OpenStack Cloud While Skipping a Rele
+ ase
+DTSTART:20160425T223001Z
+DTEND:20160425T231000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Upgrading a huge software stack is always a big problem in a p
+ roduction environment. Too many services relying on the availability of th
+ e software stack. This problem is more frequent while upgrading OpenStack 
+ in production. Complete teams or companies are not able to work when the C
+ loud is not reachable and the downtime can cost thousands of dollars. Due 
+ to these problem and other risks\, Clouds with OpenStack in production are
+ n’t upgraded often. Operators don’t want to take the risk and stress e
+ very six months to keep their OpenStack  environment up to date. Security
+  patches get backported and new features from the newer releases are not n
+ eeded. But then they need to upgrade over multiple releases which is not s
+ upported yet.Customers and operators need a solution to how they can upgra
+ de a cloud easily while skipping a release. This talk will give an overvie
+ w about the whole problem and will also give a possible solution which wil
+ l fit in most use cases.
+LOCATION:Austin Convention Center - Level 4 - Ballroom D
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Open Stack at Carrier Scale
+DTSTART:20160426T170500Z
+DTEND:20160426T174540Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Workloads of an enterprise like ATT include traditional IT app
+ lications\, customer applications\, internally and externally facing appli
+ cations\, network functions\, as well as software running on dedicated and
+  purpose-built hardware. This presentation covers streamlined compute and 
+ storage hardware to meet data centers and central office requirements such
+  as power\, density\, and regulatory\, as well as diverse application work
+ load needs. Also covered is a review of efficient Network architecture inc
+ luding merchant silicon switches\, leaf/spine topology and Clos fabric. Un
+ ified network designed to meet demands the data rate and throughput demand
+ s of IT application\, Big Data\, and Virtual Network Functions.
+LOCATION:Austin Convention Center - Level 1 - Ballroom B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Baremetal as a Service Within the Enterprise: An SAP Use-Case 
+DTSTART:20160426T190000Z
+DTEND:20160426T194000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:SAP provides a number of offerings where HANA systems are made
+  available to customers in a cloud environment. In this environment\, reso
+ urces are shared among numerous HANA deployments\, with secure network\, s
+ torage\, and access control to ensure the confidentiality of customer data
+  and operations. A custom\, in-house baremetal infrastructure lifecycle ma
+ nagement solution was created in order to deploy and manage the resources 
+ used to deliver these HANA landscapes in the cloud. However\, other intern
+ al management systems also exist to manage different types of cloud enviro
+ nments\, including virtual machines for smaller HANA systems. To consolida
+ te these systems into a single infrastructure and environment\, we are beg
+ inning to move from a fully in-house solution to a hybrid solution\, using
+  OpenStack as a common management framework. The work presented in this do
+ cument describes our approach to adopting OpenStack within our existing ba
+ remetal infrastructure management solution\, which will soon be used in pr
+ oduction. It should also be noted that this work will be also used to supp
+ ort other baremetal infrastructure management use cases within SAP’s clo
+ ud portfolio.
+LOCATION:Austin Convention Center - Level 4 - MR 16 A/B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Creating a Hybrid Cloud - Openstack + Public Cloud Provider
+DTSTART:20160426T190000Z
+DTEND:20160426T194000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:In all enterprises there is a point where your datacenters are
+  not enough. So you have Openstack deployed and running your private cloud
+  but now by some external reason (government policies\, data restrictions\
+ , location\, cost) you need to extend to public cloud. At Symantec we are 
+ going through this transition.In all enterprises there is a point where yo
+ ur datacenters are not enough. So you have Openstack deployed and running 
+ your private cloud but now by some external reason (government policies\, 
+ data restrictions\, location\, cost) you need to extend to public cloud.
+LOCATION:Austin Convention Center - Level 4 - Ballroom F
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:OpenStack Tenant Perspectives
+DTSTART:20160426T190000Z
+DTEND:20160426T194040Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Cloud Tenants are key stakeholders in the OpenStack cloud comm
+ unity. Their support is critical for driving the adoptions and expansion o
+ f OpenStack clouds.Many of the driving requirements of cloud tenants are b
+ usiness\, operational\, and management focused.The ability of the OpenStac
+ k cloud platform and enterprise IT to meet these requirements will have a 
+ large influence on the advocacy of these key stakeholders.Example tenant s
+ cenarios (derived from actual cloud projects) illustrating these tenant ne
+ eds\, their implications\, and how they were met will be reviewed and disc
+ ussed.Call to action: specific proposals will be presented on how the Open
+ Stack community can more directly address the business and operational man
+ agement needs of cloud tenants.
+LOCATION:Austin Convention Center - Level 1 - Ballroom B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ecology of the Cloud
+DTSTART:20160426T195000Z
+DTEND:20160426T203000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Once again\, cloud computing is at a technical inflection poi
+ nt. Just as advances in networking and virtualization gave way to the SaaS
+  revolution\, the next revolution in computing will come about as a direct
+  result of the advances in private cloud deployments with OpenStack and th
+ e ability to package and distribute code via container technologies such a
+ s Docker.Today\, nearly 16 years after the term SaaS was first coined\, en
+ terprises are realizing SaaS solutions limit access to their own data and 
+ at times put that data at grave risk. New "private SaaS" business model\, 
+ enabled by high compute distribution and container technologies\, combine
+  the best of SaaS models with the security and data locality of private c
+ loud models.Managed software as a service will enable companies to effort
+ lessly download and install complex server software solutions to run in t
+ heir datacenters of choice\, while allowing the software vendors to provid
+ e SaaS-like management services to the stack.
+LOCATION:Austin Convention Center - Level 4 - MR 16 A/B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:OpenStack in the Enterprise - Panel Discussion
+DTSTART:20160426T195000Z
+DTEND:20160426T203040Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Come listen to a panel of experts that are far along the journ
+ ey to OpenStack deployment in their enterprises. They will share what work
+ ed\, what didn't\, and what are the non-technical issues that you need to 
+ address to ensure success.They will also share some of their Enterprise/Cu
+ stomer requirements and how can OpenStack be used or improved to satisfy t
+ heir needs.  Panelists are Kei Tokunaga\, Fujitsu\, Prashanth Rao\, Wells
+  Fargo\, and Andrew Battye\, SAP.
+LOCATION:Austin Convention Center - Level 1 - Ballroom B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Turning Pets into Cattle - the Stickiness of Data
+DTSTART:20160426T204001Z
+DTEND:20160426T212021Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Many enterprises are interested in migrating their conventiona
+ l 3-tier application (Pets) into a modern cloud-native application (Cattle
+ ). In Tokyo Summit\, Steve and Leong presented a strategy on how to migrat
+ e the web and app-tier of a business critical application from a visualize
+ d world into hybrid-cloud environment based on OpenStack. In this session\
+ , we will continue our discussion and spend some time to talk about data-
+ tier. We will discuss strategies\, challenges and areas that need to be co
+ nsidered when moving applications into cloud including private & public c
+ loud.
+LOCATION:Austin Convention Center - Level 4 - MR 16 A/B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Making the Economics of OpenStack Work
+DTSTART:20160426T223019Z
+DTEND:20160426T231059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:For OpenStack to become the way to organisations to deploy\, m
+ anage and scale applications in the next decade\, the economics need to st
+ ack up. How do the economics of OpenStack compare to existing virtualisati
+ on solutions or using public cloud platforms? As organisations look at the
+  ever increasing options for workload and service delivery\, this talk exa
+ mines the costs of OpenStack today\, how it measures up against the altern
+ atives and what OpenStack users can do to improve the economics of running
+  applications.
+LOCATION:Austin Convention Center - Level 4 - MR 16 A/B
+END:VEVENT
+END:VCALENDAR

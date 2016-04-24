@@ -1,0 +1,389 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//yosshy/openstackdesignsummitaustin2016//NONSGML v1.0//EN
+SUMMARY:Birds of a Feather
+BEGIN:VEVENT
+SUMMARY:Upstream University - Saturday & Sunday
+DTSTART:20160424T150000Z
+DTEND:20160424T210000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:This session is two full-days. Upstream University runs bothSa
+ turday\, April 23\, 2016 andSunday\, April 24\, 2016. The sessions run fro
+ m 10:00am -4:00pm each day.RSVP Required.In addition to the RSVP link belo
+ w please also complete the general mentoring questionnaire here: https://o
+ penstackfoundation.formstack.com/forms/mentoringUpstream University is an 
+ intensive program designed to help new contributors learn how to effective
+ ly work upstream\, by fixing bugs and getting their features accepted into
+  the OpenStack project. The educational program requires students to work 
+ on real-life bug fixes or new features during two days of real-life classe
+ s and online mentoring\, until the work is accepted by OpenStack. The live
+  two-day class teaches them to navigate the intricacies of the projects te
+ chnical tools and social interactions. In a followup session\, the student
+ s benefit from individual online sessions to help them resolve any remaini
+ ng problems they might have.Make sure to book your travel plans to arrive 
+ in Austin Friday evening or Saturday morning in order to attend the full t
+ wo-day training session.
+LOCATION:JW Marriott Austin - Level 3 - Salon A
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Speed Mentoring\, Organized by The Women Of OpenStack 
+DTSTART:20160425T120000Z
+DTEND:20160425T134500Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:RSVP Required. Breakfast and coffee will be provided.Update:
+  At this time we are full for mentors for this event! If you want to sign
+  up as a mentor\, we can put you on a waiting list. Or\, you could sign up
+  as a mentee instead and maybe meet someone with expertise in a different 
+ area.In addition to the RSVP link below please also complete the general m
+ entoring questionnaire here - https://openstackfoundation.formstack.com/fo
+ rms/mentoring.This is like speed dating\, where mentees will have five-to-
+ 10 minutes to talk to potential mentors\, then cycle throughout the room 
+ for about an hour-and-a-half. At the end\, people will fill out surveys w
+ ith their preferences and we'll contact people about potential matches. 
+ We're hoping to do this at the beginning of the Summit\, so hopefully men
+ tors and mentees can have some face to face time throughout the week.The n
+ ew mentoring program sponsored the Women of OpenStack is designed to be a
+  lightweight mentoring initiative to provide technical or career guidance
+  to beginners in the community.  Mentees should already be part of the co
+ mmunity\; they should have gone through\, or be familiar with the Upstrea
+ m Training.Technical mentoring doesn't just mean coding\, we're looking f
+ or people who are a specialist in any area of OpenStack - for example doc
+ s or marketing.  Technical mentors and mentees should expect to spend ab
+ out an hour a week talking about projects to get involved in\, people to
+  meet\, anything to help their mentees get to their next step. Career me
+ ntors could be in a completely different area of OpenStack from their men
+ tees.  They should expect to spend about an hour a month with their ment
+ ees offering more general career guidance\, maybe helping their mentees m
+ ake connections in the community. 
+LOCATION:Austin Convention Center - Level 1 - Expo Hall 5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Application Ecosystem Work Group BOF Session
+DTSTART:20160425T190000Z
+DTEND:20160425T194000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Come one come all! If you’re an enterprise architect\, cloud
+  operator\, application developer or a business/marketing member of the co
+ mmunity who is interested in helping OpenStack to be the leading cloud sol
+ ution in the Enterprise IT market segment\, please come join this discussi
+ on on what the barriers are for deployment today and how we can remove the
+ m. Tell us what is the roadblocks\, issues\, or requirements of bringing O
+ penStack cloud into your environment.
+LOCATION:Hilton Austin - Level 6 - Salon G
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Evolving Virtual Networking with IO Visor
+DTSTART:20160425T195000Z
+DTEND:20160425T203000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:As virtual network functions increasingly run on compute nodes
+ \, having efficient monitoring to manage the health of virtual networks ha
+ s become a key requirement. Traditional monitoring methods are no longer s
+ calable in distributed data plane models and new methods must be developed
+  to offer greater scale without compromising programmability and flexibili
+ ty. Using IO Visor\, high performance monitoring can be achieved for opera
+ tions and management. Join the session to find out about IO Visor and how 
+ it can be used for scalable monitoring of virtual network functions. The t
+ alk will also cover using IO Visor to evolve Virtual Network data plane an
+ d to enable hardware accelerations.
+LOCATION:Hilton Austin - Level 6 - Salon G
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Using IO Visor to Secure Microservices Running on Cloud Foundry
+DTSTART:20160425T204000Z
+DTEND:20160425T212000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:As microservices grow\, traditional firewall rules based on ne
+ twork ACLs are no longer scalable and fall short of providing fine-grained
+  enforcement. Group Based Policy (GBP) is a flexible policy language that 
+ allows users to specify policy enforcement based on intent\, independent o
+ f network infrastructure and IP addressing. Using micro-segmented virtual 
+ domains\, administrators can define policies at a centralized location and
+  use IO Visor technology for distributed enforcement. This provides infras
+ tructure independent rules\, template-based policy definitions\, and scale
+ -out policy enforcement for a solution that secures and scales with micros
+ ervices. This session will be presented by members of the IO Visor communi
+ ty and will cover how IO Visor technology can be used to define and enforc
+ e GBP. The discussion will also cover using GBP for cloud foundry applicat
+ ion spaces where microservices are deployed and need scalable\, efficient 
+ security policies.
+LOCATION:Hilton Austin - Level 6 - Salon G
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:A Problem: Single Sourcing with Sphinx
+DTSTART:20160426T161500Z
+DTEND:20160426T165500Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:This session is a discussion of ways to resolve a problem with
+  single sourcing using Sphinx. How would you single source your documentat
+ ion without a content management system that most of the technical publish
+ ing world uses? What if your content lives in separate repositories? How c
+ an you apply conditions using Sphinx?This use case will explain:What is si
+ ngle sourcing in technical writing?What are the possible workarounds to ad
+ dress the needs of TechPubs departments using Sphinx?How to conditionalize
+  the outputOther open-source documentation alternativesSingle sourcing is 
+ the concept of optimizing technical content reuse with multiple deliverabl
+ es from a single source. Most OpenStack contributors use Sphinx and RST\, 
+ so contributors are interested in leveraging all benefits of the tool. Con
+ figuring Sphinx so it addresses the needs of a Technical Publication depar
+ tment is crucial\, so many OpenStack contributors will be interested in fi
+ nding out about ways to better use Sphinx.
+LOCATION:Hilton Austin - Level 6 - Salon G
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:OPNFV and OpenStack Collaboration BoF
+DTSTART:20160426T170500Z
+DTEND:20160426T174500Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:As a first step of collaboration OPNFV has started to bring fe
+ ature requests and implementation into OpenStack inorder to accelerate the
+  evolution of NFV with using OpenStack as cloud platform. To move forward 
+ and improve the co-operation between these two communities further synchro
+ nization is needed on the roadmaps and between the developer communities.W
+ e will discussthe possibilities of sharing tool chains and ideas used for 
+ testing and generating documentation. And going even further OPNFV has eve
+ n more to offer with its test frameworks and labs that can provide end to 
+ end testing for functionalities on a fully integrated platform with differ
+ ent storage and SDN controller options to choose from.Currently we don't h
+ ave a method to verify and validate features under development. We believe
+  solving this issue can be highly beneficial for both communities and neve
+ rtheless would strongly improve collaboration\,so this is what we are look
+ ing forward to investigatein this session.
+LOCATION:Hilton Austin - Level 6 - Salon G
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Enterprise Work Group
+DTSTART:20160426T190000Z
+DTEND:20160426T194000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Come one come all! If youre an enterprise architect\, cloud op
+ erator\,applicationdeveloper or a business/marketing member of the communi
+ ty who is interested inhelping OpenStack to be the leadingcloudsolution in
+  the Enterprise ITmarket segment\, please come join this discussion on wha
+ t the barriers are fordeploying an OpenStack cloud into your environment a
+ nd what do you need so that your users can take advantage of it.
+LOCATION:Hilton Austin - Level 6 - Salon J
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Make Workloads Nomadic When Accelerated - Introduction of the Noma
+ d Project
+DTSTART:20160426T190000Z
+DTEND:20160426T194000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Born out of ETSI NFV IFA004 and OPNFV DPACC requirements\, the
+  Nomad project aims to fulfill them and provide a distributed acceleration
+  management as a service framework for OpenStack.With Openstack\, currentl
+ y people could already utilize acceleration techniques like SR-IOV\, PCI p
+ ass-through and DPDK via Nova and Neutron. In NFV environments\, on the ot
+ her hand\, OpenStack should also be able to manage heterogeneous accelerat
+ ors (i.e.\, re-configurable FPGAs\, GPUs\, etc) life cycle andschedule the
+ m to fulfill VNF requirements such as transparent live migration.However\,
+  Nomad VMs' acceleration is not related only to NFV. As a matter of fact\,
+  accelerators are extensively used also in other environments\, e.g.\, sto
+ rage and big data\, with many new solutions such as SPDK\, NVMe and pmem.T
+ he Nomad project will serve as a standalone module to provide VMs accelera
+ tor scheduling and life cycle management\, aiming to make OpenStack accele
+ rated workloads truly nomadic for NFV\, storage\, big data\, etc.
+LOCATION:Hilton Austin - Level 6 - Salon G
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Non Coding Contributors
+DTSTART:20160426T195000Z
+DTEND:20160426T203000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Non Coders BoF!!!Let's get together and get to know one anothe
+ r. I bet we can figure out lots more ways to contribute\, plus I'm sure ma
+ ny of you have war stories about trying to contribute!I would expect this 
+ group would dissolve into more focused groups as we discover each others' 
+ areas of passion\, but maybe not. Maybe we all funnel our passion and frus
+ trations back here in support of each other.Whatever the case\, let's find
+  out!
+LOCATION:Hilton Austin - Level 6 - Salon G
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Guide to Simulation of Bare Metal servers for scale testing 
+DTSTART:20160426T204000Z
+DTEND:20160426T212000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Ironic\, the OpenStack Bare Metal Provisioning Program is evol
+ ving fast with many new functionalities integrating with it. Thus\, the ne
+ ed to perform scale testing on these functionalities with a large no. of B
+ are Metals (BMs) ends up being a costly affair. To circumvent the redundan
+ cy\, we came up with an approach to simulate virtual bare metals through t
+ he libvirt management API.Currently\, Ironic provisions BMs only on flat n
+ etworks. We showcase the simulation technique by scale testing our service
+  that extends the plumbing of BM server ports into VLANs.This talk also ai
+ ms at providing a simple model network architecture over which the simulat
+ ed bare metal works seamlessly with the existing hypervisors/compute nodes
+ .
+LOCATION:Hilton Austin - Level 6 - Salon G
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:RDO Community Meetup
+DTSTART:20160426T214000Z
+DTEND:20160426T222000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:RDO - http://rdoproject.org/ - is a distrbution of OpenStack\,
+  packaged for RPM-based Linuxes - CentOS\, RHEL\, Fedora\, and others. The
+  RDO community provides packaging\, testing\, and community-based support 
+ of OpenStack on these platforms.In this session\, we will discuss communit
+ y governance\, updated to the packaging workflow\, the work on the RDO Man
+ ager deployment tool\, and other topics of interest to the RDO community.
+LOCATION:Hilton Austin - Level 6 - Salon G
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The New Reality: Clusters\, Containers and Thousands of Clouds
+DTSTART:20160427T123000Z
+DTEND:20160427T134500Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:RSVP RequiredCome join The New Stack for a short stack at the 
+ OpenStack pancake breakfast and podcast. Yes\, it’s a pancake breakfast\
+ , but starring breakfast tacos! So wake up for the best hangover cure you 
+ can find and soak up the best conversation that can be had about the futur
+ e of your infrastructure. Breakfast served at 7:30 am\, discussion starts 
+ at 8:00 am.
+LOCATION:Austin Convention Center - Level 1 - Expo Hall 5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Continuously Delivering OpenStack Using OpenStack-Salt
+DTSTART:20160427T140000Z
+DTEND:20160427T144000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:From the moment OpenStack control plane is deployed it becomes
+  a working piece of history. Why not treat OpenStack services like set of 
+ living projects that uses the same tools the developers use to build\, tes
+ t and deploy your OpenStack? Openstack-salt provides model that allows to 
+ deploy security patches\, bug fixes\, manage service lifecycle and release
+ s off a simple git commit. This makes your OpenStack operationally managea
+ ble once again and adding new hypervisors or entire regions is fun again. 
+ Continuous Delivery with Openstack-salt doesn't mean that every change is 
+ deployed to production right away\, but means that every changes is proven
+  and can be deployed safely at any time.What is the problem or use case yo
+ u’re addressing in this session?How do you stay current with OpenStack? 
+ How to control operations of your OpenStack deployment.
+LOCATION:Hilton Austin - Level 6 - Salon G
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Business Cloud Advisor - Enterprise Strategies for Cloud Adoption
+DTSTART:20160427T145000Z
+DTEND:20160427T153000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Enterprises are increasingly adopting cloud to support digital
+  transfomation. We will deep dive into cloud adoption strategies\, maturit
+ y levels\, specific\, common use cases while taking a broad viewof IT stra
+ tegy\, architecture\, and organizational design. From collective discussio
+ n\, we will build roadmap for a public\, private and hybrid cloud journey 
+ leveraging best practices\, common techniques\, lessons learned and real-w
+ orld examples from OpenStack adoptors.
+LOCATION:Hilton Austin - Level 6 - Salon G
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ceph and The Future of Storage
+DTSTART:20160427T160000Z
+DTEND:20160427T164000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:The Ceph project invites storage professionals\, developers\, 
+ and existing Ceph users to discuss their experiences\, best practices\, an
+ d lessons learned around storage and OpenStack. After a brief update on th
+ e current state of Ceph development\, we will explore the current status o
+ f distributed storage\, both in general and as it relates to the cloud. 
+LOCATION:Hilton Austin - Level 6 - Salon G
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:NFV Orchestration - Project Landscape
+DTSTART:20160427T165000Z
+DTEND:20160427T173000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:NFV Orchestration spans lots of components and organizations. 
+ This Birds of Feathers session will bring various interested parties in th
+ e OpenSource and Standards Organizationsto come together to discuss and fu
+ rther OpenStack based solutions for NFV Orchestration.Some of the Organiza
+ tions and OpenSource communities involved in the NFV Orchestration space t
+ hat expect to attend this are:OpenStack:Tacker (NFV Orchestrator / VNF Man
+ ager )Neutron (Service Function Chaining)Senlin (Cloud Clustering and Auto
+ Scaling)Tricircle (MultiSite OpenStack)OPNFV:Parser Project (Template requ
+ irements)Service Function ChainingVNF Forwarding GraphMultiSiteStandards O
+ rganizations:ETSI NFVOASIS TOSCA (Data-Model standards)IETF NFVRG
+LOCATION:Hilton Austin - Level 6 - Salon G
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Neutron with OVN BoF
+DTSTART:20160427T185000Z
+DTEND:20160427T193000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Open Virtual Networking Neutron Birds of a Feather session. Th
+ is session is to provide a discussion  possibly working area where attende
+ es can discuss\, compare\, and contrast their usage of Open Virtual Networ
+ king (part of the Open vSwitch project.) We'd like to invite folks with al
+ l level of OVN experience (but at least intermediate or higher Neutron exp
+ erience.)
+LOCATION:Hilton Austin - Level 6 - Salon G
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:High Level Specifications and Formal Methods
+DTSTART:20160427T194000Z
+DTEND:20160427T202000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Amazon has been using the TLA+ specification language to great
+  effect on their AWS services since 2011. We are interested in developing 
+ concise and complete descriptions of Openstack services. Using a formal sp
+ ecification language will let us unambiguously formulate an answer to\, "I
+ s this how Openstack should behave?" and verify that our designs do not le
+ ad to inconsistencies. Let's talk about specification languages\, modeling
+ \, and formal methods!
+LOCATION:Hilton Austin - Level 6 - Salon G
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:OpenStack Strategy - How to Achieve our Mission
+DTSTART:20160427T203000Z
+DTEND:20160427T211000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:The mission of OpenStack is:    "To produce the ubiquitous 
+ Open Source Cloud Computing platform that will meet the needs of public an
+ d private clouds regardless of size\, by being simple to implement and mas
+ sively scalable."    Most Stackers work for individual companies with 
+ their own"To produce the ubiquitous Open Source Cloud Computing platform t
+ hat will meet the needs of public and private clouds regardless of size\, 
+ by being simple to implement and massively scalable."    Most Stackers
+  work for individual companies with their ownMost Stackers work for indivi
+ dual companies with their own OpenStack-powered products and services. Wha
+ t if\, for just one hour\, we all took off our collective corporate hats (
+ for those who wear them) and focused on what long-term strategies will all
+ ow us to achieve OpenStack's mission? No we aren't talking about doing a S
+ WOT analysis. We'll talk about the market\, competition and OpenStack's cu
+ rrent assets and vulnerabilities. From there we will begin a brainstorming
+  session to develop potential strategies to guide OpenStack over a multi-y
+ ear timeframe. All are welcome\, whether you are a developer\, user\, prod
+ uct manager\, operator or business person.
+LOCATION:Hilton Austin - Level 6 - Salon G
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:From Developer to Manager to Evangelist: Contributions Beyond Pyth
+ on Code
+DTSTART:20160427T213000Z
+DTEND:20160427T221000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:In this Birds of a Feather session\, Rainya Mosher and Suman S
+ abbani from Cisco Infrastructure Services (CIS) Cloud Operations group inv
+ ite people to shareways in which theycontribute to OpenStack outside of wr
+ iting python code upstream.Whether you understand your role or are still s
+ earching for your niche\,we contribute to the community in ways not measur
+ edby lines of code. Let's gather to exchange ideas and ways to imporve our
+  participation in meaningful and productive ways in the coming cycle.
+LOCATION:Hilton Austin - Level 6 - Salon G
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Product Work Group
+DTSTART:20160427T213000Z
+DTEND:20160427T221000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Are you an OpenStack product manager or technologist in your c
+ ompany? Do you develop or manage feature or product roadmaps and/or strate
+ gy for your OpenStack development teams? Do you have experience defining s
+ oftware requirements or user stories? Please join your peers in the commun
+ ity as we work together to bring actionable requirements into our developm
+ ent community working with the Cross Project Team\, PTLs and Project devel
+ opers.
+LOCATION:Hilton Austin - Level 6 - Salon J
+END:VEVENT
+END:VCALENDAR

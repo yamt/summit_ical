@@ -1,0 +1,486 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//yosshy/openstackdesignsummitaustin2016//NONSGML v1.0//EN
+SUMMARY:Hands-on Workshops
+BEGIN:VEVENT
+SUMMARY:Monasca Bootcamp
+DTSTART:20160425T161519Z
+DTEND:20160425T174559Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:RSVP required.Health/status monitoring and metrics processing/
+ visualization at cloud-scale present significant new challenges for public
+  and private clouds. Monasca is a multi-tenant\, highly scalable\, perform
+ ant\, fault-tolerant\, monitoring-as-a-service solution for OpenStack that
+  supports storing and querying metrics\, alarming/thresholding\, and notif
+ ications. Support for real-time event streaming and logging is in progress
+ . See\,https://wiki.openstack.org/wiki/Monasca.This hands-on tutorial feat
+ ures sessions on the following topics:Introduction to the Monasca Architec
+ tureUsing the Monasca Horizon Dashboard and GrafanaThe Monasca REST APIThe
+  Monasca Python ClientDeploying Monasca and TroubleshootingOverview of the
+  Monasca AgentEffectively Monitoring OpenStack using MonascaWhat's new and
+  what's next for Monasca?Attendees will download and use Monasca on their 
+ own laptops via our Vagrant or Devstack development environment and learn 
+ how to monitor the included DevStack VM.
+LOCATION:JW Marriott Austin - Level 3 - Salon D
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:OpenStack Tacker Hands-on Lab Session (NFV)
+DTSTART:20160425T161519Z
+DTEND:20160425T174559Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:RSVP required.This hands-on lab session will provide an overvi
+ ew of OpenStack Tacker\, TOSCA NFV and ETSI MANO. Each participant will ge
+ t a DevStack with Tacker installed (comes with Ubuntu\, CentOS and VyOS im
+ age stored in Glance repository). The hands-on lab will cover the followin
+ g:1) OpenStack CLI Hands-On Session:- How to create VNF Catalog (VNFD) - H
+ ow to create single VDU using VNF Catalog (TOSCA template  YAML Based) - H
+ ow to create multiple VDUs using VNF Catalog- How to create VDU with speci
+ fic IP address (for different Ethernet interfaces)- How to pass configurat
+ ions to VDU during initial boot up (with param-file option)- How to respaw
+ n VDU when it goes down\, i.e. Health Monitoring Framework- Troubleshootin
+ g session2) Horizon Dashboard Hands-On Session:- How to upload VNF Catalog
+ - How to create VNF using VNF Catalog
+LOCATION:JW Marriott Austin - Level 3 - Salon E
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Configure Your Cloud for Auto-Recovery
+DTSTART:20160425T190019Z
+DTEND:20160425T203059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:RSVP required.All technology fails. There is no getting around
+  this point. The part that we can influence out of that statement is what 
+ happens when the technology fails. OpenStack in all its marvelous modular 
+ glory can be a bear when you encounter the service failure creep. You know
+  that thinkg which occurs when one service fails and then causes another s
+ ervice to fail...then on and on.Imagine if you could configure your OpenSt
+ ack services to automatically recovery. Yes\, I know you are going to say 
+ I can do that with a cron job or something alike. For a second think of th
+ e impact if you could link your monitoring system to another one that will
+  trigger automated recovery processes to restore your OpenStack services w
+ ithout human intervention.This workshop will walk attendess thru the proce
+ ss of linking a monitoring system such as Nagios to an automated recovery 
+ system such as StackStorm to produce auto-recovery OpenStack cloud actions
+ .
+LOCATION:JW Marriott Austin - Level 3 - Salon D
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Hands On to Configure Your Cloud to Be Able to Charge Your Users U
+ sing Official OpenStack Components! 
+DTSTART:20160425T190019Z
+DTEND:20160425T203059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:RSVP required.Selling the services provided by a Cloud is one 
+ of the essential aspect of the life of a Cloud Provider (both Public or Pr
+ ivate). Thus being able to define the various prices and policies that nee
+ ds to be apply needs to be done using some components at the root of the i
+ nfrastructure.In this workshop you'll have the chance to learn how access 
+ the new way to handle metrics in an OpenStack Cloud but also to use them f
+ or your pricing rules. and ONLY using some official components !This hands
+ -on (you need to bring your laptop) will tackle the following aspects :rem
+ inder of gnocchi and cloudkittyinstallation of gnocchiinstallation of clou
+ dkittyconfigure cloudkitty to use gnocchidefine a standard pricing policy 
+ using horizon
+LOCATION:JW Marriott Austin - Level 3 - Salon E
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Workshop - Swift 101: Technology & Architecture for Beginners
+DTSTART:20160425T214001Z
+DTEND:20160425T231041Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:RSVP required.Swift is an object storage system designed for d
+ ata that needs to be instantly accessible from any device and stored forev
+ er. In short\, it is the engine that runs some of the biggest storage clou
+ ds on the planet. This workshop will cover Swift’s architecture\, its te
+ chnology capabilities\, and real-world infrastructure-as-a-service use cas
+ es. In the workshop\, each attendee will participate in a hand-on lab depl
+ oying a Swift cluster in a virtual environment\, so bring your laptop!Prio
+ r to the workshop\, be sure that you have a terminal appliction installed 
+ on your laptop (e.g. Window = Putty\, Mac / Linux = Terminal). This OpenSt
+ ack Swift introduction is great for attendees who want to understand the d
+ esign goals of Swift and how they can best make use of this OpenStack comp
+ onent. It will be an informative experential introduction for those intere
+ sted in running Swift or contributing to the Swift project.
+LOCATION:JW Marriott Austin - Level 3 - Salon D
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Building Distributed Systems with CoreOS 
+DTSTART:20160426T161500Z
+DTEND:20160426T174500Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Building distributed systems is hard\, but with the right comp
+ onents just about anyone can get started. At the heart of any distributed 
+ system is the underlying infrastructure\, which often includes a collectio
+ n of servers\, a central configuration and lock service\, and a scheduler 
+ to manage your workloads.CoreOS provides all of these components starting 
+ with the base OS\, CoreOS Linux\; a minimal OS optimized for running Linux
+  containers. Next is the central key value store\, etcd\, which provides s
+ hared configuration\, service discovery\, and a cluster wide lock service 
+ built on top of the Raft consensus algorithm for high-availability. These 
+ components mixed with Kubernetes provides ways for you to scale your workl
+ oads\, similar to how Google\, Twitter and Facebook do today.All of these 
+ projects are open source and part of growing community. Come learn how to 
+ get started with CoreOS today.
+LOCATION:JW Marriott Austin - Level 3 - Salon D
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Hands-on Lab: Test Drive your OpenStack Network
+DTSTART:20160426T161519Z
+DTEND:20160426T174559Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:RSVP required.Neutron is deployed in the majority of OpenStack
+  clouds but it still constitutes one of the key areas of concerns for orga
+ nizations world-wide. The transition from traditional hardware-centric net
+ working to the software defined model takes time and learning and requires
+  a mental shift as well as a change in workflows\, procedures\, tools and 
+ best-practices. In this session each participant will be provided with a p
+ ersonal sandbox OpenStack running a live Liberty-based environment and wil
+ l work on common use cases and applications of SDNs in an OpenStack Cloud.
+  The class will focus on test cases that will move beyond the basics of L2
+  and L3 and deploy VNFs such as NAT and security policies on top of a 3-ti
+ er application topology. The class will also go through exercises that are
+  focused on monitoring and troubleshooting SDNs in an OpenStack cloud.
+LOCATION:JW Marriott Austin - Level 3 - Salon E
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:How to Develop an Internet or Mobile Application with OpenStack Sw
+ ift?
+DTSTART:20160426T190019Z
+DTEND:20160426T203059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:RSVP required.This is a hands-on session as a tutorial to buil
+ dingapplicationswith OpenStack Swift. First you will see a demo of an appl
+ ication in an iPhone based on a cloud storage service enabled by OpenStack
+  Swift. Then you will learn:Overview of the Swift APIs and client librarie
+ s.How to make authentication to OpenStack Swift with or without Keystone?H
+ ow to make read and write requests to accounts/containers/objects in Swift
+ ?What is the metadata in Swift? How to use the metadata in applications?Wh
+ at do theresponse codes mean? How to conduct troubleshooting when a reques
+ t fails?Some of the advanced features of Swift\, such asSLO/DLO\, object v
+ ersioning\, etc.The basic idea of middleware development for Swift.Finally
+ \, you will walk away with the skills required to build an mobile or Inter
+ net application with OpenStack Swift.
+LOCATION:JW Marriott Austin - Level 3 - Salon E
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:OpenStack Trove Training and Basic Tutorial
+DTSTART:20160426T190019Z
+DTEND:20160426T203059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:RSVP required.This tutorial provides attendees with a hands-on
+  introduction to OpenStack Trove. Attendees will learn how to install\, co
+ nfigure and operate OpenStack Trove. During the tutorial\, they will launc
+ h both relational and NoSQL databases\, configure and operate replicated p
+ airs of databases\, clusters of MongoDB instances\, take backups\,manage c
+ onfiguration parameters on groups of databases\, and learn the benefits of
+  DBaaS and OpenStack Trove.Attendees will get answers to questions such as
+ :What are the benefits of DBaaS and OpenStack Trove?What are some of the c
+ ommon use-cases for Trove?How do I install and configure Trove?What databa
+ ses can be orchestrated with OpenStack Trove?
+LOCATION:JW Marriott Austin - Level 3 - Salon D
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Designate: Interactive Workshop - Install and Operate\, Hands-On L
+ ab
+DTSTART:20160426T214001Z
+DTEND:20160426T231041Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:RSVP required.In this interactive workshop\, the Designate tea
+ m will walk attendees through the installation and configuration of Design
+ ate on a virtual machine.Attendees will leave with an understanding of the
+  various components of Designate and with a working single-VM install on t
+ heir laptops.Attendees will learn:Designate Architecture 101How to Install
+  and Configure DesignateHow to set up the newly merged Nova and Neutron In
+ tegration- Assigning domains to neutron networks- Reverse DNS- Assigning d
+ ns_names to neutron ports and floating IPsHow to perform day to day Design
+ ate operations tasksEnd user usage of the API\, CLI and Horizon UIAdvanced
+  API functionalityTips and Tricks for using DesignateContributing to Desig
+ nate 101
+LOCATION:JW Marriott Austin - Level 3 - Salon D
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Meta-Do's and Dont's:  A Hands-On Exploration of the OpenStack Met
+ adata Service
+DTSTART:20160426T214001Z
+DTEND:20160426T231041Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:RSVP required.We all hear the IT worldthrow around theDevOpsbu
+ zz word but where does OpenStack fit into this? Meta-Dos and Donts is a ha
+ nds-on workshop that will unlock the power of the OpenStack Metadata Servi
+ ce. It will provide the history of Metadata services found in other Cloud 
+ platformsand how OpenStack has facilitated its use with theimplementation 
+ of the Neutron Metadata Service andConfigDrive. Participantswill not only 
+ learn about the power of the Cloud-init packagebut receive credentials for
+  a live OpenStack environment and become automationpros by booting live in
+ stances and personalizing them with keypairs\, files\, and powerful script
+ s. Audiences will even learn how to utilize the Metadata Service to levera
+ ge existing configuration management tools such asAnsibleandPuppet so that
+  they can bringtheir OpenStack skills to the next level!
+LOCATION:JW Marriott Austin - Level 3 - Salon E
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Getting Started With OpenStack
+DTSTART:20160427T140019Z
+DTEND:20160427T153059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:RSVP required.OpenStack continues to grow as the de facto stan
+ dard for open source Cloud platforms and private clouds in general. But ho
+ w can someone quickly get started with learning this technology? This work
+ shop will walk participants through an overview of the most deployed OpenS
+ tack components and offer practical suggestions and resources for learning
+  OpenStack.As part of this workshop\, we will assist attendees with deplo
+ ying a test OpenStack instance on their laptops using Vagrant\, VirtualB
+ ox\, and RDO. The relevant Vagrant file and pre-workshop instructions will
+  be included in the final abstract if this workshop is approved. We will t
+ hen walk attendees through the horizon dashboard and the OpenStack CLI to 
+ manage and use their new OpenStack instance.------------------------------
+ ----------------------Before you arrive at this session please complete th
+ e "Preparation" section of these instructions: https://radez.fedorapeopl
+ e.org/GettingStartedWithOpenStack.html It will take some time and bandwid
+ th\, please plan accordingly.
+LOCATION:JW Marriott Austin - Level 3 - Salon D
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tutorial on Heat Template (Auto-scaling\, Software Deployment)
+DTSTART:20160427T160019Z
+DTEND:20160427T173059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:RSVP required.While working on the heat project\, came across 
+ many situations where users want to know more abouthow to write heat templ
+ ateWhat are diffrenent functoinalities could be achieved using heatHow nes
+ ted template worksWhat is heat environment and how it helps the user.So th
+ is presentation will help user to learn about all of these.
+LOCATION:JW Marriott Austin - Level 3 - Salon D
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:How to: Setup Active-Active Cloud Regions
+DTSTART:20160427T185000Z
+DTEND:20160427T202040Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:RSVP required.So the concept and capability of running multipl
+ e OpenStack cloud regions is not a new one. With that said have you actual
+ ly seen it done? How can this strategy be used to replace a disaster recov
+ ery design? What are the components you need to accomplish this design mod
+ el and have it scale if needed?This workshop will walk attendees thru a fe
+ w use cases of setting up an Active-Active cloud region and then physicall
+ y demonstrate how to accomplish this design with attendee participation. E
+ ach attendee will setup a two region compute cloud configuration and then 
+ setup a centralized administration region which will be used to balance op
+ erational requests between the two regions.Please come ready to put hands 
+ to the keyboard and be up to the challenge to deploy multiple OpenStack re
+ gions that at the end will work together like they are one cloud.
+LOCATION:JW Marriott Austin - Level 3 - Salon D
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:OpenStack Ceilometer with Gnocchi and Aodh Feature
+DTSTART:20160427T185000Z
+DTEND:20160427T202040Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:RSVP required.Is ceilometer performing too slow ? how to get a
+ larms using Ceilometer dataIn this Lab we will learn ceilometer and how to
+  use Time series Database and also Generate Alarms using Gnocchi and Aodh 
+ features for Telemetry.No prior knowledge of using Ceilometer is required 
+ .In this session you will learn basics about Ceilometer advance feature as
+  Gnocchi and Aodh .How to configure OpenStack Ceilometer \, Gnocchi and Ao
+ dh componentYour goal is to: 1.Configure Ceilometer \, Gnnochi and Aodh 2.
+ Check your installation 3.There will be lab which will have different scen
+ arios on Time series database and Alarmings4.Diagnose existing problems if
+  any . Look at logs etc 5.Mitigate issues 6.Understand best practicesPleas
+ e bring ypur laptop . Everyone will receive devstack VM . Prerequiste is t
+ o have Virtualbox installed on Laptop
+LOCATION:JW Marriott Austin - Level 3 - Salon E
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Best Practice for Deploying Application with Heat in Production by
+  Deployment Modules and Patterns
+DTSTART:20160427T213019Z
+DTEND:20160427T230059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:RSVP required.This presentation will introduce deployment modu
+ les\, how to use it to quickly deploy complicated applications\, will foll
+ ow agenda below:1. Obstacles blocking user from using heat templates in re
+ al cases2. Introduce deployment modules\, and deployment patterns3. How to
+  deploy a typical enterprise application by deployment modules which has a
+ bility of scaling and HA.4. Heat stack life-cycle management by deployment
+  modules5. Best practices for heat templates
+LOCATION:JW Marriott Austin - Level 3 - Salon D
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:OpenStack Astara: A Hands-on Installation & Tutorial Workshop
+DTSTART:20160427T213019Z
+DTEND:20160427T230059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:RSVP required.In this 90 minuteworkshop\, some of the key cont
+ ributors to OpenStack Astara will walk attendees through the installation 
+ and configuration of Astara on virtual machines. Attendees will get a bett
+ er understanding of the various components of Astara. Attendees will also 
+ leave with a working\, multi-node VM installation on their laptops for fur
+ ther evaluation and testing.Attendees will learn:The Astara Reference Arch
+ itectureHow to Install and Configure AstaraHow to set up Nova and Neutron 
+ Integration - Linux Bridge or OVSHow to perform day to day network operati
+ ons tasksAdmin user usage of the API\, CLI and Horizon UIAdvanced Feature 
+ functionalityTips and Tricks for using AstaraHow to Join the OpenStack Ast
+ ara community of developers.Come and learn how to simplify your Openstack 
+ networking designs.
+LOCATION:JW Marriott Austin - Level 3 - Salon E
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Configure\, Deploy and Troubleshoot Distributed Virtual Routers wi
+ th DVR SNAT HA in a Multi-Node Environment
+DTSTART:20160428T140019Z
+DTEND:20160428T153059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:RSVP required.This session would be a Hands-on Workshop that w
+ ould provide an opportunity for every attendees to get their hands wet on 
+ configuring\, deploying\, and troubleshooting Distributed Virtual Routers 
+ with DVR SNAT HA in OpenStack Neutron. This would eventually make the User
+ s' job easier in understanding the deployment scenarios and the internals 
+ which will enable a quicker adoption rate.In this session we will walk you
+  through• Multi-node installation of devstack.• Enable DVR support on 
+ the Controller as well as on the Agents.• Configure different nodes such
+  as DVR enabled Compute Node and Service Node.• Deploy distributed Route
+ rs.• Configure FloatingIP and walk through the iptables rules in the FIP
+  namespaces.• Walk through the OVS flow rules.• Configure DVR SNAT HA.
+ • Walk through the fail over of SNAT from master to slave.• Provide ad
+ ditional troubleshooting tips.NOTE: Laptops are required for this session.
+LOCATION:JW Marriott Austin - Level 3 - Salon E
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Deploy Microservices Architecture on OpenStack using Kubernetes\, 
+ Docker\, Flannel and etcd
+DTSTART:20160428T140019Z
+DTEND:20160428T153059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:RSVP required.A microservices software architecture is as an a
+ pproach to developing a single application as a suite of small services\, 
+ each running in its own process and communicating with lightweight mechani
+ sms\, often an HTTP resource API. These services are independently deploya
+ ble and scalable by fully automated deployment machinery and each service 
+ provides a firm module boundary with a minimum of centralized management. 
+ You’ve heard enough\, and you are so ready to give this architecture a t
+ ry\, right? This hands-on lab will show you how to build it and will walk
+  you through step-by-step deployment of Kubernetes\, Docker\, Flannel and 
+ etcd on OpenStack to get you started.Please bring a laptop with a web bro
+ wser and an ssh client (Terminal\, Putty\, etc).
+LOCATION:JW Marriott Austin - Level 3 - Salon D
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Intro to OpenStack Magnum with Kubernetes
+DTSTART:20160428T160019Z
+DTEND:20160428T173059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:RSVP required.Curious about OpenStack Magnum? This will be a p
+ lace to learn the basics and get to run some Docker based apps. No prior k
+ nowledge of using Magnum\, Docker\, or Kubernetes is required\, however it
+  would be great if you would know some basics of what containers are and k
+ now how to use shell.In this session you will learn how to configure OpenS
+ tack Magnum\, how to manage VM clusters (Bays) which can host containers (
+ Docker for now)\, and how to connect to container orchestration tools (we 
+ will use Kubernetes) to manage containers. We will go through what is supp
+ orted by Magnum and what is on the way.After we are done you will have a m
+ uch better understanding of what Magnum's role is in the OpenStack and con
+ tainer world\, how to operate Magnum CLI\, and how you might employ it for
+  your application._________________________________________________Please 
+ bring your laptop with at least 6GB of free RAM and at least 2 core i5 CPU
+ . In theory\, any OS will work. Also\, to save a lot of time for you and o
+ thers (we won’t have enough USB sticks for everybody):1. Install Vagrant
+ : https://www.vagrantup.com/downloads.html 2. Install Virtualbox https:
+ //www.virtualbox.org/wiki/Downloads 3. And download all files from: http
+ s://drive.google.com/folderview?id=0BzIDQZTTwQBxM0pqRlBCZE80Q2c=sharing
+LOCATION:JW Marriott Austin - Level 3 - Salon E
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Writing an AngularJS Plugin for Horizon
+DTSTART:20160428T160019Z
+DTEND:20160428T173059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:RSVP required.AngularJS is a front-end web framework. It is a 
+ popular choice among many web developers for its simple\, but powerful fea
+ tures. Horizon has been on the strategic path of “Angularizing” its fr
+ ont-end. Many new Horizon plugins are being created using the Angular libr
+ ary. This workshop is focused on learning how to write an Angular plugin t
+ hat integrates with the Horizon dashboard.This workshop will first introdu
+ ce the basics of writing an Angular plugin for Horizon. We will use the ex
+ isting Angular LBaaS v2 plugin as an example project to work with and lear
+ n from.Expect a great learning experience for new developers looking to wr
+ ite Horizon Angular plugins as well as experienced Horizon developers to b
+ etter understand the Angular technology.
+LOCATION:JW Marriott Austin - Level 3 - Salon D
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Deploying Application Infrastructure on OpenStack
+DTSTART:20160428T183019Z
+DTEND:20160428T200059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:RSVP required.This hands-on workshop aims to introduce a set o
+ f tools for automating infrastructure deployment\, network troubleshooting
+ \, and traffic monitoring on OpenStack clouds. Members of the audience wil
+ l be provided access to their own dedicated OpenStack environment. We begi
+ n by introducing Heat Orchestration Templates\, and provisioning a 3-tier 
+ app in the OpenStack cloud. This exercise highlights automated network con
+ figuration of both virtual and physical network workloads. We then gain ha
+ nds-on experience with advanced network troubleshooting techniques. The sp
+ eaker will then guide the audience in the process of deploying monitoring 
+ infrastructure. Attendees will be provided free access to online OpenStack
+  labs for an additional three months.
+LOCATION:JW Marriott Austin - Level 3 - Salon D
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Install and Configure OpenStack Octavia
+DTSTART:20160428T183019Z
+DTEND:20160428T200059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:RSVP required.In this interactive workshop\, members of the Oc
+ tavia team will walk attendees through the installation and configuration 
+ of Octavia\, the Open Stack LoadBalancer\, on a virtual machine. Attendees
+  will leave with an understanding of the various components of Octavia\, h
+ ow to configure and tune the controller and the amphora.Attendees will lea
+ rn: Octavia Architecture 101How to Install and Configure OctaviaHow to en
+ able Active-StandbyHow to perform day to day Octavia operations tasksEnd u
+ ser usage of the API\, CLI\, Horizon UITips and Tricks for using OctaviaCo
+ ntributing to Octavia 101
+LOCATION:JW Marriott Austin - Level 3 - Salon E
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Hands-On: Orchestrating Docker Containers with Heat
+DTSTART:20160428T211000Z
+DTEND:20160428T224000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:RSVP required.Roll up your sleeves  build Docker-based web ser
+ vices through the OpenStack Orchestration framework. Docker provides a qui
+ ck and consistent way to containerize your applications\, making them perf
+ ect for deploying on a cloud platform. OpenStack provides an orchestration
+  framework\, the Heat project\, to allow end-users to quickly and easily d
+ eploy complex services in a consistent\, scalable manner. By combining the
+  two\, you now have a powerful tool to help you conquer the world. These f
+ rameworks can be intimidating\, however\, and many users stay away because
+  they're uncomfortable being responsible for instigating such a severe cha
+ nge in the way their company deploys. In this session\, we will introduce 
+ the basic concepts of OpenStack Orchestration and Docker\, and provide han
+ ds-on experience to help demystify the process and get to that comfort lev
+ el. **Note** Attendees will need their own laptop to connect to our local 
+ OpenStack instance and fully participate in the lab.
+LOCATION:JW Marriott Austin - Level 3 - Salon D
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Developing\, Deploying\, and Consuming L4-7 Network Services in an
+  OpenStack Cloud
+DTSTART:20160428T211001Z
+DTEND:20160428T224041Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:RSVP required.The OpenStack infrastructure services for comput
+ e\, networking\, and storage have matured and are seeing increased adoptio
+ n in production environments. In this tutorial session we will show you ho
+ w to combine these fundamental services with other ancillary services arou
+ nd image management\, security\, monitoring\, policy-based orchestration t
+ o build\, deploy and consume rich networking services in your OpenStack Cl
+ oud.This tutorial session is aimed at developers\, operators\, and users a
+ like. A working environment will be provided to the attendees for experime
+ ntation. If you are a developer or vendor\, you will learn how to leverage
+  existing OpenStack constructs to expose your service offering. If you are
+  an operator\, you will learn how to configure\, deploy and expose these s
+ ervice offerings in a few simple steps. If you are a user\, you will learn
+  how to consume single services\, or compose a chain of services\, and inc
+ orporate them in your application topology.
+LOCATION:JW Marriott Austin - Level 3 - Salon E
+END:VEVENT
+END:VCALENDAR

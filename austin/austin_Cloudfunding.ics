@@ -1,0 +1,56 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//yosshy/openstackdesignsummitaustin2016//NONSGML v1.0//EN
+SUMMARY:Cloudfunding
+BEGIN:VEVENT
+SUMMARY:Raising Money In the Private Cloud Market
+DTSTART:20160426T190019Z
+DTEND:20160426T194059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:This session will cover an entrepreneurs experience raising ve
+ nture funding in the private/hybrid cloud space and opportunities from the
+  perspective of an investor. It will cover the broad market dynamics\, wha
+ t has failed in the past\, the nature\, size and potential of the opportun
+ ity that lies ahead from an entrepreneurs and an investors perspective.
+LOCATION:Austin Convention Center - Level 4 - MR 15
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Seeking Fame and Fortune in OpenStack Startup Land
+DTSTART:20160426T195000Z
+DTEND:20160426T203040Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:But building a cloud infrastructure startup is a special kind 
+ of hard. This panel is stacked with "been there\, done that" founders who 
+ are prepared to tell you their stories\, show you their scars and point ou
+ t some of the less-obvious landmines in your path. They won't offer advice
+  so much as they'll offer the right set of questions you should be asking 
+ yourself *before* you take that fateful step into cloud infrastructure sta
+ rtup land.
+LOCATION:Austin Convention Center - Level 4 - MR 15
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Panel: Building a Business with Open Source
+DTSTART:20160426T204001Z
+DTEND:20160426T212021Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:So how do companies make money from open source?  Is it yet a
+ nother unicorn in the startup world? In this panel\, we'll have veterans 
+ of startups and large established companies who have built businesses on
+  top of open source.   We'll cover success and very amusing failure stori
+ es from key members of companies in the space. 
+LOCATION:Austin Convention Center - Level 4 - MR 15
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Fireside Chat: Mark Collier & Jim Curry
+DTSTART:20160427T185000Z
+DTEND:20160427T193000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:In this fireside chat\, Mark will quiz Jim about life after Op
+ enStack\, and dig into the key concerns venture capitalists have when eval
+ uating open source related businesses.  Jim will share insights on recent
+  investments from Build Group\, the investment firm he founded with Lanham
+  Napier\, ex-CEO of Rackspace\, and Alan Schoenbaum\, ex General Counsel o
+ f Rackspace.
+LOCATION:Austin Convention Center - Level 4 - Ballroom G
+END:VEVENT
+END:VCALENDAR

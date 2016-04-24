@@ -1,0 +1,355 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//yosshy/openstackdesignsummitaustin2016//NONSGML v1.0//EN
+SUMMARY:Working Groups
+BEGIN:VEVENT
+SUMMARY:Command Presence Workshop\, Organized by the Women of OpenStack
+DTSTART:20160424T170000Z
+DTEND:20160424T200000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:RSVP Required.The Command Presence Workshop has been recogniz
+ ed by the Anita Borg Institute and Harvard Business Review.  It is intend
+ ed to teach participants how to handle “senior-level high pressure meeti
+ ngs”.  The majority of the workshop is a task-force convened to address
+  a simulated\, but very realistic crisis event.  In the class\, each part
+ icipant assumes a role\, and is given about 30minutes to prepare 1-2 slide
+ s.  Once the class has prepared\, the simulation begins.  There is a rol
+ e-play simulation. It is not uncommon to hear occasional “gasps” of di
+ sbelief from the participants.  The workshop participants will experience
+  rapid-fire questioning\, interruption\, and other situations that occur i
+ n senior-level meetings\, but in a safe environment conducive to learning 
+ techniques for handling such situations. Facilitators: Ruchi Bhargava (In
+ tel)\, Malini Bhandaru (Intel) and a panel of leaders representative of 
+ the OpenStack leadership in the community (business leaders and technical
+  leaders).
+LOCATION:JW Marriott Austin - Level 3 - Salon D
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:API Working Group Mitaka Cycle Roundup
+DTSTART:20160425T190000Z
+DTEND:20160425T203000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Join the API working group to discuss the progress made during
+  the Mitaka cycle including guidelines that have merged\, cross projectint
+ eractions and a retrospective on what has worked well and wherethings coul
+ d be improved. We'll follow this with discussion offuture plans\, especial
+ ly with regard to promoting guideline usageand getting more people enaged 
+ in the group. Any remaining time willbe devoted to open discussion and mee
+ ting other people interested inimproving OpenStack's APIs.
+LOCATION:Hilton Austin - Level 6 - Salon J
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Scientific Working Group Inaugural Meeting
+DTSTART:20160426T161500Z
+DTEND:20160426T165500Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:The inaugural meeting of the Scientific Working Group will be 
+ a catalyst [1] for bringing Universities\, Labs\, Industrial RD\, Academic
+ s\, Researchers and Scientists together to discuss the uses of OpenStack i
+ n our institutions and on our campuses.Outputs from this working group wil
+ l be updated on the following OpenStack website:https://wiki.openstack.org
+ /wiki/scientific-wgKeywords: #scientific-wg #academia #research #laborator
+ ies #RD #science #compatibility[1] = "catalyst" - or rather\, to be more s
+ pecific: "antihemorrhagic"https://etherpad.openstack.org/p/scientific-wg-a
+ ustin-summit-agenda
+LOCATION:Hilton Austin - Level 6 - Salon J
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:And Now For Our Regularly Scheduled OpenStack Roadmap Update!
+DTSTART:20160426T204000Z
+DTEND:20160426T212000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:OpenStack continues to grow the number of projects in the Big 
+ Tent\, and each Project is developing at a rapid pace. Whether you're an O
+ penStack Operator\, Vendor\, Contributor or Market Watcher\, how do you ke
+ ep up with this? That's where we come in! The OpenStack Product Work Group
+  strives to work across our community to create a condensed\, simplified s
+ et of roadmaps of the capabilities you can expect in the upcoming project 
+ releases.In this session we'll present our findings across the different p
+ rojects in an effort to give users a glimpse into OpenStack's upcoming cap
+ abilities. The roadmaps presented will span multiple releases and strive t
+ o unify the future direction of the individual projects on a per release b
+ asis. The findings are collected through direct interviews with the PTLs a
+ nd condensed into an easy to consume format. You could try and track down 
+ what's coming through dozens of etherpads\, hundreds of blueprints and spe
+ nd your days living in IRC. Or you could come to our session. Consider it 
+ your ticket to seeing a glimpse into OpenStack's future.The proliferation 
+ of Projects within the OpenStack community combined with ever increasing c
+ apabilities focused on addressing the needs of Markets and Operators is a 
+ good thing. But for someone looking to deploy an OpenStack Cloud\, or defi
+ ne their update plan or even understand where they best can contribute\, t
+ his can be a challenge. We are working to address this need through the cr
+ eation and discussion of cross-community condensed\, simplified roadmaps t
+ hat outline what you can expect in the upcoming project releases (yes\, th
+ is is multi-release!).
+LOCATION:Austin Convention Center - Level 4 - MR 18 A/B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Scientific Community Clouds: Five Directors of Community Clouds Re
+ sponsible for a Quarter Million Cores Worldwide
+DTSTART:20160426T204000Z
+DTEND:20160426T212000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:A must see panel for CEOs & CIOs: The largest community-driven
+  clouds on the planet? Scientific cloud computing for collaborative resear
+ ch: governments in the EU (Horizon2020)\, USA (NSF)\, Taiwan (UniCloud Tai
+ wan)\, France (Iana-GRID.5000) and Australia (NCRIS-NeCTAR) have made sign
+ ificant multi-million dollar investments in the creation of community driv
+ en scientific clouds. The infrastructure being used to operate these cloud
+ s is OpenStack. The purpose of this panel is to bring together key stakeho
+ lders and computation center decision makers from the research community t
+ o: a.) surface unmet needs\, b.) identify current and near-term solution\,
+  and c.) explore the scope for how science communities can identify gaps f
+ or future cloud development.If you have a question for the panel please po
+ st them in the chat area area of this document: https://etherpad.openstac
+ k.org/p/scientific-clouds-panel-austin 
+LOCATION:Hilton Austin - Level 6 - Salon J
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Massively Distributed Clouds Working Group Inaugural Meeting
+DTSTART:20160426T214000Z
+DTEND:20160426T231000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:The objectives of this inaugural meeting are: - To present in
+  details the massively distributed cloud use-case (aka\, the Fog/Edge Comp
+ uting paradigm) - To identify persons/institutions that might be interest
+ ed to take part to such a WG\; - To identify on-going related activities 
+ addressed inside but also outside the OpenStack community (short presentat
+ ions will be given)\; - To define a roadmap and identify key persons that
+  can contribute to make OpenStack cooperative by default.The major differe
+ nce with respect to existing WGs such as the Large-Scale deployment one\, 
+ is that we would like to address challenges related to the geo-distributio
+ n of resources and WANwide exchanges (one single cloud/cell but deployed a
+ cross multiple small sites). Concretely\, we want to study how the vanilla
+  OpenStack code can support the Fog/Edge Computing use-case while minimisi
+ ng the changes on the OpenStack internals.Further information available at
+ : https://etherpad.openstack.org/p/massively-distributed-clouds  
+LOCATION:Hilton Austin - Level 6 - Salon J
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:UX OpenStack Client Study
+DTSTART:20160427T140000Z
+DTEND:20160427T230000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:client study research
+LOCATION:Hilton Austin - Level 6 - MR 613
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:OpenStack Performance Team: Current Progress and Future Plans
+DTSTART:20160427T160000Z
+DTEND:20160427T164000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Performance working group was kicked off during the Mitaka su
+ mmit at Tokyo\, and this session is about what progress has been done duri
+ ng this period of time\, what we achieved and what is planned to be done d
+ uring Newton time frame. It's essential to keep focus on what issues com
+ munity wants us to investigate\, what bottlenecks to find\, and what kind 
+ of performance researches and tests we need to perform to achieve this. Th
+ at is the reason to gather together and discuss Mitaka progress and identi
+ fy next cycle roadmap.Etherpad link - https://etherpad.openstack.org/p/ne
+ wton-performance-team
+LOCATION:Hilton Austin - Level 6 - Salon J
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Diversity Working Group
+DTSTART:20160427T160000Z
+DTEND:20160427T172500Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Please join us for discussion on diversity topics in OpenStack
+  community.Topics: Diversity working group updateHow you can helpIn Vancou
+ ver the OpenStack Board chartered a work group to explore and foster a div
+ erse OpenStack Community. The basis for this is the belief that enlisting 
+ the broadest set of viewpoints and experience will enable us to create the
+  most innovative and impactful technologies in support of the OpenStack Mi
+ ssion.A broad set of community members formed the Diversity Work Group tha
+ t has worked over the last yearto form a framework for a diverse community
+  through the creation of a Diversity Policy\, integrated Diversity expecta
+ tions into our Code of Conducts and identified initial areas of focus for 
+ extending the diversity of our community. Please come join us to discuss t
+ he teams work and shape the future direction.Additional speakers: Carol Ba
+ rrett and Kavit Munshi.
+LOCATION:Hilton Austin - Level 6 - Salon F
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Git and Gerrit Lunch and Learn\, Organized by The Women of OpenSta
+ ck
+DTSTART:20160427T173000Z
+DTEND:20160427T185000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:RSVP Required.OpenStack software development is centered aroun
+ d the git and gerrit systems to promote the aspect of community programmin
+ g.Git is an open source version control system that allows many software d
+ evelopers to work on a given project without requiring them to share a com
+ mon network.Gerrit is a free\, web-based team code collaboration tool whic
+ h integrates closely with git and allows developers in a team to review ea
+ ch other's modifications to the source code using a web browser and approv
+ e or reject those changes.In this session we will walk-through participant
+ s to open a bug in a test system and then submit a test patch to a reposit
+ ory in OpenStack. The process involves learning about git along with a che
+ at sheet of most useful commands and review process in Gerrit. Participant
+ s will walk away with working knowledge on these tools.
+LOCATION:Hilton Austin - Level 6 - Salon F
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Large Deployment Team Working group
+DTSTART:20160427T185000Z
+DTEND:20160427T193000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:This is a working group session for the members of the Large D
+ eployment Team. This group meets at summits\, Operator's mid-cycles and mo
+ nthly in IRC to discuss the issues and needs of large OpenStack deployment
+ s.As of late\, we have also started looking after the needs of Public Clou
+ ds running OpenStack because many of their issue overlap with those of the
+  LDT. Also\, these deployments tend to scale fairly quickly.
+LOCATION:Hilton Austin - Level 6 - Salon J
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:User Committee WG
+DTSTART:20160427T185000Z
+DTEND:20160427T202000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Hear an update from the user committee.
+LOCATION:Hilton Austin - Level 6 - Salon F
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Application Hackathon Working Group
+DTSTART:20160427T203000Z
+DTEND:20160427T211000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:The first successful "OpenStack Application Hackathon" took pl
+ ace in Taiwan at the start of 2016[1]. Further Hackathons are planned for 
+ Mexico\, India\, USA\, UK and maybe your home town?! Come along to this Wo
+ rking Group to find out how to get involved in running an OpenStack AppHac
+ k!People who should consider coming along:* local companies who want to ra
+ ise their profile in the community for being cloud native orientated.* ong
+ oing community meetup groups who want to expand their community to engage 
+ DevOpps and AppDev working together.* business\, project and marketting ma
+ nagers who want an exciting event which produces the latest and coolest id
+ eas for innovating cloud native application for OpenStack infrastructures.
+ * DevOpps who can help AppDev better understand the use of APIs and SDKs t
+ o make their Apps better!Meeting agenda\, further information and notes (t
+ o follow) available here:https://etherpad.openstack.org/p/apphackathon-wg[
+ 1]=http://superuser.openstack.org/articles/first-official-openstack-hackat
+ hon-strikes-a-chordPlease cite this working group on social media using #A
+ ppHackathon-WG #OpenStack
+LOCATION:Hilton Austin - Level 6 - Salon J
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Analyze This! Analyst Relations Working Group Summit Debrief
+DTSTART:20160427T213000Z
+DTEND:20160427T221000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:The analyst relations working group holds ongoing discussions 
+ in regards to industry analyst perceptions\, upcoming reports\, analyst-re
+ lated events and ongoing briefings and activities relevant to the OpenStac
+ k ecosystem. The group is particularly involved in planning analyst activi
+ ties for OpenStack Summits. Whether you are a veteran member of the group 
+ or just want to see what the ARWG is all about\, join us in Austin as we d
+ ebrief on Summit analyst events and discuss our roadmap for Barcelona and 
+ beyond.
+LOCATION:Hilton Austin - Level 6 - Salon H
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:App Ecosystem Working Group - Working Session
+DTSTART:20160427T213000Z
+DTEND:20160427T230000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:This session will be for the App Ecosystem Working group\, han
+ ds-on\, face to face working session. We would like a double time block fo
+ r this session (ie. 90 mins). Speakers will include: John Callaghan and Cr
+ aig Sterrett
+LOCATION:Hilton Austin - Level 6 - Salon F
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:User Survey Working Group 
+DTSTART:20160428T140000Z
+DTEND:20160428T153000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:OpenStacks seventh user survey was released April 13\, and you
+ re invited to join this work group to make it better. Well cover:Preview a
+ n interactive dashboard\, now in beta testing\, to enable you to compare d
+ ata across multiple surveys and variablesWhat questions should change in t
+ he next survey cycle? Provide your inputSuggest changes to the user survey
+  process and production\, including its frequencyJoin the User Survey Team
+  to do comment analysis of the raw survey responses and be an early review
+ er/editor on the report itself.Host: Heidi Joy Tretheway
+LOCATION:Hilton Austin - Level 6 - Salon F
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DefCore Interop Working Group
+DTSTART:20160428T145000Z
+DTEND:20160428T164000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Please join us for a working session discussing the latest iss
+ ues with OpenStack interoperability.Topics:Board activity updates: 2016A p
+ rocessreviewDiscussion of 2016.08 GuidelineIdentify needs for schema chang
+ es (1.5?)Naming of next cycleReview decisions made during cyclePlan major 
+ topics for next cycleReview proposed scoring changesAdditional speakers: M
+ ark Voelker\, Chris Hoge
+LOCATION:Hilton Austin - Level 6 - Salon J
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Marketing Community Meeting
+DTSTART:20160428T160000Z
+DTEND:20160428T173000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Join your colleagues in the OpenStack marketing community to e
+ valuate our past projects and plan for future success. This is a roll-up-y
+ our-sleeves\, conversation-oriented session. Well cover:- 2016 content and
+  campaigns performance- High-level messaging for 2016\, including how them
+ es emerge in user stories and content- Key marketing goals for the remaind
+ er of 2016- Marketing projects/deliverables for new content and campaigns:
+  what would you recommend\, how can you contribute\, and how can you lever
+ age it in your business?- Promoting your success stories\, news and user s
+ tories- Superuser is evolving: in awards\, a magazine and TV. Find out and
+  recommend whats next.We encourage you to be part of this conversation and
+  help shape our major projects in the year ahead.
+LOCATION:Hilton Austin - Level 6 - Salon F
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:I18n Workshop: Translation Processes and Tools
+DTSTART:20160428T183000Z
+DTEND:20160428T200000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:I18n team is responsible to make OpenStack accessible to peopl
+ e of all language backgrounds. We translate OpenStack dashboard and OpenSt
+ ack documents into different languages. We have processes to manage transl
+ ation related activities\, e.g. glossary\, translation memory\, review\, t
+ ranslation check and etc. We have tools to support these processes\, e.g.
+  use Zanata and automation jobs.In this session\, we want to collect feed
+ back from translators and evaluate the inconveniences of current translati
+ on tools and translation processes. We will have translators and tool deve
+ lopers together and discuss about how to improve in the future.The worksho
+ p agenda and discussions will be tracked here: https://etherpad.openstac
+ k.org/p/austin-i18n-workshop.
+LOCATION:Hilton Austin - Level 6 - Salon F
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ambassadors WG
+DTSTART:20160428T201000Z
+DTEND:20160428T215000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Hear an update from the Ambassadors
+LOCATION:Hilton Austin - Level 6 - Salon F
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Enterprise Working Group - Working Session
+DTSTART:20160429T140000Z
+DTEND:20160429T153000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:This is the working group Newton cycle kick-off meeting. Agend
+ a details can be found here: https://etherpad.openstack.org/p/Enterprise_
+ WG_Austin_Meetup  
+LOCATION:Hilton Austin - Level 6 - Salon F
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Product Working Group - Working Session
+DTSTART:20160429T155000Z
+DTEND:20160429T195000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:This is the working group Newton cycle kick-off meeting. Agend
+ a details can be found here: https://etherpad.openstack.org/p/PWG_Working
+ _Session_AUS
+LOCATION:Hilton Austin - Level 6 - Salon F
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,126 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//yosshy/openstackdesignsummitaustin2016//NONSGML v1.0//EN
+SUMMARY:Big Data
+BEGIN:VEVENT
+SUMMARY:Automating the Deployment of a Secure\, Multi-User HIPAA Enabled S
+ park Cluster Using Sahara
+DTSTART:20160427T194000Z
+DTEND:20160427T202000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Interest in using analytics platforms such as Hadoop and Spark
+  to process highly sensitive personal data (e.g.\, health care data\, fina
+ ncial records) is on the rise. Platforms for processing this type of data 
+ must conform to numerous regulations intended to ensure data privacy\, int
+ egrity\, and access control\, thus making their deployment time consuming 
+ and error prone. In this talk\, we share our experiences using Sahara to a
+ utomate the provisioning of a HIPAA-enabled Spark-as-a-Service platform. W
+ e detail the enhancements to Sahara needed to: (i) automate cluster securi
+ ty enablement (e.g.\, authentication\, key management\, encryption)\; (ii)
+  support multi-user clusters to provide strong isolation\; (iii) enable cl
+ uster deployment on SoftLayer through Heat\; and (iv) submit multi-type jo
+ bs (e.g\,. Hadoop and Spark) to YARN using Sahara API. Finally\, we discus
+ s the lessons learned from our experience with Sahara and share directions
+  for further improvements.
+LOCATION:Austin Convention Center - Level 4 - Ballroom D
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Architecture and Best Practices to Deploy Hadoop and Spark Cluster
+ s with Sahara
+DTSTART:20160427T213019Z
+DTEND:20160427T221059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Using Big Data environments as analytics engines to gain usefu
+ l insight on massive amounts of data in a manageable and timely manner can
+  be a complex challenge. Using Sahara as the orchestration tool helps clou
+ d architects provide high-performance production Hadoop and Spark environm
+ ents enabling private cloud deployments that are easy for data scientists 
+ to manage and consume. We will provide a reference architecture for a Hado
+ op cluster using Intel based systems and Sahara focused on performance and
+  ease of use to answer questions regarding security\, storage\, and suppor
+ ting future releases without re-installing.Attendees will learn:- Hadoop c
+ onfigurations to best utilize CPU and I/O resources- Storage Best practice
+ s- New ways to orchestrate a cluster with various Hadoop and Spark workloa
+ ds- Published performance benchmark results- LIfe cycle management
+LOCATION:Austin Convention Center - Level 4 - Ballroom F
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Cloud Platform for IoT: Designing and Evaluating Large-Scale Data 
+ Collecting and Storing Platform
+DTSTART:20160428T140019Z
+DTEND:20160428T144059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Internet of Things is a hot topic today. Many companies are tr
+ ying to create new business applications on a concept of IoT such as smart
+  city\, connected vehicle or smart grid. The platform for IoT applications
+  has some unprecedented characteristics: (1) needs to accept huge number o
+ f connections simultaneously (2) needs to be highly reliable and secure (3
+ ) needs to be highly scalable.We have designed\, prototyped and evaluated 
+ a highly reliable IoT platform for collecting and storing large-scale data
+ .In this session\, we will explain our use case and architecture of IoT pl
+ atform. We are tackling the following very high requirements during the pr
+ ocess of prototyping and evaluating the platform.Receiving and storing mes
+ sages from over 10M clients concurrentlyHighly reliable architecture of me
+ ssage broking without losing messagesInstant scale-out to process burst tr
+ affic rapidlyWe will also discuss how we can adopt OpenStack to IoT backen
+ d and share ideas for its enhancement.
+LOCATION:Austin Convention Center - Level 4 - Ballroom F
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Configure\, Debug and Install OpenStack Trove 
+DTSTART:20160428T145000Z
+DTEND:20160428T153040Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:  This session covers multi database deployment\, configurat
+ ion and debugging on OpenStack Trove. Now Trove supports more datastores t
+ han before. this session is about educating OpenStack community on Trove.
+  The session also demonstrate some interactions with the Trove API includi
+ ng a demonstration of a deployment with a relational database (MySQL) and 
+ a non-relational database (MongoDB). This session contains demos on config
+ uration\, installation and debugging.   Benefits over traditional datab
+ ases.1. Ease of deployment and use2. Easy to configure and deployment3. He
+ lp reduces cloud operational costs
+LOCATION:Austin Convention Center - Level 4 - Ballroom F
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Big Data Rapid Prototyping by Using Magnum with Cinder and Manila
+DTSTART:20160428T160000Z
+DTEND:20160428T164000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Developers have unique challenges when trying to test against 
+ large datasets. Traditionally\, the cost and time associated with copying 
+ and storing large amounts (multiple terabytes) of data has been prohibitiv
+ e\, leading to test and development being done with synthetic data at best
+ . Within the DevOps model for building applications having full sets of re
+ al application data to test against is crucial at all stages of an applica
+ tion’s lifecycle. Imagine being able to run 1000’s of tests against re
+ plicas of entire multi-TB production datasets\, enabling previously unatta
+ inable levels of reliability and allowing for an accelerated cadence of ap
+ plication development.  We will discuss techniques for presenting multipl
+ e full datasets to developers within a containerized environment for both 
+ ephemeral and persistent use cases\, leveraging Manila within an OpenStack
+  environment.
+LOCATION:Austin Convention Center - Level 4 - Ballroom F
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Big Data BBQ: Dining at The OpenStack Buffet to Create Cloud Appli
+ cations
+DTSTART:20160428T165000Z
+DTEND:20160428T173040Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:OpenStack is more than just a collection of services with a gr
+ eat dashboard interface\, it is also a platform for building applications 
+ that consume and utilize cloud resources. Combine this platform with the p
+ ower of big data\, and you have a recipe for scalable\, cloud-aware\, data
+  processing applications.In this talk we will follow a developer’s journ
+ ey along the path of creating a real-time streaming Spark application on O
+ penStack\, exploring methods for creating cloud applications. We will also
+  demonstrate how to use OpenStack’s Python clients to configure message 
+ queues for data ingestion\, persistent storage for processed data\, and co
+ mputing nodes for large scale analytics and visualizations.Attendees shoul
+ d expect to walk away from this session with an understanding of how they 
+ can use OpenStack to create\, deploy\, update\, and maintain data processi
+ ng applications at scale that live entirely in the cloud.
+LOCATION:Austin Convention Center - Level 4 - Ballroom F
+END:VEVENT
+END:VCALENDAR

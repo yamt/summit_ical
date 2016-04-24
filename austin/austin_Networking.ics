@@ -1,0 +1,609 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//yosshy/openstackdesignsummitaustin2016//NONSGML v1.0//EN
+SUMMARY:Networking
+BEGIN:VEVENT
+SUMMARY:Neutron DSCP: Policing your Network
+DTSTART:20160427T140019Z
+DTEND:20160427T144059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:DSCP is used by large enterprises to manage network traffic in
+ telligently. It provides quality of service to enable traffic engineering\
+ , and in some cases can additionally be relied on to enforce network secur
+ ity policies. The inclusion of DSCP in Newton Neutron now makes this facil
+ ity available to all users\, from individuals to large enterprises. This t
+ alk will describe DSCP for those unfamiliar with it\, discuss how DSCP is 
+ used in the wild today\, and relate the path taken to deliver the Open vSw
+ itch-based reference implementation for Newton.
+LOCATION:Austin Convention Center - Level 1 - Ballroom B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Troubleshoot Cloud Networking Like a Pro 
+DTSTART:20160427T145000Z
+DTEND:20160427T153040Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:OpenStack is a large cloud platform\, which can be configured\
+ , used and be broken innumerable ways. On the other hand configure network
+ ing is usually tricky especially in a large environment both with OpenStac
+ k or in general\, so most probably you asked the question "Why is my netwo
+ rking not working?" several times already in your life. In this presentati
+ on we are going to describe the common problems that can occur and we will
+  list different techniques and systematic approaches to find the solutions
+  to these issues. Whether you are beginner or advanced\, if you are strugg
+ ling much with networking in your cloud\, join us to learn new solutions o
+ r just to bring home a good troubleshooting guide.
+LOCATION:Austin Convention Center - Level 1 - Ballroom B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ceilometer\, Nova and Neutron – Working Together to Provide a He
+ althy Network for Your Cloud
+DTSTART:20160427T160019Z
+DTEND:20160427T164059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Today OpenStack is able to track the state of hypervisors hard
+ ware with nova compute running on each hypervisor node. With state of the 
+ hardware known\, OpenStack can do a better job at finding out the Hypervis
+ or that matches the resource needed to host a Virtual Machine.Although Neu
+ tron agents collect some state data for the Network Nodes\, Neutron has n
+ o knowledge of the state of the physical networking devices.In this presen
+ tation\, we will discuss the following ideas to leverage network health mo
+ nitoring for your OpenStack workloads:Nova to Neutron interaction for phy
+ sical network details - we will discuss the APIs that allow operators to i
+ ntegrate the physical network information for use in workload placementUsi
+ ng Ceilometer to collect physical network stats - we will discuss how heal
+ th of physical network can be modeled to provide operational insightNetwor
+ k aware Nova Scheduler - a Nova scheduler that considers the network condi
+ tions while selecting a hypervisor for the workload.
+LOCATION:Austin Convention Center - Level 1 - Ballroom B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Case Study: Neutron IPAM APIs and External IPAM Integration
+DTSTART:20160427T165000Z
+DTEND:20160427T173040Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Neutron IP Address Management (IPAM) APIs were first release i
+ n the Liberty Release. The session describes our experience developing an 
+ external IPAM system for OpenStack. The IPAM is part of Romana\, a new ope
+ n source Cloud Native SDN solution. IPAM is central to the way Romana crea
+ tes multi-tenant networks without an overlay. In this session\, we will d
+ escribe the hierarchical IP addressing scheme used by Romana for Cloud Nat
+ ive Networks and how it assigns addresses based on tenant\, project and se
+ gment IDs to maintain the L3 heirarchy necessary for route aggregation. We
+  also describe our IPAM driver design and the challenges we faced delaying
+  address calculation until after the target Compute Node had been identifi
+ ed.We will also demo OpenStack using Romana’s IPAM when launching VMs ac
+ ross Nodes.
+LOCATION:Austin Convention Center - Level 1 - Ballroom B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tired of Iptables Based Security Groups? Here's How to Gain Tremen
+ dous Speed with Open vSwitch Instead!
+DTSTART:20160427T185000Z
+DTEND:20160427T193040Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:This session will give overview of current implementations of 
+ neutron-open vswitch-agent security group firewall drivers using pure Ope
+ n vSwitch bridges. Two approaches using OpenFlow will be demonstrated and 
+ explained how each approach works: a security group firewall driver based
+  on OpenFlow learn-action rules and a security group firewall driver based
+  on using conntrack implemented in Open vSwitch kernel space\; one of this
+  implementations is called to even replace the default iptables based secu
+ rity group firewall driver.Benchmarks comparing the two new security group
+  firewall drivers with the current iptables security group firewall driver
+  will be shown and bothapproaches will be described in detail with pros an
+ d cons of each identified and including showing tips on how to debug lost 
+ packets in the firewall.
+LOCATION:Austin Convention Center - Level 1 - Ballroom B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Operators experience and perspective on SDN with VLANs and L3 Netw
+ orks
+DTSTART:20160427T194000Z
+DTEND:20160427T202000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Networking is one of the most challenging aspects to running O
+ penStack. There exists a lot of SDN vendor plugins and it is very difficul
+ t for customer to recognise what is and is not slideware. We both spend mo
+ re than 3 years by working and testing different Neutron vendor solutions.
+  We have come to several insights into CPU penalties\, Network design issu
+ es at scale as well as performance comparisons using different encapsulati
+ on techniques.This presentation will cover architectural and performance c
+ haracteristics of what a Overlay network is compared to a straight VLAN ba
+ sed environment on a cluster size of 100+ nodes.We will also cover best pr
+ actices and experience obtained by running a full routable L3 network in a
+  production environment with a high number of security policies enforced a
+ t port level.We would like to share our story about networking reference a
+ rchitecture. Where we started and what led us to this SDN platform.
+LOCATION:Austin Convention Center - Level 1 - Ballroom B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Load Balancing as a Service\, Mitaka and Beyond
+DTSTART:20160427T203000Z
+DTEND:20160427T211040Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Load balancing as a Service (LBaaS) has been one of the critic
+ al features asked for by cloud tenants.For the Mitaka release cloud provid
+ ers such as Rackspace\, Hewlett Packard Enterprise\, etc. have partnered w
+ ith the community and load balancer vendors such as Radware and A10 to enh
+ ance the new LBaaS v2 service with Horizon support\, L7 rules\, and active
+ /standby support.
+LOCATION:Austin Convention Center - Level 1 - Ballroom B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:OpenStack and Opendaylight:  The Current Status and Future Directi
+ on
+DTSTART:20160427T213019Z
+DTEND:20160427T221059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:One of the biggest use-case of opendaylight use-cases are open
+ stack integration. It has been focused for past releases and still been ad
+ dressed. In this presentation\, the high level overview of the architectur
+ e of the integration of opendaygliht and openstack as introduction\, and t
+ he current status will be shown. What will newly come for Opendaylight Ber
+ yllium release and OpenStack Mitaka release like support for BGPVPN and L2
+ gateway for opendaylight\, networking-odl rewrite for openstack side. Futu
+ re plan will be discussed with its challenges. Since our efforts handles b
+ oth two big project\, i.e. opendaylight and openstack\, it's a challenge t
+ o coordinate two independent release plan assuring the quality. Both compo
+ nents need to be touched. In the second half\, how to deploy opendaylight 
+ with openstack will be discussed and the development process and how to co
+ ntribute will shown. At last we will have question time to get feedback fo
+ r future direction/development process.
+LOCATION:Austin Convention Center - Level 1 - Ballroom B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dragonflow - Neutron Done the SDN Way
+DTSTART:20160427T222001Z
+DTEND:20160427T230041Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Dragonflow is an open source distributed control plane impleme
+ ntation of Neutron which is an integral part of OpenStack.Dragonflow intro
+ duces innovative solutions and features to implement networking and distri
+ buted network services in a manner that is both lightweight and simple to 
+ extend\, yet targeted towards performance-intensive and latency-sensitive 
+ applications.Dragonflow aims at solving the performance and scale problems
+  in Neutron leveraging lessons Learned from running OpenStack at scale and
+  doing it the SDN way.We will cover the following topics:Dragonflow introd
+ uction and progressPluggable topology and policy distribution modelSupport
+ ed distributed networking services (DHCP\, Routing and more)Innovative and
+  interesting solutions for some hot networking topics: Security groups\, C
+ ontainer networking\, Service chaining  topology injection\, Integration w
+ ith smart NICs for h/w offloading
+LOCATION:Austin Convention Center - Level 1 - Ballroom B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Neutron Address Scopes
+DTSTART:20160428T140019Z
+DTEND:20160428T144059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:An exciting new feature was just added to OpenStack Neutron in
+  the Mitaka release\; it's called address scopes.  Address scopes build fr
+ om the subnet pools feature added in Kilo.  While subnet pools give us a m
+ echanism for controlling the allocation of addresses to subnets\, address 
+ scopes give Neutron a way to know where addresses are viable.  They are al
+ so the thing within which addresses are not allowed to overlap.In this tal
+ k\, we will give a quick review of subnet pools and then talk about how th
+ ey support address scopes.  Address scopes are key to overcoming the probl
+ em of "bring your own addressing" (BYOA) and are instrumental in determini
+ ng where traffic should be blocked or where net address translation (NAT) 
+ should be applied (or not).  This is especially important when designing y
+ our cloud for IPv6.Finally\, we will briefly discuss the relationship betw
+ een address scopes and two other exciting new features in Neutron:  "BGP d
+ ynamic routing" and "routed networks."
+LOCATION:Austin Convention Center - Level 1 - Ballroom A
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Notorious M.T.U.
+DTSTART:20160428T140019Z
+DTEND:20160428T144059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:The maximum transmission unit (MTU) defines the maximum size o
+ f IP packets sent over a network. Similar to physical networks\, neutron c
+ ontains a variety of layer-2 and layer-3 components that include MTU param
+ eters. Improperly configuring neutron MTU parameters or options that impac
+ t MTU parameters can degrade network performance or cause packet loss in o
+ bscure places. We plan to cover the following topics:Introduction to MTU: 
+ What is it and why does it matter? What is path MTU discovery?Example of v
+ alid and invalid MTU configurations on a physical network.Relate physical 
+ networks to virtual networks.Discuss neutron MTU problems using both the L
+ inux bridge and Open vSwitch agents on physical networks with 1500 and 900
+ 0 byte MTUs.Discuss our solution to these problems.
+LOCATION:Austin Convention Center - Level 4 - Ballroom D
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Extending DVR to Route Intra-Tenant Traffic Between Bare Metal Ser
+ vers and Virtual Compute Instances
+DTSTART:20160428T145000Z
+DTEND:20160428T153040Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:The current Distributed Virtual Router (DVR) implementation su
+ pports routing traffic between virtual instances and routing traffic to ex
+ ternal networks that support the OVS plugin. For the last couple of cycles
+ \, DVR has gained momentum within the developer and user community and has
+  matured to scale and support other deployment models. For certain workloa
+ ds inclusion of bare metal servers into a cloud deployment is almost a mus
+ t. Therefore\, it is now time to extend the DVR routing capability to rout
+ e the traffic to and from the bare metal servers managed by OpenStack Iron
+ ic.In this talk\, we will be presenting:1. How OpenStack Ironic connects b
+ are metal servers to the neutron networks.2. A proposal on how DVR can be 
+ extended to enable routing of data traffic between the virtual machines th
+ at reside in VLAN or VXLAN networks in the cloud and the bare metal server
+ s managed by Ironic that reside in a different VLAN segment.
+LOCATION:Austin Convention Center - Level 1 - Ballroom A
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mapping Real Networks to Physical Networks\, Segments\, and Logica
+ l Networks in Neutron
+DTSTART:20160428T145000Z
+DTEND:20160428T153040Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:In this talk we will dive into the details of how Neutron maps
+  a logical network into underlying network infrastructure with the ML2 plu
+ gin. We will explain the difference between physical networks\, segmentati
+ on types\, segments\, and logical networks. Then we will show how a Neutr
+ on network created via the API uses these components to tell the agents on
+  each compute node how to actually put the packets on the wire. Finally\,
+  we will talk about the assumptions Neutron currently makes about segments
+  and how they are being adjusted during the Mitaka and Newton cycle to wor
+ k with restricted L2 topologies without overlays. If you've ever seen the
+  error "Unexpected vif_type=binding_failed" or hate troubleshooting overla
+ ys\, this is the talk for you!
+LOCATION:Austin Convention Center - Level 4 - Ballroom D
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:A Deep Dive into Project Astara
+DTSTART:20160428T160019Z
+DTEND:20160428T164059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Project Astara provides an open source network orchestration p
+ latform and is one of the latest members of the OpenStack Big Tent. In thi
+ s session\, we'll dive into Astara's architecture to explore how the OpenS
+ tack ecosystem shaped Astara into a scalable solution. After of tour of As
+ tara's internals\, we will examine how Astara's intergration with Neutron 
+ and the other OpenStack services helps to deploy a 100% open source produc
+ tion ready system compatible with a number of open source L2 providers. We
+  will close with a look at Astara's newest feature\, over-the-top orchestr
+ ation of L3+ services. Over-the-top services are configured using a standa
+ rd Neutron installation and enable operators to support a pluggable networ
+ k service infrastructure allowing users to bring their own network functio
+ ns to OpenStack.
+LOCATION:Austin Convention Center - Level 4 - MR 16 A/B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Building a Cloud for VNFs & IOT
+DTSTART:20160428T160019Z
+DTEND:20160428T164059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Weve been hearing a lot about the use of Network Function Virt
+ ualization (NFV) for delivering virtual network functions in a cloud. We t
+ ake you through all the lessons learned on choosing the right hardware lay
+ out and supported featured related to performance and stability with regar
+ ds to OpenStackand Data Plane Development Kit (DPDK). Well talk through th
+ e advantages of DPDK\, Non Uniform Memory Access (NUMA)\, and Hugepages\, 
+ some of the lessons learned and the next steps leveraging DPDK 2.2 and OVS
+  2.5 to allow jumbo frames and multicast. We'll also cover the mechanism o
+ n how to use the same environment for IOT workloads when it comes to high 
+ density VMs per compute node.
+LOCATION:Austin Convention Center - Level 4 - Ballroom D
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SNAT High Availability Service in Neutron for Distributed Virtual 
+ Routers
+DTSTART:20160428T160019Z
+DTEND:20160428T164059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:L3 high availability was introduced in Neutron during the Juno
+  cycle. L3 high availability in Neutron provides a reliable L3 connectivit
+ y without losing the agent scalability. High Availability of L3 agent will
+  ensure there will be very little downtime between external and internal n
+ etworks connectivity.With the introduction of Distributed Virtual Routers 
+ the routers are now distributed across the compute Nodes for scalability a
+ nd high availability is achieved through distributed routers. Even though 
+ DVR has distributed the routers and the DNAT functionality\, the SNAT func
+ tionality is still handled in the Networking Node\, which again brings in 
+ the requirement for a high availability solution for SNAT.In order to addr
+ ess this issue\, Distributed Router SNAT High Availability work was pursue
+ d during the Kilo and was completed in Mitaka cycle. This talk will provid
+ e an overview of the L3 HA\, provide details of the DVR SNAT HA scheduler\
+ , config options with respect to legacy and dvr routers
+LOCATION:Austin Convention Center - Level 1 - Ballroom A
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:MidoNet Scalability Testing with Neutron and Open Source Tools
+DTSTART:20160428T165000Z
+DTEND:20160428T173040Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:The flexibility of SDNs in contrast to traditional networks th
+ at are bounded to hardware restrictions is increasing the need to provide 
+ SDN scalability benchmarks such as the maximum number of routers\, network
+ s or virtual machines\; what is the supported workload or the maximum flow
+  setup rate.Although SDN is revolutionizing data center networks\, its tes
+ ting\, benchmarking and monitoring at scale remains a major challenge whic
+ h requires the tools capable of handling thousands of resources\, such as 
+ ports or instances as well as the traffic between them.This talk presents 
+ the scalability tests done for MidoNet with OpenStack Neutron using open s
+ ource tools. Midonet-sandbox uses Docker containers to automate the deploy
+ ment of the infrastructure under test\, OpenStack Rally runs first OpenSta
+ ck Tempest for sanity checks then Neutron tasks for addressing scalability
+  benchmark tests while monitoring different metrics such as virtual topolo
+ gy objects count with InfluxDB\, Telegraf and Grafana.
+LOCATION:Austin Convention Center - Level 4 - MR 16 A/B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Realize SFC Using ONOS Controller
+DTSTART:20160428T165000Z
+DTEND:20160428T173040Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:SDN moves management functions out of the hardware and places 
+ it in controller software that executes in a server. As a result\, entire 
+ service chains can be provisioned and constantly reconfigured from the con
+ troller. Communication service providers and public cloud providers carry 
+ such a wide variety of data types and applications\, Hence SDN and NFV-dri
+ ven service chaining can improve their business models just by simplifying
+  the service chain provisioning process.This presentation will talk about 
+ how one can realize service function chaining (using networking-sfc) using
+  ONOS controller by guiding attendees* Through ONOS ML2 plugin architectur
+ e.* How ONOS manages OpenStack network functionality.* How ONOS realizes S
+ FC followed by a demo.
+LOCATION:Austin Convention Center - Level 4 - Ballroom D
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rocket Fuel for Networks: SDN Solutions with OpenStack Fuel
+DTSTART:20160428T165000Z
+DTEND:20160428T173040Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Providing secure\, high-performance\, SLA-compliant cloud serv
+ ices to multiple tenants in multiple locations with hybrid cloud topologie
+ s is nearly impossible to do with OpenStack’s default networking back-en
+ ds. Juniper Contrail SDN provides a more mature solution\, with a logical 
+ leaf-spine layout for added performance and resilience and BGP-based feder
+ ation at the network edges for facilitating hybrid cloud connectivity. But
+  manually integrating it requires complex configuration. The Juniper Contr
+ ail Networking plugin for Fuel virtually automates deployment\, making it 
+ easy to add Сontrail SDN as a networking backend option.The session cover
+ s:Juniper Contrail plugin integrationHow the Fuel Contrail plugin worksDPD
+ K with Contrail enablementLive demo of environment creationAttendees will 
+ leave this session with a firm picture of what constitutes a mature SDN so
+ lution for OpenStack\, with a toolkit for simplified deployment.
+LOCATION:Austin Convention Center - Level 1 - Ballroom A
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Integration of Neutron\, Nova and Designate: How to Use It and How
+  to Configure It
+DTSTART:20160428T183019Z
+DTEND:20160428T191059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:This presentations will be a hands on demonstration on how to 
+ use and configure the integration between Neutron\, Nova and Designate.The
+  approach will be highly practical. Attendees will be provided with a VM w
+ ith DevStack\, where they will be able to follow the presentation.
+LOCATION:Austin Convention Center - Level 4 - Ballroom D
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Neutron Quality of Service\, New Features And Future Roadmap.
+DTSTART:20160428T183019Z
+DTEND:20160428T191059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Starting at Liberty\, the Neutron team introduced the Quality 
+ of Service framework\, the initial stone to provide quality of service set
+ tings on the Neutron networking API.The initial implementation only suppor
+ ted VM-egress bandwidth policing\, addressing the chatty neighbour use cas
+ e\, and letting CSPs provide different levels of network service if they w
+ anted.In Mitaka\, two new features are being introduced:DSCP rules\, to m
+ ark and prioritize traffic at L3 level.Role based access control for QoS p
+ olicies\, allowing a finer grade of sharing for QoS policies\, the adminis
+ trator would be able to share specific policies with specific tenants\, op
+ osed to the previous (share/no share to all the tenants).Also support has 
+ been extended from the OVS and SRIOV agents\, to Linux Bridge\, while OVN 
+ is also considering to implement QoS support too.
+LOCATION:Austin Convention Center - Level 4 - MR 16 A/B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Policy Canvas: Draw Your Policies for OpenStack Services
+DTSTART:20160428T183019Z
+DTEND:20160428T191059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:We introduce a Policy Canvas which is a highly user-friendly a
+ nd simple front-end interface to manage policies like drawing diagrams on 
+ whiteboard or note. Most administrators and operators draw their policies 
+ first in hand and translate them to specific policy languages or commands 
+ manually. It is error-prone and requires much time and effort. Our system 
+ provides a unified and simple graph drawing tool for specifying policies f
+ or multiple OpenStack services. It can automatically translate the graph m
+ odel to relevant OpenStack services using APIs and commands. In addition\,
+  some of the policies can be given by multiple stakeholders such as tenant
+ \, cloud operator\, system administrator\, or application developers. Our 
+ system can detect/resolve conflicts as much as possible. In this session\,
+  we introduce our Policy Canvas running on Horizon and demonstrate how to
+  create multiple network policies and automatically deploy them to the Ope
+ nStack via Congress and Neutron.
+LOCATION:Austin Convention Center - Level 1 - Ballroom A
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:A Pioneer's Vision of Networking
+DTSTART:20160428T192000Z
+DTEND:20160428T200040Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:In this session\, Guido Appenzeller---a founding member and pi
+ oneer of the revolution to virtualize the network---will share his vision 
+ on how networking is moving up the stack\, and will discuss the role of Op
+ enStack in this new age. The growing importance of public clouds\, mobile 
+ devices\, and multi-cloud strategies means that networking today is not ab
+ out hardware but instead is about logical endpoints. The hard part is mana
+ ging connectivity\, compliance\, and security in a scalable\, policy-drive
+ n fashion. Come listen to this pioneer's vision of the future of networkin
+ g and how that will impact OpenStack.
+LOCATION:Austin Convention Center - Level 1 - Ballroom A
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Networking-Calico\, a Routing-Based Implementation of IP-Only Conn
+ ectivity Between VMs - What\, Why\, How and the Future
+DTSTART:20160428T192000Z
+DTEND:20160428T200040Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:networking-calico is a Neutron driver that provides IP-only co
+ nnectivity between VMs based on standard IP routing and iptables. It is a 
+ new project in the Neutron stadium since last August\, but has not yet bee
+ n fully introduced to the Neutron developer community. This talk will expl
+ ain what the networking-calico project is\, why it is interesting for some
+  OpenStack deployments\, and how it works so far. I will also talk about w
+ hat more is needed for networking-calico to be a first class member of the
+  Neutron project and community\, both technically and procedurally\; and f
+ inish with musing on the relationship between Neutron’s backends and its
+  API\, and why it makes sense – at least transiently – to have multipl
+ e backends implementing the same API.
+LOCATION:Austin Convention Center - Level 4 - MR 16 A/B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Neutron Advanced Services Flavor Framework - Initial Steps
+DTSTART:20160428T192000Z
+DTEND:20160428T200040Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Describe OpenStack Neutron advanced services flavor framework 
+ initial implementation and future.The flavor framework enables operators t
+ o configure and users to chose abstract service instantiations\, decouplin
+ g the logical configuration from the backend implementation.For example\, 
+ an operator may configure a 'Gold' flavor that provides higher performance
+  by directing to a hardware provider instead of a default software impleme
+ ntation. The user selects the 'Gold' flavor on resource creation\, but the
+  operator controls what exact driver and parameters are used.Load Balancin
+ g as a Service (LBaaS) has delivered the first functionality for flavors. 
+ This presentation discusses the current features and proposed future steps
+ .
+LOCATION:Austin Convention Center - Level 4 - Ballroom D
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Open Source Networking Development: The Good\, The Bad\, and The U
+ gly
+DTSTART:20160428T201001Z
+DTEND:20160428T205041Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Open Source Networking reached critical mass in 2015\, with an
+  onslaught of new projects combining with many existing projects to create
+  a vibrant ecosystem. Being productive in many of these projects can requi
+ re a blend of unique skills. Each project can do things a little different
+ ly and having a frustration free experience across the board can be a chal
+ lenge. The good news is that in this talk you will learn how to effectivel
+ y work across many of theseOpen Source networking projects and how to deal
+  with failure as well as success. We'll compare how these projects take on
+  new work\, how they consume this new work\, and ultimately how they fold 
+ it into their projects. We will take you on a light-hearted ride through c
+ ontribution and collaboration strategies thatcan lead to success\, as well
+  as strategies that can lead to a painful crash and burn.
+LOCATION:Austin Convention Center - Level 1 - Ballroom B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Practical OVN: Architecture\, Deployment\, and Scale of OpenStack 
+ Networking
+DTSTART:20160428T201001Z
+DTEND:20160428T205041Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:OVN is a network virtualization project that brings virtual ne
+ tworking to the Open vSwitch user community and is the latest iteration of
+  Open vSwitch integration for OpenStack. It is an open source project bein
+ g developed by the core OVS development community\, which includes large-s
+ cale network operators. In this talk\, we will cover the state of OVN with
+  a focus on deployment. Topics include using overlay and local network con
+ figurations\, implementing security policies\, gateway placement\, current
+  scale limits\, and future feature plans
+LOCATION:Austin Convention Center - Level 4 - Ballroom D
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Understanding ML2 Port Binding
+DTSTART:20160428T201001Z
+DTEND:20160428T205041Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:The Modular Layer 2 (ML2) core plugin underlies the majority o
+ f Neutron deployments\, including those using the reference Open vSwitch a
+ nd Linux Bridge L2 agents\, as well as various vendor-specific solutions. 
+ If you've deployed\, operated\, or even just used an ML2-based setup\, you
+  may have encountered"binding failed" errors\, and wondered what could hav
+ e gone wrong. Or you may just want to better understand how ML2 works and 
+ what it can do.The focus of this session\, ML2's "port binding"\, is the p
+ rocess by which the ML2 plugin selects themechanism driver(s) and network 
+ segment(s) tobe utilized for a specific Neutron port. Port binding must su
+ cceed before a port will provide the requested connectivity. Its outcome c
+ onfigures the datapath and determines the details needed by Nova or other 
+ services to connect to the desired Neutron network. Port binding enables M
+ L2 to support heterogeneous environments. Understanding how it works is cr
+ itical to getting the most out of ML2.
+LOCATION:Austin Convention Center - Level 1 - Ballroom A
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tap-As-A-Service:  What You Need to Know Now
+DTSTART:20160428T211000Z
+DTEND:20160428T215000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Tap-as-a-Service is a relatively new OpenStack project that wa
+ s designed to provide tenants and service providers a means of monitoring 
+ the traffic flowing in their Neutron provisioned virtual networks. A lot o
+ f work has been carried out in the last two cycles\, with multiple develop
+ ers from around the world now contributing to the cause.This presentation
+  offers a review of all the progress made to date. We will discuss the pr
+ imary motivations for monitoring network activity\, explore the major cha
+ llenges one can expect to encounter when attempting to monitor network tra
+ ffic in a cloud environment and describe the need for a platform oriented 
+ solution. Next\, an overview of the TaaS architecture and API will be pr
+ esented\, along with an update on current development activities and some
+  of the planned enhancements for the future. We will also demonstrate traf
+ fic visibility solutions for a representative set of use cases covering ne
+ twork trouble-shooting\, security and analytics.
+LOCATION:Austin Convention Center - Level 4 - Ballroom D
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dynamic Routing of Networks in the Cloud
+DTSTART:20160428T211001Z
+DTEND:20160428T215021Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Among the commonly overlooked issues encountered when deployin
+ g Neutron is how to route traffic to and from tenant networks. Many deploy
+ ments are constrained such that statically routing tenant networks is suff
+ icient. However\, when tenants start usingIPv6 and the scale of a deployme
+ nt growsdynamic routing of tenant prefixes maybecome preferable to statica
+ lly routing tenant prefixes. In this session we will discuss how to use fe
+ atures added to Neutron over the last few cycles such as subnet pools\, ad
+ dress scopes\, and course Neutron BGP announcement to begin using dynamic 
+ routing in conjunction with a Neutron deployment.
+LOCATION:Austin Convention Center - Level 1 - Ballroom A
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Containerizing Network Services
+DTSTART:20160428T220019Z
+DTEND:20160428T224059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:The increasing interest around application containers is drive
+ n by increasingly sophisticated applications\, often distributed across da
+ ta centers. Containers hide the complexity of the underlying infrastructur
+ e\, allowing applications to integrate seamlessly and transparently.With t
+ he increasing maturity of OpenStack Neutron\, and increasing support for a
+  large number of services\, in this session we examine how SDNs can levera
+ ge the container technology for supporting "as a Service" components\, whi
+ ch as opposed to application containers we call service containers. Such s
+ ervices include load balancing\, virtual private networking\, or dynamic r
+ outing in the upcoming Mitaka release\, and for which containers can be a 
+ key component for any distributed SDN solution that wants to guarantee hig
+ hly availability across physical hardware.
+LOCATION:Austin Convention Center - Level 1 - Ballroom A
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Deep Dive into Elastic Load Balancing Using Octavia
+DTSTART:20160428T220019Z
+DTEND:20160428T224059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:THE CHALLENGE -- how to cost-effectively provide Load Balancin
+ g as a Service (LBaaS) for cloud workloads. Customers expect the cloud to 
+ support their elastic workloads no matter how large they grow. On one hand
+ \, services\, such as LbaaS\, must have the resources to handle huge workl
+ oads\; on the other hand\, for the many customers that have very small wor
+ kloads\, the (free tier) LBaaS has to use as little resources as possible.
+ THE SOLUTION -- Elastic Load Balancing (ELB) An Elastic Load-Balancing Ser
+ vice dynamically aligns the load-balancing resources with the customer's e
+ lastic workloads. Use OpenStack Octavia to implement.THE "DEEP-DIVE" -- Oc
+ tavia provides an operator-grade reference implementation of LBaaS for Ope
+ nStack\, utilizing HAProxy. Octavia supports various load balancing config
+ urations to support different levels of performance\, scalability\, and av
+ ailability.  Octavia's new  N+1 (a.k.a active-active\, all active) confi
+ guration provides the basis for an Elastic LBaaS.
+LOCATION:Austin Convention Center - Level 4 - Ballroom D
+END:VEVENT
+END:VCALENDAR

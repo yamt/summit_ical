@@ -1,0 +1,150 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//yosshy/openstackdesignsummitaustin2016//NONSGML v1.0//EN
+SUMMARY:How to Contribute
+BEGIN:VEVENT
+SUMMARY:Contributing to the Success of OpenStack
+DTSTART:20160425T161519Z
+DTEND:20160425T165559Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Mark is a long-time open-source practitioner and advocate. Ale
+ xis is a long-time Agile practitioner and advocate. In recent times\, they
+  find each other working very closely together\, searching for ways to hel
+ p Red Hats OpenStack team continuously improve its way of working.Mark wil
+ l spend some time describing his view of the key abstract ideas and princi
+ ples that should influence the thinking of those leading\, or contributing
+  to\, open-source projects. Alexis will spend a similar amount of time tal
+ king about the abstract ideas and principles from the Agile\, DevOps\, Con
+ tinuous Delivery\, and Lean movements that every software project should d
+ raw from.Together they will draw some conclusions relevant to the OpenStac
+ k community in general\, but particularly relevant to those who wish to bo
+ th contribute to and build upon OpenStack. They expect this will contribut
+ e to an ongoing conversation to improve the way individuals and companies 
+ are contributing to the success of OpenStack.
+LOCATION:Austin Convention Center - Level 4 - MR 15
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:How to Create an OpenStack Project
+DTSTART:20160425T170500Z
+DTEND:20160425T174540Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Since OpenStack is growing in terms of code\, users and number
+  of projects\, experts from SUSE working upstream on OpenStack believe tha
+ t its a good idea to share our experience with the OpenStack community. We
+  would like to give tips and pointers and help new projects to create a ne
+ w project in OpenStack.
+LOCATION:Austin Convention Center - Level 4 - MR 15
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:A Cloudy Forecast - Contributing Platform Drivers to Upstream Open
+ Stack
+DTSTART:20160425T190019Z
+DTEND:20160425T194059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:OpenStack was designed and built for cloud deployments\, but m
+ any existing platforms in today's data centers were deployed more traditio
+ nally. With many operators working towards converged cloud infrastructure\
+ , integrating these platforms is key to simplifying existing data centers.
+  Fortunately OpenStack supports an extensible driver model allowing vendor
+ s to contribute support for their platforms upstream. In this talk we'll d
+ iscuss our experience contributing support for a traditional platform to u
+ pstream OpenStack and talk about the challenges and rewards along the way.
+LOCATION:Austin Convention Center - Level 4 - MR 15
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Want to be an OpenStack Intern?
+DTSTART:20160425T195000Z
+DTEND:20160425T203040Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Internship programs like Outreachy and Google Summer of Code o
+ ffer focused internship opportunities with a number of free software organ
+ izations. OpenStack\, being one of the biggest open source organization\, 
+ plays a big role in these programs by funding and mentoring contributors. 
+ Programs like Google Summer of Code are open internationally to students a
+ nd Outreachy is open to women and other underrepresented groups in free an
+ d open source. This session hopes to demystify the process of contributing
+  to OpenStack and spread awareness of the programs available to those who 
+ are looking to start their careers in OpenStack and open source. As former
+  interns\, we will share our experience and help the attendees to understa
+ nd the application process and flow of any open source project.
+LOCATION:Austin Convention Center - Level 4 - MR 15
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:From Upstream Documentation To Downstream Product Knowledge Base
+DTSTART:20160425T204001Z
+DTEND:20160425T212041Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:How the documentation maintained by the OpenStack Docs team is
+  used at DreamHost in a modern knowledge base. The DreamHost Community Tea
+ m has designed a process and tools to semi-automatically pull from OpenSta
+ ck upstream documentation and manuals\, slightly modify the documentation 
+ to adapt the content to their needs and publish it on a Knowledge Base\, p
+ owered by Zendesk. The end result are pages that allow gathering immediate
+  feedback from readers and stimulate conversations on the pages themselves
+ . The data gathered over time on the DreamHost Knowledge Base will be shar
+ ed back with the OpenStack upstream community to help orient upstream effo
+ rts.
+LOCATION:Austin Convention Center - Level 4 - MR 15
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Life on OpenStack Outside The Kernel
+DTSTART:20160425T214001Z
+DTEND:20160425T222041Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:A great part of the OpenStack community\, according the last u
+ ser survey\, is based mostly in the developed regions\, like North America
+  (44%)\, Europe (22%)\, and Japan (6%). However\, there is still a big  p
+ art of the community not located at those regions. Non-kernel countries th
+ at belong to the called third world\, like Brazil\, India\, South Africa a
+ nd others are getting more involved in the community. The road for this in
+ volvement is not always easy. Those countries are behind the others in som
+ e aspects\, like (i) Summit and Midcycle meetup: It’s expensive to atten
+ d when you live thousands of miles from the places and your country does n
+ ot have a strong currency\; (ii) Language\, for non-native english speaker
+ s\; (iii) timezone shifts\, if the meeting happens when you’re usually a
+ sleep\, among other problems. In this talk\, we’ll show how we\, a coupl
+ e of brazilians have overcome those issues during our OpenStack journey an
+ d have achieved a good place with contributions in the community.
+LOCATION:Austin Convention Center - Level 4 - MR 15
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:How to Become an Advanced Contributor
+DTSTART:20160425T223019Z
+DTEND:20160425T231059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Becoming part of the OpenStack developers' team is a complex c
+ hallenge where knowing how to deal with source code is just one skill to b
+ e good at.When you're trying to find your way and add new functionality to
+  projects like Nova or Neutron you have a lot to learn not just about the 
+ code base\, but the community culture and the people you are working with.
+  Communication and timing become even more important\, when you have multi
+ ple projects to land code into in order to be able to implement cross-proj
+ ect features.This session will guide you through the steps you need to tak
+ e after reading the getting started guide to become a good community citiz
+ en and later on a team member. You will learn how this community works fro
+ m the insights including principles\, best practices and unwritten rules.
+LOCATION:Austin Convention Center - Level 4 - MR 15
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:How to Strike a Balance/Align Between Your Community Work and Your
+  Employer's Objectives in OpenStack
+DTSTART:20160426T161519Z
+DTEND:20160426T165559Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Many of us\, developers/individual contributors\, work for a v
+ endor\, operator\, or academic/research organization which has a significa
+ nt role in the OpenStack ecosystem. We often face the challenge of managin
+ g our time and effort between the community work and our day job\, as well
+  as striking a balance or aligning our community work with our employers g
+ oals and objectives in OpenStack.This is a panel with developers/individua
+ l contributors\, managers\, PTL\, TC to discuss their experiences and prov
+ ide recommendations on how to effectively contribute to the community whil
+ e meeting our employers' goals and objectives in OpenStack.This panel will
+  facilitate communication and generate mutual understanding between develo
+ pers/individual contributors and managers\, and hopefully inspire employer
+ s to modify their R processes and create the right KPIs to enable their de
+ velopers/individual contributors to succeed in both OpenStack community an
+ d their day job.  
+LOCATION:Austin Convention Center - Level 4 - MR 15
+END:VEVENT
+END:VCALENDAR

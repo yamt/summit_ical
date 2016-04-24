@@ -1,0 +1,584 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//yosshy/openstackdesignsummitaustin2016//NONSGML v1.0//EN
+SUMMARY:Operations
+BEGIN:VEVENT
+SUMMARY:Can't Sleep\, Clouds Will Eat Me: 4 Perspectives on Supporting Ope
+ nStack Deployments
+DTSTART:20160426T161519Z
+DTEND:20160426T165559Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Supporting OpenStack public and private clouds can be extremel
+ y difficult expecially when you must manage many diferent deployments.  F
+ our Rackspace support engineers will present on four different topics:Trad
+ itional linux support vs. OpenStack supportWhat are the diffences between 
+ public cloud and private cloud supportWhy so many escalations?  How we im
+ prove after things blow upArchitecture\, ow do we provide for customer sp
+ ecific needs 
+LOCATION:Austin Convention Center - Level 4 - Ballroom D
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Using OpenStack to Clean up After Itself: Automatically Run Mistra
+ l Workflows in Response to OpenStack Notifications
+DTSTART:20160426T161519Z
+DTEND:20160426T165559Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Have you scripted around making instances expire? Or for the r
+ esidual clean-up needed to be done when a tenant is deleted? If so\, this 
+ session is for you. In this presentation\, aimed at OpenStack operators\,w
+ e  will discuss a new feature beingproposed for Mistral that would allow 
+ operators the ability to develop workflows which will run automatically i
+ n response to specific OpenStack evens. First\, we will present a brief ov
+ erview of Mistral and its capabilities.  Next\, we'll discuss the impleme
+ ntation of this new feature and how to write workflows that can use it. As
+  a concrete example\, we will show how we added an expiration policy to s
+ erver instances by running workflows in response to a server create notifi
+ cation. Finally\, we will discuss how this feature can be used to address
+  the age old problem of cleaning up resources when a project (tenant) is 
+ deleted.
+LOCATION:Austin Convention Center - Level 1 - Ballroom A
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:How to Troubleshoot OpenStack Without Losing Sleep
+DTSTART:20160426T170500Z
+DTEND:20160426T174540Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:The complex architecture\, design\, and difficulties while tro
+ ubleshooting amplifies the effort in debugging a problem with an OpenStack
+  environment. This can give administrators and support associates sleeples
+ s nights if OpenStack native and supporting components are not configured 
+ properly and tuned for optimum performance\, especially with large deploym
+ ents that involve high availability and load balancing.We\, being support 
+ associates dedicated for OpenStack\, along with system administrators have
+  gone through a lot of sleepless nights to chase problems like this. Throu
+ ghout this session we will discuss some of those problems in depth\, how w
+ e learned to troubleshoot them\, what the root cause was\, and how we arri
+ ved at the right solution. Some of these problems are related with scaling
+  load balancers that sit in front of API services\, scaling rabbitmq messa
+ ge bus\, scaling connections to MariaDB + Galera\, and many more. 
+LOCATION:Austin Convention Center - Level 4 - Ballroom D
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Self Heal Your OpenStack Control Plane!
+DTSTART:20160426T171500Z
+DTEND:20160426T175500Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:This talk shows the value in using Kubernetes\, Google's conta
+ iner management platform\, to build OpenStack service API replicas. We wil
+ l show the speed in deploying service endpoints via Kubernetes as well as 
+ show Kubernetes self-healing mechanisms\, such as auto-restarting\, re-sch
+ eduling\, and replicating containersto ensure services such as nova-api ar
+ e kept in an active state.We will demo an active OpenStack installation th
+ at uses containers as OpenStack API endpoints and create 'failure' scenari
+ os to showcase seamless connectivity.
+LOCATION:Austin Convention Center - Level 1 - Ballroom A
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Moving a Running OpenStack Cloud to a New Data Center
+DTSTART:20160426T190000Z
+DTEND:20160426T194000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:The data center is all out of space and youve been told that y
+ ou need to move to the new building. How do you move a running OpenStack c
+ loud to a new building? How will you handle moving to a new IP space on ne
+ w switches? What happens to running instances and existing floating IP add
+ resses? How do you minimize outages?What order do you move the servers in?
+  What impact did this have on customers? And also can you come up with a n
+ ew network architecture to move onto?After months of planning and coordina
+ tion with outside teams and vendors\, we physically moved all our servers 
+ to a new data center in under two weeks with no API outage.Our talk will a
+ nswer all the questions and explain the pitfalls and successes we found wh
+ en moving our production OpenStack cloud into a newdata center. We will co
+ ver API services\, compute services\, networking\, and storage.
+LOCATION:Austin Convention Center - Level 1 - Ballroom A
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Deploying OpenStack Using Docker in Production
+DTSTART:20160426T190019Z
+DTEND:20160426T194059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Time Warner Cable has been slowly deploying Dockerized OpenSta
+ ck services in production since the Juno release. In this talk we'll share
+  our real-world experiences with deploying OpenStack services in productio
+ n with Docker and answer the following questions:Why would you want to dep
+ loy OpenStack using Docker?How do you manage the transition from packages 
+ to containers?What are the advantages of this approach?What are the pitfal
+ ls and best practices?We will also discuss how our upgrade to the Liberty 
+ release of OpenStack was simplified by our use of Docker containers.
+LOCATION:Austin Convention Center - Level 4 - Ballroom D
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Test Takers' Guide to the Certified OpenStack Administrator Ex
+ am
+DTSTART:20160426T195000Z
+DTEND:20160426T203040Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:OpenStack has become a sought-after skillset for IT profession
+ als. Employers are looking to certifications for validation to ensure that
+  they are hiring the right skill sets from the marketplace. However\, with
+  no fewer than twenty companies offering training and vendor-specific cert
+ ification\, accurately determining a job candidate's skill level remains a
+  challenge.Enter the Certified OpenStack Administration (COA) program and 
+ exam: a dozen companies from 10 countries got together in a community work
+ ing group to help define skills and capabilities and what it takes to beco
+ me a Certified OpenStack Administrator.Hear from a community panel that pa
+ rticipated in the COA working group and get the best practices on how to b
+ est prepare for the exam. No\, we wont divulge the test questions\, but at
+ tendees will receive sage advice from panelists whose companies offer hand
+ s-on OpenStack training what it takes to achieve certification and hear fr
+ om the companies that offer hands-on OpenStack train
+LOCATION:Austin Convention Center - Level 4 - Ballroom D
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Troubleshooting oslo.messaging / RabbitMQ issues
+DTSTART:20160426T195000Z
+DTEND:20160426T203040Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:oslo.messaging's RabbitMQ driver has been widely adopted\, so 
+ issues that affect it can be detrimental to large numbers of users. These 
+ issues can come from a number of different problems\, and this talk will c
+ over a number of common issues in this area and how one can diagnose and f
+ ix them.This talk covers:A short introduction into oslo.messaging and Rabb
+ itMQHow they are used by OpenStack componentsCommon issues related to the 
+ messaging stack\, such as: MessagingTimeout exception\, Exchange not found
+  error and RabbitMQ cluster partitioning issuesHow to diagnose and resolve
+  common issuesAttendees will leave with a better understanding of how oslo
+ .messaging works\, and how to improve its reliability when using the Rabbi
+ tMQ driver.
+LOCATION:Austin Convention Center - Level 1 - Ballroom A
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Cloud Operations at Scale
+DTSTART:20160426T204001Z
+DTEND:20160426T212041Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:@WalmartLabs we were tasked to build clouds that would run pro
+ duction workloads to take on the daily site traffic and the peak Holiday t
+ raffic. To give you an idea\, we get about XXXXX Billion hits over the hol
+ iday week\, run over XXXX K Applications\, XXXXX K nodes\, and run collect
+ ively about 20+ Production and Non production clouds. With scale came the 
+ challenges of Operations and availability of these clouds. We redesigned t
+ he way we monitor our clouds\, the way we monitor trend analysis\, built s
+ elf-healing\, and automation. leveraged Rally to performance test the clou
+ ds. We use OneOps as the PaaS layer that manages the VM life cycle\, vm au
+ to repair/ replace\, code deployment. We manage and operate these clouds b
+ y keeping it SimpleP.S- All XXXX numbers will be added for presentation la
+ ter
+LOCATION:Austin Convention Center - Level 1 - Ballroom A
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:How to Scale a Swift Infrastructure Without Scaling People
+DTSTART:20160426T204001Z
+DTEND:20160426T212041Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:2 guys\, 75 PB and some bots\, you no longer need to hire othe
+ r hard core devops to scale your cluster\, maybe just a cup of coffee. Com
+ e to discover what we learned on our OpenStack journey.
+LOCATION:Austin Convention Center - Level 4 - Ballroom D
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Split Brain: Overlays as Seen by Linux Vs. Networking Folks
+DTSTART:20160426T214001Z
+DTEND:20160426T222041Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:There's always a struggle to determine who "owns" the overlay 
+ in an OpenStack deployment.  Are the Linux admins responsible\, the netwo
+ rk admins\, or both?  After all\, it *is* software running on Linux.. but
+  it's also critical networking infrastructure..In this talk\, we'll cover 
+ the different viewpoints of deploying and managing overlays.  From the vi
+ ewpoint of the Linux sysadmin\, and from the view of the network admin.  
+ Will the two views find peace in the middle\, or will one come out on top?
+  
+LOCATION:Austin Convention Center - Level 4 - Ballroom D
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Upgrading OpenStack? Sit With Our Panel of Experts to Hear Their S
+ tories
+DTSTART:20160426T214001Z
+DTEND:20160426T222041Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Upgrading OpenStack requires selecting the right strategy\, th
+ orough planning and accurate implementation to minimize the downtime of yo
+ ur OpenStack environment. There are many important steps and processes our
+  panel of experts will recommend and share for planning your next OpenStac
+ k upgrade. Sit with the experts from Cisco\, Intel\, HP\, Comcast and VMWa
+ re to discuss this topic in depth. This panel discussion will include:* S
+ pecific issues we ran into during the upgrade process * The solutions to 
+ the problems and how we overcame the roadblocks * Our upgrade success sto
+ ries * The tools we used to perform the upgrades Panel:* Steven Dake (Ci
+ sco\, Kolla PTL) * Michal Jastrzebski (Intel\, OSIC) * Tom Howley (HP) 
+ * Sidharth Surana (VMware) * Basil Baby (Comcast) * Jan Grant (HPE)* Cha
+ rles Bitter as moderator (Comcast)
+LOCATION:Austin Convention Center - Level 1 - Ballroom A
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Customer Happiness as a Metric
+DTSTART:20160426T223000Z
+DTEND:20160426T231000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:We know a great user experience is vital for customers\, but d
+ oes monitoring OpenStack APIs and computes paint the true picture of cloud
+  health? This lack of insight into the end-user experience leads to frustr
+ ation and inefficiency. Detailed analysis can lift the curtain\, revealing
+  how your Service Level Agreements compare to the reality of your system.A
+ s a cloud service provider\, you might focus on availability and uptime. B
+ ut what do these metrics tell you about performance and reliability? Issue
+ s such as slow-loading pages and timeouts are usually not included in them
+ .The only real measure of software quality is end-user satisfaction. Analy
+ ze every user session\, employ business intelligence\, and obtain actionab
+ le insights that have real world benefit.In this session we will show:How 
+ we measure Failed Customer Interactions.How we calculate reliability of th
+ e OpenStack services within the cloud.How we utilize synthetic transaction
+ s to identify issues before they impact customers.
+LOCATION:Austin Convention Center - Level 1 - Ballroom A
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Hey Storage Engineer: Tell me About Backups in OpenStack!
+DTSTART:20160426T223019Z
+DTEND:20160426T231059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:With OpenStack rolling-out in high profile enterprises\, data 
+ protection now becomes an important requirement throughout an application'
+ s lifecycle. This session will cover avariety of backup and restore option
+ s available for your OpenStack block and file storage. We will consider th
+ e various technologies for backups within local storage\, to on-premise Sw
+ ift\, and offsite to public clouds. Come to learn about a comparison of th
+ e different options and to discuss the strategy\, architecture\, configura
+ tion\, and best practices of backup within an OpenStack environment.
+LOCATION:Austin Convention Center - Level 4 - Ballroom D
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Deploying OpenStack-Ansible - The Quick and Dirty Guide
+DTSTART:20160427T140019Z
+DTEND:20160427T144059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Deploying OpenStack is hard\, deploying OpenStack with the ope
+ nstack-ansible project is less hard... We would like to show you how you c
+ an make it even easier and address some of the problems and questions that
+  we get regarding deploying OpenStack using openstack-ansible.This will in
+ clude:A general 'how to' starting from initial basic setup\, to expanding 
+ your deployment.How\, and where to make configuration changes.What to do w
+ hen openstack-ansible does not support your customization.Tips and tricks 
+ to help you with openstack-ansible.How to build on your openstack-ansible 
+ deployment with custom components.Where to go for help.  
+LOCATION:Austin Convention Center - Level 1 - Ballroom A
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Stateless Hypervisors at Scale\, We'll Do It Live!
+DTSTART:20160427T140019Z
+DTEND:20160427T144059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:In this presentation we will introduce a method of booting Nov
+ a hypervisors over the network into a stateless live booted operating syst
+ em. By using a live operating system\, we separate the stateless operating
+  system running in RAM from the Nova configuration and instance data which
+  is persistent on disk. Because the OS is an image\, it's easier to jump a
+ cross versions as you can load the latest version of the OS by either doin
+ g a reboot or a kexec. It also helps maintain consistency and ensures that
+  whenever a machine goes down for maintenance or a reboot\, it will come b
+ ack on the latest and greatest build. We'll touch on how the OS can be mai
+ ntained using Git and how CI/CD can be utilized to automatically generate 
+ the latest version of the build and deploy it.
+LOCATION:Austin Convention Center - Level 4 - Ballroom E
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Live Migrating Nova-Networking to Neutron in Icehouse
+DTSTART:20160427T145000Z
+DTEND:20160427T153040Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Nova-networking has been a staple of Openstack since nearly th
+ e beginning.Still in use by many organizations\, it is stable and well tes
+ ted. As organizations continueto move to a more feature-rich network orche
+ stration framework\, Nova-networking is no longer meeting their needs\, an
+ d Neutron is thefuture. Unfortunately\, there's no clear migration strateg
+ y formoving from Nova-networking to Neutron.In this talk we will:Detail ou
+ r migration of several live Icehouse environments running nova-networkingw
+ ith the linuxbridge plugin and VLAN network segmentation over to NeutronSh
+ are thecode and documentation written to achieve this with minimal tenant 
+ impact\, andAnswer questions anyone may haveMigratingfrom legacy code is a
+ lways a tough proposition\, but by tackling it together it's one which doe
+ sn't have to be insurmountable.
+LOCATION:Austin Convention Center - Level 4 - Ballroom E
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:OpenStack Operation Under a Multi-Tenant and Multi-Customer Public
+  Cloud Environment 
+DTSTART:20160427T145000Z
+DTEND:20160427T153040Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:We at NTT Communications have recently launched the public/hos
+ ted private cloud service "Enterprise Cloud 2.0" with OpenStack Juno. Sinc
+ e the main target users are Enterprise users\, there were some gaps betwee
+ n the OpenStack community version and what the user wants. To fill in the 
+ gaps (e.g. VM is required more reliability\, connection with multiple NW g
+ w's needs to be automated)\, we have designed an architecture with Virtual
+  Machine High Availability (VM-HA) function\, specialized virtualized netw
+ ork (ESI\, Elastic Service Infrastructure)\, and developed operation tools
+ \, which can scale out the number of cases our operation engineers can han
+ dle. We will share the operation design and knowledge to operate OpenStack
+  under this kind of environment\, which is multi-tenant and multi-customer
+ . We will also share the shift in thinking from our experience of having o
+ perated another Cloud management platform.
+LOCATION:Austin Convention Center - Level 1 - Ballroom A
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Using Ceilometer Data for Effective Witch-Hunting
+DTSTART:20160427T160019Z
+DTEND:20160427T164000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Ceilometer is most often thought of as a way to get usage and 
+ metering information into a system for billing or usage show-back. Many pe
+ ople don't realize it's potential as a way to identify "abusive" or "heavy
+ -duty" users.In this presentation\, Overstock.com's Lead Cloud Systems Arc
+ hitect will walk you through simple and effective ways to use Ceilometer d
+ ata to identify heavy users of CPU\, disk I/O\, and network during those c
+ ritical times when usage is spiking and you need to go on a 'witch-hunt' f
+ or the culprit.As part of this presentation\, Mike will step through the s
+ imple Python code he uses to retrieve\, sort\, and make sense of this vita
+ l information as an operator of the Overstock Private Cloud.
+LOCATION:Austin Convention Center - Level 4 - Ballroom E
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:These Aren't the Logs You're Looking For
+DTSTART:20160427T160019Z
+DTEND:20160427T164059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:The event logs are usually our best friends for determining wh
+ ether a system or its component is experiencing problems. With going away 
+ from single node setups we have to say goodbye to finding issues with ease
+  just by reading logs here and there. As the number of nodes increase\, it
+  becomes painful to track the status of your deployment. Is there anything
+  that might help? Yes\, central logging service. With this approach we can
+  quickly get answers to “why” and “where” something went wrong\, e
+ ven when malfunctioning component is offline\, and there is no way to get 
+ to its local storage. But deploying a central logging service might turn o
+ ut to be a little hassle itself. Luckily\, you can take advantage of Docke
+ r and Ansible in Kolla\, enabling you to have a full centralized logging s
+ tack in a matter of seconds. During this presentation we will invite you t
+ o the Loggingland and compare different containerized approaches - Logstas
+ h and Heka\, both paired with Elasticsearch and Kibana.
+LOCATION:Austin Convention Center - Level 1 - Ballroom A
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Debugging OpenStack Failure Scenarios with Ansible and Oslogmerger
+DTSTART:20160427T165000Z
+DTEND:20160427T173040Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Debugging across openstack services\, specially network or sto
+ rage issues\, is becoming increasingly difficult due to the distributed na
+ ture of its services and agents.In this talk we plan to present a methodol
+ ogy for debugging live deployments and development systems as well.We will
+  present the oslogmerger tool\, which is capable of retrieving and aggrega
+ ting logs across several hosts and several services and coalescing the log
+ s into a single and meaningful linear one\, making cross project/cross ag
+ ents calls much more easy to follow.
+LOCATION:Austin Convention Center - Level 4 - Ballroom E
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Get Ready for Fernet Tokens
+DTSTART:20160427T165000Z
+DTEND:20160427T173040Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Fernet tokenshave been around since Kilo andthey're going to r
+ eplace UUID asthe default token provider in Newton.Is your deployment read
+ y to take advantage of them?In this talk we will cover what Fernet tokens 
+ are\, how they work\, why they're an improvement over other formats\, and 
+ what you need to do to switch to them. We will start with a deep backgroun
+ d on Fernet tokens from some of the guys who wrote the code.Then we will c
+ over the details of what happened in a real world deployment when Fernet w
+ as implemented. We will also cover other operations topics like key rotati
+ ons and deploying the private signing keys.After this talk\, attendees sho
+ uld get enough background to be able to explain Fernet tokens to their tea
+ ms and beginto switch their environments to Fernet tokens.
+LOCATION:Austin Convention Center - Level 1 - Ballroom A
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Breaking Bad... Configurations - How to Explode OpenStack with 3 S
+ ervers and Will Power
+DTSTART:20160427T185000Z
+DTEND:20160427T193040Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:OpenStack scales\, right? Just plug it in\, crank it to 11\, a
+ nd your cloud can take anything you throw at it. Any Nova core will laugh 
+ at this\, but what's the truth?It's common knowledge that OpenStack region
+ s can't really grow beyond 1000 hypervisors without using "cells". That's 
+ great\, but cells disable some features\, don't work with all Neutron conf
+ igurations\, and aren't fully tested in the OpenStack gate. We found this 
+ most disturbing\, especially since we wanted to build many regions well ov
+ er 1000 hypervisors and with most of the features on.In this talk we'll di
+ scuss our methodology for testing at scale\, the results of our tests (inc
+ luding lots of delicious graphs!) and some of our strategies to get to our
+  desired scale.Spoiler alert\, here's some things we'll discuss:Docker Doc
+ ker Docker DockerRabbitMQ vs. ZeroMQMySQL/MariaDB and Galera clusteringNov
+ a's SchedulerNeutron OVNCI/CDRally
+LOCATION:Austin Convention Center - Level 1 - Ballroom A
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Live Migration\, Mitaka and Beyond
+DTSTART:20160427T185000Z
+DTEND:20160427T193040Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:OpenStack and its functionalities are evolving very fast. Sinc
+ e Kilo Release Nova has been working on live migration to improve performa
+ nce\, increase stability\, implement new features and make user experience
+  better. To make even more enhancements possible we have chosen live migra
+ tion as a priority for Mitaka cycle.In this presentation we will tell you 
+ what has changed since Kilo release in both\, Nova and QEMU. While talking
+  about changes we will show how you can configure your OpenStack environme
+ nt to take advantage of new Live Migration features. To face up to everyon
+ e's needs\, we will also cover how live migration works\, what features ar
+ e already there since Kilo and which common pitfalls you should avoid.At t
+ he end of the presentation we will also give you an insight into current w
+ ork in live migration and what improvements are planned in the future.
+LOCATION:Austin Convention Center - Level 4 - Ballroom E
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horror Stories : How we keep breaking the Scheduler at Scale!
+DTSTART:20160427T194000Z
+DTEND:20160427T202000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Scheduling is one of the most important components of any Clou
+ d deployment. Scheduling means selecting a compute layer based on user's r
+ equest and taking into consideration the characteristics of the way the cl
+ oud has been setup. OpenStack compute scheduling uses a filtering and weig
+ hing mechanism to select a compute to schedule the instance on. Openstack 
+ compute scheduling works properly when resources are available to the comp
+ ute locally but it can run into various complicated problems when that is 
+ not the case or when run at scale.Problems are mentioned below :Compute se
+ rvice does not report a holistic view of compute resources. This makes sch
+ eduling on those resources impossible.   Compute does not take into cons
+ ideration resources exposed via Cinder or Neutron while scheduling.The sch
+ eduler lacks global view of resources (especially relevant in heterogeneou
+ s clouds).Making the scheduler aware about resource is more of a reactive 
+ process than being proactive.In this talk we plan to cover all the above a
+ nd many more interesting and scary horror stories about the broken state o
+ f OpenStack Scheduling 
+LOCATION:Austin Convention Center - Level 4 - Ballroom E
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Skydive\, Real-Time Network Topology and Protocol Analyzer
+DTSTART:20160427T194000Z
+DTEND:20160427T202000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:SDN solutions are complex and troubleshooting/monitoring them 
+ is even harder. In this context we will present the Skydive project which 
+ simplifies ongoing operations with built-in monitoring\, analytics and tro
+ ubleshooting tools for live environments. There is currently no real Open
+  Source solution to monitor/troubleshoot live network infrastructures. The
+ re is a lack of unified tool and we will explain how the Skydive approach
+   fills this gap. Skydive is an SDN-agnostic solution which can be easil
+ y deployed to troubleshoot/monitor network environments based on multiple 
+ SDN solutions: OpenStack NeutronOpenDayLightDocker networksOVN... Skydiv
+ e provides a non-intrusive way to visualize the network topology\, and ana
+ lyze and identify the root cause of network issues. Skydive helps to pinp
+ oint network issues like: Offloading issuesCongestionMTUTenant network is
+ sues...
+LOCATION:Austin Convention Center - Level 1 - Ballroom A
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Real World Troubleshooting Tips for OpenStack Operations
+DTSTART:20160427T203019Z
+DTEND:20160427T211059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:In this session we will present troubleshooting tips such as d
+ ebugging with clients\, debugging logs\, and a walkthrough with examples o
+ f steps in a "nova boot" command\,from a team that utilizes these tips dai
+ ly with their storage and operations teams.
+LOCATION:Austin Convention Center - Level 4 - Ballroom E
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Upstream CI/CD Tools for Your Production Clouds That Can Operate 1
+ \,000+ Test Cycles in a Day.
+DTSTART:20160427T203019Z
+DTEND:20160427T211059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:OpenStack QA/Infra projects contain many testing/debugging too
+ ls for OpenStack development. These tools are designed/developed for upstr
+ eam development mainly\, but we can use them for production clouds also. F
+ or example\, Tempest(Integration test suite) is maintained for production 
+ clouds also\, and we can continueusing the same Tempest for multiple OpenS
+ tack versions(like Kilo\, Liberty\, latest). In addition\, we are using op
+ enstack-health dashboard for knowing test success/failure situation and Ki
+ bana for debugging.If using these tools efficiently\, you can verify your 
+ production clouds when deploying\, upgrading and switching.However\, it is
+  difficult to use these tools for production clouds because the numbers of
+  tools' configuration options arehuge(e.g. 300+ options in Tempest) and th
+ e default values of these options are optimized for the upstream developme
+ nt.In this session\, we'd like to talk about how to use these tools for pr
+ oduction clouds.
+LOCATION:Austin Convention Center - Level 1 - Ballroom A
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Only You Can Prevent Forest Fires -  A Proactive Approach to Monit
+ oring Your OpenStack Cloud
+DTSTART:20160427T213019Z
+DTEND:20160427T221059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:When the alarms go off and it's your responsibility to solve a
+  problem with your cloud\, it's important to have visibility into your dep
+ loyment. What if it was possible to see the problems before they happened?
+  What if it was possible to solve the next issue before the alarm goes off
+  or a customer reports an issue? Over the past eight months\, Time Warner 
+ Cable has been using theMonasca project for alerting\, capacity planning\,
+  problem prediction\, and trend analysis. This talk will cover how we've g
+ one from reactive to proactive\, the challenges along our way\, and how yo
+ u can do the same.
+LOCATION:Austin Convention Center - Level 4 - Ballroom E
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Security Concerns? We’ve Got Your Back and RBAC
+DTSTART:20160427T213019Z
+DTEND:20160427T221059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Member or admin.  Do you still only have two roles in your cl
+ oud?  Implementing Role Based Access Controls sounds so easy\, but how do
+  you do it without disrupting your users? Well\, we made the jump with alm
+ ost no impact.Modifying roles in a production environment is a journey fra
+ ught with peril and screams of horror.  From starting with the community 
+ policies through deploying custom roles\, we will guide you through:Concep
+ tualizing what authority levels should be requiredVisualizing authorities 
+ throughout the environmentSolving the “everyone’s an admin” problemD
+ iscovering dependencies between OpenStack servicesWorking around Keystone 
+ domains vs. ignorance of domainsPlanning compartmentalized deploymentsModi
+ fying Horizon for new rolesImplementing backwards compatibilityDeploying n
+ ew policiesCleaning up after yourselfAfter this talk\, you’ll be well pr
+ epared to proceed safely with your RBAC implementation.
+LOCATION:Austin Convention Center - Level 1 - Ballroom A
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ironic: Managing Thousands of Servers in Production
+DTSTART:20160427T222001Z
+DTEND:20160427T230041Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:The challenge of managing physical hardware can be simplified 
+ using Ironic bare-metal provisioning\, decreasing workload deployment time
+ . In this session\, we will address the need for self-service and its bene
+ fits over submitting tickets. We’ll also discuss typical data center/inf
+ rastructure integration use cases.We discuss:- What Ironic is and how it w
+ orks- Benefits of using Ironic compared to other provisioning tools- Chall
+ enges and "missing parts" you can encounter using Ironic in production env
+ ironments\, such as:  rack-level awareness for networking (i.e.\, availab
+ ility zones for networks)\; DNS integration\; hardware RAID configuration 
+ (e.g.\, extended Ironic Python Agent functionality)\; server name generati
+ on- Operational issues such as data center networking to accommodate Ironi
+ cIronic is perceived by many as being immature\, since there is a lack of 
+ notable experience in using Ironic in production\, especially at scale but
+  we’ll share real world large-scale production experience.
+LOCATION:Austin Convention Center - Level 1 - Ballroom A
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Python Basics for Operators Troubleshooting OpenStack
+DTSTART:20160427T222001Z
+DTEND:20160427T230041Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:As any OpenStack operator knows a straightforward request\, su
+ ch as creating a VM\, requires multiple services to successfully communica
+ te with each other and perform a designated function. When this doesnt go 
+ to plan there are a number of potential log files to analyze\, each potent
+ ially supplying a piece of the puzzle.This talk will provide knowledge on 
+ how an operator who has minimal experience of the Python programming langu
+ age can extract the information they need to root cause and resolve issues
+ .
+LOCATION:Austin Convention Center - Level 4 - Ballroom E
+END:VEVENT
+END:VCALENDAR

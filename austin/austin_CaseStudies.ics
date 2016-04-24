@@ -1,0 +1,573 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//yosshy/openstackdesignsummitaustin2016//NONSGML v1.0//EN
+SUMMARY:Case Studies
+BEGIN:VEVENT
+SUMMARY:Overstock.com's OpenStack Networking Strategy: Eliminating Network
+  Failover Time
+DTSTART:20160425T161519Z
+DTEND:20160425T165559Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Overstock.com recently made the big leap from nova-network to 
+ Neutron networking in order to increase network resiliency and reduce fail
+ over time. We also chose to use the MidoNet Neutron plugin.The results hav
+ e been fantastic!It used to be that moving 100 networks from the active no
+ va-network node to the passive one resulted in network downtime for fiftee
+ n long\, finger-crossing\, pit-sweating minutes for us. Now that we have f
+ ully distributed\, active/active network gateways\, there is no failover. 
+ We now perform maintenance and reboots on our gateways and controllers in 
+ the middle of the day and our users do not feel it. We also gained full vi
+ sibility into all of our network flows within our clouds!As an extra bonus
+ \, we now get to sit at the cool kids' table and throw around neat buzz-wo
+ rds like "SDN" and "VxLAN Tunnels". Come join us and we'll tell you what w
+ e did and show you how well it works.
+LOCATION:Austin Convention Center - Level 4 - Ballroom G
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Japan and Canada: Consortiums Models that work
+DTSTART:20160425T170500Z
+DTEND:20160425T174540Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Building a consortium of often competing\, industry\, governme
+ nt\, academic and research leaders can be difficult. While all members may
+  agree that they are dedicated to building a great open source community\,
+  their competing interests\, motivations and business models\, can create 
+ a barrier to bringing people together for a common cause. In this session\
+ , two successful consortium models from: Japans Okinawa Open Laboratory (O
+ OL) and Canadas Centre of Excellence in Next Generation Networks (CENGN)\,
+  will be presented. Both are running OpenStack environment to test\, valid
+ ate and commercialize SDN and NFV prototypes\, products\, applications and
+  services. And both centres have similar mandates: to bridge the gap betwe
+ en research and industry and ensure they are global leaders in the innovat
+ ion and commercialization of the technologies that will underpin the next 
+ generation of converged global communication networks.
+LOCATION:Austin Convention Center - Level 4 - Ballroom G
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:We Love Data: Ten Things The User Survey Reveals About OpenStack 
+DTSTART:20160425T190000Z
+DTEND:20160425T194000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:OpenStacks seventh annual User Survey engaged an unprecedented
+  number of usersmore than 1600 individuals representing 1\,111 different o
+ rganizations. What can all that data tell us about OpenStacks present and 
+ future?How rapidly are OpenStack users adopting new software releases?Whic
+ h projects are OpenStack users most interested in adopting in the future?H
+ ow many projects does an OpenStack cloud typically run?Are OpenStacks APIs
+  the standard for enterprise Infrastructure-as-a-Service (Iaas)?What do st
+ ackers do all day? (Hint: the role they do most is new to the survey this 
+ year)Check out openstack.org/user-survey after April 13 to download the fu
+ ll report (60 pages). There will be a limited number of print copies avail
+ able at this session. Bring your questions to the robust QA session and a 
+ preview of a new interactive dashboardnow in beta testingto allow you to r
+ un your own comparisons across multiple surveys and variables.
+LOCATION:Austin Convention Center - Level 4 - Ballroom G
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The EU Runs on OpenStack
+DTSTART:20160425T195000Z
+DTEND:20160425T203040Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Winning an EU tender in late 2015\, the CTA (cloudteamalliance
+ .com) was awarded to provide Openstack based public IAAS services to 52 Eu
+ ropean Institutions\, including the EU Parliament\, EU Council\, EU Commis
+ sion\, ENISA (EU cyber-security agency)\, Commission of Justice etc.The co
+ nsortium is an all-star european team and is made by Numergy (FRA)\, Gigas
+  (ESP)\, Portugal Telecom (PRT) and Enter (ITA). Among these\, Enter and N
+ umergy both run two of the largest Openstack-based public clouds. The EU 
+ DIGIT (Direction generale IT) explicitly requested for Openstack to power 
+ EU clouds for its openness\, portability\, transparency. The goal was to a
+ void proprietary solutions and vendor lock-ins. Moreover\, security after 
+ the NSA PRISM scandal was a primary concern. In this talk we will explain
+  how the EU agencies will be empowered by Openstack and a fully open sourc
+ e IAAS.
+LOCATION:Austin Convention Center - Level 4 - Ballroom G
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CERN and Science Clouds in Europe with TOSCA\, OpenStack Heat and 
+ the Heat Translator
+DTSTART:20160425T204001Z
+DTEND:20160425T212041Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:The Indigo DataCloud project's ultimate goal is to provide a s
+ ustainable European infrastructure for science\, spanning multiple compute
+ r centers and existing public clouds. CERN is one of the members of the co
+ llaboration\, offering its OpenStack resources and participating in the de
+ sign of the infrastructure.The participating sites form a set of heterogen
+ eous infrastructures\, some running OpenNebula and several public clouds r
+ unning proprietary software. There was the need to find a common denominat
+ or for the deployment of both the required PaaS services and the end user 
+ applications. CloudFormation or Heat were technically viable options\, but
+  tied to specific implementations. TOSCA on the other hand is on its way t
+ o becoming a standard to model the full stack\, with growing support in di
+ fferent communities.In this presentation we will cover and demo concrete e
+ xamples of using TOSCA to model a complex infrastrustructure covering mult
+ iplesites.
+LOCATION:Austin Convention Center - Level 4 - Ballroom G
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Swisscom in Production with OpenStack and Cloud Foundry
+DTSTART:20160425T214001Z
+DTEND:20160425T222041Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Swisscom has one of the largest in-production industry standar
+ d Platform as a Service built on OpenStack. Their offering is focused on p
+ roviding an enterprise-grade PaaS environment to customers worldwide and w
+ ith various delivery models based on Cloud Foundry and OpenStack. Swisscom
+  embarked early on the OpenStack journey to deploy their app cloud partner
+ ing with Red Hat\, Cloud Foundry\, and PLUMgrid. With services such as Mon
+ goDB\, MariaDB\, RabbitMQ\, ELK\, and an object storage\, the PaaS cloud o
+ ffers what developers need to get started right away. Join this panel for 
+ take-away lessons on Swisscoms journey\, the technologies\, partnerships\,
+  and developers who are building apps everyday on Swisscoms OpenStack clou
+ d.
+LOCATION:Austin Convention Center - Level 4 - Ballroom G
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:How OpenStack Helps Business Innovation at Lenovo
+DTSTART:20160425T223001Z
+DTEND:20160425T231041Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Lenovo\, a Fortune 500 company\,  is a leading player in pers
+ onal computers\, smart phones\, servers\, etc.  As the PC and mobile phon
+ es business is experiencing intense competition and rapid change\, Lenovo
+  proposed a new strategy to embrace the new mobile and social networks 
+ trends\, and an agile\, flexible and scalable enterprise cloud platform is
+  required to support the needs of business innovation.
+LOCATION:Austin Convention Center - Level 4 - Ballroom G
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AT's OpenStack Journey. Driving Enterprise Workloads Using OpenSta
+ ck as the Unified Control Plane
+DTSTART:20160426T161500Z
+DTEND:20160426T165540Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Abstract:* AT and AT Entertainment Group: Our OpenStack journe
+ y * AT deployed 69+ OpenStack based clouds this year alone. We'll share t
+ he insights\, and lessons learnt. * We'll talk about some of AT's innovat
+ ions around OpenStack. * Use-case: As OpenStack adoption grows\, the cons
+ umption model varies from one company to another. Leveraging OpenStack as 
+ a unified control plane with multiple hypervisors is a savvy way to integr
+ ate newer cloud platform with your legacy infra. We'll cover a specific us
+ e-case on how to achieve “KVM + vCenter” OpenStack cloud\, several des
+ ign considerations\, and the technological caveats to watch out for. * Le
+ veraging this unifying platform that is the AT Integrated Cloud\, we have 
+ succeeded in driving the delivery efficiencies of a DevOps culture and piv
+ oted from a closed to an open source approach. This is a first for the tel
+ co industry and we are proud to blaze this trail. * We'll talk about the 
+ obstacles we encountered along the way. * AT loves to invent things. We'l
+ l talk about how we leverage our global datacenter infrastructure in solvi
+ ng interesting problems. * This session delivers a focused look at one of
+  the largest OpenStack deployments at scalePanel Discussion and Q* Join Gr
+ eg Stiegler\, AVP at AT\, as he moderates a panel discussion around these 
+ topics with a group of experts * Sunil Jethwani from AT Entertainment Gro
+ up will join the panel\, and share insights on business and technology *
+  Other participants: Jacob Caspi\, Ryan Van Wyk\, Amit Tank\, Andrew Leas
+ ck
+LOCATION:Austin Convention Center - Level 4 - Ballroom G
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Learnings of a Service Provider Building an OpenStack Cloud from S
+ cratch
+DTSTART:20160426T170500Z
+DTEND:20160426T174540Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:In this presentation we will talk about how ScaleUp Technologi
+ es launched a Public Cloud Service based on OpenStack. Initially a commerc
+ ial stack was used to build a cloud in 2010 but had license restrictions a
+ nd lacked scalability and innovation. Since an object based storage servic
+ e was needed\, OpenStack Swift was deployed as a standalone setup. The Swi
+ ft installation was later merged into a new combined installation for Nova
+ \, which replaced the commercial cloud stack.We will talk about which reas
+ ons lead to the decision to build the object storage cloud with OpenStack 
+ (and later replace the commercial stack with OpenStack) and how ScaleUp ac
+ complished this task with a small team. We will share our experience and k
+ nowledge on "Vanilla" OpenStack\, its benefits and how we eventually 
+ built a fully redundant stack on an existing hardware infrastructure.
+LOCATION:Austin Convention Center - Level 4 - Ballroom G
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Leveraging OpenStack IaaS to Run Mesos/Marathon at Time Warner Cab
+ le
+DTSTART:20160426T190000Z
+DTEND:20160426T194000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Time Warner Cable (TWC) is one of the early adopters of OpenSt
+ ack. Spurred by the automation and self-service capabilities achieved thro
+ ugh our OpenStack journey\, we were ready to take on our next ambitious pr
+ oject – deploying container based microservices applications on top of O
+ penStack. We chose Mesos / Marathon as our application and container run-
+ time platform on OpenStack IaaS. This is a tight collaboration between the
+  OpenStack team at TWC and the new Application Services group.In this sess
+ ion\, we will discuss our experiences with the technology\, tools\, and te
+ chniques that made this possible at TWC. We will make this an interactive 
+ session to learn from our collective experiences.
+LOCATION:Austin Convention Center - Level 4 - Ballroom G
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:JFE Steel Corporation Accelerates Growth and Globalization with Op
+ enStack Cloud
+DTSTART:20160426T195000Z
+DTEND:20160426T203040Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:JFE Steel Corporation\, one of the largest steel companies of 
+ the world from Japan\, has just launched its OpenStack-based\, one-of-a-ki
+ nd cloud service this April.Most significant is its three-layer architectu
+ re\, where every function provided by the underlying infrastructure layer 
+ is managed by OpenStack-based automation layer combining those functions i
+ nto services\, which lies under the control of the top-most IT Service man
+ agement layer aligning JFE's business requirements with its IT requirement
+ s.In this session\, the customer himself addresses JFE's insights and effo
+ rts to get the best out of OpenStack to respond to the real business needs
+  from steel industry where operational quality and business continuity are
+  the two most important aspects of IT.From implementation perspectives\, e
+ ach of three layers communicates through the Web API channels provided by 
+ IBM's cloud ready solutions. These will be covered by IBM's engineers as c
+ o-presenters.
+LOCATION:Austin Convention Center - Level 4 - Ballroom G
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Case Study: From AWS to an OpenStack Private Cloud
+DTSTART:20160426T204001Z
+DTEND:20160426T212041Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:PubMatic is a leading provider of marketing automation softwar
+ e\, helping publishers make smarter decision through their real time analy
+ tics and reporting platform. A key component of PubMatics offering is the 
+ ad platform that processes real time metrics to deliver value to customers
+ . After having built the ad platform purely on Amazon AWS public cloud\, P
+ ubMatic started facing the challenge of cost and instance performance\, wh
+ ich became the key drivers for their switch to private cloud\, using OpenS
+ tack on top of Linux/KVM servers across multiple geographies. This session
+  will highlight PubMatics key use case and architecture\, their experience
+  transitioning away from a public cloud to running a 2000+ server cloud en
+ vironment internally using a managed OpenStack offering\, operational chal
+ lenges faced in scaling the internal cloud\, and how OpenStack has helped 
+ simplify and streamline the operational workflow.
+LOCATION:Austin Convention Center - Level 4 - Ballroom G
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:British Tax Authority HMRC's OpenStack Journey
+DTSTART:20160426T214000Z
+DTEND:20160426T222000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:In the last four months the British Tax Authority HMRC have in
+ troduced an Openstack cloud as the second hosting provider to our Digital 
+ Tax Platform. This opensource PaaS project\, winner of the UK IT Awards Di
+ gital Project of the year in 2015\, has revolutionised the government’s 
+ ability to interact with British taxpayers and facilitated a rate of chang
+ e unprecedented in the government. The rapid introduction of DataCentered
+ ’s Openstack Cloud has allowed the Tax Platform to create a multi-active
+  platform which spans both VMware and Openstack clouds and multiple suppli
+ ers.  On Openstack\, between November 2015 and January 2016 we were able 
+ to spin up a second active side to the platform providing us geographic\, 
+ supplier and technological resilience ahead of our Tax Return peak where w
+ e took over £343M in 24 hours.
+LOCATION:Austin Convention Center - Level 4 - MR 18 A/B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:OpenStack HA\, or not HA: That is the Question!
+DTSTART:20160426T223019Z
+DTEND:20160426T231059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:From the operations perspective talking about OpenStack deploy
+ ments without a HA architecture model for your cloud control plane is the 
+ most absurd and non-sense design that an architect could even mention. Act
+ ually\, discussing such approach in front of your peers architects will le
+ d them to believe that you do not have neither the experience nor the know
+ ledge to manage a production cloud.Let’s show them they are wrong by exp
+ osing and discussing the Cloud Architecture of one of the SaaS leads in th
+ e world with over 200 hypervisor deployed in multiple data center geograph
+ ically distributed.
+LOCATION:Austin Convention Center - Level 4 - Ballroom G
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:State Grid Corporation of China Embraces OpenStack to Avoid Vendor
+  Lock-In
+DTSTART:20160427T140000Z
+DTEND:20160427T144000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:State Grid Corporation of China (SGCC) is the largest electr
+ ic utility company in the world\,  the seventh largest company in the w
+ orld according to the 2011 Fortune Global 500 ranking. SGCC used to mai
+ nly  use commercial products in their IT systems\, to reduce cost and av
+ oid vendor lock-in\, the open source technology has started to be adopted 
+ in SGCC recently. OpenStack is one of the practise they take to build self
+ -controlled private cloud.
+LOCATION:Austin Convention Center - Level 4 - Ballroom G
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:TryStack: The Free OpenStack Sandbox for Earth
+DTSTART:20160427T140000Z
+DTEND:20160427T144000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:The OpenStack Foundation and several generous corporate sponso
+ rs (including Red Hat\, Dell\, Cisco\, and NetApp) setup and operate TrySt
+ ack.org - a free way to try out and learn more about OpenStack and it's ca
+ pabilities in a large\, public sandbox. TryStack is a production OpenStack
+  implementation and the maintainers have learned a great deal about deploy
+ ments\, maintenance\, automation\, monitoring\, upgrades and gotchas.
+LOCATION:Austin Convention Center - Level 4 - MR 19 A/B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:OpenStack at Scale inside NetApp: Trials and Tribulations
+DTSTART:20160427T145000Z
+DTEND:20160427T153040Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Want to hear from how we've implemented OpenStack internally i
+ nside our engineering support organization? How we're able to scale to ove
+ r 7000VMinstances\, 14\,000 cores across 3 geographical regions (2 US\, 1 
+ India)? Also how we're able to automate upgrades with Puppet between relea
+ ses for a non-disruptive experience for our users?  If so\, this session i
+ s for you!We will focus on a couple of key findings:What influence the nee
+ ds of our users had on the choice of the underlying compute\, storage and 
+ networking layerWhat challenges we faced when combining this new self-serv
+ ice environment with best practices of traditional IT and virtualization\,
+  with a focus on automation and ease-of-use for both our developers and ou
+ r operatorsHow OpenStack challenges the status quo of support organization
+ s\, and where we are taking our internal deployment nextTips for selecting
+  and sourcing optimal hardware for OpenStack deployments\, with reference 
+ architecture advice on optimal deployments
+LOCATION:Austin Convention Center - Level 4 - Ballroom G
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ancestry.com in Production with OpenStack and Kubernetes
+DTSTART:20160427T160019Z
+DTEND:20160427T164059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:In Tokyo\, we shared Ancestry's OpenStack\, Docker and Kuberne
+ tes Journey. We have learned even more in the latest release cycle\, and h
+ ope to share deeper details in a few areas where we have had success:Devel
+ opers using a mix of Swift API and AWS S3 API in their applications storin
+ g on SwiftAdding a filesystem gateway in front of Swift for apps needing P
+ OSIX and and high performanceExperiences continuing down the path with Kub
+ ernetes and OpenStack @ Ancestry
+LOCATION:Austin Convention Center - Level 4 - Ballroom G
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tenant Networks vs. Provider Networks in the Private Cloud Context
+DTSTART:20160427T194000Z
+DTEND:20160427T202000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:OpenStack Neutron defines two major types of networks- tenant 
+ networks and provider networks. OpenStack administrators must decide what 
+ their Neutron network deployment strategy will leverage- tenant networks\,
+  provider networks or some combination of the two. This session will descr
+ ibe the unique challenges presented by tenant networks in the private clou
+ d context and will build an argument for why shared provider networks may 
+ provide the best Neutron network deployment strategy for enterprise privat
+ e clouds. This session will also discuss the rationale behind the assertio
+ n that network security is now orthogonal to network topology (which if tr
+ ue\, is a significant factor leading to the viability of shared provider n
+ etworks).
+LOCATION:Austin Convention Center - Level 4 - MR 18 A/B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Build It Yourself: How a Small Team Deployed OpenStack
+DTSTART:20160427T194001Z
+DTEND:20160427T202041Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Inside Puppet Labs\, the SysOps team has been fighting year af
+ ter year to rip up our entrenched virtualization system. Well\, it is fina
+ lly happening. Comprised of a very small two person team we deployed our f
+ irst production grade OpenStack cloud and delivered it as a research platf
+ orm to the entire company. Being what we are\, a company that writes autom
+ ation software and a small team with goals of using a common set of Unix/L
+ inux tools\; we decided to go it our own and build the best we could witho
+ ut picking up any downstream installers or commercially curated automation
+ .In this talk I'll go through what we gained and lost in building it ourse
+ lves\, our way.How we overcame bugs and which architectural and implementa
+ tion choices made overcoming them easierThe skills your team will need to 
+ deploy successfullyWhat planned items we had to drop from initial producti
+ on release - some may have seen one of my cohort's talk's at OpenStack Van
+ couver titled Providing OpenStack Service High-Availability Through Anycas
+ t Routing (https://openstacksummitmay2015vancouver.sched.org/event/2qci/pr
+ oviding-openstack-service-high-availability-through-anycast-routing)How lo
+ ng it took us to deploy and why
+LOCATION:Austin Convention Center - Level 4 - Ballroom G
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:How Service Optimization Keeps ViaSat Flying
+DTSTART:20160427T203000Z
+DTEND:20160427T211000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Anyone responsible for operating OpenStack infrastructure to s
+ upport production workloads at scale knows two things. First\, application
+  and infrastructure monitoring tooling is a patchwork of bits and pieces\,
+  with much assembly required. Second\, the reliability and performance of 
+ that monitoring often is the difference between happy users and angry phon
+ e calls when performance drops below minimum acceptable thresholds.ViaSat 
+ operates OpenStack in production to support the company's developers\, who
+  build apps to support demanding satellite broadband customers worldwide.I
+ n this session\, Mike Craft of ViaSat and Travis Newhouse of AppFormix wil
+ l show how ViaSat approaches service optimization through performance moni
+ toring. They will talk about the importance of low-latency agents and mess
+ age bus architecture\, and how to give application developers visibility i
+ nto how the infrastructure is performing\, giving them power to troublesho
+ ot issues before they become IT trouble tickets.
+LOCATION:Austin Convention Center - Level 4 - Ballroom G
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Neutron Networking in the Real World -- Sharing Experiences & Less
+ ons Learnt
+DTSTART:20160427T213019Z
+DTEND:20160427T221059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:In this user panel\, we will discuss the OpenStack network dep
+ loyment experiences of three different enterprise-scale data centers using
+  a Unified Physical + Virtual Neutron Networking architecture.Clemson Univ
+ ersity: Deploying a production-grade OpenStack Virtual Desktop environment
+ . Experiences with deployment and operation of OpenStack and VmWare on con
+ verged data center pods\, leveraging multi-tier network segmentation for t
+ hreat or fault isolation\, troubleshooting\, monitoring and compliance.Tel
+ us: Experiences with deploying a Unified Physical and Virtual networking s
+ olution for OpenStack using Mirantis Fuel. Learnings from provisioning\, m
+ anaging and troubleshooting distributed L2  L3 networking across physical 
+ and virtual switch infrastructure.CleanSafeCloud:Meeting performance and r
+ esilience requirements of an OpenStack-powered collocated private cloud in
+ frastructure\, encompassing IaaS and Object Storage solutions for highly s
+ ecure applications\, leveraging SDN architecture.
+LOCATION:Austin Convention Center - Level 4 - Ballroom G
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Why Betfair Chose OpenStack - the Road to Their Production Private
+  Cloud.
+DTSTART:20160428T140000Z
+DTEND:20160428T144000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:The partnership of Betfair\, Redhat and Nuage Networks present
+  the journey from RFP to Production for Betfair's prive cloud.  This 12 m
+ onth programme has delivered a fully automated\, scalable\, resillient Ope
+ nStack solution.Betfair's vision was to deliver an API-driven infrastructu
+ re encompassing compute\, storage\, network and application delivery.  Th
+ is had to be capable of handling the high transactional load of Betfair's 
+ day-to-day operations (circa 2.7Bn API calls\, 120M daily transactions).Th
+ is presentation\, delivered by all three partners\, walks you through the 
+ stages of the programme - from benefits requirements\, vendor selection\, 
+ project design and implementation.This presentation will be of great use t
+ o anyone considering\, or having recently started their own OpenStack impl
+ ementation with a view of their next generation infrastructure as code.
+LOCATION:Austin Convention Center - Level 4 - Ballroom G
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Deploying Neutron Provider Networking on Top of a L3 Provider Netw
+ ork Using BGP-EVPN
+DTSTART:20160428T145000Z
+DTEND:20160428T153040Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:This discussion will cover how to deploy Openstack Neutron usi
+ ng provider networking on top of a layer-3 clos network where layer-2 is t
+ erminated in each rack. In order to span the provider network across multi
+ ple racks we leveraged BGP-EVPN and VXLAN tunneling in the ToR switches. O
+ ur design allows us to scale a single Openstack region to 400 compute node
+ s and over 30\,000 VMs. It also enables us to natively bridge bare-metal h
+ osts into the same provider network. We are able to run PCI and non-PCI wo
+ rkloads on the same physical infrastructure using VRFs to segment the diff
+ erent security tiers. We will also present benchmarks on the performance a
+ nd scale of BGP-EVPN.
+LOCATION:Austin Convention Center - Level 4 - Ballroom G
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Cloud Infrastructure for Microbial Bioinformatics\; Breaking B
+ iological Silos Using OpenStack
+DTSTART:20160428T160000Z
+DTEND:20160428T164000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Since the first bacterial genome was published 20 years ago\, 
+ there has been an explosion in the production of sequence data\, fuelled b
+ y next-generation sequencing\, catupulting biology to the forefront of dat
+ a-driven science. As a consequence\, there is now huge demand for the phys
+ ical infrastructure to produce\, analyse and share software and datasets. 
+ The CLoud Infrastructure for Microbial Bioinformatics (CLIMB) is a nationa
+ l e-infrastructure\, distributed over 4 sites\, that uses OpenStack to pro
+ vide bioinformatics infrastructure as a service to the UK microbiological 
+ community. The development of this cutting edge cloud infrastructure has b
+ een technically challenging\, and here we provide an in depth case study e
+ ncompassing the design and implementation of our system over the last 18 m
+ onths\; highlighting key pitfalls – and solutions – that are of releva
+ nce to anyone who is interested in commissioning or implementing a cloud i
+ nfrastructure of their own.
+LOCATION:Austin Convention Center - Level 4 - Ballroom G
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Monitoring a Multi-Region Cloud Based on OpenStack: The FIWARE Lab
+  Case Study
+DTSTART:20160428T165000Z
+DTEND:20160428T173000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:FIWARE Lab is a multi-region federated Cloud\, based on OpenSt
+ ack. Currently it comprises 15 regions spread all over Europe (but with a 
+ presence also in LatAm). It offers a capacity of more than 3000 cores\, 10
+  TB RAM\, 500 TB disk and is going to be further expanded with the additio
+ n of new regions/nodes.By leveraging Ceilometer and Monasca\, we developed
+  a distributed and scalable monitoring system for FIWARE Lab able to colle
+ ct\, process\, analyse and finally present the relevant data to the intere
+ sted users. This presentation will focus on the architecture of the soluti
+ on and on how two OpenStack projects have been customized\, enhanced and d
+ eployed in order to meet the expected requirements: collection of custom r
+ esource metrics and sanity check measurements\, data confidentiality and d
+ ata replication\, real time data vs historical aggregated data on differen
+ t dimensions (time\, tenant\, “space”)\, data analytics\, unified cros
+ s-region data visualization. Finally a short demo is presented.
+LOCATION:Austin Convention Center - Level 4 - Ballroom G
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:How Burton Snowboards Is Carving Down the OpenStack Trail
+DTSTART:20160428T183000Z
+DTEND:20160428T191000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Enterprise IT is under pressure to store and protect more data
+  than ever before\, but budgets are not growing at the same rate. For cost
+  reasons alone\, scaling out a traditional SAN or NAS was not an answer. W
+ e @ Burton looked for alternatives\, and while we did not have cloud appli
+ cations\, we found that we could use OpenStack as a starting project for g
+ etting into OpenStack\, and specifically Swift for storing Commvault backu
+ ps.This session will share how Burton discovered OpenStack object storage 
+ as a solution\, and the criteria that went into choosing to deploy it for 
+ both immediate and future needs. Part of the sharing includes how we have 
+ utilized our private cloud after the initial deployment. Like Burton\, you
+  may also have applications running in your environment that already suppo
+ rt object storage APIs like Swift and S3.
+LOCATION:Austin Convention Center - Level 1 - Ballroom C
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tanks in The Clouds
+DTSTART:20160428T192000Z
+DTEND:20160428T200040Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:G-Core\, a Luxembourg-based global IT solutions provider\, has
+  moved its G-Core Innovations IT infrastructure (DCs) to OpenStack from VM
+ ware. With Wargaming as a key client\, this solution will support its mili
+ tary MMOs\, with a multimillion user base\, including World of Tanks and W
+ orld of Warships.When one says these games are popular\, they mean that mo
+ re than 1 million users are playing simultaneously (http://bit.ly/1TA5Ggw)
+ . To make that possible\, G-Core provides Wargaming with more than 20 data
+  centers (consisting of thousands of servers) all over the world.G-Core ha
+ s a huge and complex infrastructure to provide stable solutions\, capable 
+ of enduring high loads. Using this experience\, G-Core is able to find sol
+ utions and share expertise with other companies that require a competitive
+  and robust service. This case study shows the huge\, infrastructural move
+  from VMware to OpenStack and describes the basic architectural solutions 
+ of the project.
+LOCATION:Austin Convention Center - Level 4 - Ballroom G
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Embracing OpenStack - The Verizon User Story Journey
+DTSTART:20160428T201001Z
+DTEND:20160428T205041Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:The road to embrace OpenStack at Verizon offers lessons in the
+  need for companies to manage the business\, cultural and technical change
+ s that come with any large systems implementation\, while overcoming the u
+ nique challenges of incorporating OpenStack into an organization unfamilia
+ r with the open source model. As a telecommunications giant\, Verizon has 
+ a large and complex heterogeneous portfolio of applications and systems to
+  support its global businesses and products. Verizon looked to use OpenSta
+ ck because it has the capability for the hyper scale and flexibility to su
+ pport the company's many interconnected requirements. However\, such a fun
+ damental change to the company's systems and processes is not going to hap
+ pen overnight.During this session we will share both the successes and les
+ sons learned in implementing OpenStack into the Verizon environment.
+LOCATION:Austin Convention Center - Level 4 - Ballroom G
+END:VEVENT
+END:VCALENDAR

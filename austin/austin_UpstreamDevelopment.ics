@@ -1,0 +1,194 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//yosshy/openstackdesignsummitaustin2016//NONSGML v1.0//EN
+SUMMARY:Upstream Development
+BEGIN:VEVENT
+SUMMARY:OpenStack Infrastructure for Beginners
+DTSTART:20160425T161500Z
+DTEND:20160425T165500Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:As a new contributor to OpenStack\, it can be overwhelming to 
+ learn all the moving parts to OpenStack Infrastruture. In this presentatio
+ n we'll be diving into the heart of infrastructure and explain everything 
+ you need to know about the systems that keep OpenStack working. Common que
+ stions like the following and more will be covered:Want to know what this 
+ zuul thing is?Used nodepool but have no idea how it works?Why do we have 8
+  jenkins masters?What is this gate I hear so much about?Where should I be 
+ cloning repositories from?As a developer\, we'll explain how and what each
+  system in OpenStack Infrastruture does and how you should be using them.
+LOCATION:Austin Convention Center - Level 1 - Ballroom C
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:OpenStack-Health Dashboard and Dealing with Data from the Gate
+DTSTART:20160425T161500Z
+DTEND:20160425T165500Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:The OpenStack gate operates at a tremendous scale there are hu
+ ndreds gate jobs run in a single day. It is impossible for anyone to track
+  by hand. This is why a lot of tooling has been developed or leveraged to 
+ help make sense of things. However\, with all this tooling there is still 
+ a complexity problem with the number of tools available.Late in Liberty op
+ enstack-health was created\, the goal is to be the first stop for anyone t
+ hat is looking at test results can go. It leverages other tools when appro
+ priate to try and be a starting point. It is also hosted on the community 
+ infrastructure and continuously deployed using the community development i
+ nfrastructure.This talk will explain the openstack-health dashboard\, how 
+ it works\, it's current limitations\, and the future of the project. It'll
+  also cover some related tools that are available and how they all fit tog
+ ether\, and how you can use everything together to take a more data driven
+  approach to analyze and test OpenStack with the gate.
+LOCATION:Austin Convention Center - Level 1 - Ballroom B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Live from Oslo
+DTSTART:20160425T170500Z
+DTEND:20160425T174540Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Oslo.privsep - oslo.privsep is a new evolution of the "rootwra
+ p" privilege separation mechanism actively being worked on across a number
+  of OpenStack projects. This talk introduces what the changes will look li
+ ke from a developer and deployer's point of view\, and a deep dive into so
+ me example benchmarks with Neutron. By leveraging sockets for communicatio
+ n and native python syscalls instead of external program calls\, oslo.priv
+ sep can offer significant performance improvements in projects with freque
+ nt rootwrap usage.Oslo.messaging - During the last development cycle\, Osl
+ o.Messaging has improved quire a bit\, especially with the implementation 
+ of a couple of new drivers. The problem is that weve learned that the way 
+ Oslo.Messaging has been implemented is less than optimal. Since it impacts
+  every OpenStack project\, changes have the potential to break other proje
+ cts and make OpenStack unstable. well talk about the problems and propose 
+ new features and ways to redesign Oslo.Messaging. Youll learn about new Os
+ lo.Messaging drivers (Pika and ZeroMQ)\, its internals\, and when it is go
+ od to use each of them. Well share correct Oslo.Messaging usage\, examples
+  of mistakes\, and what we accomplished\, and present our vision for furth
+ er development.Documentation - In the last 2 cycles\, the Oslo team has ad
+ ded features to several libraries to make documenting dynamic aspects of p
+ rojects easier. We'll go over how to use these features to document availa
+ ble drivers or other plugins as well as configuration options. We will als
+ o talk about how to build similar features to let you turn existing machin
+ e-readable data into nicely formatted human-readable documentation.
+LOCATION:Austin Convention Center - Level 1 - Ballroom B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:What Science Knows About Happiness That Could Transform OpenStack
+DTSTART:20160425T170500Z
+DTEND:20160425T174540Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Until 20 years ago\, the field of happiness was nearly empty. 
+ Scientist were more kean to study diseases than something as simple as why
+  are we happy?In this session\, I will explain what led me to learn the sc
+ ience of happiness\, what are those learnings\, and how they are directly 
+ connected to contributing to OpenStack.I will present 10 propositions ever
+ y OpenStack contributor could take\, at the individual level\, the projejc
+ t team level\, or more globally. Those propositions will not only increase
+  the happiness level of contributors\, they will increase the value and im
+ pact of their contributions.
+LOCATION:Austin Convention Center - Level 1 - Ballroom C
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Meet the OpenStack Personas (So Far)
+DTSTART:20160425T190000Z
+DTEND:20160425T194000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:In projects with many users\, personas clarify users\, goals a
+ nd the effects of decisions about the backend\, messages\, APIs\, CLIs\, a
+ nd GUIs on the many different users. The OpenStack UX project and OpenSta
+ ck product group hosted a workshop at the IBM Design Austin Studio to deve
+ lop personas that represented a wide variety of OpenStack consumer scenari
+ os. Attendees included IBM\, HPE\, Intel and RackN. The team\, along with 
+ the OpenStack foundation\, conducted a study in 2016 to validate the new p
+ ersonas\, which included: Infrastructure Architect\, Service Admin\, Cloud
+  Ops\, Customer Ops\, and DevOps Development. In this session\, we will re
+ view of the results of this work and discuss our vision with an example. A
+ ttendees will meet the personas and learn about the contributions personas
+  can make to the community. We also welcome your input about the personas 
+ and our vision.
+LOCATION:Austin Convention Center - Level 1 - Ballroom C
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:OpenStack Stable: What It Actually Means to Maintain Stable Branch
+ es
+DTSTART:20160425T195000Z
+DTEND:20160425T203040Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:The OpenStack community maintains stable branches after a rele
+ ase. The goal is to backport bug fixes and security fixes. Lots of people 
+ seem to have an interest in keeping stable branches around\, but very few 
+ actually understand what stable branch maintenance actually involves. This
+  talk will cover what stable branch maintenance in the community actually 
+ means\, how it works in practice\, and where help is needed.
+LOCATION:Austin Convention Center - Level 1 - Ballroom C
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:OpenAPI as a Standard - A New Way Forward for API Documentation\, 
+ Design and Tool
+DTSTART:20160425T204001Z
+DTEND:20160425T212041Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:OpenStack API-WG defined Swagger as a standard API documentati
+ on way. In the external world also\, Open API initiative is defining Swagg
+ er as a standard API specification. So Swagger is a standard way in the wo
+ rld now.By defining Swagger as a standard way\, we provide guidelines for 
+ API documentation for all OpenStack projects asa community. Then projects 
+ use common tooling\, consistent outlines\, and study exemplary examples.In
+  addition\, Swagger is not only for API documentation but also for client 
+ side implementation. By getting Swagger data via REST API from server side
+ \, clients can know available APIs and usage of these APIs.That is great f
+ or the OpenStack interoperability.On Nova and Magnum sides\, we are planin
+ g Swagger implementation as a next feature. On the documentation side\, we
+  are implementing a tool "fairy-slipper" for migrating current API documen
+ tation to Swagger format.This session provides the overview of Swagger\, h
+ ow to apply Swagger to each project\, and merit for clients.
+LOCATION:Austin Convention Center - Level 1 - Ballroom C
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:A Ring to Rule Them All - Revising OpenStack Internals to Operate 
+ Massively Distributed Clouds
+DTSTART:20160425T214001Z
+DTEND:20160425T222041Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Academics and industry experts are advocating for going from l
+ arge-centralized Cloud Computing infrastructures to smaller ones massively
+  distributed at the edge of the network. However to favor the adoption of 
+ such a model\, the development of a system in charge of turning such a com
+ plex and diverse network of resources into a global Cloud is critical.In t
+ his talk\, we introduce the premises of such a system. The novelty of our 
+ work is that instead of developing yet another brokering solution\, we cho
+ se to revise the OpenStack internals with P2P mechanisms in order to opera
+ te in a distributed manner but throughout the same software platform such 
+ a geographically spread Cloud. More precisely\, we describe how we extende
+ d Nova with an additional driver allowing the use of a distributed key/val
+ ue store instead of the centralized SQL backend. Results of experiments co
+ nducted on Grid'5000 are promising and pave the way toward a first large-s
+ cale and WAN-wide IaaS manager based on OpenStack.
+LOCATION:Austin Convention Center - Level 1 - Ballroom C
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lightning Talks
+DTSTART:20160425T223019Z
+DTEND:20160425T231059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Share you knowledge with your fellow upstream developers! Ligh
+ tning talks here can be anything from a neat feature your editor has which
+  allows contributing to OpenStack easier. Maybe there is a lesser known OS
+ LO library that you know would excite a wider audience. You could also hav
+ e a neat documentation tool that would get the audience putting on their f
+ ancy socks!A Tour of status.openstack.org - Elizabeth K. JosephGrafyaml - 
+ Grafana Dashboards Using YAML - Paul BelangerUsing Gertty - James E. Blair
+ Adding a Project To OpenStack - Andrea JaegerHow To Drive Downstream Packa
+ gers Mad - Thomas Goirand  HakelUsing device emulator to enhance CI - Mosh
+ e LeviUsing Bashate - Mathew R Odden
+LOCATION:Austin Convention Center - Level 4 - MR 16 A/B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lockless Upgrades - How to Upgrade OpenStack Without Locking Up Yo
+ ur DB
+DTSTART:20160425T223019Z
+DTEND:20160425T231059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:SQL databases require updating the schema to store new data st
+ ructures\, however many DDL operations lock the tables. How to change the 
+ schema while keeping your services online? What are the alternatives?
+LOCATION:Austin Convention Center - Level 1 - Ballroom C
+END:VEVENT
+END:VCALENDAR

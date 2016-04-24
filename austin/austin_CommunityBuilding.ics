@@ -1,0 +1,238 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//yosshy/openstackdesignsummitaustin2016//NONSGML v1.0//EN
+SUMMARY:Community Building
+BEGIN:VEVENT
+SUMMARY:Let's Build an OpenStack Cross Project and User Story Dashboard!
+DTSTART:20160425T161500Z
+DTEND:20160425T165500Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION: The OpenStack community currently has several ways to track 
+ requirements and implementation at the project level from blueprints to sp
+ ecs to Gerrit\, however it is still fairly difficult to track cross projec
+ t needs and user stories (concepts) that require work across multiple proj
+ ects and\, potentially\, multiple releases.   In this session\, we will c
+ over a need for greater visibility from the Product WG that aligns well wi
+ th the general cross-project development tracking needs in the community w
+ hich resulted in our project to create a cross-project user story dashboar
+ d.   We have started working on a prototype and would be glad to receive 
+ feedback\, and assistance\, from the OpenStack development community!  Th
+ e session will conclude with a demonstration of our progress thus far.
+LOCATION:Hilton Austin - Level 6 - Salon H
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Champions for Change: Engaging Male Advocates for Diversity and In
+ clusion
+DTSTART:20160426T170500Z
+DTEND:20160426T194000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:RSVP Required.A 2-hour lunch workshop on the research and prac
+ tice of male advocacy\, including why it matters and how to take action. T
+ his spirited workshop will involve discussions\,activities\, resources\, a
+ nd key takeaways for both men and womento advocate for more inclusive envi
+ ronments that foster innovation in the technical environment. Led by Natio
+ nal Center for Women and IT research scientistDr. Brad McLain.
+LOCATION:Hilton Austin - Level 6 - Salon F
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:OpenStack Talent Development - Lessons Learned
+DTSTART:20160426T195000Z
+DTEND:20160426T203020Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:What happens when you set out to train 100s of new OpenStack c
+ ontributors? In the summer of 2015\, we started on that very journey and i
+ n this session we will share what wehave learned so far. Intel and Rackspa
+ cepartnered together to create an OpenStack Innovation Center. The purpose
+  of the Innovation Center is to drive the enterprise adoption of OpenStack
+ . One of the 3 strategies for accomplishing this goal was to create adevel
+ opment program designed to increase the OpenStack talent pool. In thissess
+ ion we will share our lessonslearned whileexecuting on the talent developm
+ ent program. We will walkthrough ourrecruitment\, training\, certification
+  and mentoring programs. We will talk aboutwhat worked and what didn't. We
+  will share stories from recentgraduates of the program and propose ideas 
+ about how others in the community can leverage what we have learned.
+LOCATION:Austin Convention Center - Level 4 - MR 12 A/B 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ambassador Community Report
+DTSTART:20160426T204001Z
+DTEND:20160426T212041Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:OpenStack Ambassadors connect the user groups to the Foundatio
+ n. They help initialize the groups and guide them to grow. Ambassadors can
+  give feedback about all the OpenStack community.Ambassadors launch some a
+ ctions during the last release cycle:- OpenStack community report- What is
+  the size of the community - Global and regional trends - Introduce new gr
+ oups\, leaders- Updates on speaker bureau- Recommended practices for start
+ ing and running communities- Status update on official groups- Process- Up
+ dates on user groups since Tokyo- Groups portal - Overview - Results- Welc
+ ome pack and OpenStack shop- QAMeet with the ambassadors on this session w
+ here they will introduce the improvements of the last half year and share 
+ their feelings and experience about the community. If you are a user group
+  organizer you must be there\, and feel free to share your thoughts and fe
+ elings with us!
+LOCATION:Austin Convention Center - Level 4 - MR 12 A/B 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Diversity of Innovation
+DTSTART:20160426T214000Z
+DTEND:20160426T222000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:This panel will focus on the links between diversity and inclu
+ sion strategies with technical innovation\, talent recruiting andretention
+ \, male advocacy\, and the OpenStack community.The panelists were nominate
+ d by the Women of OpenStack.
+LOCATION:Austin Convention Center - Level 4 - Ballroom G
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tips from Community Managers: Effective Strategies for Building a 
+ Vibrant User and Developer Community
+DTSTART:20160426T214000Z
+DTEND:20160426T222000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:An active and engaged community of developers and users is ess
+ ential to the success of any open source project and OpenStack is no excep
+ tion. In the talk\, four community managers who come from different corner
+ s of the OpenStack ecosystems share their learnings and hands on experienc
+ es. They will also offer advice to people who are looking to expand the en
+ gagement and reach of their communities.
+LOCATION:Austin Convention Center - Level 4 - MR 15
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Win The Future: OpenStack Deployment Practice among College Studen
+ ts for Innovation Contest
+DTSTART:20160428T140019Z
+DTEND:20160428T144059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:In 2015\, Intel took the chance of sponsoring the 8th Intel-Cu
+ p National Collegiate Software Innovation contest in China to promote Open
+ Stack by defining the theme to be User Experience Innovation Based on Clou
+ d Service. The college students\, who are mainly from school of software a
+ nd new to OpenStack\,were required to set up cloud environment on nested v
+ irtualization of a rack in a day\, deploy their innovative applications on
+  it and then showcase the demonstrations to the judges. However\, we found
+  it was not easy for themto deploy OpenStack as their infrastructures of t
+ he innovations\, especially for network. We made a survey amongst all the 
+ teams\, summarized the feedbacks\, and analyzed the results\, in order to 
+ try to find the weaknesses and the reasons why OpenStack is not easy to us
+ e to some extent. At the OpenStack summit\, we hope to share those results
+  with the audience and think about how OpenStack wins the next generation 
+ together with the community.
+LOCATION:Austin Convention Center - Level 4 - MR 15
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Developer Marketing and Relations: Convincing The 'Kingmakers' to 
+ Give a Crap About You
+DTSTART:20160428T145000Z
+DTEND:20160428T153040Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Developers are the new Kingmakers\, but what are the current b
+ est and worst practices for developer marketing and relations? Today devel
+ opers drive the PoCs and early adoption that make or break your product o
+ r service\, and exert a huge amount of influence on the buying process. 
+ And once you've made the sale they are the ones you depend on to make sure
+  you're a critical piece of your customers' stack. If you're in "cloud" it
+ 's highly likely that you need to reach developers. The experts on this pa
+ nel will tell you how they do it\, complete with stories of things gone w
+ rong and gone right. Find out which of the current mediums (blogs\, docs\,
+  social media\, conferences\, etc.) are the most effective\, and walk awa
+ y with practical\, actionable tips for currying the favor of all those fl
+ ip-flop wearing\, overly hair-tinted code monkeys that seem to keep killi
+ ng your chance at signing a deal.
+LOCATION:Austin Convention Center - Level 4 - MR 15
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Inner Sourcing Expedition - Wipro's Story
+DTSTART:20160428T160019Z
+DTEND:20160428T164059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:This paper is about Wipros journey of creating a community of 
+ Open Source enthusiasts across its divisions. Our vision of having 10\,000
+  open source developers across the length and breadth of technologies and 
+ is becoming real by following a community based competency development app
+ roach. We call this our inner sourcing expedition.We have enabled the empl
+ oyees to collaborate and learn thru doing using community projects within 
+ our organization. The paper would talk about the vision\, challenges we fa
+ ced and our solution and current status of our internal open source commun
+ ity. Our solution addresses behavior change\, technology enablement and a 
+ gamified reward framework.Currently we have around 10\,000 employees who a
+ re part of the opensource community within Wipro and learning and growing 
+ together and creating solutions. We would like to share our learning and e
+ ncourage other enterprises to take an inner sourcing journey and gain bene
+ fits.
+LOCATION:Austin Convention Center - Level 4 - MR 15
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Gender-Diversity Analysis of Technical Contributions in The OpenSt
+ ack Projects
+DTSTART:20160428T165000Z
+DTEND:20160428T173040Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Women are half of the population in the world\, but they are s
+ till under represented in the tech world industry nowadays. While there ar
+ e clear actions in favor of attracting more female developers in order to 
+ bring more diversity to the project\, the OpenStack Foundation shows a sim
+ ilar trend with this respect.Some numbers can be easily extracted from the
+  Women of OpenStack group in Linkedin with more than 600 members and 137 d
+ iscussion. Specific diversity-focused panels during the summits. Women of 
+ OpenStack mailing list with close 380 emails in 2015 and 90 different peop
+ le commenting and changing ideas [own analysis].This talk will cover the j
+ ourney of the OpenStack ecosystem gender diversity since it was born till 
+ nowadays. This will focus on the analysis of the code review and code deve
+ lopment activity. It is intended to be a quantitative analysis plus specif
+ ic manual polishing process to help in the accuracy of the data.
+LOCATION:Austin Convention Center - Level 4 - MR 15
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Fostering Full Equality\, Organized by the Women of OpenStack
+DTSTART:20160428T183019Z
+DTEND:20160428T191059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Following up on the themes related to gender equality presente
+ d at the previous Summit talks sponsored by The Women of OpenStack working
+  group\, this session will focus on our vision of a world where the OpenSt
+ ack community is truly and completely blind to meaningless differences in 
+ gender\, color\, creed and culture. What will this new world look like? Ho
+ w will it differ from the current one?A panel of people from all walks of 
+ life will explore what that future is and what we can do as a community as
+  a whole to achieve it.
+LOCATION:Austin Convention Center - Level 4 - MR 15
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Newcomers Need You\, How to Be A Good Mentor
+DTSTART:20160428T192000Z
+DTEND:20160428T200040Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:You still remember the first time you've heard the word OpenSt
+ ack\, the efforts you had to make to wrap your head around it and to get y
+ our first patch merged. Now you know enough to be able to teach other peo
+ ple and put them up to speed. You would like to be a mentor but you are no
+ t sure about how time consuming it might be\, you still have doubts and qu
+ estions. In this session we will try to answer them. We will give advices 
+ based on our experience mentoring in the Outreachy and Google Summer of Co
+ de programs\, suggest some strategies and list the most common mistakes a
+  new mentor does.
+LOCATION:Austin Convention Center - Level 4 - MR 15
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Build It and They Will Come (Easier Said Than Done!)  
+DTSTART:20160428T201001Z
+DTEND:20160428T205041Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:OpenStack Cloud Computing is much more than technology. It’s
+  a community. And our community wasn’t built by accident! Building and g
+ rowing this amazing community has been a result of the very deliberate eff
+ orts of some extremely dedicated people\, as well as crucial community too
+ ls like GitHub\, IRC\, Stack Overflow\, Google Hangout\, and Twitter. Grea
+ t OpenStack meetups are powerful. They foster a collaborative\, inclusive 
+ environment\, focused on important issues to the developers and users who
+  make OpenStack tick. Across the world\, individual leaders are finding a
+  remedy for the detachment that sometimes plagues remote workers by hosti
+ ng sanctioned OpenStack Meetups to share and exchange information. Come m
+ eet 4 of the top OpenStack Community Managers and OpenStack meetup organiz
+ ers and hear how they have managed to grow and nurture this vibrant commun
+ ity. Learn best practices and tips and tricks for starting meetups in your
+  area\, and retaining your devoted followers. 
+LOCATION:Austin Convention Center - Level 4 - MR 15
+END:VEVENT
+END:VCALENDAR

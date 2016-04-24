@@ -1,0 +1,202 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//yosshy/openstackdesignsummitaustin2016//NONSGML v1.0//EN
+SUMMARY:Security
+BEGIN:VEVENT
+SUMMARY:I’m Having an OpenStack Party\, and It’s BYOK!
+DTSTART:20160426T161500Z
+DTEND:20160426T165500Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:OpenStack has allowed businesses to improve their efficiency b
+ y offloading work into the cloud. Some of that work and data is sensitive\
+ , and it would be catastrophic to the business if leaked to competitors. T
+ his sensitivity lead OpenStack to implement several encryption features\, 
+ but encryption begs the question of who is managing the encryption keys? T
+ his talk will examine key management and bring your own key (BYOK) in Open
+ Stack. It will briefly describe a couple of encryption features to highlig
+ ht which services use encryption keys\, and then go into a discussion of k
+ ey management. We will discuss the trust relationships between the differe
+ nt parties\, the motivations for bring your own key\, and the benefits and
+  drawbacks of BYOK.
+LOCATION:Austin Convention Center - Level 1 - Ballroom B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Automated Security Hardening with OpenStack-Ansible
+DTSTART:20160426T161519Z
+DTEND:20160426T165559Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Deploying clouds involves plenty of moving pieces.  There’s
+  the actual OpenStack code\, the dependencies\, the operating system\, and
+  hardware.  It’s no surprise that functionality often takes priority ov
+ er security\, but OpenStack-Ansible’s security role is trying to make th
+ at process easier. The openstack-ansible-security role delivers strong sec
+ urity enhancements (based on the Security Technical Implementation Guide f
+ rom the United States government) that are highly customized to avoid disr
+ upting the functionality of an OpenStack cloud.In this talk\, Major Hayden
+ \, principal architect at Rackspace\, will share the security challenges i
+ n OpenStack clouds and how the openstack-ansible-security role can solve s
+ ome of them.  The audience will learn what to do when auditors arrive and
+  they will see a demo of the role in action.
+LOCATION:Austin Convention Center - Level 4 - Ballroom F
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Integrate Active Directory with OpenStack Keystone
+DTSTART:20160426T170500Z
+DTEND:20160426T174540Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:With keystone v3\, you can use Identity Service to authenticat
+ e certain Active Directory Domain Services (AD DS) users\, while retaining
+  authorization settings and critical service accounts in the Identity Serv
+ ice database. This new configuration improves earlier methods by eliminati
+ ng a point of failure where an OpenStack environment could experience a se
+ rvice outage if the Active Directory Domain Controller became unavailable.
+ This session discusses the changes you will need in your Active Directory 
+ environment\, multidomain configuration in keystone v3\, high availablity 
+ options\, and\, importantly\, how to encrypt sensitive query traffic using
+  LDAPS. A presentation for the system administrators using Active Director
+ y\, this talk describes how to easily integrate Active Directory with the 
+ OpenStack Identity Service.For business leaders\, this talk describes coll
+ aborative opportunities between teams\; successful integration will requir
+ e buy-in from multiple stakeholders.
+LOCATION:Austin Convention Center - Level 4 - Ballroom F
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Introduction to Container Security
+DTSTART:20160426T195000Z
+DTEND:20160426T203040Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Application containerization is one of the coolest technologie
+ s in IT. It solves numerous problems\, allows for incredible application d
+ ensity\, and can really increase flexibility and responsiveness. But not e
+ veryone understands what makes up container security - it's a LOT more tha
+ n what application is in the container.In this session\, Red Hats global s
+ olution architect leader\, Thomas Cameron\, will talk about the basic comp
+ onents of container security. He'll talk about kernel namespaces\, Securit
+ y Enhanced Linux\, Linux control groups\, the Docker daemon\, etc. and how
+  they all work. He'll provide demonstrations of how each of these technolo
+ gies affect security.He'll also talk about tips and tricks for planning a 
+ secure container environment\, describe some gotchas about containers\, an
+ d debunk some of the security myths about containers.Attendees will unders
+ tand the fundamentals of container security when they leave.
+LOCATION:Austin Convention Center - Level 4 - Ballroom F
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Advances in Keystone's Role Based Access Control
+DTSTART:20160426T204001Z
+DTEND:20160426T212041Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Keystone provides the mechanism for configuring role based acc
+ ess control (RBAC) thoughout the OpenStack deployment. New mechanisms in r
+ ecent releases have greatly improved the ability to tune the access contro
+ l approach for your deployment. This presentation will walk though the con
+ figuration of RBAC in your deployment. To start\, we'll investigate the de
+ faults that ship with upstream Keystone. We'll cover a brief overview of r
+ equests that have driven the design over the past couple releases. Finally
+ \, we'll see customizations making use of the limitation of admin-scoping\
+ , role inference rules and domain specific roles that you can use to tailo
+ r your deployment to suit your organization.
+LOCATION:Austin Convention Center - Level 1 - Ballroom B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Cerner’s Journey Towards a Secure Software Defined Data Center
+DTSTART:20160426T204001Z
+DTEND:20160426T212041Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Security for Software Defined Data Center is a challenge that 
+ a lot of enterprises face. At Cerner we wanted to move to an OpenStack bas
+ ed SDDC implementation but wanted to ensure that this was done without red
+ ucing the security posture of our environment while at the same time enabl
+ e an improved level of operational efficiency and lowered TCO. Some of our
+  key success indicators include the ability to gain increased visibility a
+ nd control against malicious activity within the Data Center and thus secu
+ re East-West traffic\, enable this in an automated manner that would allow
+  us to deploy virtual security functions such as IPS and enforce policies 
+ easily while the virtual security functions continued to maintain an accep
+ table level of performance. With these top level requirements\, we started
+  working on a solution implementation with Intel® Corporation and Midokur
+ a® and are in the midst of our engagement. The key components that are cu
+ rrently part of the solution implementation are Intel®
+LOCATION:Austin Convention Center - Level 4 - Ballroom F
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Experiences and Priorities for Private Cloud Keystone and Public C
+ loud Keystone
+DTSTART:20160426T214001Z
+DTEND:20160426T222041Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:In this panel session\, we bring together several Keystone exp
+ erts to discuss their experiences with using Keystone in both private clou
+ ds and public clouds at scale. Panel members will discuss the efforts they
+  have been involved in with configuring and deploying Keystone to address 
+ issues such as improving performance at scale. Panel members will discuss 
+ their experiences using advanced Keystone features such Fernet tokens and 
+ how these features have improved their deployments\, and also what accommo
+ dations were needed to support this new feature properly. Panel members wi
+ ll also discuss how they are preparing for Keystone's deprecation of its e
+ ventlet deployment model. Panel members from private cloud and public clou
+ d\, both vendor and non-vendor\, will discuss Keystone issues that are mos
+ t impactful to them and how they are driving Keystone in upcoming releases
+  to improve its deployability\, operability\, and consumability.
+LOCATION:Austin Convention Center - Level 1 - Ballroom B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Saving Your A** Since Essex - An Update on the OpenStack Security 
+ Project
+DTSTART:20160426T214001Z
+DTEND:20160426T222041Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:It is regularly reported that the number one blocker of cloud 
+ (and OpenStack) adoption is the perception that clouds are insecure\, hard
+  to protect environments - the reports aren’t wrong!Things are improving
+  though\, Security Project members are working hard to: -Secure code at t
+ he gate (Bandit) -Secure the API (Syntribos) -Provide internal PKI for T
+ LS everywhere (Anchor) -Provide Security Guidance\, Notes\, Advisories et
+ c -Encrypt at rest (Leeson\, BYOK)In this talk the current Security Proje
+ ct PTL will explain what the Security Project is doing to improve the secu
+ rity of OpenStack services and allow OpenStack to differentiate in terms o
+ f Security. 
+LOCATION:Austin Convention Center - Level 4 - Ballroom F
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Continuous Compliance & Enforcement of Location-Based Policies in 
+ an OpenStack Cloud
+DTSTART:20160426T223019Z
+DTEND:20160426T231059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Study after study shows that security is still the biggest bar
+ rier to cloud adoption\, with compliance and data protection being top con
+ cerns for a CISO.    Enterprises often have a need to enforce policies
+  (based on data sovereignty requirements) such as virtual workloads should
+  only be placed\, or migrated\, based on location and assurance of hardwar
+ e platform. Some others  want to launch VMs/Apps/Containers on Servers w
+ ith Boot Integrity – Platform Trust\, while some have a need to extend t
+ he chain of trust from platform to workload (VM/Container). This session 
+ features a customer case study from Visa with technologies from Intel (CIT
+ \, TXT and TPM)\, HPE (Helion OpenStack and Proliant Gen 9 server) and Clo
+ ud Raxak (RaxakProtect) that demonstrates end-to-end compliance (boot time
+  to shutdown) using hardware and software attestations.
+LOCATION:Austin Convention Center - Level 4 - Ballroom F
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Using Open Source Security Architecture to Defend against Targeted
+  Attacks
+DTSTART:20160426T223019Z
+DTEND:20160426T231059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:A network IPS can effectively defend your OpenStack cloud agai
+ nst targeted attacks\, even at large scale\, once enabled as a virtual net
+ work function (VNF).Traditional security approaches in OpenStack\, such as
+  security groups and FWaaS\, lack flexibility and manageability. These sol
+ utions also do not provide sophisticated active responses like running def
+ ensive scripts in case of attacks\, and are not effective in protecting bi
+ g enterprise clouds against sophisticated cyber attacks.A network IPS deli
+ vered through Tap-as-a-Service and vRouter (enabled by the Fuel Contrail p
+ lugin) as a forwarding plane can identify targeted attacks by monitoring a
+ nd analyzing east-west traffic.Moreover\, we extend the architecture with 
+ an open source malware sandbox (e.g. Cuckoo or PyBox) as an IPS back end t
+ o identify targeted attacks (e.g. CloudAtlas and Minidionis APTs)\, and he
+ lp an incident response team with a forensic investigation.We will demonst
+ rate features and discuss security best practices.
+LOCATION:Austin Convention Center - Level 1 - Ballroom B
+END:VEVENT
+END:VCALENDAR

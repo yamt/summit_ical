@@ -1,0 +1,323 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//yosshy/openstackdesignsummitaustin2016//NONSGML v1.0//EN
+SUMMARY:Cloud App Development
+BEGIN:VEVENT
+SUMMARY:Zaqar Messaging for Microservices and IoT
+DTSTART:20160427T140019Z
+DTEND:20160427T144059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:One of the challenges that users face when developing an appli
+ cation using a microservices architecture is how to distribute information
+  between each microservice. Similar challenges can be seen in IoT and sens
+ or applications - how can you efficiently receive data from huge numbers o
+ f devices? For the purpose of our presentation we developed a demo on reso
+ lving these communication and distribution problems using Zaqar\, OpenStac
+ ks Messaging and Notification service.
+LOCATION:Austin Convention Center - Level 4 - MR 17 A/B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Oculus for OpenStack Ops (OpenStack Goes 3D)
+DTSTART:20160427T145000Z
+DTEND:20160427T153040Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:OpenStack Horizon\, command-line clients and API libraries let
+  developers and operators interact directly\, indirectly\, and automatical
+ ly with a target cloud. Analytics tools like Stacklight (LMA toolchain) gi
+ ve deeper insight with sophisticated interactive graphics and out-of-band 
+ interaction channels like Nagios alerts. Beyond these tools\, however\, li
+ es a new world of VR-based immersive UX for operations\, visualization and
+  collaboration.In this session\, we’ll discuss:Open-source toolchain opt
+ ions for building immersive UX around cloud computingUI widgets\, DevOps a
+ nd dataviz metaphors (from skeuomorphism to … beyond!)The Internet of Th
+ ings (to Visualize): VR + OpenStack + IoT = ValueHow to build your own Min
+ ority Report-style UI (with no Tom Cruise in it)And demonstrate a virtual-
+ reality collaborative OpenStack operations environment compatible with Ocu
+ lus Rift.
+LOCATION:Austin Convention Center - Level 4 - MR 17 A/B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:How to Architect Applications for the Cloud
+DTSTART:20160427T160000Z
+DTEND:20160427T164000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Engage and enable enterprise development teams to realize the 
+ value from cloud architecture and accelerate cloud application while enabl
+ ing solutions that work on any client platform. In this session we will pr
+ ovide an overview of how to design applications for the cloud and provide 
+ lessons learned from a customer who has 800+ applications in various stage
+ s of development and deployment. The session will cover architecture desig
+ n decisions\, key things to consider for integration with existing applica
+ tion\, design patterns\, code samples\, and best practices for developing 
+ cloud aware applications and supporting business strategy for modern appli
+ cation development (cloud\, mobile/multi-OS\, application security\, and i
+ mproved user experience).Deploying a cloud infrastructure is only the firs
+ t step in realizing the business value. Engaging the application developme
+ nt teams is critical with solutions that address the business problems ent
+ erprisesare facing with security\, multiple client platform support\, and 
+ cloud integration. Within Intel IT ouroriginal cloud specific approach sta
+ lled our cloud adoption for almost 2 years\, first issue centered on theap
+ plication architecture and the second primarily because of integration wit
+ h existing solutions andservices. We will share the challenges and approac
+ hes\, development practices and technologies used toaccelerate modern appl
+ ication solutions and cloud deployment.
+LOCATION:Austin Convention Center - Level 4 - MR 18 A/B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:How to Develop for OpenStack API's
+DTSTART:20160427T160019Z
+DTEND:20160427T164059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Building a cloud orchestrator is not like building any other c
+ loud application.  Not because it is more challenging\, they’re all cha
+ llenging...but because an orchestrator needs to expose the full range of f
+ unctionality that the underlying cloud exposes.If the orchestrator can't p
+ rovide the full range of cloud services\, such as how to manage versionin
+ g dependencies\, how to do unit\, integration and system tests - just to n
+ ame a few\, what good is it ultimately?That is why integrating with the cl
+ oud SDK correctly\, while taking into account important aspects around ide
+ m-potency\, dealing with errors\, and even dealing with specific cloud qui
+ rks\, requires users to have access to the full range of API functions and
+  parameters through the orchestration template.  In this talk we’ll des
+ cribe the techniques we used to expose the full OpenStack SDK to Cloudify 
+ blueprints\, some of the pitfalls encountered\, and how we overcame them.
+LOCATION:Austin Convention Center - Level 4 - MR 17 A/B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Orchestrating Cross-cloud Applications with Murano
+DTSTART:20160427T165000Z
+DTEND:20160427T173040Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Hybrid Clouds are becoming more and more popular\, and so grow
+ s the need to orchestrate the applications across the clouds: multi-tier a
+ pps may require to put their backends on the private clouds while having f
+ rontends at public ones\, some others may deploy identical copies of thems
+ elves in different clouds for better fault tolerance\, and so on. Designin
+ g such hybrids is complicated\, and orchestrating them in cross-cloud envi
+ ronments is even harder. There is a number of mostly commercial third-part
+ y solutions trying to build a universal orchestrator\, all having their ow
+ n pros and cons.Luckily there is no need to add any extra orchestrator whe
+ n you are building your hybrid solution with OpenStack as one of the parts
+ \, since it already has Murano: a mature Openstack project providing power
+ ful framework to build\, catalog and deploy applications in the cloud. Now
+  it is capable to orchestrate applications not only in Openstack clouds\, 
+ but other clouds as well - so let's learn how to do it.
+LOCATION:Austin Convention Center - Level 4 - MR 17 A/B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Is OpenStack Ready for App Developers? The Journey of Application 
+ Developers in Public Clouds
+DTSTART:20160427T185000Z
+DTEND:20160427T193000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:In order to drive efforts in the App Ecosystem Working Group t
+ o make OpenStack more efficient for application developers\, it is necessa
+ ry first to take a look on the current app development experience in OpenS
+ tack.This analysis was conducted through a Cloud Benchmarking where OpenSt
+ ack was compared against major cloud providers such as Amazon Web Services
+ \, Microsoft Azure and Google Cloud Platform. The goal was to discover bes
+ t practices\, gaps and critical issues in application development process 
+ in OpenStack (using Rackspace and OVH as providers) against the most popul
+ ar public clouds.The Cloud Benchmarking contains the findings classified i
+ n best practices\, gaps and critical issues. These findings are grouped in
+  the stages of the development life cycle which are sign up\, infrastructu
+ re setup\, development\, deployment\, updates\, monitoring and resources c
+ lean up.Session Video Abstract:To make OpenStack more efficient for applic
+ ation developers\, the App Ecosystem WG studied the current development ex
+ perience in OpenStack by conducting cloud benchmarking analysis. Through t
+ his analysis\, the group compared OpenStack against major cloud providers 
+ such as Amazon Web Services\, Microsoft Azure\, and Google Cloud Platform\
+ , seeking to discover best practices\, gaps and critical issues in the app
+ lication development process in OpenStack.
+LOCATION:Austin Convention Center - Level 4 - MR 17 A/B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Open Infrastructure Means ANY Infrastructure - Hybrid DevOps on an
+ d Beyond OpenStack [With Demo]
+DTSTART:20160427T194001Z
+DTEND:20160427T202041Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:DefCore works toward Interop within the OpenStack community 
+ BUT most users face larger Interop challenge: working across multiple diff
+ erent platforms. We can fix that problem with hybrid devops that abstracts
+  cloud variation.Just like we build open clouds using gear from multiple h
+ ardware vendors\, we can build open infrastructure by using infrastructure
+  from OpenStack\, raw metal and proprietary cloud providers.  Making work
+ loads portable between vendors gives control back to the users and drives 
+ open innovation.This presentation talks about how we can make this vision 
+ a reality using open source tools and operational processes.  We'll demo 
+ moving a container management platform (Swarm or Kubernetes) from non-Open
+ Stack clouds on to the OpenStack platform.  User choice is the heart of o
+ pen platforms and innovation\, let's break cloud lock-in together.
+LOCATION:Austin Convention Center - Level 4 - MR 17 A/B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Monitor and Improve Web Performance with HAProxy
+DTSTART:20160427T203000Z
+DTEND:20160427T211040Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Learn how HAProxy can be used to monitor applications response
+  time and how to configure HAProxy to protect weak application servers and
+  even improve app response time.
+LOCATION:Austin Convention Center - Level 4 - MR 17 A/B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:You Must Be 12 Factors High to Ride
+DTSTART:20160427T213019Z
+DTEND:20160427T221059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:OpenStack is a tool\, and tools are meant to do one thing well
+ . Unfortunately\, people often use a tool improperly ("Get me a bigger ham
+ mer!"). The correct workload for OpenStack is an application that follows 
+ the 12 Factor App methodology. We will discuss this methodology and how Op
+ enStack assists in adhering to it.We will:Explain the 12 Factor App method
+ ologyDiscuss how the 12 Factor App and OpenStack compliment each otherHow 
+ how adopting the 12 Factor App and OpenStack enhances agilityThis session 
+ discusses a specific solution that can be used by organizations to increas
+ e agility. It is a how to\, not a philosophical discussion
+LOCATION:Austin Convention Center - Level 4 - MR 17 A/B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Build Your Own Web Portal with OpenStack APIs and Services
+DTSTART:20160427T222001Z
+DTEND:20160427T230041Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Horizon is the default WebUI for OpenStack clouds but sometime
+ s there is a need for customization to include features such as approval w
+ orkflows\, application catalogs for self-service\, or simply the need to a
+ dd your company logo.OpenStack clouds\, by design\, provide a set of rich 
+ RESTful APIs which can be leveraged to build your own portal.  In a custo
+ m portal\, it is also possible to leverage RESTful APIs from other service
+ s in your organization to build a holistic control plane for your entire I
+ T environment!In this talk\, we will discuss/demonstrate how to create an 
+ IT infrastructure web portal based on OpenStack APIs and also incorporate 
+ capabilities exposed by automation tools such as Chef or ServerSpec. 
+LOCATION:Austin Convention Center - Level 4 - MR 17 A/B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Application CI/CD on OpenStack - Building a Solution Using Jenkins
+  and OpenStack Solum
+DTSTART:20160428T140019Z
+DTEND:20160428T144059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Continuous integration and continuous delivery are important a
+ spects in today's agile and iterative application development methods. Sys
+ tems such as Jenkins have become pillars of the continuous integration mov
+ ement providing a general framework to run application-specific tests. On 
+ the other hand\, continuous delivery has always remained as a challenge. T
+ his is especially true if the deployment target is an OpenStack environmen
+ t which involves several moving parts. In this talk we will present a CI/C
+ D solution that we have built using Jenkins for CI and OpenStack Solum for
+  CD for testing and deploying applications to OpenStack clouds.
+LOCATION:Austin Convention Center - Level 4 - MR 17 A/B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Which is the Best Way to Deploy Your Application on OpenStack?
+DTSTART:20160428T145000Z
+DTEND:20160428T153040Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:There are many projects and ways to deploy applications on Ope
+ nStack as the following.GlanceGlance + cloud-initGlance + Configuration ma
+ nagement tool such as Puppet\, Chef or AnsibleHeatHeat + Configuration man
+ agement tool such as Puppet\, Chef or AnsibleMuranoMurano with pluginCommu
+ nity App CatalogSolumWhich is the best way to deploy your application on 
+ OpenStack? In this session\, we first explain each OpenStack project\, rel
+ ated softwares\, and their relations. Then we will show the pros and con
+ s according to the way to deploy applications from several viewpoints.
+LOCATION:Austin Convention Center - Level 4 - MR 17 A/B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Enforcing Application SLAs with Congress and Monasca
+DTSTART:20160428T160000Z
+DTEND:20160428T164020Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Now you got baremetal servers\, virtual machines and even cont
+ ainers but an application developer has to know a lot about infrastructure
+  specifics to meet his application SLAs. It actually become worst since no
+ w you (as a developer) must know about VM flavors\, anti-affinity rules\, 
+ servers specifications (e.g. spinning disks vs. SSD) and availability zone
+ s  Wasnt it better when someone was taking care of this and you could focu
+ s on developing your application? No worries\, it will take some work\, bu
+ t there is light at the end of the tunnel.Application SLAs define the expe
+ cted behavior of the infrastructure to provide capabilities needed for the
+  application to deliver value in the planned/expected fashion. These SLAs 
+ can be defined as a set of complex policies that identify conditions to be
+  met in the infrastructure\, these can be as simple as memory availability
+  to complex one based on historical data or patterns.
+LOCATION:Austin Convention Center - Level 4 - MR 17 A/B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Turn up the Heat with LBaaS v2 
+DTSTART:20160428T183000Z
+DTEND:20160428T191000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:This presentation will start by introducing basic concepts in 
+ using Heat with Load Balancer As A Service (LBaaS) v2. Have you been wonde
+ ring whether to use LBaaS v1 or LBaaS v2 especially if you are using Heat?
+  This session will help you get a good understanding of the advantages of 
+ LBaaS v2 and some of the reasons on why you should not mix and match LBaaS
+  v1 and LBaaS v2.We will cover fundamental differences between LBaaS v1 an
+ d LBaaS v2 from a Heat perspective\; discuss the Heat resource hierarchy a
+ nd dive into the depths of the resource properties and attributes.Want to 
+ see it in action? We will make the learning practical by showing Heat temp
+ late examples for LBaaS v2.
+LOCATION:Austin Convention Center - Level 4 - MR 17 A/B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:A PaaS for Continuous Delivery of Cloud Native Apps. (minus Kubern
+ etes and Mesos)
+DTSTART:20160428T192000Z
+DTEND:20160428T200040Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Although there are variety of PaaS\, enterprises require finer
+  granularity and adaptability of development and deployment methodologies 
+ to existing practices and tools. Mesos\, Kubernetes\, etc. although popula
+ r still is IaaS albeit at a higher level of abstraction.We'll take a fairl
+ y minimal openstack install and build a platform on top of it using standa
+ rd open source tooling like Docker\, Deis\, etc.We will then take you thro
+ ugh the application lifecycle of a cloud native application showing you ho
+ w to use CI/CDon top of that platform and all you have to care about is yo
+ ur development workflow against github.We will provide an environment with
+  some tools integrated\, requiring attendees to work on simple exercises a
+ nd complement the platform with other tools and tofollow the methodologies
+  of continuous deployment.Once this is done\, it can greatly simplify the 
+ development and deployment of applications and greatly reduce the time it 
+ takes to take a feature from idea to product.
+LOCATION:Austin Convention Center - Level 4 - MR 17 A/B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:OpenStack and the IoT: Where We Stand\, Where We're Going\, What W
+ e Need to Get There
+DTSTART:20160428T201000Z
+DTEND:20160428T205000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:The Internet of Things (IoT)\, with its multitude of devices m
+ aking calls to applications\, is a perfect use case for the scalable\, ad
+ aptable environment that is OpenStack. But that doesn't mean that we're r
+ eady -- not by a long shot. In this panel\, a group of application develo
+ pers\, network engineers\, and security experts will look at what OpenSta
+ ck can already accomplish\, and what needs to happen in order for OpenSta
+ ck to fulfill its potential. 
+LOCATION:Austin Convention Center - Level 4 - MR 17 A/B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Developing Cloud Apps: HOT\, TOSCA and MuranoPL
+DTSTART:20160428T211000Z
+DTEND:20160428T215000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Learn which app definition language is right for you and your 
+ cloud apps! App definition languages describe application requirements in 
+ abstract ways\, enabling deployment on diverse infrastructure. What langua
+ ge choices are available for OpenStack? TOSCA\, HOT and MuranoPL are three
+  popular examples: the first an open standard\, the latter two used by Hea
+ t and Murano\, respectively.How do they compare? Attendees at this session
+  will get a deep dive into these three Domain-Specific Languages (DSLs) an
+ d learn:What problem(s) each DSL is engineered to solve - conceptual disti
+ nctions among DSLsWhat features each DSL supportsComparative maturity\, ad
+ vantages and disadvantages of each DSLQuestions to ask before choosing a D
+ SL for your projectTheyll leave with broad understanding of available DSL 
+ choices\, intentions\, features\, limitations and constraints\, and enough
+  information to begin hands-on evaluation and selection.
+LOCATION:Austin Convention Center - Level 4 - MR 17 A/B
+END:VEVENT
+END:VCALENDAR

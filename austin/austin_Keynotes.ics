@@ -1,0 +1,157 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//yosshy/openstackdesignsummitaustin2016//NONSGML v1.0//EN
+SUMMARY:Keynotes
+BEGIN:VEVENT
+SUMMARY:Embracing Datacenter Diversity
+DTSTART:20160425T140000Z
+DTEND:20160425T142000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Please join Jonathan Bryce and featured users for keynotes. Mo
+ re details to come.
+LOCATION:Austin Convention Center - Level 1 - Expo Hall 2/3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Bimodal IT as the Foundation for Digital Business  
+DTSTART:20160425T142000Z
+DTEND:20160425T143500Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Please check back here for more details.
+LOCATION:Austin Convention Center - Level 1 - Expo Hall 2/3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AT’s Cloud Journey with OpenStack
+DTSTART:20160425T143500Z
+DTEND:20160425T145000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:OpenStack + AT Innovation = AT Integrated Cloud.AT’s network
+  has experienced enormous growth in traffic in the last several years and 
+ the trend continues unabated. Our software defined network initiative addr
+ esses the escalating traffic demands and brings greater agility and veloci
+ ty to delivering features to end customers. The underlying fabric of this 
+ software defined network is AT Integrated Cloud (AIC).Sorabh Saxena\, AT
+ ’s SVP of Software Development & Engineering\, will share several use ca
+ ses that will highlight a multi-dimensional strategy for delivering an ent
+ erprise & service provider scale cloud. The use cases will illustrate Open
+ Stack as the foundational element of AIC\, AT solutions that complement it
+ \, and how it’s integrated with the larger AT ecosystem.http://att.com/e
+ comp 
+LOCATION:Austin Convention Center - Level 1 - Expo Hall 2/3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:How SAP runs IoT on top of OpenStack
+DTSTART:20160425T150000Z
+DTEND:20160425T151000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Please check back here for further details.
+LOCATION:Austin Convention Center - Level 1 - Expo Hall 2/3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Superuser Awards
+DTSTART:20160425T151000Z
+DTEND:20160425T152000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Please check back here for further details.
+LOCATION:Austin Convention Center - Level 1 - Expo Hall 2/3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Driving the Future of IT Infrastructure at Volkswagen Group
+DTSTART:20160425T153000Z
+DTEND:20160425T154500Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Please check back here for further details.
+LOCATION:Austin Convention Center - Level 1 - Expo Hall 2/3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Not Invented Here: Collaborate or Die in the Billion Device\, Bill
+ ion Core Era
+DTSTART:20160426T140000Z
+DTEND:20160426T141000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:With billions of connected devices living on the edge\, hundre
+ ds of millions of new servers powered by billions of cores will be require
+ d to process\, store\, and move all of that data. To manage that much infr
+ astructure\, new tools and patterns will be required which can handle bare
+  metal\, virtual machines\, and containers.The opportunity is massive\, bu
+ t it will require collaboration across many open source communities\, alwa
+ ys mindful of what our users want and need\, because it’s collaborate or
+  die in the billion device\, billion core era.
+LOCATION:Austin Convention Center - Level 1 - Expo Hall 2/3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Apache Mesos on OpenStack at Time Warner Cable
+DTSTART:20160426T141000Z
+DTEND:20160426T141500Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Please check back here for further details.
+LOCATION:Austin Convention Center - Level 1 - Expo Hall 2/3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Running Kubernetes on OpenStack at LivePerson
+DTSTART:20160426T141500Z
+DTEND:20160426T142000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Please check back here for further details.
+LOCATION:Austin Convention Center - Level 1 - Expo Hall 2/3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Building a SmartCity with IoT
+DTSTART:20160426T142000Z
+DTEND:20160426T143000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Please check back here for further details.
+LOCATION:Austin Convention Center - Level 1 - Expo Hall 2/3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:OpenStack and Kubernetes: Inception
+DTSTART:20160426T143000Z
+DTEND:20160426T144000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Please check back here for further details.
+LOCATION:Austin Convention Center - Level 1 - Expo Hall 2/3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Improving UX with OpenStackClient 
+DTSTART:20160426T145000Z
+DTEND:20160426T150000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Please check back here for further details.
+LOCATION:Austin Convention Center - Level 1 - Expo Hall 2/3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FutureCity App Hackathon Showcase
+DTSTART:20160426T150000Z
+DTEND:20160426T151000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Please check back here for further details.
+LOCATION:Austin Convention Center - Level 1 - Expo Hall 2/3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Underhyped but Changing the World: OpenStack for Universities & Re
+ search
+DTSTART:20160426T151000Z
+DTEND:20160426T152000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Please check back here for further details.
+LOCATION:Austin Convention Center - Level 1 - Expo Hall 2/3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:What's Driving OpenStack Public Cloud Momentum?
+DTSTART:20160426T153000Z
+DTEND:20160426T153500Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Please check back for further details.
+LOCATION:Austin Convention Center - Level 1 - Expo Hall 2/3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:OVH: Building a Public Cloud that Scales
+DTSTART:20160426T153500Z
+DTEND:20160426T154000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:During the keynote\, OVH will present its high-performance and
+  large-scale OpenStack-based cloud that efficiently combines dedicated and
+  shared resources. OVHs unique offering allows both cloud newcomers and Op
+ enStack experts to build scalable and secure environments in no time.
+LOCATION:Austin Convention Center - Level 1 - Expo Hall 2/3
+END:VEVENT
+END:VCALENDAR

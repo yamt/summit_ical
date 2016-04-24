@@ -1,0 +1,242 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//yosshy/openstackdesignsummitaustin2016//NONSGML v1.0//EN
+SUMMARY:Evaluating OpenStack
+BEGIN:VEVENT
+SUMMARY:Panel: Pros and Cons of Various OpenStack Consumption Models
+DTSTART:20160425T161519Z
+DTEND:20160425T165559Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION: Join us for this panel where we discuss the various ways in 
+ which organizations can reap the benefits of OpenStack. The panel will dis
+ cuss the various consumption/delivery models - available from various supp
+ liers like EMC\, RedHat and Platform9 - such as appliance\, software only 
+ and OpenStack as a service. We will discuss the pros and cons of each mode
+ l and the questions each organization should ask before they embrace a par
+ ticular model.
+LOCATION:Austin Convention Center - Level 4 - MR 17 A/B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Performance Measuring Tools for the Cloud 
+DTSTART:20160425T170500Z
+DTEND:20160425T174540Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:The exponential growth of cloud computing services has given r
+ ise to the need for standards\, specifications and workloads that can be u
+ sed to evaluate the performance of various cloud offerings. During this se
+ ssion you will participate in a discussion that will be led by a panel of 
+ cloud performance professionals and managers that will focus on the variou
+ s tools that have been developed to measure the Cloud and how they are bei
+ ng used for Openstack Cloud implementations. This will be an interactive s
+ ession and attendees will be encouraged to ask questions\, make comments a
+ nd share their experiences with the various tools. Join us and learn how t
+ he performance of the cloud is measured.
+LOCATION:Austin Convention Center - Level 4 - MR 17 A/B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Couch to OpenStack - Getting Started with the OpenStack Learning L
+ ab
+DTSTART:20160425T190019Z
+DTEND:20160425T194059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Regardless of your background\, OpenStack is a fundamental shi
+ ft from the way that traditional virtualization and bare-metal deployments
+  are built and operated. Just like with learning to run in a Couch-to-5k c
+ linic\, this is your coaching team to help you get from zero to hero on Op
+ enStack!Attendees will get a walk through of the learning program and be g
+ iven resources to spin up a demo environment on their own machines using V
+ agrant and VirtualBox. Knowing where to start is as important as knowing h
+ ow to start. This will be a very interactive session to help encourage att
+ endees to get help with starting their journeys to becoming OpenStack oper
+ ators.
+LOCATION:Austin Convention Center - Level 4 - MR 17 A/B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Elevating OpenStack Out of the Corporate Basement
+DTSTART:20160425T195000Z
+DTEND:20160425T203040Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:One of the greatest inhibitors of adoption of OpenStack in med
+ ium sized companies is convincing upper management that its even a viable 
+ alternative to their current infrastructure design. Moving to a private cl
+ oud can seem daunting but there are methodologies and strategies that can 
+ be employed to realize the enormous gains in agility\, control and cost sa
+ vings that OpenStack can provide.
+LOCATION:Austin Convention Center - Level 4 - MR 17 A/B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Interoperability: The Elephants in the Room & What We're Doing Abo
+ ut Them
+DTSTART:20160425T204001Z
+DTEND:20160425T212041Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:As OpenStack has matured over the past5+ years\, we've grown a
+  healthy ecosystem of ways to consume OpenStack:there are distributions\, 
+ appliances\, managed offerings\, public clouds\, and consulting services t
+ o help you build yourcloud. OpenStack can be used for private clouds\, pub
+ lic clouds\, and hybrid cloud scenarios\, not to mention use casespecific 
+ purposes like NFV. As the software and demand for it have matured though\,
+  interoperability betweenOpenStack clouds has become increasingly imporant
+ . The DefCore Committee has now released several Guidelinesthat serve as i
+ nteroperability standards\, and the Technical Committee and Board of Direc
+ tors are considering changesto OpenStack's mission statement that highligh
+ t interoperability as a core value.In this talk\, we'll look at the top ba
+ rriers to interoperability OpenStack faces today\, and discuss what's bein
+ g done toaddress them. We'll also review the latest work from the DefCore 
+ Committee and look ahead to it's next challenges.
+LOCATION:Austin Convention Center - Level 4 - MR 17 A/B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DevTest Cloud : The Ultimate OpenStack UseCase
+DTSTART:20160425T214000Z
+DTEND:20160425T222000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Enterprises are adopting cloud technologies\, but its not happ
+ ening overnight. IT leaders recognize that in order to move production env
+ ironments to the cloud\, they have to move development and testing (dev-te
+ st) environments first. This allows for gradual cloud adoption\, and quali
+ fies the clouds features and capabilities in terms of performance\, securi
+ ty\, scalability\, and other aspects of IT management. Below\, we will loo
+ k at the benefits of running devtest environments in the cloud.1  Optimal 
+ Utilization2  Operational Efficiencies3  Enable Collaboration4  Paralleliz
+ ed Tests5  Monitored DeliveryFinal NoteWith the emergence of end users as 
+ the primary drivers of new features and solutions\, traditional IT has had
+  to transform in order to quickly accommodate expectations. Time to market
+  is of the essence and delivery speed has become a critical factor in toda
+ ys competitive market landscape. Running devtest in the cloud is the ultim
+ ate jumping off point for cloud adoption.
+LOCATION:Austin Convention Center - Level 4 - MR 17 A/B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Things I Wish My Mother Had Told Me: Customer Experiences with Ope
+ nstack\, and How to Make it Better
+DTSTART:20160425T223019Z
+DTEND:20160425T231059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:In the three years since OpenStack was declared “ready for b
+ usiness\," its growth curve has been phenomenal\, but adoption has not  b
+ een without growing pains.We have enlisted this panel of OpenStack experts
+  from software\, hardware and services to discuss the real world challenge
+ s they have encountered in their actual customer implementations. We will 
+ also hear from them ideas and recommendations for where OpenStack needs to
+  improve\, and what OpenStack adopters can and should do to maximize their
+  chances of success.
+LOCATION:Austin Convention Center - Level 4 - MR 17 A/B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Deploy an Elastic\, Resilient\, Load-Balanced Cluster in 5 Minutes
+  with Senlin
+DTSTART:20160426T161500Z
+DTEND:20160426T165540Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Elasticity\, resiliency\, load-balancing are among of the mos
+ t-wanted features for services or applications deployed on a cloud. Howeve
+ r\, it takes a non-trivial effort to integrate pieces of technologies from
+  different projects. There are many other subtle issues when users are bui
+ ding such a solution in a DIY manner.Just think about choosing alarms from
+  the various events and meters you can access\; the complicated processes 
+ to hook these alarms to the proper operations\; the need to watch your sc
+ aling cluster for node failures\; the requirement for load-balancing...Thi
+ s talk is about a simple and straightforward approach to deploy and manag
+ e a cluster which can be auto-scaled\, load-balanced and resilient to node
+  failures. By seemlessly integrating the clustering\, telemetry\, load-bal
+ ance and orchestration services\, we will show Senlin as the pivot for a 
+ practical\, easy way to build a resource pool of web services on OpenStack
+ .
+LOCATION:Austin Convention Center - Level 4 - MR 17 A/B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Learn You Some OpenStack for Great Good!
+DTSTART:20160426T170500Z
+DTEND:20160426T174540Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:It is quite obvious by now that OpenStack is here to stay. Thi
+ s workshop will clarify where OpenStack plays a role in modern datacenter\
+ , enterprise\, and small business computing. We will talk about some reaso
+ ns for choosing OpenStack and suggest some of the latest resources for ins
+ talling and using OpenStack. We will end our workshop with a demonstration
+ /walkthrough of a working OpenStack environment built using OpenStack Ansi
+ ble.
+LOCATION:Austin Convention Center - Level 4 - MR 17 A/B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Confronting Complexity - The Number One Barrier to Enterprise Adop
+ tion
+DTSTART:20160426T190019Z
+DTEND:20160426T194059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:We've all heard it before. OpenStack is too complex. There are
+  too many projects\, governance procedures\, and communities to keep up wi
+ th. There are too many deployment architectures\, tools and configurations
+  to get started quickly. Complexity costs. It requires me to have an entir
+ e team of OpenStack professionals which I simply can't afford. In survey a
+ fter survey Enterprises evaluating OpenStack site complexity as the number
+  one barrier to adoption.What is the OpenStack community doing to confront
+  this complexity? What more can we do? How will this concern improve or di
+ ssipate over coming releases? With a coordinated effort\, how could we mak
+ e OpenStack easy understand\, evaluate\, and cost effective to deploy and 
+ operate?
+LOCATION:Austin Convention Center - Level 4 - MR 17 A/B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:fail.
+DTSTART:20160426T195000Z
+DTEND:20160426T203040Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Failure is what you expect when you join a new field\, especia
+ lly in technology.From our experience\, most people seem to think\, that O
+ penStack can solve all their issues\, even the ones they don't know about 
+ yet.When it comes to OpenStack\, there are much more problems then you mig
+ ht expect at first. Its not only the technology which might be more differ
+ ent then people think\, sometimes the whole picture behind it is so differ
+ ent\, that they need to adopt\, to get the most out of it.
+LOCATION:Austin Convention Center - Level 4 - MR 17 A/B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:OpenStack for VMware Admins
+DTSTART:20160426T204001Z
+DTEND:20160426T212041Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:As OpenStack continues to grow\, Enterprises are beginning to 
+ explore and to implement OpenStack as their Cloud platform of choice. Ofte
+ n\, these companies have existing investments and expertise with VMware te
+ chnologies. In order to prepare for this new world\, these people who are 
+ familiar with VMware concepts and terminology will need to understand the 
+ parallel concepts and terminology in OpenStack.This session will be valuab
+ le for anyone who needs a better grasp of how to talk about both VMware an
+ d OpenStack in an enterprise context.
+LOCATION:Austin Convention Center - Level 4 - MR 17 A/B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Production Ready OpenStack in 12 Parsecs
+DTSTART:20160426T214000Z
+DTEND:20160426T222000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:A long time ago in a cloud far\, far away...OpenStack Awakened
+ .In OpenStack's seventh year of expansion and evolution\, the lore of its 
+ potential\, its pitfalls\, and its future is legendary.  It's true... All
+  of it!The focus of this presentation is to compare and contrast popular a
+ pproaches of deploying OpenStack - from vendor-specific reference architec
+ tures\, to complete DIY snowflakes built from trunk\, and managed-as-a-ser
+ vice offerings\, to accelerated applicances dropped into your premises. 
+LOCATION:Austin Convention Center - Level 4 - MR 17 A/B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Great Distro Bakeoff - Our Journey in Setting Up an OpenStack 
+ Environment that Actually Works
+DTSTART:20160426T223019Z
+DTEND:20160426T231059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:So you want a private OpenStack cloud? Think you can just grab
+  your OpenStack distro of choice and get going? Well think again - nothing
+  good comes that easy. Its not just about downloading some files and insta
+ lling. There's a whole world of knowledge involved with doing this right\,
+  including how to configure\, how to install\, and most importantly how to
+  maintain an administer your cloud. This is also one of the areas where th
+ e OpenStack ecosystem has moved way beyond what the vanilla OpenStack code
+  provides. Some of the important considerations when choosing an OpenStack
+  distro are the support\, maintenance\, and management provided by the ven
+ dor\, therefore\, you will need to weigh the choices wisely.
+LOCATION:Austin Convention Center - Level 4 - MR 17 A/B
+END:VEVENT
+END:VCALENDAR

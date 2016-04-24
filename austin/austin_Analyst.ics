@@ -1,0 +1,99 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//yosshy/openstackdesignsummitaustin2016//NONSGML v1.0//EN
+SUMMARY:Analyst
+BEGIN:VEVENT
+SUMMARY:OpenStack Pulse: Unbiased Research on Enterprise Demand\, TCO\, an
+ d Market Size
+DTSTART:20160425T190019Z
+DTEND:20160425T194059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:451 Research\, an independent analyst firm\, has been followin
+ g the OpenStack space since its early days. During this commercial free pr
+ esentation\, quantitative and qualitative insights will be shared on these
+  topics:Enterprise adoption survey results—buying behaviors by workload 
+ for private cloud and public cloud as well as Docker/containers.       
+    TCO for OpenStack—when a distro is actually cheaper than DIY.Market
+  sizing and growth projections for the entire OpenStack ecosystem\, broken
+  down by business model.
+LOCATION:Austin Convention Center - Level 1 - Ballroom B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Analyst Q: What the Analysts Who Cover OpenStack *Really* Think
+DTSTART:20160425T195000Z
+DTEND:20160425T203040Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Have you ever wondered what analysts are really thinking as th
+ ey listen to your briefing and review your communications? Our panel of an
+ alysts will hold up a mirror to our communications efforts\, providing dir
+ ect and unvarnished feedback. Well find out:What works and what doesn't wh
+ en talking about OpenStack positioning and posturing?What are the top pet 
+ peeves analysts have when talking to vendors and users?Who is doing the be
+ st job right now of talking about their OpenStack game plan in clear\, con
+ sistent and pointed language? What best practices are worth emulating?What
+  are the nagging questions that analysts wish they could get straight answ
+ ers to?What do analysts wish people in the OpenStack community would stop 
+ saying?Join us and be prepared to talk about what's on your mind. It's a g
+ reat opportunity to get direct answers from the folks who are usually aski
+ ng the questions. Panelists:Dr. Paul Miller\, Forrester\, UKSteve OGrady\,
+  RedMonk\, USRoz Roseboro\, Heavy Reading\, USColm Keegan\, ESG\, USRene B
+ uest\, Crisp Research\,DEModerated by Mike Shuster\, NetApp
+LOCATION:Austin Convention Center - Level 1 - Ballroom B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:A Proxy for OpenStack Adoption: Market Trends in Software-defined 
+ Infrastructure and Cloud
+DTSTART:20160425T204001Z
+DTEND:20160425T212041Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:IDC tracks OpenStack developments under the Software-defined I
+ nfrastructure market. We have observed how OpenStack has evolved over the 
+ years and reached a new level of maturity in 2015. The productization of O
+ penStack  delivered as a packaged distribution and now as appliances  will
+  push its adoption to new heights. Our studies show how customers are cozy
+ ing up to a software-defined infrastructure driven by OpenStack. The prese
+ ntation will focus primarily on core infrastructure components viz. storag
+ e\, compute and networking and briefly touch upon orchestration. The prese
+ ntation will also share results of IDC CloudView survey that shows overall
+  cloud adoption trends as well as awareness of open source initiatives.
+LOCATION:Austin Convention Center - Level 1 - Ballroom B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:OpenStack is Ready\, Are You?—Redux
+DTSTART:20160425T214001Z
+DTEND:20160425T222041Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:OpenStack joined together like-minded groups to build private 
+ clouds targeting higher value net-new workloads. In an era when private cl
+ oud success was low\, early OpenStack implementations saw an unusual level
+  of success. Forrester dives into the modern private cloud journey and imp
+ act of OpenStack on enterprises journeys. The OpenStack Foundation is one 
+ of the first modern open source organizations that seeks to meet even the 
+ demands of the Fortune 50 and be the testing ground for emerging standards
+ . And although there are many drivers\, leveraging OpenStack's peer-to-pee
+ r resource is potentially its greatest.This session will cover the impact 
+ and adoption of OpenStack and the organization struggles enterprises face 
+ when building private cloud environments. This session also looks at the o
+ verall impact of open source movements on larger industry trends such as s
+ tandards development.
+LOCATION:Austin Convention Center - Level 1 - Ballroom B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Media Q: The Journalistic Perspective on the Present and Future of
+  OpenStack
+DTSTART:20160425T223019Z
+DTEND:20160425T231059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:In this moderated panel\, we'll hear about the present and fut
+ ure of OpenStack from the unique perspective of the media professionals wh
+ o cover OpenStack and see the big picture every day. This is a great oppor
+ tunity to engage with journalists who have made names for themselves askin
+ g tough questions and writing content about OpenStack that gets noticed. W
+ ell talk about the evolving community\, project governance\, emergent tech
+ nologies\, and what they perceive to be the game-changers in 2016. We'll a
+ lso learn what drives reporters crazy when they interview members of the O
+ penStack community! Bring your questions and join us for what is always a 
+ popular and illuminating session at the OpenStack Summit.
+LOCATION:Austin Convention Center - Level 1 - Ballroom B
+END:VEVENT
+END:VCALENDAR

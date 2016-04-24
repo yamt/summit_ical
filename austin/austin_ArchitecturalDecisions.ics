@@ -1,0 +1,338 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//yosshy/openstackdesignsummitaustin2016//NONSGML v1.0//EN
+SUMMARY:Architectural Decisions
+BEGIN:VEVENT
+SUMMARY:OpenStack - Divination to Delivery
+DTSTART:20160426T161519Z
+DTEND:20160426T165559Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Companies new to OpenStack will often go through an initial ti
+ me period to build a proof-of-concept cloud. If the team building it succe
+ eds and is given the green light to bring OpenStack to the enterprise\, th
+ ey may find themselves in a situation where they have to build out OpenSta
+ ck as quickly as possible\, put it into production and support the users w
+ ho are using it. What does it take to run an OpenStack environment? Some o
+ f the topics to be discussed include:What is operations and how do you ope
+ rationalize what you have?Defining the support model\, tooling and knowled
+ ge managementMonitoring and who gets the alerts\; building the escalation 
+ modelLifecycle management\; reclaiming resources\, maintenances\, upgrades
+ Capacity planning and should you overcommit resources?Who are the customer
+ s and how do they interact with the team?
+LOCATION:Austin Convention Center - Level 1 - Ballroom C
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Control Plane Architectures: Design Solutions
+DTSTART:20160426T170500Z
+DTEND:20160426T174540Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Building an OpenStack private cloud can be very complex. Under
+ pinning the entire operational capabilities of your cloud is the Control P
+ lane. It's common knowledge you should treat your cloud resources "like ca
+ ttle" and not "pets"\, yet most clouds treat the control plane like a favo
+ red pet. How should the modern cloud architect choose to design the contro
+ l plane aspect of your private cloud?
+LOCATION:Austin Convention Center - Level 1 - Ballroom C
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Migration Rodeo: Herding Pets and Grooming Cattle
+DTSTART:20160426T190019Z
+DTEND:20160426T194059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Cloud-ready apps (cattle) dont need to be migrated\, say visio
+ naries. But in the real world\, even cloud-ready apps sometimes do (e.g.\,
+  when they live inside tenants upon whose complex configurations they depe
+ nd). Meanwhile\, there are still plenty of old-school pet workloads you mi
+ ght hope to migrate (instead of torturously rebuilding).This session deep 
+ dives into the when\, which and why of migration on OpenStack\, and covers
+ :Migration basics: what happens during migrationWhen migration is a good i
+ dea (and when it's not)How to judge which workloads are good candidates fo
+ r migration (and which are not)How long it takes to migrate and whyAttende
+ es will leave more capable of successfully evaluating OpenStack migration 
+ projects and workload migration candidates.
+LOCATION:Austin Convention Center - Level 1 - Ballroom C
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Performance Analysis in Large-scale Deployment - A Single Thousand
+ -nodes Cluster
+DTSTART:20160426T195000Z
+DTEND:20160426T203040Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:How to desigin the architechture of deploying OpenStack in a s
+ ingle thoudsand-nodes cluster? How much pressure would basic component suc
+ h as database\, messaging queue and loadbalancer encounter?Where is the bo
+ ttleneck? Here\, we have built a single 1024-nodes OpenStack cluster which
+  contains about 30 controller nodes\,  650 compute nodes\, 250 storage no
+ des and 20 network nodes in China Mobile Public Cloud.  We did a lotof pe
+ rformance tests as well as recording  the data of each component in deta
+ il.  Based on these data\, we did careful analysis and lots of improvemen
+ ts.  We share them  to  all OpenStackusers and hope they would help you
+  optimize the architecture and improve the performance  in large-sale dep
+ loyment!
+LOCATION:Austin Convention Center - Level 1 - Ballroom C
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:High Availability for Pets and Hypervisors - State of The Nation
+DTSTART:20160426T204001Z
+DTEND:20160426T212041Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:By now\, high availability for the OpenStack control plane is 
+ well understood\, and to a large extent a solved problem which the commun
+ ity continues to refine.In stark contrast\, most solutions for compute nod
+ e HA (i.e. where VMs are automatically restarted on a different compute no
+ de if there is a failure in the hypervisor or its underlying hardware) ar
+ e still either relatively immature\, experimental\, or in the design phase
+ .  This is despite the high demand for this feature\, which calls into 
+ question the older belief held by some that OpenStack should only accommo
+ date "cattle" VMs which have resilience built in at the application layer.
+  In this talk presented by members of the OpenStack HA community who have
+  been collaborating on this topic since Tokyo\, we summarise and compare a
+ ll known current approaches\, from vendors including Red Hat\, SUSE\, Inte
+ l\, NTT\, AWcloud\, ChinaMobile\, and ZeroStack\, and explain the current 
+ thinking\, challenges presented\, and future directions.
+LOCATION:Austin Convention Center - Level 1 - Ballroom C
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tuning RabbitMQ at Large Scale Cloud
+DTSTART:20160426T214001Z
+DTEND:20160426T222041Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:We are using RabbitMQ as the message queue on HWS. We has got 
+ many problems in production process. Eg. Ceilometer will take too much ban
+ dwidth\, the RabbitMQ could not transmit message promptly\, etc.In this se
+ ssion\, we will explain how we tested / verified transmitting rate metrics
+ \, how to estimate throughput of services and how to extend the messaging 
+ systems.
+LOCATION:Austin Convention Center - Level 1 - Ballroom C
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Windows and OpenStack -  What's New in Windows Server 2016
+DTSTART:20160426T223019Z
+DTEND:20160426T231059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:OpenStack is getting big in the enterprise\, which is traditio
+ nally very Microsoft centeric. This session will show you everything you n
+ eed to know about Windows in OpenStack!To begin with we will show how to p
+ rovision Windows images for OpenStack\, including Windows Server 2012 R2\,
+  Windows 7\, 8.1 and the brand new Windows Server 2016 Nano Server for KVM
+ \, Hyper-V and ESXi Nova hosts.Next\, we will show how to deploy Windows 
+ workloads with Active Directory\, SQL Server\, SharePoint\, Exchange usin
+ g Heat templates\, Juju\, Puppet and more.Last but not least\, we'll talk 
+ about Active Directory integration in Keystone\, Hyper-V deployment and Wi
+ ndows bare metal support in Ironic and MaaS. The session will give you a 
+ comprehensive view on how well OpenStack and Windows can be integrated\, a
+ long with a great interoperability story with Linux workloads.
+LOCATION:Austin Convention Center - Level 1 - Ballroom C
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Openstack Components as Containerized MicroServices 
+DTSTART:20160427T140019Z
+DTEND:20160427T144059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Openstack is already an ecosystem designed with microservices 
+ in mind. Now its time to start using it is designed. By deploying openstac
+ k components with a microservice architecture in mind it will allow you to
+  scale\, recover from disasters\, redeploy and upgrade with ease.Container
+ izing this micro services will provide you an easy way to test and even de
+ ploy from the latest and greatest code from community\, allowing you to te
+ st many new features before you need to roll them out to you production cl
+ oud.
+LOCATION:Austin Convention Center - Level 4 - MR 16 A/B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Building Real-Time Cloud Using OpenStack 
+DTSTART:20160427T145000Z
+DTEND:20160427T153040Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Users or operators sometimes need to run low-latency or real-t
+ ime applications (such as audio/video streaming\, highly interactive syste
+ ms\, etc.) to meet their requirements in clouds\, and in fact it seems tha
+ t it is one of the reasons why people need to use Ironic on OpenStack\, al
+ though Ironic lacks management advantage of virtualization. And a good new
+ s is that we have sufficient infrastructure to achieve that in OpenStack (
+ in the M release). With these features\, OpenStack can host low-latency or
+  real-time applications without using Ironic. However\, its still cumberso
+ me to configure and build such real-time clouds.Since we are working on Re
+ al-time KVM as one of the projects of KVM enhancements for NFV at OPNFV\, 
+ we share our know-how and experiences to build real-time clouds using Open
+ Stack.In this session\, we will show how to configure Nova nodes (CPU\, I/
+ O\, memory\, etc.) and root-cause potential problems with real-time applic
+ ations on OpenStack.
+LOCATION:Austin Convention Center - Level 4 - MR 16 A/B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Virtual Routers on Compute Nodes - an (Not So) Irrational Decision
+ ?
+DTSTART:20160427T160019Z
+DTEND:20160427T164059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Learn the production pros and cons of operating Neutron legacy
+  and HA routers on compute nodes in your production cloud. Not ready for D
+ VR or third-party network overhauls? Virtual router network “hot spots
+ ” got you down?  Large virtual router failure domains keeping you up la
+ te at night?  Neutron reference architectures not providing a scalable ro
+ uting solution?  If you answered yes to any of these questions then this 
+ talk is for you.
+LOCATION:Austin Convention Center - Level 4 - MR 16 A/B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Is That a Cloud in Your Pocket?
+DTSTART:20160427T165000Z
+DTEND:20160427T173040Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Fed up fighting with the public cloud\, or running out of spac
+ e on your laptop next time you want to try our latest and greatest technol
+ ogy out?Thanks to technologies like nested virtualisation and thin-lvm you
+  can nowbuild\, run and redeploy on your personal laptop a small data-cent
+ re's worth of technology. As great as the public cloud and shared lab envi
+ ronments are(n't)\, sometimes you just want to thrash out a problem quickl
+ y. What do you do when you're missing that extra storage or physical compu
+ te resource to make it happen?As an Operator\, Architect or End User - com
+ e learn some tips and tricks\, or share some of your own.
+LOCATION:Austin Convention Center - Level 4 - MR 16 A/B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:OpenStack + Open Compute Project == Best of Breed Clouds
+DTSTART:20160427T185000Z
+DTEND:20160427T193040Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:The Open Compute Project (OCP -- opencompute.org) is working t
+ owards the open source equivalent of data center hardware including racks\
+ , servers\, switches\, and storage. Specifically\, they have created and p
+ ublished free-to-use hardware designs and an ecosystem of hardware partner
+ s that product the reference designs. OCP designs have been heavily optimi
+ zed to reduce purchase (removing redundant components) and operating price
+ s (e.g.\, all DC internal power\, simplified FRU structure) and deployed i
+ n production at scale by many companies including Facebook.Bringing Open C
+ ompute hardware together with OpenStack software is a natural fit\, formin
+ g a combination that is open from top to bottom.
+LOCATION:Austin Convention Center - Level 4 - MR 16 A/B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Building a Flexible OpenStack Cloud from the Ground Up
+DTSTART:20160427T194001Z
+DTEND:20160427T202041Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:In this session\, we will discuss how we build a flexible Open
+ Stack cloud from the ground up to support multiple engineering development
+  workloads at Intel Open Source Technology Center. We will provide a refer
+ ence architecture that includes hardware and software components and recom
+ mendation on how to deploy an OpenStack Cloud from scratch\, meeting our f
+ lexible compute\, storage and networking requirements. We will share the a
+ rchitectural and design decision that we have made in implementing such so
+ lution. We will provide insight knowledge and details of the hardware comp
+ onents that we have chosen for this cloud\, how to calculate BOM (bill of 
+ material)\, operating efficiency (power consumption\, battery backup) \, c
+ loud capacity and how this architecture can be scaled from an initial 30 n
+ odes cluster to 100+ nodes cluster.
+LOCATION:Austin Convention Center - Level 4 - MR 16 A/B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:A Little of What You Fancy: Multi-Hypervisor Cloud Deployment with
+  Hyper-V\, KVM and LXD
+DTSTART:20160427T203000Z
+DTEND:20160427T211040Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:For clouds running mixed operating system workloads\, sometime
+ s the right choice of hypervisor is not to always use KVM\; Learn how to d
+ eploy and use OpenStack clouds that make use of multiple hypervisors in a 
+ single compute region in a seamless way\, providing the ability to deploy 
+ each type of workload on the best hypervisor choice.     
+LOCATION:Austin Convention Center - Level 4 - MR 16 A/B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Protecting the Galaxy - Multi-Region Disaster Recovery with OpenSt
+ ack and Ceph
+DTSTART:20160427T213001Z
+DTEND:20160427T221041Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:IT organizations require a disaster recovery strategy addressi
+ ng outages with loss of storage\, or extended loss of availability at the 
+ primary site. Applications need to rapidly migrate to the secondary site a
+ nd transition with little or no impact to their availability.This talk wil
+ l cover the various architectural options and levels of maturity in OpenSt
+ ack services for building multi-site configurations using the Mitaka relea
+ se. Well present the latest capabilities for Volume\, Image and Object Sto
+ rage with Ceph as the backend storage solution\, and look at the future de
+ velopments the OpenStack and Ceph communities are driving to improve and s
+ implify the relevant use cases.
+LOCATION:Austin Convention Center - Level 4 - MR 15
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Deploying Lots of Teeny Tiny Telco Clouds
+DTSTART:20160427T222001Z
+DTEND:20160427T230041Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Over the last year at AT we have been deploying dozens of Open
+ Stack clouds to host VNFs and other applications central to AT's business.
+  This has been a challenging process which has produced enough heroic tale
+ s to fill a legendary tome of engineering. In this talk\, we will focus on
+  the particular problem of deploying very small form factor\, multi-vendor
+ \, OpenStack clouds.
+LOCATION:Austin Convention Center - Level 4 - MR 15
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Managing OpenStack in a Cloud-native Way
+DTSTART:20160428T140019Z
+DTEND:20160428T144059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Openstack control services are usually deployed all together o
+ n dedicated high density hardware and using traditional clustering softwar
+ e to provide high availability. Swisscom took a different approach and\, e
+ mbracing modern distributed application architecture principles\, untangle
+ d all the various components into separate and whenever possible horizonta
+ lly-scalable entities. This way we reduced complexity of managing larger f
+ ail-over clusters\, as well as eased deployment\, maintenance and lifecycl
+ e. We will introduce our design\, our reasoning behind the taken approach\
+ , as well as dive into some of the problems we encountered and talk about 
+ still existing roadblocks for a true cloud-native deployment of OpenStack 
+ management services.
+LOCATION:Austin Convention Center - Level 4 - MR 16 A/B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Installing\, Configuring\, and Managing a 300+ OpenStack Node Netw
+ ork In Under An Hour
+DTSTART:20160428T183000Z
+DTEND:20160428T191040Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Deploying and managing a large OpenStack deployment can be dau
+ nting\, but much easier when you use standard DevOps automation tools\, a 
+ Linux-based network\, and commodity servers and switches. This session det
+ ails the design and implementation of an L3 network underlay\, routing to 
+ the host\, and a hardware VXLAN gateway used with an enterprise OpenStack 
+ distribution on 300+ OpenStack compute nodes.
+LOCATION:Austin Convention Center - Level 4 - Ballroom F
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Everything You Ever Wanted to Know About OpenStack at Scale
+DTSTART:20160428T192000Z
+DTEND:20160428T200040Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:A de facto guide to the scaling models\, capabilities and limi
+ ts of all OpenStack components. I will cover all core projects\, their com
+ ponents and the limitations of each. In general\, OpenStack scaling models
+  fit into three categories: vertically scalable\, horizontally scalable or
+  sharded\, which is a special case of horizontally scalable. Along with th
+ is overview I will take the opportunity to review structural details\, fut
+ ure plans and past mistakes. Q should be a large part of this presentation
+ . Please attend with lots of questions to ask.
+LOCATION:Austin Convention Center - Level 4 - Ballroom F
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dive into Nova Scheduler Performance - Where Is the Bottleneck?
+DTSTART:20160428T201001Z
+DTEND:20160428T205041Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:There are always rumors around nova scheduler. Like "Scheduler
+  can handle at most 1k nodes without problems" or "I don't believe schedul
+ er can handle so much requests using only one tiny process". Some would pr
+ efer to launch couples of scheduler instances to multiply the schedule thr
+ oughput\, but still others might worry about race conditions and decision 
+ conflicts that could outweigh the benefits. Cloud users are interested in 
+ the deployment strategies to maximize the schedule performance\, and devel
+ opers are curious about the mystery of race condition and its performance 
+ impact. Guesses and speculations are everywhere without evidences. So let'
+ s do some experiments and let data do the talk!
+LOCATION:Austin Convention Center - Level 4 - Ballroom F
+END:VEVENT
+END:VCALENDAR

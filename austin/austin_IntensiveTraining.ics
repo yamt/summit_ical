@@ -1,0 +1,49 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//yosshy/openstackdesignsummitaustin2016//NONSGML v1.0//EN
+SUMMARY:Intensive Training
+BEGIN:VEVENT
+SUMMARY:Join the cloud app training community - help others learn how to m
+ ake apps for the cloud!
+DTSTART:20160427T160000Z
+DTEND:20160427T173000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Currently\, the no.1 problem facing OpenStack developers is th
+ e "cambrian explosion" in cloud application paradigms (Containers\, SDKs\,
+  APIs\, VMs\, Orchestration... oh my!). DevOpps and AppDev communities hav
+ e significantly different views on the ways in which to develop cloud apps
+ \, let alone *what* a 'cloud app' is?!.The community needs a place to lear
+ n about each other's cloud application techniques. This workshop will bri
+ ng together coders who are responsible for training new users in cloud app
+ lication paradigms. This community will be focused on helping the humans w
+ hom live outside of the OpenStack community and are looking for how best t
+ o host their apps on OpenStack.People who should attend this workshop:Staf
+ f responsible for providing training on how to use / deploy / create apps 
+ on OpenStack\, i.e. Mirantis DevOpps showing their customer AppDev how to 
+ deploy apps.External cloud app developer communities\, i.e. Ruby AppDev lo
+ oking to deploy their apps via Fog on AWS\, Azure and Rackspace.Legacy and
+  enterprise app developers\, i.e. cloud aware apps utilising APIs to bridg
+ e scalable cloud compute/data services.Container developers\, i.e. CoreOS/
+ Docker applications being orchestrated by K8S.Any technically savvy person
+  who like to help other learn about cloud apps\, i.e. DevOpps who speak Ap
+ pDev\, and vice versa.Objectives (by the end of this workshop you will kno
+ w how to...):Run cloud application training which utilises best practice i
+ n learning science (aka pedagogical intelligences[1])\, i.e. friends don't
+  let friends kill each other with powerpoint.Provide a training forum wher
+ e multiple developers audiences (SysAdmin\, DevOpps\, AppDev\, TestEng & U
+ Xer) can learn and train one another about good practice in cloud applicat
+ ions.Craft learning challenges (problem-sets) for varying skill levels and
+  cloud application paradigms: cloud native apps (containers\, docker\, cor
+ eos)\, cloud aware apps (ProgLang specific SDKs\, LibCloud\, jCloud\, Fog\
+ , etc.)\, cloud organic apps (APIs\, VMs\, etc.) and orchestrating cloud a
+ pps (HeAT\, K8S\, Swarm\, Rkt\, etc).Share cloud application learning chal
+ lenges in a fun and community driven way so that all can benefit from bett
+ er cloud application development.Outline of this training avaialble here: 
+ https://etherpad.openstack.org/p/train-the-trainer-cloud-appsPre-Recorded 
+ version of this training here (please contact Flanders@OpenStack.org to jo
+ in this community):https://youtu.be/yDTtK9cJqBc[1]= Pedagogical techniques
+  utilised: "Problem Based Learning" & "Participatory Learning" (see Wikipe
+ dia).
+LOCATION:JW Marriott Austin - Level 3 - Salon E
+END:VEVENT
+END:VCALENDAR

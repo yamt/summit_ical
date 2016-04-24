@@ -1,0 +1,246 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//yosshy/openstackdesignsummitaustin2016//NONSGML v1.0//EN
+SUMMARY:Project Updates
+BEGIN:VEVENT
+SUMMARY:Making Cloud Interoperability Across OpenStack Vendors a Possibili
+ ty Using RefStack
+DTSTART:20160425T161500Z
+DTEND:20160425T165500Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:RefStack was recently adopted by DefCore as the official test 
+ result collection tool that vendors\, operators\, and users can report int
+ eroperability test results to. So far many companies have already got thei
+ r OpenStack solution certified through RefStack. To apply for OpenStack tr
+ ademark licensing programs\, you will need to run Tempest inside of the Re
+ fStack Client\, and upload the results to the RefStack Server. Once your r
+ esults are uploaded\, you can send a link to the report page to interop@op
+ enstack.org.After giving a brief introduction to RefStack\, in this talk\,
+  we will discuss the newly implemented features such as:Uploading data as 
+ a validated userInterpreting test results per DefCore GuidelinesAssociatin
+ g a test run to a specific DefCore Guideline and Target programAssociating
+  test results to a product/vendorWe also share what features are in store 
+ for RefStack along with some troubleshooting techniques based on the lesso
+ ns learned by working with various RefStack users.
+LOCATION:Austin Convention Center - Level 4 - Ballroom E
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Flat No More! Hierarchical Multitenancy and Projects Acting as Dom
+ ains in OpenStack
+DTSTART:20160425T161519Z
+DTEND:20160425T165559Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Hierarchical multitenancy is available since Kilo and enables 
+ a better resource management by creating projects and subprojects in a hie
+ rarchical fashion. Among other benefits\, quota management and access cont
+ rol are simplified by the use of roles that are inheritable for lower leve
+ ls of the hierarchy and this reflects more accurately the responsibilities
+  and resource sharing in an organization.Another improvement that we’ve 
+ made is the addition of projects acting as domains\, where now\, projects 
+ are not only the container of other services’ resources\, but also conta
+ in users and other projects\, that once belonged to domains.In this talk\,
+  we will present the recently incorporated features\, in which projects co
+ uld mirror the real hierarchical structure of organizations and ease resou
+ rce management and access control by cloud administrators and how using pr
+ ojects acting as domains can make the life of the cloud administrator easi
+ er.
+LOCATION:Austin Convention Center - Level 4 - Ballroom F
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Cinder Project Update
+DTSTART:20160425T170500Z
+DTEND:20160425T174500Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:During Mitaka\, the Cinder team has made progress in various a
+ reas.In this session\, we will provide an update on what has been accompli
+ shed in Mitaka and also discuss what may be coming in the Newton release.
+LOCATION:Austin Convention Center - Level 4 - Ballroom F
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Expanding DBaaS Workloads with OpenStack Trove and Manila
+DTSTART:20160425T170500Z
+DTEND:20160425T174540Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Until recently\, the OpenStack Trove DBaaS project only used t
+ he Cinder block storage service for database storage. With joint developme
+ nt work from NetApp\, Red Hat and Tesora\, it is now possible to run datab
+ ase workloads on OpenStack using Manila-based file shares.This session wil
+ l describe the implementation and the benefits of supporting databases wit
+ h persistent storage on Manila including the benefits in live migration\, 
+ clustering\, and database backup and restore.In this presentation\, one ca
+ n learn how Trove and Manila can support a wide range of new and legacy da
+ tabase workloads in OpenStack with both file and block storage.
+LOCATION:Austin Convention Center - Level 4 - Ballroom E
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Cross Release Themes: Update
+DTSTART:20160425T190000Z
+DTEND:20160425T194000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:As part of the OpenStack planning process\, the development te
+ ams have started tracking development tasks that will span across multiple
+  6-month cycles. The list of "Themes" was presented to the community at th
+ e Tokyo summit. In this session\, we will provide an update on the status 
+ of these epics as we near the Mitaka release and will update the plans for
+  Newton and Ocata
+LOCATION:Austin Convention Center - Level 4 - Ballroom F
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Senlin Clustering Service Deep Dive
+DTSTART:20160425T190019Z
+DTEND:20160425T194059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Managing the elasticity\, serviceability and distributions on 
+ an OpenStack cloud is always a challenge. Senlin was developed as a generi
+ c clustering service for managing homogeneous objects exposed by any OpenS
+ tack services\, e.g. Heat stacks\, Nova servers etc. This talk is a deep d
+ ive into the architecture design\, the plugin mechanisms and the built-in 
+ profile and policy supports in Senlin. With a real-world usage scenario\, 
+ the presenter will show you how Senlin makes the creation and management o
+ f resource pools an easy task.
+LOCATION:Austin Convention Center - Level 4 - Ballroom E
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Orchestrating Tasks with Mistral Workflow Service
+DTSTART:20160425T195000Z
+DTEND:20160425T203040Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:If you have a lot of tasks/processes running in your environme
+ nt then task orchestration becomes a huge task itself. Most of complicated
+  processes consist of lots of steps\, which should be executed in particul
+ ar sequence and with pre-conditions. Such steps may be time consuming and 
+ difficult to manage manually.Mistral can automate such orchestration of co
+ mputational steps and provide fault tolerances\, scalability\, state manag
+ ement\, correct execution order\, parallelism and synchronization as well 
+ as monitoring capabilities that allow to observe state of running processe
+ s (workflows in Mistral terminology).In today world\, cloud provides lots 
+ of services and operator or administrator needs to manually manage the day
+  to day tasks on those services. For example:* Scheduled periodic backups 
+ of VMs or volumes. * Management of VM migration\, evacuation etc. * Long
+ -living chains of administrative actions * Managing infrastructure at sca
+ leIn this session I would like to tell about Mistral Workflow Service and 
+ its use cases.
+LOCATION:Austin Convention Center - Level 4 - Ballroom E
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Big Tent\, One Year Later
+DTSTART:20160425T195000Z
+DTEND:20160425T203040Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:One year ago the OpenStack project completed the transition to
+  a new project structure and governance model\, which was dubbed the "Big 
+ Tent". Some people predicted it would result in the end of the world\, som
+ e others expected immediate world domination\, and most were just confused
+ . Where are we\, one year later ? What changes in OpenStack did the "big t
+ ent" end up triggering ? What are the new challenges ahead of us ?In this 
+ casual talk\, the outspoken Monty Taylor and the analytic Thierry Carrez w
+ ill discuss OpenStack vision and leadership from the upstream open source 
+ project side of things. Come all to learn about where we are and where we 
+ plan to go.
+LOCATION:Austin Convention Center - Level 4 - Ballroom F
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Omniscient Cloud: Bare Metal Inspection Status Update
+DTSTART:20160425T204001Z
+DTEND:20160425T212021Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Ironic Inspector was introduced during the Kilo cycle (under t
+ he name of ironic-discoverd) to allow inspection of hardware properties re
+ quired for Ironic. Since then\, weve found even more uses for deep inspect
+ ion of hardware served by Ironic.This session gives a quick introduction i
+ nto Ironic Inspector\, its role in bare metal provisioning and Ironic Insp
+ ector's pluggable architecture\, and how it provides smarter processing of
+  the inspection data.Youll also learn about extended features introduced i
+ n the Liberty and Kilo cycles\, such as inspection rules\, support for Iro
+ nic Python Agent\, and plug-in hooks for interaction with CMDBs. The sessi
+ on will conclude with future plans\, including node auto-discovery and hig
+ h-availability.
+LOCATION:Austin Convention Center - Level 4 - Ballroom F
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Nova Cells V2: What's Going On?
+DTSTART:20160425T204001Z
+DTEND:20160425T212041Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Nova cells is an optional deployment architecture that allows 
+ for scaling to thousands of compute nodes within a single region. It is in
+  use by large deployers such as Rackspace\, CERN\, GoDaddy\, and others. H
+ owever because it is not the default architecture\, lacks support for some
+  major features like security groups\, and is not well understood by most 
+ developers it does not receive the same level of testing and scrutiny as o
+ ther parts of Nova and is considered experimental. The cells version 2 eff
+ ort aims to change that. Under version 2 all Nova features will be support
+ ed and the default deployment will be using cells.This talk will describe 
+ what work is taking place to get there\, what all deployers need to know a
+ bout the upgrade process that will be required\, and what is coming in the
+  future.
+LOCATION:Austin Convention Center - Level 4 - Ballroom E
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Deep Dive into Neutron Upgrade Story
+DTSTART:20160425T214000Z
+DTEND:20160425T222000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Everyone agrees that cloud upgrades needs to be smooth\, quick
+  and reliable\, with no downtime on data nor control plane. From the techn
+ ical point of view this is a big challenge\, especially for Neutron which 
+ is well known as one of the most complex project in OpenStack. In Mitaka\
+ , a dedicated Neutron Upgrades team was established to track and push forw
+ ard upgrade items. In this session we will show why it's important for dev
+ elopers and operators to understand all kinds of upgrade process implicati
+ ons to keep their users happy. We'll cover what was achieved by the Neutro
+ n Upgrades team in Liberty and Mitaka cycles\, starting from agent side wo
+ rk to the latest and greatest object versioning pieces that pave the way t
+ o more reliable rolling upgrades. We'll explain the challenges that we had
+  to face and the solutions we have found so that other projects can learn 
+ from our trials and mistakes. Finally we will list what's currently being
+  worked on and we'll glimpse rolling upgrades roadmap.
+LOCATION:Austin Convention Center - Level 4 - MR 16 A/B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Scalable Heat Engine Using Convergence
+DTSTART:20160425T214001Z
+DTEND:20160425T222041Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:This session provides details of new design called "convergenc
+ e" in OpenStack Heat Orchestration project. The new design is targeted at 
+ improving scalability and resource utilization.This session will provide d
+ etails on the comparison of the resource utilization data for stack creati
+ on and updation. Also\, the next steps to improve HA and performance of He
+ at engines will be briefly covered.
+LOCATION:Austin Convention Center - Level 4 - Ballroom E
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Log Management with Monasca
+DTSTART:20160425T223000Z
+DTEND:20160425T231000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:In this session we present the log management capability inMon
+ asca and describe the implementation of the new feature\, alarms on logs. 
+ Monasca is a scalable\, multi-tenant\, high performance\, fault-tolerant O
+ penStack Monitoring as a Service(MONaaS) solution. With Mitaka release it 
+ is for the first time apart of the Big Tent.
+LOCATION:Austin Convention Center - Level 4 - Ballroom F
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tempest Stable Interfaces for OpenStack Integration Testing
+DTSTART:20160425T223019Z
+DTEND:20160425T231059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:The aim of Tempest has been from the start to provide a set of
+  integration test for OpenStack\; however Tempest scope have evolved in ti
+ me: itused to be mostly targeted todevstack - now it is ran against OpenSt
+ ack production deployment as well - often to validate interoperability as 
+ defined by DefCore. Tempest used to encompass tests for all of the OpenSta
+ ck projects\; since the Big Tent was introduced\, it aims to cover only si
+ x core services\, and it exposes external interfaces for all other project
+ s. These changes have caused the code base to grow rather organically whil
+ e it adapted to the new needs.During the Liberty and Mitaka cycle we have 
+ defined stable interfaces in Tempest\, so that maintainers of OpenStack pr
+ ojects may produce integration tests in a "Tempest plugin.This talk will c
+ over the work which has been done on Tempest and Tempest-Lib to define sta
+ ble interfaces. It will also provide examples on how to consume them to pr
+ oduce a plugin for Tempest.
+LOCATION:Austin Convention Center - Level 4 - Ballroom E
+END:VEVENT
+END:VCALENDAR

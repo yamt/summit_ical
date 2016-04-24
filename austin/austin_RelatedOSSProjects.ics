@@ -1,0 +1,160 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//yosshy/openstackdesignsummitaustin2016//NONSGML v1.0//EN
+SUMMARY:Related OSS Projects
+BEGIN:VEVENT
+SUMMARY:Project Vitrage: How to Organize\, Analyze and Visualize your Open
+ Stack Cloud
+DTSTART:20160427T145000Z
+DTEND:20160427T153000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:When problems or strange behaviors emerge in a complexcloud en
+ vironment\, it's difficult to understand what is causing them\, making the
+  management of such systems untenable.The Vitrage project is designedto ad
+ dress precisely this.Vitrage is a new Root Cause Analysis Engine for organ
+ izing\, analyzing and expanding OpenStack alarms  events\, yielding insigh
+ ts regarding the root cause of problems and deducing the existence of prob
+ lems before they are directly detected.Its ultimate goal is that every sig
+ nificant occurrence in the cloud should have a timely alarm generated for 
+ it\, and that the cause-effect relationships between these events is under
+ stood and visualized.In this session we'll present Vitrage for the first t
+ ime. In addition to going over its goals\, design and planned features\, w
+ e will demo three features supported for the Mitaka version of Vitrage:1. 
+ Aclear view of the Cloud Topology2. Configurable template-based raising of
+  alarms3. The Root Cause Analysis of these alarms
+LOCATION:Austin Convention Center - Level 4 - MR 18 A/B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Quantifying the Noisy Neighbor Problem in Openstack
+DTSTART:20160428T145000Z
+DTEND:20160428T153040Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Two of the desirable features for private clouds are better co
+ ntrol and predictable performance. Although public clouds have been extens
+ ively researched to characterize their unpredictable performance\, private
+  clouds have received less scrutiny.In this talk\, we will present how pro
+ duction workloads interfere with each other in an Openstack based cloud. W
+ e draw lessons from a several month long study of running workloads in dif
+ ferent configurations on highly available implementation of Openstack. We 
+ study the impact of noisy neighbors on the network and storage IO performa
+ nce of applications. We also look at the performance metrics of Openstack 
+ control plane and how the API calls are impacted with more number of entit
+ ies like networks\, routers\, VMs\, volumes. Our study relies on a tool th
+ at we developed to create clean and noisy workload deployments\, using mic
+ ro-benchmarks as well as enterprise workloads such as Hadoop\, Jenkins and
+  Redis.
+LOCATION:Austin Convention Center - Level 4 - MR 12 A/B 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Cephfs in Jewel: Stable at Last
+DTSTART:20160428T160019Z
+DTEND:20160428T164059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:The Ceph upstream community is declaring CephFS stable for the
+  first time in the recent Jewel release\, but that declaration comes with 
+ caveats: while we have filesystem repair tools and a horizontally scalable
+  POSIX filesystem\, we have default-disabled exciting features like horizo
+ ntally-scalable metadata servers and snapshots. This talk will present exa
+ ctly what features you can expect to see\, what's blocking the inclusion o
+ f other features\, and what you as a user can expect and can contribute by
+  deploying or testing CephFS.
+LOCATION:Austin Convention Center - Level 4 - MR 12 A/B 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Multi-unit OpenStack Cloud Deployment Using LXD Containers On Your
+  Laptop
+DTSTART:20160428T165000Z
+DTEND:20160428T173040Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Testing OpenStack deployments without having access to multipl
+ e pieces of physical server infrastructure can be challenging\;  Find out
+  how to use LXD (the container hypervisor for Linux) with Juju (the servic
+ e modelling tool from Canonical) to deploy OpenStack in LXC containers on 
+ your laptop\, simulating a real world multi-node deployment with Open vSwi
+ tch overlay networking and running KVM instances without the overhead of n
+ ested virtualization.
+LOCATION:Austin Convention Center - Level 4 - MR 12 A/B 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Speeding up Developer Productivity with OpenStack and Open Source 
+ Tools
+DTSTART:20160428T183019Z
+DTEND:20160428T191059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:OpenStacks orchestration service and APIs enable developers to
+  easily deploy application infrastructure themselvesbut what if developers
+  want to use the popular open source tools with which they're already fami
+ liar?This talk covers how developers can use tools from HashiCorp (Vagrant
+ \, Terraform\, Packer)\, Docker\, Ansible\, Puppet\, and others to quickly
+  provision workloads on OpenStack clouds. The presenters will share practi
+ cal examples that attendees can follow along with at the talk and/or take 
+ back home to try in their own labs.
+LOCATION:Austin Convention Center - Level 4 - MR 12 A/B 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Watcher\, a Resource Manager for OpenStack: Plans for the N-releas
+ e and Beyond
+DTSTART:20160428T192000Z
+DTEND:20160428T200000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Watcher is an open source software package which provides a fl
+ exible and scalable resource optimization service for multi-tenant OpenSta
+ ck-based clouds. Watcher provides a complete optimization loop—including
+  everything from a metrics receiver\, optimization processor andan action 
+ plan applier. This provides a robust framework to realize a wide range of 
+ cloud optimization goals\, including the reduction of data center operatin
+ g costs\, increased system performance via intelligent virtual machine mig
+ ration\,increased energy efficiency\, etc. The overall goal is that OpenSt
+ ack-based clouds equipped with Watcher will decrease their Total Cost of O
+ wnership by way of more efficient use of their infrastructure through targ
+ eted optimizations and close-loop automation. In this talk we will go over
+  the state of Watcher as it is today\, its architecture\, the team’s acc
+ omplishments for the Mitaka release and our plans for the N-release and be
+ yond.
+LOCATION:Austin Convention Center - Level 4 - MR 12 A/B 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Infrastructure as Code in OpenStack with Ansible - Advanced Neutro
+ n Use Cases
+DTSTART:20160428T201001Z
+DTEND:20160428T205041Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:This session will explore the step by step approach to deploy 
+ 4 popular use cases configuring advanced Neutron1) Deploy a Load Balanced 
+ 2 tier infrastructure (Using Oracle and Tomcat) that leverages LBaaS v2. 
+  How to perform proactive autoscaling by code - and bypassing the LBaaS v2
+  lack of integration with Heat / Ceilometer.2) FWaaS use case to block by 
+ code certain ports in our two tier infrastructure while allowing your end 
+ users to still reach the core services.3) Configure a VPNaaS across two se
+ parate OpenStack clouds.In this use case our web services are running in o
+ ne OpenStack cloud (could be a public cloud) while our database services a
+ re running safely on premise in a separate private cloud. VPNaaS will allo
+ w the comminication between Tomcat in our "public" cloud and Oracle in our
+  "private" cloud.  This is transparent to the end user.4) Baremetal provi
+ sioning with Ansible playbooks:  A quick demo to showcase the configurati
+ on management capabilities of Ansible on Baremetal.
+LOCATION:Austin Convention Center - Level 4 - MR 12 A/B 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Improving Cloud Performance with GCC Latest Technologies in Clear 
+ Linux Project
+DTSTART:20160428T211001Z
+DTEND:20160428T215021Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:As the  Linux community continues to redefine the boundaries 
+ of what is possible in a cloud-based Linux distributions running on Intel 
+ silicon\, both power and performance play an increasingly important role i
+ n the industry. In the Clear Linux Project for Intel Architecture\, we dec
+ ided to use the latest GCC technology to boost the performance of a cloud-
+ based system. From profile-based techniques (PGO and AutoFDO) to Function 
+ Multi-Versioning (compiler feature that is capable of optimizing the same 
+ code for multiple architectures and then automatically selecting the corre
+ ct architecture-specific version of the code at runtime) we will show how 
+ these technologies  can be used to improve runtime performance and unleas
+ h the power of IA in  Linux distributions. This presentation will help th
+ e cloud developers to better understand the capabilities of the latest ver
+ sion of GCC compiler. This will include demos and open source templates th
+ at can be reused for their own applications.
+LOCATION:Austin Convention Center - Level 4 - MR 12 A/B 
+END:VEVENT
+END:VCALENDAR

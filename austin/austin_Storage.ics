@@ -1,0 +1,446 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//yosshy/openstackdesignsummitaustin2016//NONSGML v1.0//EN
+SUMMARY:Storage
+BEGIN:VEVENT
+SUMMARY:The Performance Issues of Cinder Under  High Concurrent Pressure a
+ nd Large-scale   Environment
+DTSTART:20160425T204001Z
+DTEND:20160425T212041Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:We deployed a nearly 200 nodes OpenStack environment\, in orde
+ r to more easily manage virtual disks\, all the instances are booting from
+  volumes. We use Rally to evaluate the performance of this cluster. The fa
+ ct is\, compared to boot from local disks\, booting from volumes often lea
+ d to failure.These failure are largely due to the low performance of Cinde
+ r. In this presentation\, we will discuss problems found during performanc
+ e testing in detail.Database\, threading model\, deployment architecture a
+ nd other factors will affect the performance of cinder largely. Under cert
+ ain conditions all of these can become a performance bottleneck. We will i
+ ntroduce these separately.Finally\, we will give our conclusions and solut
+ ions in order to help everyone to be more convenient to use cinder.
+LOCATION:Austin Convention Center - Level 4 - MR 12 A/B 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:How Stuff Works: Cinder Replication and Live-Migration
+DTSTART:20160425T214001Z
+DTEND:20160425T222041Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:This is a medium to advanced session on two relatively new fea
+ tures in Cinder.  First we will look at the new replication feature which
+  will be available in the Mitaka release. We will show how to configure a
+ nd utilize replicated volumes in your storage catalog.  We plan to have 2
+  short demos of replication configurations\, one from SolidFire and one fr
+ om NetApp. In the second part of the presentation we will discuss the conf
+ iguration details necessary in Cinder (and OpenStack) to allow live migrat
+ ion of instances to work with block storage attached.  
+LOCATION:Austin Convention Center - Level 4 - MR 12 A/B 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:There and Back Again - Moving Data Across Your Clouds
+DTSTART:20160425T223019Z
+DTEND:20160425T231059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:With all the storage options in OpenStack\, every user will ne
+ ed to move data around\, either within a cloud from one storage type or ba
+ ckend to another or from one cloud to another. We are going to discuss mig
+ ration approaches for images\, volumes and shares provided by Glance\, Cin
+ der and Manila OpenStack services\, and apply this to different backends s
+ uch Ceph\, NFS\, iSCSI. Our talk is geared toward end users\, administrato
+ rs and architects\, and will cover both in-cloud and multi-cloud migration
+ \, which is especially important in the context of an inevitable cloud upg
+ rade.Use cases include cloud migration\, storage scaling and disaster reco
+ very will illustrate tools and techniques appropriate for each.We are team
+ ing up to tender tales\, tools and techniques to technical teams in order 
+ to transfer troves of terabytes to tenable targets.
+LOCATION:Austin Convention Center - Level 4 - MR 12 A/B 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Cinder and Docker\, Like Peanut Butter and Chocolate
+DTSTART:20160426T161519Z
+DTEND:20160426T165559Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Cinder has seen explosive growth offering over 70 backend stor
+ age providers.  Now we're seeing the arms race begin with Vendors and sta
+ rt-ups pitching the same sort of trend in Containers.  Did you know howev
+ er that it's actually pretty simple to use Cinder to provide your Block St
+ orage orchestration for Docker?  Many point out that Containers and OpenS
+ tack can be complimentary\, we'll show you one such case. This talk will 
+ introduce some of the current functionality in the Docker Volumes API as w
+ ell as take a quick look at a number of the options that are out there.  
+ There's no single answer\, but there might be an easier path to Persistent
+  Block storage in containers than you thought.  We'll show you how you ca
+ n use your existing Cinder environment an introduce a Native Docker Cinder
+  plugin\, and how some folks are already using this great combination toda
+ y!  Not to mention a demo with the potential for spectacular failure that
+  you can tweet about and tell all your friends!  
+LOCATION:Austin Convention Center - Level 4 - Ballroom E
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Freezer: From Backup/Restore aaS to a Fully DR Solution for OpenSt
+ ack
+DTSTART:20160426T170500Z
+DTEND:20160426T174540Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Whether you face Disaster Recovery or not\, you may need to re
+ build/restore your entire service or a fraction of it in different Data Ce
+ ntres.This can now be achieved in a timely and efficient manner with OpenS
+ tack and Freezer.This technology provides users unprecedented flexibility 
+ and enables them to rebuild\, not only the Cloud Infrastructure\, but also
+  any dataset of any size they need to recover on the most suitable locatio
+ n.It can happen that Backup/Restore approach does not fit with required RP
+ O/RTO\, so in Freezer we are implementing a new layer of orchestration tha
+ t allows OpenStack to survive to Disasters\, from the loss of a Compute No
+ de to an entire Data Center.Freezer offers a solution for Disaster Recover
+ y\, backup and restore as a service with data integrity\, availability and
+  security.The Freezer Team has delivered in the OpenStack framework\, a co
+ mplete open source platform that allows users to keep all their data store
+ d in OpenStack at all times.
+LOCATION:Austin Convention Center - Level 4 - Ballroom E
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:One Does Not Simply Use Multiple Backends in Cinder... You Have to
+  Listen to Our Presentation First. 
+DTSTART:20160426T190019Z
+DTEND:20160426T194059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:This presentation begins with a brief overview of Cinder’s h
+ istory\, its development in the OpenStack community\, and then provides an
+  introduction to its architecture.  This gives new users the pieces they 
+ need to understand the basics of using Cinder and its API.With the basic b
+ ackground applied\, we dive into more complex concepts like volume types a
+ nd how they apply to multiple backends.  Once the user has an understandi
+ ng of cinder environments with multiple backends we are able to introduce 
+ concepts like retyping and migration.The presentation also includes demons
+ trations of how to most effectively leverage Cinder’s CLI and Horizon in
+ terfaces.  These interfaces are used to create and manage types\, create 
+ volumes using those types and subsequently move the volumes between backen
+ ds.
+LOCATION:Austin Convention Center - Level 4 - Ballroom E
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Manila: Experience It Through Demos!
+DTSTART:20160426T195000Z
+DTEND:20160426T203040Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Manila\, the community-driven project that presents the manage
+ ment of file-shares (e.g. NFS\, CIFS\, HDFS)\, is exploding with new featu
+ res\, use cases and deployers. In this demo-driven session\, we will visua
+ lly take you through some of the different features available via demonstr
+ ation walkthroughs. We will start off with simple capabilities and then co
+ vermore advanced features. Come join us to see in action: Manila deploymen
+ t with RHEL OSP Director Availability zones for deploying shares in multip
+ le data centers Consistency groups for grouping shares and taking useful s
+ napshots Share replication for disaster recovery Intelligent share provisi
+ oning based on I/O and much more
+LOCATION:Austin Convention Center - Level 4 - Ballroom E
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Designing for High Performance Ceph at Scale
+DTSTART:20160426T204001Z
+DTEND:20160426T212041Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Discuss the tuning and hardware optimization that has been suc
+ cessful for Comcasts multi-petabyte scale Ceph clusters. Review what works
+  and what doesn't in designing for both performance and capacity. Discuss 
+ some of the operational issues we have encountered and how to avoid them.N
+ uma TuningCeph Configuration Tips and TricksRados Gateway Design and Optim
+ izationLessons learnedHow to benchmark
+LOCATION:Austin Convention Center - Level 4 - Ballroom E
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Amalgamating Manilla And Swift for Unified Data Sharing Across Ins
+ tances
+DTSTART:20160426T214001Z
+DTEND:20160426T222041Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:As industry is moving towards cloud\, Object Store has become 
+ a choice for storage for many workloads. But\, there will continue to exis
+ ts traditional applications which require data to be accessed using file a
+ ccess methods like NFS/SMB. So we end up having scenarios where there are 
+ applications running anywhere (VMs hosted by openstack or beyond) which ar
+ e creating and accessing object data and the same object data is required 
+ to be accessed by applications running on other set of VM instances via fi
+ le interfaces.Manila\, the OpenStack file share service provides a way to 
+ easily  securely configure a file share which can be shared between multip
+ le virtual machine instances. On the other hand\, Swiftonfile diskfile imp
+ lementation for OpenStack Swift allows objects to be available through fil
+ e interface. Commingling these two Openstack technologies uniquely address
+ es the common deployments challenged with multiprotocol access and sharing
+  of same data across the VM instances.
+LOCATION:Austin Convention Center - Level 4 - Ballroom E
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ceph at Scale - Bloomberg Cloud Storage Platform
+DTSTART:20160426T214001Z
+DTEND:20160426T222041Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Chris Jones\, Technical Lead for Bloomberg Cloud Storage and m
+ aintainer for Ceph's Chef cookbooks on github\, will provide a technical o
+ verview of how Ceph Object and Block storage are used at Bloomberg with an
+ d without OpenStack. Learn how-to build your own multi-petabyte hyper-conv
+ erged cloud storage system using the same automation tools used at Bloombe
+ rg on commodity hardware. Topics will include: -Multi-Cluster architecture
+  with index sharding for Object Store (RADOS Gateway) -Architecture to kee
+ p in mind when scaling -Planning for failure and how-to mitigate the risk 
+ -Automation to build out a small VM cluster on your laptop to multiple pet
+ abyte clusters with the same automation
+LOCATION:Austin Convention Center - Level 4 - MR 12 A/B 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Cephfs as a Service with OpenStack Manila 
+DTSTART:20160426T223019Z
+DTEND:20160426T231059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Ceph is a popular storage backend for OpenStack deployments\, 
+ in use for block devices via RBD/Cinder and for object storage with RGW. 
+ Ceph also includes a filesystem\, CephFS which is suitable for integration
+  with Manila\, the OpenStack shared filesystem service.This presentation i
+ ntroduces the new CephFS Native driver for Manila\, describing its the imp
+ lementation of the driver\, and how to deploy and use it. Areas of particu
+ lar interest for Ceph users will include how CephFS snapshots map to Manil
+ a's snapshot API\, how Ceph's authentication scheme can be used with Manil
+ a.In addition\, the direction of future work will be described\, including
+  how the driver can be extended to provide an NFS share service based on C
+ ephFS\, and how this work would integrate with VSOCK-based hypervisor-medi
+ ated filesystem access. 
+LOCATION:Austin Convention Center - Level 4 - MR 12 A/B 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:How to Integrate OpenStack Swift to Your "Legacy" System
+DTSTART:20160426T223019Z
+DTEND:20160426T231059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:OpenStack Swift is a storage project in OpenStack\, which real
+ izes a highly scalable and robust object storage\, with low operational co
+ st.We\, cloud storage team in NTT DATA\, have been offered many projects a
+ iming to replace legacy storage to swift\, to store more data more safely 
+ with lower cost. In those project\, we were often required not to change t
+ he existing systems. However\, this requirement causes a problem in our in
+ tegration\, when they are so "legacy" that they rarely support REST API. M
+ any systems are still on the way to turning to cloud-native architectures 
+ (like REST API)\, and we have seen many demands to introduce cloud system 
+ into no-cloud system\, as the first step for ther turning.In this session\
+ , we will explain some example cases from our Swift projects and how we so
+ lved this interface problem to intergrate Swift\, very useful cloud techno
+ logy\, into the existing "legacy" systems.
+LOCATION:Austin Convention Center - Level 4 - Ballroom E
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Swift Object Encryption
+DTSTART:20160427T140019Z
+DTEND:20160427T144059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:A new feature in development for OpenStack Swift improves secu
+ rity by encrypting object data at rest.OpenStack Swift provides reliable a
+ nd scalable object storage that has been deployed in many successful produ
+ ction environments. The Swift developer community has recently been workin
+ g on enhancing Swifts security by adding the capability to encrypt object 
+ content stored on disk. Our goal is to protect data at rest from an attack
+ er that gains physical access to disks. We aim to achieve this with comple
+ te transparency to clients i.e. with no API changes\, other than optional 
+ extensions to support client provided keys when desired.This talk will des
+ cribe and demonstrate this exciting new feature\, discuss options for inte
+ gration with key management services such as Barbican\, and look ahead at 
+ future work to additionally encrypt account and container metadata.
+LOCATION:Austin Convention Center - Level 4 - MR 12 A/B 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Leverage the Advantage of Multiple Storage Backends in Glance
+DTSTART:20160427T185000Z
+DTEND:20160427T193040Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Currently cinder-volume can support multiple backends and each
+  nova-compute could choose its storage backend. But glance doesn't support
+  that which means we could store images in only one backend no matter how 
+ many cinder drivers we used. More and more users want to leverage the adva
+ ntages of ceph and enterprise storage. But with the restriction of glance 
+ we could only get images in one place and copy to another storage if we bo
+ ot virtual machines in different backends. After improving glance to suppo
+ rt multiple storage backends\, we can use different storage resources in m
+ ultiple availability zones. You can pull images from ceph and boot virtual
+  machines with the COW features. At the meantime\, we're allowed to use an
+ other storage pool without pulling images from ceph. This is meaningful wh
+ en we're using distributed storage system and enterprise storage solution.
+LOCATION:Austin Convention Center - Level 4 - MR 12 A/B 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Doubling Performance in Swift with No Code Changes
+DTSTART:20160427T194001Z
+DTEND:20160427T202041Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Would you like to double performance without changing a line o
+ f code?All interpreted languages come to the point in their evolution wher
+ e a radical turn is needed to optimize performance and a Just In Time (JIT
+ ) compilation is the direction they have all turned. We would argue that n
+ ow is the time for Python. In perhaps an extreme case\, Swift’s performa
+ nce is greatly affected by the latency of Python’s default  CPython int
+ erpreter. Recently Swift throughput was improved 111% on a 15 node storage
+  cluster and response time was boosted 87%. This was achieved by using PyP
+ y\, the JIT version of Python. This talk will describe a proof-of-concept 
+ study using PyPy in production with Swift\, offer a roadmap for broad adop
+ tion of PyPy in the Python world\, and provide clear steps for implementin
+ g PyPy in Swift.
+LOCATION:Austin Convention Center - Level 4 - MR 12 A/B 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:A Close Look at the Behaviors of the Multi-Region Swift Clusters
+DTSTART:20160427T203019Z
+DTEND:20160427T211059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:OpenStack Swift isexcellent for building storage systems distr
+ ibuted across multiple data centers and geographical locations: Multi-Regi
+ on Clusters (MRCs). MRCs of Swift havesomebehaviorssuch aswrite affinityan
+ dread affinity. Withthese features\, MRCs canachieve short latency and hig
+ h throughput. However\, you may wantto be careful with this. If you enable
+  write affinity\, in the worst case\, you may lose data when one of the re
+ gions is down. On the other hand\, if you disable write/read affinity\, th
+ e performance of your cluster may be limited by thetransmissiondelay and b
+ andwidth of the network connections between regions. There is no one-size-
+ fits-all answer to the question of how to configure a MRC. Itdepends on th
+ e scale of clusters\, the workloads\, the usecases\, the network condition
+ s\, the number of replicas for each storage policy\, etc. Inthis talk\, we
+  will discussthe behaviors of MRCs under different conditions and the less
+ ons we learned in our deployments.
+LOCATION:Austin Convention Center - Level 4 - MR 12 A/B 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Private Swift Endpoint
+DTSTART:20160427T213019Z
+DTEND:20160427T221059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:In some cases\, administrators have to restrict outbound reach
+ ability of internal tenant network.Swift endpoints are no exception.In thi
+ s talk\, we will discuss how we can make workaround to provideaccess to Sw
+ ift for closed tenant network. Enterprise users who want to keep security 
+ needprivate Swift endpoints like VPC endpoints in AWS.We will show a few m
+ ethods to enable private Swift endpoints and considerpros and cons.
+LOCATION:Austin Convention Center - Level 4 - MR 12 A/B 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Shared Filesystems Management (Manila)\; Forging the Way Ahead
+DTSTART:20160427T222001Z
+DTEND:20160427T230041Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Manila is the OpenStack shared filesystem service that was ann
+ ounced September 2013. In January 2015 it was labeled as an officially inc
+ ubated OpenStack program. Now with the current stable release in Liberty\,
+  Manila is providing the management of file shares (for example\, NFS and 
+ CIFS) as a core service to OpenStack. Manila currently works with a variet
+ y of vendors\, including NetApp\, Red Hat Storage (GlusterFS)\, EMC\, IBM 
+ GPFS\, Hitachi\, HPE\, and on a base Linux NFS server. In this session\, w
+ e will provide an introduction to the Manila file share service\, a descri
+ ption of the logical architecture of Manila and its API structure\, exampl
+ es of use cases\, an exploration of whats coming in Mitaka from share repl
+ ication\, LVM\, cephfs\, data copy service\, and a brief demo.
+LOCATION:Austin Convention Center - Level 4 - MR 12 A/B 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Swift Middlewares - What Are They?
+DTSTART:20160428T140019Z
+DTEND:20160428T144059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:OpenStack Swift already addresses many wide range of features 
+ and solves challenges that come with storage to a great extent. However th
+ ere can be users and operators with new use cases for their specific needs
+  and would wish to have them in Swift. It is in this scenario\, a middlewa
+ re comes to your rescue and lets you add your own significant feature by e
+ xtending Swift capabilities. Many features of swift are implemented as mid
+ dlewares. It would be worthwhile to understand what they are\, how they ar
+ e implemented and how do they communicate with Swift.
+LOCATION:Austin Convention Center - Level 1 - Ballroom B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Monitoring Swift ++ (incl Nagios\, Elasticsearch\, Zabbix\, & more
+ )
+DTSTART:20160428T145000Z
+DTEND:20160428T153040Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Monitoring of infrastructure and applications is near and dear
+  to operators\, and a Swift object storage cluster is no exception. Preven
+ tion is always the best medicine\, and one needs to know what the environm
+ ent is doing and how it is doing at all times. Operators have many systems
+  in place which can also monitor Swift as a means of learning from cluster
+  behaviour and predicting issues.This session covers several popular ways 
+ of setting up continuous monitoring of your infrastructure and using your 
+ preferred tools for real time alerts for failures and stress conditions is
+  a requirement. In the past few years organizations have started to move f
+ rom monitoring solutions that detect a certain state and alert on it\, to 
+ more dynamic solutions like Nagios\, Elasticsearch\, Zabbix\, Logstash\, K
+ ibana (ELK) stack and more. Attendees will see hands-on examples for how t
+ o monitor an existing Swift cluster.
+LOCATION:Austin Convention Center - Level 1 - Ballroom B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Optimizing Software-Defined Storage for OpenStack
+DTSTART:20160428T160019Z
+DTEND:20160428T164059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Engineered systems have been met with tremendous market succes
+ s supporting legacy applications and workloads because build your own hasn
+ t worked. Why dont we have similar solutions for new modern cloud applicat
+ ions and workloads? Rolling your own open source solution wont be for ever
+ yone. Likewise\, other organizations are looking to integrate OpenStack to
+  existing systems with a sunk cost. Roll your own\, pre-packaged distribut
+ ions\, or turnkey appliance  why do folks choose one option instead or ano
+ ther? Why not focus on application development\, and leave the infrastruct
+ ure to someone else? Let's look at use cases and provide some handy tools 
+ for your own evaluation.
+LOCATION:Austin Convention Center - Level 1 - Ballroom B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Swift 102: Beyond CRUD - More Real Demos
+DTSTART:20160428T165000Z
+DTEND:20160428T173040Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:OpenStack Swift was designed to allow application developers t
+ o focus on their apps without worrying about how the storage operates unde
+ rneath. Swift takes care of durability\, concurrency\, and availability of
+  data\, and it provides a suite of accessible features that give applicati
+ on developers the tools they need to focus on making their applications aw
+ esome.In this updated session\, SwiftStack's developer and ISV program man
+ ager will cover extended features of the Swift API and provide tips and sa
+ mple code on how your application can best use Swift to provide high-perfo
+ rmance access to your data. For devs that prefer the S3 API\, this session
+  will show how that API can also be used with Swift. If your applications 
+ use Swift today or may use it tomorrow\, you will benefit from advice on w
+ hat works best and getting the most from Swift.
+LOCATION:Austin Convention Center - Level 1 - Ballroom B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Write a File\, Read as an Object
+DTSTART:20160428T183019Z
+DTEND:20160428T191059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:This session tells about a solution to "objectize" files inges
+ ted via file interface like NFS/SMB to make them visible in Swift containe
+ r listing so they can be accessed via object interface (Openstack Swift). 
+ The session begins with a short overview of SwiftOnFile\, which is needed 
+ to understand the data placement mechanism for unified file and object acc
+ ess. We will then explain the "objectization" process that does synchroniz
+ ation between file metadata and object metadata that ensures accurate cont
+ ainer and account listing. This honors Swift semantics of “eventual cons
+ istency” where file data gets reflected in object interface eventually. 
+ We will also talk about how the file protocol's authorization semantics ar
+ e honored by preserving the Access Control Lists set on files and director
+ ies from file interface.
+LOCATION:Austin Convention Center - Level 1 - Ballroom B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FILE This: Swift API\, Then S3 API\, And Now POSIX Access to OpenS
+ tack Swift
+DTSTART:20160428T192000Z
+DTEND:20160428T200040Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:OpenStack developers have had all they need in the Swift API t
+ o build new applications and store unstructured data in Swift. But what ab
+ out classic apps that are not yet refactored? And maybe there are requirem
+ ents to read from or move data between Swift and NAS storage.SwiftStack ha
+ s middleware for Amazon S3 API support\, and is working on building suppor
+ t for POSIX interfaces directly into Swift. The Swift PTL\, as well as the
+  author of the O'Reilly publication "OpenStack Swift"\, lead this session 
+ and share the exciting developments that will broaden Swift's ability to s
+ upport more application workloads and store more data.
+LOCATION:Austin Convention Center - Level 1 - Ballroom B
+END:VEVENT
+END:VCALENDAR

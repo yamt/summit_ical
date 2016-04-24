@@ -1,0 +1,515 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//yosshy/openstackdesignsummitaustin2016//NONSGML v1.0//EN
+SUMMARY:Telecom / NFV
+BEGIN:VEVENT
+SUMMARY:Telco Cloud Requirements: What VNF's Are Asking For
+DTSTART:20160427T140000Z
+DTEND:20160427T144000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:This talk will focus on the evolving requirements of current a
+ nd future Telco Cloud deployments.Network Functions are widely deployed to
+ day with quantified performance\, failure and capacity requirements. As th
+ ose functions make their way to a Telco Cloud\, it is clear that various c
+ haracteristics are required of the Cloud to preserve the brown field migra
+ tion of these functions.Requirements of Telco Cloud deployments range from
+ high availability and liveness detection of network connectivity (PING\, B
+ FD\, TCP Socket Level Checks\, etc.)\, preserving existing network reachab
+ ility with protocols such as BGP\, marking tenant workloadpackets with cor
+ rect QOS values\, high I/O performance characteristics with SR-IOV/DPDK\, 
+ etc.The Telecom/NFV track is brought to you by OpenStack and OPNFV.
+LOCATION:Austin Convention Center - Level 4 - Ballroom F
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Distributed NFV & OpenStack: Challenges and Potential Solutions
+DTSTART:20160427T140019Z
+DTEND:20160427T144059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Review and proposed next steps for challenges BT found with Op
+ enStack for Distributed NFV use cases. At SDN World Congress last year\, P
+ eter Willis of British Telecom presented a set of challenges that are prev
+ enting BT from using OpenStack for Distributed NFV deployments – specifi
+ cally for virtual CPE or vBranch use case. This session will explore more
+  about the challenges and attempts to identify near-term and long-term sol
+ utions. The solutions will range from creative ways of leveraging Linux ca
+ pabilities\, selective use of OpenStack\, and other open source projects l
+ ike OpenDayLight in the short term and identify promising OpenStack bluepr
+ ints and projects for longer-term solutions.The Telecom/NFV track is broug
+ ht to you by OpenStack and OPNFV. 
+LOCATION:Austin Convention Center - Level 4 - Ballroom D
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Among the Cloud: Open Source NFV + SDN deployment
+DTSTART:20160427T145000Z
+DTEND:20160427T153040Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Panel discussionModerator: Neela JacquesPanelists: Chris Price
+  (OPNFV)\; Colin Dixon (ODL)\; Margaret Chiosi (ATT)\; Chris Luke (Comcast
+ )Seven years after the launch of SDN and the development of OpenFlow\, SDN
+  and NFV are changing the networking landscape. NFV is quickly going from 
+ white paper to POC to deployment and a dominant stack is emerging. Dozens 
+ of new products are being released based on open innovation and cloud-base
+ d deployments are on the rise. Hear industry experts discuss the latest ne
+ w SDN and NFV use cases\, how SDN and NFV impact cloud deployments\, the e
+ volution of the end user and whats on the horizon.The Telecom/NFV track is
+  brought to you by OpenStack and OPNFV.
+LOCATION:Austin Convention Center - Level 4 - Ballroom F
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Service Function Chaining – Technology Analysis and Perspective
+DTSTART:20160427T145000Z
+DTEND:20160427T153040Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Service chaining plays an important role in network function v
+ irtualization by stitching together an ordered list of virtual network fun
+ ctions\, such as routers\, firewalls\, load balancers etc.\, to achieve a 
+ particular complex service that previously required multiple physical appl
+ iances. This presentation will review and analyze two major technologies t
+ hat enable service function chaining\, i.e. NSH-based SFC and BGPVPN-based
+  SFC\, followed by current status of various projects addressing SFC\, MPL
+ S / BGP VPN\, and related APIs in OPNFV\, OpenStack and Open Daylight. Las
+ tly\, this presentation will also review a prior PoC that implemented inte
+ r-DC SFC using BGPVPN technology.The Telecom/NFV track is brought to you b
+ y OpenStack and OPNFV.
+LOCATION:Austin Convention Center - Level 4 - Ballroom D
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Gluon: An Enabler for NFV
+DTSTART:20160427T160019Z
+DTEND:20160427T164059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:We've used Gluon to help us create new interfaces for our NFV 
+ needs\, and we explain why and how.Gluon is a service that lets you use mu
+ ltiple network APIs simultaneously in the same cloud.  Gluon lets a devel
+ oper create new APIs that deal with very different networking environments
+  without making radical changes to core Neutron.A coalition of service pro
+ viders and network vendors\, brought together via OPNFV\, have been explor
+ ing possibilities using this new option\, and we report on the approach. 
+ The Telecom/NFV track is brought to you by OpenStack and OPNFV.
+LOCATION:Austin Convention Center - Level 4 - Ballroom D
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Implementing vCPE with OpenStack and Software Defined Networks
+DTSTART:20160427T165000Z
+DTEND:20160427T173000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Service providers and the broader vendor community have made p
+ rogress in virtualizing key vCPE network functions. Concurrently\, there i
+ s a strong push to bring these functions to the cloud. This session will d
+ iscuss how Openstack is enabling this transformation and the role played b
+ y technologies like SDN and NFV. It will also discuss the latest advances 
+ in the networking stack of the Linux kernel which further enable these net
+ work functions to run in a fully distributed architecture. Finally\, it wi
+ ll tie all these concepts together proposing a model for implementing virt
+ ual CPE services.The Telecom/NFV track is brought to you by OpenStack and 
+ OPNFV.
+LOCATION:Austin Convention Center - Level 1 - Ballroom C
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:NFV for Enterprise - Are We Doing Enough?
+DTSTART:20160427T165000Z
+DTEND:20160427T173040Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:NFV for Enterprise - Are we doing enough?Many of todays NFV i
+ nitiatives are Service Provider led and Service Provider focused. What abo
+ ut the Enterprise? What can we be doing to solve the problems faced by the
+  Enterprise network architect today? Are current open source orchestration
+  platforms and initiatives such as the ETSI MANO framework\, OPNFV and Tac
+ ker applicable to Enterprise use cases? Do current networking models withi
+ n OpenStack sufficiently address these use cases? And what about commerci
+ al SDN offerings that address VPN/Branch office connectivity? Do these fi
+ t within a model of end-to-end service orchestration that encompasses Clou
+ d\, Branch\, Campus?Join a panel of industry experts and startup founders 
+ to discuss these topics and provide community feedback. The Telecom/NFV t
+ rack is brought to you by OpenStack and OPNFV.
+LOCATION:Austin Convention Center - Level 4 - Ballroom D
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Achieving Five-Nine of VNF Reliability in Telco-Grade OpenStack Cl
+ oud
+DTSTART:20160427T185000Z
+DTEND:20160427T193000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Network applications want to take advantage of the elasticity\
+ , cost savings\, increased efficiency that Network Functions Virtualizatio
+ n (NFV) offers them. However\, NFV still needs to provide Telco-grade serv
+ ices\, including offering their end-users with SLAs of Five-nine availabil
+ ity or higher\, which means that the network must be available 99.999% of 
+ the time or be down less than 5.25 minutes a year. Virtualization and clo
+ uds\, while promising significant advantages through agility and cost savi
+ ngs\, bring challenges in providing carrier grade resiliency. One way to a
+ chieve the desired Five-nine availability in an OpenStack based cloud is t
+ o have the Virtual Network Functions (VNFs) leverage the OpenStack Constru
+ cts in an intelligent manner. This presentation will provide recommendati
+ ons as to how VNFs can leverage existing OpenStack constructs in an effici
+ ent manner. It will also identify the new OpenStack Constructs required\, 
+ if any\, to enable high availability. The Telecom/NFV track is brought to
+  you by OpenStack and OPNFV.
+LOCATION:Austin Convention Center - Level 4 - Ballroom D
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Valet: Holistic Data Center Optimization for OpenStack
+DTSTART:20160427T185000Z
+DTEND:20160427T193000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Today\, OpenStack schedules each virtual machine and volume al
+ most in isolation. However\, cloud applications can consist of many VMs an
+ d volumes with potentially complex requirements around relative placement.
+  Meeting these requirements requires that holistic placement decisions be 
+ made in consideration of the entire cloud application.In this talk\, we wi
+ ll present our proof of concept work\, Valet. It gives OpenStack the abili
+ ty to meet an application's requirements while optimizing cloud resources 
+ and maximizing the use of available infrastructure. It accomplishes this t
+ hrough the use of Heat\, Nova\, and Cinder plugins\, coupled with a new op
+ timization plugin architecture. The Telecom/NFV track is brought to you b
+ y OpenStack and OPNFV.
+LOCATION:Austin Convention Center - Level 4 - Ballroom F
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Achieving DevOps for NFV Continuous Delivery on Openstack - Verizo
+ n Case Study
+DTSTART:20160427T194001Z
+DTEND:20160427T202041Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Continuous Integration and continuous delivery using DevOps is
+  now a standard practice in IT environments. With this practice IT departm
+ ents have made tremendous gains in overall software lifecycle management. 
+ With the advent of Virtualized Network Functions (VNFs) it was a natural q
+ uestion to ask how such a DevOps approach could be applied to NFV domain.
+  We will present the case study and the proof of concept executed in Veri
+ zon’s integrated cloud environment. In this implementation Verizon’s C
+ I/CD toolchain was integrated with Ericsson’s NFV Orchestrator on an Ope
+ nStack cloud to achieve continuous delivery of VNFs. The Telecom/NFV trac
+ k is brought to you by OpenStack and OPNFV.
+LOCATION:Austin Convention Center - Level 4 - Ballroom F
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Deploying OpenStack in OPNFV's Brahmaputra Release
+DTSTART:20160427T203000Z
+DTEND:20160427T211000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:The OPNFV collaborative development project has now delivered 
+ it’s second release\, Brahmaputra.While the project continuous to grow\,
+  uncertainty remains around what it is that the OPNFV community actually d
+ oes. This session will outline and discuss the objectives and activities o
+ f the OPNFV community\, the key values this provides to the industry and i
+ mportantly activities the community avoids.In the context of the activity 
+ and challenges faced during Brahmaputra\, as the community worked to integ
+ rate 38 parallel projects for the release\, we will outline the intentions
+  activities and outcomes of this work\, hard lessons learnt\, achievements
+  and future plans. The Telecom/NFV track is brought to you by OpenStack a
+ nd OPNFV.
+LOCATION:Austin Convention Center - Level 4 - Ballroom D
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Designing for NFV: Lessons Learned from Deploying at Verizon 
+DTSTART:20160427T203000Z
+DTEND:20160427T211000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Analysts predict NFV hardware and software to be a $10+B marke
+ t by 2018\, yet few organizations have experience deploying NFV infrastruc
+ ture at a large scale.  In this talk\, we will discuss lessons learned an
+ d the development that resulted as part of a specific large-scale NFV infr
+ astructure roll-out that started in 2015. We will discuss the OpenStack p
+ od design for NFV that emerged after multiple iterations between Red Hat\,
+  Big Switch and Dell.  This solution is currently being deployed in natio
+ nally across a tier-1 Telecom Service Provider's data centers for NFV wo
+ rkloads while being adapted for their central offices and mobile service c
+ enters.The talk will cover a series of technical challenges that were over
+ come\, and will end with some of the best practices that we learned by wor
+ king together across the traditional orchestration <> networking silos. T
+ he Telecom/NFV track is brought to you by OpenStack and OPNFV.
+LOCATION:Austin Convention Center - Level 4 - Ballroom F
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:OpenStack + OPNFV: A Collaboration
+DTSTART:20160427T213019Z
+DTEND:20160427T221059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Co-presenter: Mark CollierHaving proven itself remarkably well
+  across the IT landscape and enterprise cloud\, the open source developmen
+ t model is now being applied full force to overcome the most daunting chal
+ lenges in networking and NFV. As end users build more agile and cost effec
+ tive networks that eschew proprietary solutions\, they are investing heavi
+ ly in open source platforms. In order to meet market demand as well as ach
+ ieve strict carrier-grade requirements\, collaboration among open source n
+ etworking projects is vital. OpenStack has been involved with OPNFV since 
+ inception--an integration that is deepening across the communities and lea
+ dership of both projects. OpenStack is the Virtualization Integration Mana
+ ger (VIM) layer in OPNFV and contributes to multiple projects. OPNFV\, in 
+ turn\, contributes requirements\, developers and code upstream for feature
+ s in OpenStack. Join us to learn how this collaboration is accelerating op
+ en source NFV and transforming the network.The Telecom/NFV track is brough
+ t to you by OpenStack and OPNFV.
+LOCATION:Austin Convention Center - Level 4 - Ballroom D
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Open Source NFV: Lessons Learned from End Users
+DTSTART:20160427T222001Z
+DTEND:20160427T230041Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Panel moderator: Alan ClarkSet to transform the way networks a
+ re designed\, NFV has seen explosive growth over the past few years\, with
+  more telecoms testing PoCs to verify real-world applicability for emergin
+ g use cases. Many of the world’s largest communications companies and en
+ terprise network operators—including Orange\, Docomo\, AT and China Mobi
+ le—are embracing NFV via open source projects like OPNFV and OpenStack. 
+ These communities are tightly integrated and collaborate across projects a
+ nd teams to innovate rapidly as they work to meet carrier-grade end user r
+ equirements and accelerate NFV deployments. In this panel\, leading teleco
+ ms involved in both OPNFV and OpenStack will discuss emerging NFV use case
+ s\; PoCs and testing\; how they work with both OpenStack and OPNFV\; what
+ ’s unique about each project\; and what results they’re achieving thro
+ ugh open source NFV. The Telecom/NFV track is brought to you by OpenStack
+  and OPNFV.
+LOCATION:Austin Convention Center - Level 4 - Ballroom D
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:OPEN O(Orchestration): Integration of NFVO and SDNO Deploy End to 
+ End Network Service. 
+DTSTART:20160428T140019Z
+DTEND:20160428T144059Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:OPEN-O integrate both SDN-O and NFV-O to provide the end to en
+ d network service orchestration\, in the case of vCPE/vBRAS\, Enterprise\,
+  VPN et al\, it need to configure broadband and enterprise access by SDN-O
+ (orchestrator)\, virtual network function like vCPE/vPE router via NFV-O\,
+  and VPN tenant connection through DC-O. And one global "O" is proposed to
+  coordinate two "O"s. OOP (OPEN-O Project) has designed a hierarchical "O"
+  to facilitate the deployment. Since two "O"s could share some common modu
+ les\, two data models Yang and Tosca will be translated between or within 
+ each "O"\, so one open source project would be considered to be proposed.S
+ tarting from NFVO which could work with multiple generic VNF Managers(Tack
+ er\, et al.) in Openstack\, SDN controller (ODL\, et al.)\, and Virtual Re
+ srouce Manager (Openstack\, Vmware et al.) to deploy virtual network funct
+ ion. From now on\, we are looking into the possbility to implement the SDN
+ O based on the common platform. The Telecom/NFV track is brought to you b
+ y OpenStack and OPNFV.
+LOCATION:Austin Convention Center - Level 4 - Ballroom E
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Optimising NFV Service Chains on OpenStack Using Docker
+DTSTART:20160428T145000Z
+DTEND:20160428T153040Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Docker in the recent past has gained a lot of attention given 
+ the simplification and ease of use it provides to the existing container t
+ echnology. It comes with its plethora of advantages\, both technical and o
+ therwise. It is lightweight\, open\, secure and backed by a strong commun
+ ity of developers and promoters.Of late\, even the network functions which
+  were traditionally run on the hardware boxes since ages are being rewritt
+ en in software defined networking model. This brought forward a paradigm s
+ hift in running these functions on Virtual Machines and are now being port
+ ed as Docker Instances. This paradigm shift is bringing around a change in
+  the way we have been looking at network functions and deploying them. The
+ re is lot of scope for improved utilization\, programmability\, and bette
+ r scalability.But this change also comes with a new set of challenges. We
+  are trying to identify and solve some of them here. The Telecom/NFV trac
+ k is brought to you by OpenStack and OPNFV.
+LOCATION:Austin Convention Center - Level 4 - MR 16 A/B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tacker - Building an Open Platform for NFV Orchestration
+DTSTART:20160428T145000Z
+DTEND:20160428T153040Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Virtualizing Network Functions is going mainstream in differen
+ t Telecom operator networks. Come and learn from thistalk from the OpenSta
+ ck Tacker team on how Tacker project has provided a viable community built
+  opensource software for NFV Orchestration.Tacker project is wrapping up i
+ ts third release for Mitaka with many key features:Tacker Multi-Siteallows
+  Operators to place\, manage and monitor VNFs in multiple OpenStack Clouds
+ Tacker Service Function ChainingAPI for aVNF level service-chaining backed
+  byan SDN ControllerTOSCA Parserintegration brings industry's first OASIS 
+ NFV Profile Standards based TOSCA OrchestratorEnhanced VNF Placement placi
+ ng VNFs the most efficient way with CPU-Pinning\, NUMA topology awareness\
+ , etcBeyond Mitaka\, Tacker project is embarking onto new areas - Network 
+ Service Orchestration\, VNF Auto Scaling\, etc.Audience will also learn ho
+ w Tacker is being incorporated intoOPNFV deliverables and inNFV Informatio
+ n ModelStandardization efforts.The Telecom/NFV track is brought to you by 
+ OpenStack and OPNFV.
+LOCATION:Austin Convention Center - Level 4 - Ballroom E
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Using a Service VM as an IPv6 vRouter
+DTSTART:20160428T160000Z
+DTEND:20160428T164000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:IPv6-enabled OPNFV is a meta-distribution of platform with de-
+ facto provisioning and configuration of IPv6\, upon which test harness\, a
+ dditional components and functional blocks and/or tools can be built and i
+ ntegrated. This presentation will review a gap analysis with IPv6 features
+  in OpenStack and Open Daylight\, and a novel use case of supporting the c
+ apability of an IPv6 vRouter on a VM in OpenStack + Open Daylight environm
+ ent. The VM is capable of (1) advertising IPv6 Router Advertisements (RA) 
+ to the VMs on the internal network\; and (2) IPv6 Forwarding (i.e.\, North
+ -South traffic). This novel use case expands IPv6 vRouter capability to an
+ y VM and allows for any 3rd-party solution\, e.g. IPv6 vRouter VNF\, as an
+  alternative of Neutron Router or ODL Router. Thus it enables open innovat
+ ion. Various aspects in deployment\, configuration\, operation\, and the p
+ otentials of new business scenarios will be described.The Telecom/NFV trac
+ k is brought to you by OpenStack and OPNFV.
+LOCATION:Austin Convention Center - Level 4 - Ballroom E
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Congress in NFV-based Mobile Cellular Network Fault Recovery
+DTSTART:20160428T165000Z
+DTEND:20160428T173000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:High service availability is an integral part in mobile core n
+ etwork. As each core node hosts few hundred thousand subscriber sessions\,
+  a sub-second level fast recovery is necessary not only to ensure seamless
+  connectivity to the customers\, but also to avoid the consequent attach s
+ torm where all disconnected mobile devices try to reconnect to the mobile 
+ network simultaneously\, creating control traffic beyond what a node can h
+ andle. In NFV-based networks\, recovery actions will be performed by a nod
+ e manager which cannot directly detect virtualized network infrastructure 
+ level failures. Therefore\, OpenStack needs to detect and notify the corre
+ sponding node manager of relevant resource failure. An additional requirem
+ ent is the filtering of the failures\, as the definition of failure and th
+ e operational policy may differ among Operators.Well introduce a solution 
+ using Congress and extended features to meet these telco requirements\, as
+  well as PoC developed with OPNFV Doctor Project.The Telecom/NFV track is 
+ brought to you by OpenStack and OPNFV.
+LOCATION:Austin Convention Center - Level 1 - Ballroom C
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Multisite OpenStack for NFV: Bridging the Gap
+DTSTART:20160428T165000Z
+DTEND:20160428T173040Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:NFV infrastructure will be distributed across multiple geo-loc
+ ations\, to place workload close to the end user for better user experienc
+ e\, and introduce some cross -site requirements like service chaining\, hi
+ gh availability and disaster recovery. There are gaps in OpenStack in such
+  geo-distributed clouds such as: Support VNF high availability across Ope
+ nStack Support Multisite VNF geo site-disaster recovery Single unified v
+ iew for operators Multi-site quota management Sync tenant resources like
+  images\, ssh-keys\, security groups Policy driven VNF placements Optimi
+ zed resource utilization Dynamic Service Functions Chaining across sites
+  Several projects like OPNFV Multisite\, Tacker\, Kingbird and Tricircle 
+ projects have collaborated to address the requirements for NFV. In this se
+ ssion\, come learn about: Need for multisite in NFV Gaps in OpenStack E
+ xisting projects and solutions Gaps in these solutions and what different
+  teams are doing to fix it The Telecom/NFV track is brought to you by Ope
+ nStack and OPNFV.
+LOCATION:Austin Convention Center - Level 4 - Ballroom E
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Enhanced Platform Aware Deployment of VNFs
+DTSTART:20160428T183000Z
+DTEND:20160428T191000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Cloud data centers today  are beginning to use COTS hardware
+  that comprise platforms with a variety of technologies that offer some ba
+ sic computing functions as well as performance and higher efficiency funct
+ ions.With the advent of NFV\, network services that used to be deployed on
+  proprietary costly hardware are now deployable quickly and flexibly on CO
+ TS hardware platforms. The higher performance obtained using dedicated pro
+ prietary hardware can also be achieved in a NFV platform (comprised from C
+ OTS) by configuring and/or fine tuning the platform capabilities such as S
+ R-IOV\, CPU Pinning\, Huge Pages and NUMA topology. In this session\, we w
+ ill discuss how the above mentioned performance parameters could be specif
+ ied as a requirement per Virtualized Network Function (VNF) and have the T
+ acker NFV Orchestrator ensure that the VNF  is placed on the optimal NFV 
+ platform that meets the specified performance requirements. The Telecom/N
+ FV track is brought to you by OpenStack and OPNFV.
+LOCATION:Austin Convention Center - Level 4 - Ballroom E
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Striving for a High-Performance NFV Grid on OpenStack. Why You\, a
+ nd Every OpenStack Community Member Should Be Excited About It.
+DTSTART:20160428T192000Z
+DTEND:20160428T200040Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION: The idea of OpenStack as a vehicle to build\, and operate NF
+ V platforms is going mainstream. As it does\, it continues to provide impe
+ tus to OpenStack ecosystem on numerous fronts. It is truly exciting to ima
+ gine the possibilities that open up as developers\, users\, architects\, a
+ nd operators push the performance\, quality\, and innovation in the ecosys
+ tem.AT and other large service providers are driving efforts to make it p
+ ossible to push 100 gigabit line rate on software switches\, NUMA support 
+ among other things.This session explores how the community as a whole bene
+ fits from rising NFV adoption. We then deep dive into DPI\, and MEC as NFV
+  use cases.Technical overview of NFV related developments\, and AT's innov
+ ations in OpenStack around this.NUMA\, SR-IOV\, DPDK\, RDMA - Why do they 
+ matter?Use-case: Pushing the performance limit to achieve DPI capability o
+ n OpenStack.Keys attributes of a high performing packet processing path.Th
+ e MEC (Mobile Edge Computing) use case. The Telecom/NFV track is brought 
+ to you by OpenStack and OPNFV.
+LOCATION:Austin Convention Center - Level 4 - Ballroom E
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DPDK\, Collectd & Ceilometer: The Missing Link Between My Telco Cl
+ oud and The NFV Infrastructure
+DTSTART:20160428T201000Z
+DTEND:20160428T205000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Collectd exposes statistics that facilitate more resilient and
+  performant telco/NFV clouds.It is vital to monitor systems for malfunctio
+ ns that could lead to users’ application service disruption and promptly
+  react to these fault events to facilitate improving overall system perfor
+ mance.By providing Ceilometer with system statistics from collectd\, there
+  is more data available\, which can be used for monitoring\, performance a
+ nalysis\, fault detection\, etc. using OPNFV Doctor-prescribed enhancement
+ s to OpenStack\, action can then be taken to negate the effects of any fau
+ lts in the deployment.Gaps have been identified and work to improve OpenSt
+ ack to enable a more fault tolerant cloud environment is well underway. A 
+ key part of this work includes expanding the amount of data available abou
+ t the system (e.g. DPDK statistics)\, and improving alarming functionality
+  in OpenStack Aodh. The Telecom/NFV track is brought to you by OpenStack 
+ and OPNFV.
+LOCATION:Austin Convention Center - Level 4 - MR 16 A/B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Achieve Low Latency NFV with Openstack
+DTSTART:20160428T201001Z
+DTEND:20160428T205041Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:Since K release\, a lot of advanced features have been added t
+ o openstack\, like CPU pinning\, NUMA Topology Awareness\, Huge Page suppo
+ rt etc. In the M release\, the real time support is also added to Nova. Wi
+ th all these features\, openstack can provide best performance optimizatio
+ n for high performance VM\, with exclusively assigned resource and best ha
+ rdware compute capability utilization.In this session\, we will show how t
+ he advanced openstack features help on an important usage scenario\, the l
+ ow latency and high throughput NFV. It has been challengingto achieve low 
+ latency and high performance VNF on cloud environment. Packet jitter comes
+  from various factors\, like virtualization overhead\, not optimized compu
+ te node environment\, not optimized network topology overhead etc. KVM4NFV
+  project on OPNFV provides low level support for low latency NFV usage\, b
+ ut only with the advanced openstack features\, its possible to achieve the
+  purpose on OPNFV.The Telecom/NFV track is brought to you by OpenStack and
+  OPNFV.
+LOCATION:Austin Convention Center - Level 4 - Ballroom E
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Headless NFVi for PoP\, CO or MSC/MSO
+DTSTART:20160428T211001Z
+DTEND:20160428T215021Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:The talk will discuss the challenges and mitigations centered 
+ around deployment and managing headless Network Function Virtualization in
+ frastructure(NFVi)in PoP (Point of Presence)\, CO (Central Office)\, or a 
+ MSC/MSO (Mobile Switching Centre/Office):1. Limiting data transfers to a m
+ inimum between control plane and computes across WAN/MAN.2. Localizing res
+ ources to microDC like External Network and Block Storage accessThe Teleco
+ m/NFV track is brought to you by OpenStack and OPNFV.
+LOCATION:Austin Convention Center - Level 4 - Ballroom E
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Is OPNFV Just an OpenStack Extension?
+DTSTART:20160428T220000Z
+DTEND:20160428T224000Z
+DTSTAMP:20160424T225025Z
+DESCRIPTION:OPNFV has just released Brahmaputra which is the first major v
+ ersion. Openstack is the dominant component in OPNFV. But what does that m
+ ean? Which OpenStack modules are the important ones within OPNFV and why a
+ re they chosen? Which components did OPNFV add to OpenStack when building 
+ up its architecture? This session will provide some insights how OPNFV is 
+ using OpenStack and how OpenStack modules need to interwork with other com
+ ponents to create a carrier platform for NFV. The Telecom/NFV track is br
+ ought to you by OpenStack and OPNFV.
+LOCATION:Austin Convention Center - Level 4 - Ballroom E
+END:VEVENT
+END:VCALENDAR
