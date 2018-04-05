@@ -6,7 +6,7 @@ import sys
 import demjson
 import simplejson as json
 import pprint
-from icalendar import Calendar, Event
+from icalendar import Calendar, Event, Timezone, TimezoneStandard, TimezoneDaylight
 from dateutil.parser import parse
 from dateutil.tz import gettz
 from pytz import utc
@@ -25,10 +25,20 @@ REPLACE_MAP = {
 }
 
 def main(infiles=None, outfile=None, locfile=None, **kwargs):
-
     cal = Calendar()
     cal['dtstart'] = '20180519T080000'
     cal['summary'] = 'OpenStack Summit Vancouver 2018'
+    tz = Timezone(TZID='America/Vancouver')
+    tz.add_component(TimezoneStandard(DTSTART="20171105T020000",
+                                      TZOFFSETFROM="-0700",
+                                      TZOFFSETTO="-0800",
+                                      RDATE="20181104T020000",
+                                      TZNAME="PST"))
+    tz.add_component(TimezoneDaylight(DTSTART="20180311T020000",
+                                      TZOFFSETFROM="-0800",
+                                      TZOFFSETTO="-0700",
+                                      TZNAME="PDT"))
+    cal.add_component(tz)
 
     locations = {}
     match = PATTERN.finditer(locfile.read())
