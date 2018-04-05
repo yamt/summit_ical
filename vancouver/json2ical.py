@@ -16,10 +16,12 @@ import urllib
 PATTERN_STR = r'<.*?>'
 PATTERN2_STR = r'summit.locations\[([0-9]*)\] =.*?({.*?});'
 PATTERN3_STR = r'summit.tracks\[([0-9]*)\] =.*?({.*?});'
+PATTERN4_STR = r'[^a-zA-Z]+'
 
 PATTERN = re.compile(PATTERN_STR, re.MULTILINE | re.DOTALL)
 PATTERN2 = re.compile(PATTERN2_STR, re.MULTILINE | re.DOTALL)
 PATTERN3 = re.compile(PATTERN3_STR, re.MULTILINE | re.DOTALL)
+PATTERN4 = re.compile(PATTERN4_STR, re.MULTILINE | re.DOTALL)
 REPLACE_MAP = {
     '&nbsp;': ' ',
     '&lt;': "<",
@@ -85,7 +87,7 @@ def main(infiles=None, locfile=None, **kwargs):
             event.add('description', desc)
             event.add('uid', "%s@openstacksummitboston2017" % session.get('id'))
             cal.add_component(event)
-        with open("%s.ics" % urllib.quote(track_name, ""), "w") as f:
+        with open("%s.ics" % PATTERN4.sub("-", track_name), "w") as f:
             f.write(cal.to_ical())
 
 
