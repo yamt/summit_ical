@@ -1,0 +1,302 @@
+BEGIN:VCALENDAR
+DTSTART:20180519T080000
+SUMMARY:OpenStack Summit Vancouver 2018: Open Source Community
+BEGIN:VTIMEZONE
+TZID:America/Vancouver
+BEGIN:STANDARD
+DTSTART:20171105T020000
+RDATE:20181104T020000
+TZNAME:PST
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20180311T020000
+TZNAME:PDT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+SUMMARY:OpenStack Upstream Institute - Day 2 (RSVP Required)
+DTSTART;VALUE=DATE-TIME:20180520T160000Z
+DTEND;VALUE=DATE-TIME:20180521T010000Z
+UID:21579@openstacksummitboston2017
+DESCRIPTION:OpenStack Upstream Institute is an intensive program designed 
+ to share knowledge about the different ways of contributing to OpenStack l
+ ike providing new features\, writing documentation\, participating in work
+ ing groups\, and so forth. The educational program is built on the princip
+ le of open collaboration and will teach the students how to find informati
+ on and navigate the intricacies of the project’s technical tools and soc
+ ial interactions in order to get the contributions accepted. The live one 
+ and a half day class is focusing on hands-on practice like the students ca
+ n use a development environment to work on real-life bug fixes or new feat
+ ures and learn how to test\, prepare and upload them for review. The atten
+ dees are also given the opportunity to join a mentoring program to get fur
+ ther help and guidance on their journey to become an active and successful
+  member of the OpenStack community.\nPlease note that OpenStack Upstream I
+ nstitute is a 2 Day program. You must RSVP to Day 1 in order to attend Day
+  2.
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Beyond datacenter cloud: the future of the OpenStack Foundation
+DTSTART;VALUE=DATE-TIME:20180521T183500Z
+DTEND;VALUE=DATE-TIME:20180521T191500Z
+UID:20968@openstacksummitboston2017
+DESCRIPTION:In Sydney the OpenStack Foundation announced a new integration
+  strategy to support open infrastructure more generally. It later resulted
+  in the definition of several strategic focus areas\, and the Foundation l
+ aunching its first non-OpenStack project\, Kata Containers.\nHow did we ar
+ rive there ? What are the consequences for the OpenStack Foundation\, and 
+ for the OpenStack open source project ? What progress have we been making 
+ over the last 6 months ? Where are we going next ? In this talk\, Thierry 
+ Carrez\, VP of Engineering for the OpenStack Foundation\, will share the s
+ tory behind that critical evolution and detail the challenges ahead of us.
+LOCATION:Vancouver Convention Centre West - Level One - Room 121-122
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Women of OpenStack Speed Mentoring Lunch Sponsored by Intel
+DTSTART;VALUE=DATE-TIME:20180521T191500Z
+DTEND;VALUE=DATE-TIME:20180521T203000Z
+UID:21657@openstacksummitboston2017
+DESCRIPTION:If you're new to OpenStack or in want of some mentoring\, this
+  session is a great icebreaker and a way to get know new and experienced p
+ eople in the OpenStack community. We plan to divide the session between ca
+ reer\, technical and community mentoring. Mentees will be organized into s
+ mall groups and each group will have several 15 minute mentoring sessions.
+  In your small group\, you'll get to know a bit about a mentor and have an
+  opportunity to ask them a question or two about how you can grow your car
+ eer\, get involved in the community\, and make the most of the summit. The
+ n\, at the end of 15 minutes\, a new mentor will cycle to your group and t
+ he process will repeat.
+LOCATION:Vancouver Convention Centre West - Level One - TBA
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Life after OpenStack
+DTSTART;VALUE=DATE-TIME:20180521T223000Z
+DTEND;VALUE=DATE-TIME:20180521T224000Z
+UID:20631@openstacksummitboston2017
+DESCRIPTION:With corporate contributions to OpenStack - both capital and t
+ alent - in a constant ebb and flow\, many community members are keeping an
+  eye to the future. Hear the journey of a former Full-Time contributor\,
+  on how the unique skills learned while working on OpenStack\, have ser
+ ved me well in a post-OpenStack career.\nCan you remain involved in the co
+ mmunity? Will you still have time to contribute? Will the friends you've 
+ made still talk to you after years away from the Mothership? This\, and mo
+ re\, will be discussed during this presentation.
+LOCATION:Vancouver Convention Centre West - Level One - Lightning Talk The
+ ater
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:OpenStack Mentoring: Inspiring the Next Generation
+DTSTART;VALUE=DATE-TIME:20180522T001000Z
+DTEND;VALUE=DATE-TIME:20180522T005000Z
+UID:21510@openstacksummitboston2017
+DESCRIPTION:Open source is fueled by the continual influx of new contribut
+ ors who offer fresh talent and diverse perspectives. Mentoring programs an
+ d activities\, like the Google Summer of Code (GSoC)\, Outreachy\, Upstrea
+ m Institute\, First Contact SIG\, Long-term Mentoring and Speed Mentoring\
+ , are critical in inspiring this next generation of contributors\, yet eac
+ h also brings its own challenges. This interactive panel discussion will e
+ xplore multiple mentor programs through which new contributors enter the O
+ penStack community\, tracking contributions from participants along their 
+ paths and examining their retention once their program participation ends.
+  Learn about several of the mentor initiatives across multiple OpenStack p
+ rojects\, and how they are working to attract and retain contributors. And
+  explore the pros and cons of a small group &ldquo\;cohort&rdquo\; mentor 
+ model over 1x1 mentor interaction as we pinpoint what works most effective
+ ly for our OpenStack community.
+LOCATION:Vancouver Convention Centre West - Level One - Room 121-122
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rinse \, Lather and  Repeat  - A practical guide to being a mentee
+DTSTART;VALUE=DATE-TIME:20180522T160000Z
+DTEND;VALUE=DATE-TIME:20180522T173000Z
+UID:20875@openstacksummitboston2017
+DESCRIPTION:Ever been a Daniel in need of a Mr. Myagi? Are you ready to ac
+ hieve greatness but with no real clue where to start? Finding a mentor is 
+ the first step\, but knowing how to make the most of the time spent with y
+ our mentor makes the real difference. Join in on a conversation about iden
+ tifying your person of influence and building a plan together from wax on\
+ , wax off to being carried away by the cheering crowd.
+LOCATION:Vancouver Convention Centre West - Level Two - Room 213-214
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lower the barriers\, or how to make hassle free opensource events
+DTSTART;VALUE=DATE-TIME:20180522T184000Z
+DTEND;VALUE=DATE-TIME:20180522T185000Z
+UID:21543@openstacksummitboston2017
+DESCRIPTION:As a wheelchair user\, i'm still somewhat "special"\, expecial
+ ly when it comes to work as a freelancer or consultant working for multipl
+ e companies\, no matter how big they are.\nOver the last 15 years\, i expe
+ rienced a lot of thrilling moments when the wheelchair starts to play a ro
+ le. And the same happens when it comes to community events.\nSince HongKon
+ g Summit\, back in 2013\, i attended all the summits all around the world.
+  Additionally i also visited a lot of other community events and even host
+ ed meetups for OpenSource Projects. And each and every of those events had
+  at least a small "issue".\nThe OpenStack Foundation did a lot of improvem
+ ents over the last summits and they really care. Same goes for most of the
+  events (i guess)\, but i would like to give you a few hints\, tipps\, exp
+ eriences to make inclusion easier.\nLets see how we can make events\, work
+ \, just say the world\, easy accessible for each and everyone\, so that we
+  don't need to care\, it just works.
+LOCATION:Vancouver Convention Centre West - Level One - Lightning Talk The
+ ater
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Git and Gerrit Lunch and Learn
+DTSTART;VALUE=DATE-TIME:20180522T193500Z
+DTEND;VALUE=DATE-TIME:20180522T204500Z
+UID:20783@openstacksummitboston2017
+DESCRIPTION:OpenStack software development is centered around the Git and 
+ Gerrit systems to promote the aspect of community programming.\nGit is an 
+ open source version control system that allows many software developers to
+  work on a given project without requiring them to chare a common network.
+ \nGerrit is a free\, web-based team code collaboration tool which integrat
+ es closely with Git and allows developers in a team to review each other's
+  modifications to the source code using a web browser to approve or reject
+  those changes.\nIn this session we will walk participants through opening
+  a bug in a test system and then submit a patch to a repository in OpenSta
+ c k. The process involves learning about Git using the most common command
+ s and progressing through the review process in Gerrit. Participants will 
+ walk away with a working knowledge of these tools.
+LOCATION:Vancouver Convention Centre West - Level Two - Room 213-214
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The development and trend of OpenStack in China
+DTSTART;VALUE=DATE-TIME:20180522T214000Z
+DTEND;VALUE=DATE-TIME:20180522T222000Z
+UID:20744@openstacksummitboston2017
+DESCRIPTION:At present\, China has become the second largest contribution 
+ of OpenStack\, and enterprises from China occupy nearly half of the OpenSt
+ ack gold membership. So how about the current development and trend of Ope
+ nStack in China?\nThree experts from China will separately introduce the i
+ nvestigation report on the use of OpenStack by Chinese users\, industry cl
+ oud trend in China and the application of OpenStack in Chinese large Inter
+ net company.\n 
+LOCATION:Vancouver Convention Centre West - Level One - Room 121-122
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:OpenStack Roadmap: Learn what's coming in the Rocky release
+DTSTART;VALUE=DATE-TIME:20180523T160000Z
+DTEND;VALUE=DATE-TIME:20180523T164000Z
+UID:20641@openstacksummitboston2017
+DESCRIPTION:The next OpenStack release\, Rocky\, is scheduled to be releas
+ ed at the end of August 2018. The OpenStack Roadmap is a community-generat
+ ed document that outlines the major priorities of the upcoming release\, s
+ hows trends in project focuses\, and looks at significant changes between 
+ releases. Come learn what's new in OpenStack Rocky and what current users 
+ can expect.\n 
+LOCATION:Vancouver Convention Centre West - Level One - Room 121-122
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:COA: the importance for your career and tips to achieve it! (In En
+ glish & en Español)
+DTSTART;VALUE=DATE-TIME:20180523T180000Z
+DTEND;VALUE=DATE-TIME:20180523T184000Z
+UID:21492@openstacksummitboston2017
+DESCRIPTION:The Certified OpenStack Administrator is a certification gaini
+ ng more value for professionals with the increase of OpenStack deployments
+  all over the world. The fact that it evaluates operational skills makes i
+ t more challenging\, but at the same time\, sets a new standard and makes 
+ it a good source for companies to find skilled professionals\, with proven
+  hands-on experience. This session will be given bi-lingually in English a
+ nd in Spanish and will describe the value of getting the certification\, a
+ nd at the same time will provide some tips for preparing for the exam.\nLa
+  certificación COA (Certified OpenStack Administrator) está ganando mayo
+ r valor para profesionales dado el crecimiento de despliegues OpenStack al
+ rededor del mundo. El hecho de que evalúe habilidades operativas la hacen
+  más retadora\, pero al mismo tiempo\, define un nuevo estándar y la con
+ vierte en una buena fuente de profesionales hábiles para las empresas que
+  buscan experiencia probada en el campo (hands-on) Esta sesión será pres
+ entada de manera bilingüe en Español e Inglés\, y describirá el valor 
+ de obtener la certificación\, y al mismo tiempo\, proveerá algunos conse
+ jos para preparar el examen.
+LOCATION:Vancouver Convention Centre West - Level One - Room 121-122
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:OpenStack Days and MeetUps across Canada - A Community Story
+DTSTART;VALUE=DATE-TIME:20180523T182000Z
+DTEND;VALUE=DATE-TIME:20180523T183000Z
+UID:21541@openstacksummitboston2017
+DESCRIPTION:Present what we did in 2017 for OpenStack Days in Canada\, Spe
+ aking about OpenStack days in Ottawa\, how to contribute to the community.
+  Evolving to Kata containers and build networking and local communities ac
+ ross Canada\nMe as a Women in OpenStack\, I would like to speak more about
+  envolving more Women's in OpenStack community in Canada.\n I would like 
+ also to highlight efforts that Canadian community did for Meetups in Canad
+ a.\n 
+LOCATION:Vancouver Convention Centre West - Level One - Lightning Talk The
+ ater
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:How to work with adjacent open source communities - user\, develop
+ er\, vendor\, board perspectives
+DTSTART;VALUE=DATE-TIME:20180523T185000Z
+DTEND;VALUE=DATE-TIME:20180523T193000Z
+UID:20861@openstacksummitboston2017
+DESCRIPTION:As OpenStack is moving toward an "open infrastructure" directi
+ on\, there is an increased need for the OpenStack community (developers\, 
+ users\, vendors\, and the board) to collaborate with adjacent open source 
+ communities. In this panel\, we will have stakeholders (listed above) to d
+ iscuss the various collaborations OpenStack current has with adjacent comm
+ unities\, the challenges we face\, and the possible solutions or proposals
+  to work with adjacent communities
+LOCATION:Vancouver Convention Centre West - Level One - Room 121-122
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Working Remotely in a Worldwide Community
+DTSTART;VALUE=DATE-TIME:20180524T165000Z
+DTEND;VALUE=DATE-TIME:20180524T173000Z
+UID:20815@openstacksummitboston2017
+DESCRIPTION:In a community as large as ours\, there are a lot of different
+  types of workers. There are those who go into the office everyday\, there
+  are those with long commutes\, and there are those who work remotely. Reg
+ ardless of your workspace\, if you are an OpenStack contributor\, you are 
+ also a remote worker. \nBeing a remote worker can be an intensely lonely e
+ xperience if you aren&rsquo\;t connected with the people you work with. Of
+ tentimes\, you work more closely with people who do not work for the same 
+ company that you do. With the increase of remote workers\, community healt
+ h and these relationships are even more important to the community at larg
+ e. 
+LOCATION:Vancouver Convention Centre West - Level One - Room 121-122
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The multi-release\, multi-project road to volume multi-attach
+DTSTART;VALUE=DATE-TIME:20180524T205000Z
+DTEND;VALUE=DATE-TIME:20180524T213000Z
+UID:20850@openstacksummitboston2017
+DESCRIPTION:While the number of public and private cloud deployments is ra
+ pidly growing the transition towards cloud-native applications is still in
+  progress. It is crucial to provide support for different kinds of workloa
+ ds by adding functionality even if it is considered somewhat old-fashioned
+ .Development of the volume multi-attach feature started in 2014 and the fi
+ rst version was released in Queens. We will guide you through the journey 
+ of the development process and beyond the history lesson will highlight th
+ e use cases behind the high demand from users and vendors alike.You will l
+ earn about the functionality including the API design\, caveats and effort
+ s put into the CI testing with Tempest and Zuulv3 and plans for improvemen
+ ts. This talk will be valuable for operators\, users\, and contributors an
+ d give a glimpse into the work of a complicated cross-project change devel
+ oped by numerous contributors from different vendors.
+LOCATION:Vancouver Convention Centre West - Level One - Room 121-122
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:What we learned from Metrics as Community Managers
+DTSTART;VALUE=DATE-TIME:20180524T234000Z
+DTEND;VALUE=DATE-TIME:20180525T002000Z
+UID:20823@openstacksummitboston2017
+DESCRIPTION:Many open source projects use metrics to inspect community par
+ ticipation by looking into the numbers of different forms of contributions
+  and overall ecosystem support by following user adoption and event statis
+ tics. On longer term\, these metrics are also used to get a view on commun
+ ity health\, growth and overall dynamics. While these numbers can encourag
+ e participation and transparency\, they can often be misleading if used wi
+ thout context and/or more in-depth analysis and could even lead to unhealt
+ hy behaviors.  In this session\, Ildiko and Ray will discuss how metrics a
+ re used in communities such as OpenStack and OPNFV and share their learnin
+ gs from community metrics initiatives.  \n 
+LOCATION:Vancouver Convention Centre West - Level One - Room 121-122
+END:VEVENT
+END:VCALENDAR

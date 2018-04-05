@@ -1,0 +1,110 @@
+BEGIN:VCALENDAR
+DTSTART:20180519T080000
+SUMMARY:OpenStack Summit Vancouver 2018: Intensive Trainings
+BEGIN:VTIMEZONE
+TZID:America/Vancouver
+BEGIN:STANDARD
+DTSTART:20171105T020000
+RDATE:20181104T020000
+TZNAME:PST
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20180311T020000
+TZNAME:PDT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+SUMMARY:OpenStack Upstream Institute - Day 1 (RSVP Required)
+DTSTART;VALUE=DATE-TIME:20180519T210000Z
+DTEND;VALUE=DATE-TIME:20180520T010000Z
+UID:21580@openstacksummitboston2017
+DESCRIPTION:OpenStack Upstream Institute is an intensive program designed 
+ to share knowledge about the different ways of contributing to OpenStack l
+ ike providing new features\, writing documentation\, participating in work
+ ing groups\, and so forth. The educational program is built on the princip
+ le of open collaboration and will teach the students how to find informati
+ on and navigate the intricacies of the project’s technical tools and soc
+ ial interactions in order to get the contributions accepted. The live one 
+ and a half day class is focusing on hands-on practice like the students ca
+ n use a development environment to work on real-life bug fixes or new feat
+ ures and learn how to test\, prepare and upload them for review. The atten
+ dees are also given the opportunity to join a mentoring program to get fur
+ ther help and guidance on their journey to become an active and successful
+  member of the OpenStack community.\n 
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:RSVP REQUIRED: Containers\, Kubernetes and OpenShift - Red Hat Ope
+ nShift on OpenStack Hands-on Training
+DTSTART;VALUE=DATE-TIME:20180520T160000Z
+DTEND;VALUE=DATE-TIME:20180520T230000Z
+UID:21662@openstacksummitboston2017
+DESCRIPTION:Join the OpenShift by Red Hat team for a full day of discussio
+ n and hands on lab to learn how OpenShift can help you deliver apps even f
+ aster.\nTopics to be covered:Introduction to OpenShift\, Kubernetes and Co
+ ntainers\nLogging in and project creation\nCreating images\, deploying ima
+ ges from public registries\nScaling\, routes\, and logging\nRole based acc
+ ess control\nWorking with S2I. Adding databases\nApplication health and pe
+ rforming code changes\nApplication Templates (RHOAR)\nArchitectural Overvi
+ ew of OpenShift on OpenStack\n\nWhat you will learn:Cloud and container fu
+ ndamentals\nHow Red Hat OpenShift Container Platform uses containers to sp
+ eed development\nHow DevOps can be simplified with Red Hat OpenShift Conta
+ iner Platform\n\nCreate in the hands-on lab:Learn the basics of installing
+  an Openshift  environment\nEasily build containers from source code\nDep
+ loy sample applications on Red Hat OpenShift \nExperience the new Red Hat
+  OpenShift developer workflow\n\nA laptop with Windows\, Linux or MacOS an
+ d WiFi are required. Please install the OpenShift CLI prior to attending t
+ he event.\n 
+LOCATION:Vancouver Convention Centre West - Level Two - Room 218-219
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:RSVP REQUIRED: SUSE Two-Day Training: OpenStack Administration - P
+ repare for the Certified Exams (Day 1)
+DTSTART;VALUE=DATE-TIME:20180523T160000Z
+DTEND;VALUE=DATE-TIME:20180524T010000Z
+UID:21661@openstacksummitboston2017
+DESCRIPTION:This training is a two day course and participants must attend
+  both days in order to complete the courses. An RSVP to Day 1 is an automa
+ tic RSVP to Day 2.\nThis course is designed for system administrators and 
+ others who want to learn how to administer an OpenStack Cloud. Participant
+ s receive a comprehensive understanding of the tasks necessary to administ
+ er an OpenStack cloud and then use common tools that are included with an 
+ OpenStack distribution to administer a SUSE OpenStack cloud. This course p
+ repares the participants to take and pass the Certified OpenStack Administ
+ rator (COA) exam.\nAgenda:\nSection 1: Lab Environment Setup\nSection 2: I
+ ntroduction to SUSE OpenStack Cloud\nSection 3: Introduction to OpenStack 
+ Cloud Administration\nSection 4: Work with OpenStack Tenants\nSection 5: W
+ ork with OpenStack Domains and Groups\nSection 6: Work with Cloud Images\n
+ Section 7: Work with Software-defined Networks\nSection 8: Work with Workl
+ oad Instances\nSection 9: Work with Block Storage\nSection 10: Work with O
+ bject Storage\nSection 11: Orchestrate the Lifecycle of Cloud Applications
+LOCATION:Vancouver Convention Centre West - Level Two - Room 218-219
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:RSVP REQUIRED: SUSE Two-Day Training: OpenStack Administration - P
+ repare for the Certified Exams (Day 2)
+DTSTART;VALUE=DATE-TIME:20180524T160000Z
+DTEND;VALUE=DATE-TIME:20180525T010000Z
+UID:21660@openstacksummitboston2017
+DESCRIPTION:This training is a two day course and participants must attend
+  both days in order to complete the courses. An RSVP to Day 1 is an automa
+ tic RSVP to Day 2.\nThis course is designed for system administrators and 
+ others who want to learn how to administer an OpenStack Cloud. Participant
+ s receive a comprehensive understanding of the tasks necessary to administ
+ er an OpenStack cloud and then use common tools that are included with an 
+ OpenStack distribution to administer a SUSE OpenStack cloud. This course p
+ repares the participants to take and pass the Certified OpenStack Administ
+ rator (COA) exam.\nAgenda:\nSection 1: Lab Environment Setup\nSection 2: I
+ ntroduction to SUSE OpenStack Cloud\nSection 3: Introduction to OpenStack 
+ Cloud Administration\nSection 4: Work with OpenStack Tenants\nSection 5: W
+ ork with OpenStack Domains and Groups\nSection 6: Work with Cloud Images\n
+ Section 7: Work with Software-defined Networks\nSection 8: Work with Workl
+ oad Instances\nSection 9: Work with Block Storage\nSection 10: Work with O
+ bject Storage\nSection 11: Orchestrate the Lifecycle of Cloud Applications
+LOCATION:Vancouver Convention Centre West - Level Two - Room 218-219
+END:VEVENT
+END:VCALENDAR

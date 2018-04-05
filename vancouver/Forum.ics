@@ -1,0 +1,581 @@
+BEGIN:VCALENDAR
+DTSTART:20180519T080000
+SUMMARY:OpenStack Summit Vancouver 2018: Forum
+BEGIN:VTIMEZONE
+TZID:America/Vancouver
+BEGIN:STANDARD
+DTSTART:20171105T020000
+RDATE:20181104T020000
+TZNAME:PST
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20180311T020000
+TZNAME:PDT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+SUMMARY:OpenStack-Chef - Project Onboarding
+DTSTART;VALUE=DATE-TIME:20180521T183500Z
+DTEND;VALUE=DATE-TIME:20180521T191500Z
+UID:21644@openstacksummitboston2017
+DESCRIPTION:Project Onboarding gives attendees a chance to meet some of th
+ e project team and get to know the project. Attendees will learn about the
+  project itself\, the code structure/ overall architecture\, etc\, and pla
+ ces where contribution is needed. Attendees will also get to know some of 
+ the core contributors and other established community members.\n \nIdeall
+ y\, attendees will know/ have completed the basics of contribution (i.e. i
+ rc\, gerrit\, Launchpad\, StoryBoard\, Foundation Membership) BEFORE atten
+ ding the session. All of this can be done through our Contributor Guide[1]
+ .\n \n \n[1] https://docs.openstack.org/contributors/code-and-documenta
+ tion/index.html
+LOCATION:Vancouver Convention Centre West - Level Two - Room 223
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Docs/i18n - Project Onboarding
+DTSTART;VALUE=DATE-TIME:20180521T203000Z
+DTEND;VALUE=DATE-TIME:20180521T211000Z
+UID:21627@openstacksummitboston2017
+DESCRIPTION:Project Onboarding gives attendees a chance to meet some of th
+ e project team and get to know the project. Attendees will learn about the
+  project itself\, the code structure/ overall architecture\, etc\, and pla
+ ces where contribution is needed. Attendees will also get to know some of 
+ the core contributors and other established community members.\n \nIdeall
+ y\, attendees will know/ have completed the basics of contribution (i.e. i
+ rc\, gerrit\, Launchpad\, StoryBoard\, Foundation Membership) BEFORE atten
+ ding the session. All of this can be done through our Contributor Guide[1]
+ .\n \n \n[1] https://docs.openstack.org/contributors/code-and-documenta
+ tion/index.html
+LOCATION:Vancouver Convention Centre West - Level Two - Room 223
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tacker - Project Onboarding
+DTSTART;VALUE=DATE-TIME:20180521T212000Z
+DTEND;VALUE=DATE-TIME:20180521T220000Z
+UID:21651@openstacksummitboston2017
+DESCRIPTION:Project Onboarding gives attendees a chance to meet some of th
+ e project team and get to know the project. Attendees will learn about the
+  project itself\, the code structure/ overall architecture\, etc\, and pla
+ ces where contribution is needed. Attendees will also get to know some of 
+ the core contributors and other established community members.\n \nIdeall
+ y\, attendees will know/ have completed the basics of contribution (i.e. i
+ rc\, gerrit\, Launchpad\, StoryBoard\, Foundation Membership) BEFORE atten
+ ding the session. All of this can be done through our Contributor Guide[1]
+ .\n \n \n[1] https://docs.openstack.org/contributors/code-and-documenta
+ tion/index.html
+LOCATION:Vancouver Convention Centre West - Level Two - Room 223
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Octavia - Project Onboarding
+DTSTART;VALUE=DATE-TIME:20180521T221000Z
+DTEND;VALUE=DATE-TIME:20180521T225000Z
+UID:21642@openstacksummitboston2017
+DESCRIPTION:Project Onboarding gives attendees a chance to meet some of th
+ e project team and get to know the project. Attendees will learn about the
+  project itself\, the code structure/ overall architecture\, etc\, and pla
+ ces where contribution is needed. Attendees will also get to know some of 
+ the core contributors and other established community members.\n \nIdeall
+ y\, attendees will know/ have completed the basics of contribution (i.e. i
+ rc\, gerrit\, Launchpad\, StoryBoard\, Foundation Membership) BEFORE atten
+ ding the session. All of this can be done through our Contributor Guide[1]
+ .\n \n \n[1] https://docs.openstack.org/contributors/code-and-documenta
+ tion/index.html
+LOCATION:Vancouver Convention Centre West - Level Two - Room 223
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:OpenStack Ansible - Project Onboarding
+DTSTART;VALUE=DATE-TIME:20180521T232000Z
+DTEND;VALUE=DATE-TIME:20180522T000000Z
+UID:21643@openstacksummitboston2017
+DESCRIPTION:Project Onboarding gives attendees a chance to meet some of th
+ e project team and get to know the project. Attendees will learn about the
+  project itself\, the code structure/ overall architecture\, etc\, and pla
+ ces where contribution is needed. Attendees will also get to know some of 
+ the core contributors and other established community members.\n \nIdeall
+ y\, attendees will know/ have completed the basics of contribution (i.e. i
+ rc\, gerrit\, Launchpad\, StoryBoard\, Foundation Membership) BEFORE atten
+ ding the session. All of this can be done through our Contributor Guide[1]
+ .\n \n \n[1] https://docs.openstack.org/contributors/code-and-documenta
+ tion/index.html
+LOCATION:Vancouver Convention Centre West - Level Two - Room 223
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Keystone - Project Onboarding
+DTSTART;VALUE=DATE-TIME:20180522T001000Z
+DTEND;VALUE=DATE-TIME:20180522T005000Z
+UID:21633@openstacksummitboston2017
+DESCRIPTION:Project Onboarding gives attendees a chance to meet some of th
+ e project team and get to know the project. Attendees will learn about the
+  project itself\, the code structure/ overall architecture\, etc\, and pla
+ ces where contribution is needed. Attendees will also get to know some of 
+ the core contributors and other established community members.\n \nIdeall
+ y\, attendees will know/ have completed the basics of contribution (i.e. i
+ rc\, gerrit\, Launchpad\, StoryBoard\, Foundation Membership) BEFORE atten
+ ding the session. All of this can be done through our Contributor Guide[1]
+ .\n \n \n[1] https://docs.openstack.org/contributors/code-and-documenta
+ tion/index.html
+LOCATION:Vancouver Convention Centre West - Level Two - Room 223
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Kolla - Project Onboarding
+DTSTART;VALUE=DATE-TIME:20180522T160000Z
+DTEND;VALUE=DATE-TIME:20180522T164000Z
+UID:21634@openstacksummitboston2017
+DESCRIPTION:Project Onboarding gives attendees a chance to meet some of th
+ e project team and get to know the project. Attendees will learn about the
+  project itself\, the code structure/ overall architecture\, etc\, and pla
+ ces where contribution is needed. Attendees will also get to know some of 
+ the core contributors and other established community members.\n \nIdeall
+ y\, attendees will know/ have completed the basics of contribution (i.e. i
+ rc\, gerrit\, Launchpad\, StoryBoard\, Foundation Membership) BEFORE atten
+ ding the session. All of this can be done through our Contributor Guide[1]
+ .\n \n \n[1] https://docs.openstack.org/contributors/code-and-documenta
+ tion/index.html
+LOCATION:Vancouver Convention Centre West - Level Two - Room 223
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:QA - Project Onboarding
+DTSTART;VALUE=DATE-TIME:20180522T165000Z
+DTEND;VALUE=DATE-TIME:20180522T173000Z
+UID:21646@openstacksummitboston2017
+DESCRIPTION:Project Onboarding gives attendees a chance to meet some of th
+ e project team and get to know the project. Attendees will learn about the
+  project itself\, the code structure/ overall architecture\, etc\, and pla
+ ces where contribution is needed. Attendees will also get to know some of 
+ the core contributors and other established community members.\n \nIdeall
+ y\, attendees will know/ have completed the basics of contribution (i.e. i
+ rc\, gerrit\, Launchpad\, StoryBoard\, Foundation Membership) BEFORE atten
+ ding the session. All of this can be done through our Contributor Guide[1]
+ .\n \n \n[1] https://docs.openstack.org/contributors/code-and-documenta
+ tion/index.html
+LOCATION:Vancouver Convention Centre West - Level Two - Room 223
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Sahara - Project Onboarding
+DTSTART;VALUE=DATE-TIME:20180522T180000Z
+DTEND;VALUE=DATE-TIME:20180522T184000Z
+UID:21648@openstacksummitboston2017
+DESCRIPTION:Project Onboarding gives attendees a chance to meet some of th
+ e project team and get to know the project. Attendees will learn about the
+  project itself\, the code structure/ overall architecture\, etc\, and pla
+ ces where contribution is needed. Attendees will also get to know some of 
+ the core contributors and other established community members.\n \nIdeall
+ y\, attendees will know/ have completed the basics of contribution (i.e. i
+ rc\, gerrit\, Launchpad\, StoryBoard\, Foundation Membership) BEFORE atten
+ ding the session. All of this can be done through our Contributor Guide[1]
+ .\n \n \n[1] https://docs.openstack.org/contributors/code-and-documenta
+ tion/index.html
+LOCATION:Vancouver Convention Centre West - Level Two - Room 223
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Glance - Project Onboarding
+DTSTART;VALUE=DATE-TIME:20180522T185000Z
+DTEND;VALUE=DATE-TIME:20180522T193000Z
+UID:21628@openstacksummitboston2017
+DESCRIPTION:Project Onboarding gives attendees a chance to meet some of th
+ e project team and get to know the project. Attendees will learn about the
+  project itself\, the code structure/ overall architecture\, etc\, and pla
+ ces where contribution is needed. Attendees will also get to know some of 
+ the core contributors and other established community members.\n \nIdeall
+ y\, attendees will know/ have completed the basics of contribution (i.e. i
+ rc\, gerrit\, Launchpad\, StoryBoard\, Foundation Membership) BEFORE atten
+ ding the session. All of this can be done through our Contributor Guide[1]
+ .\n \n \n[1] https://docs.openstack.org/contributors/code-and-documenta
+ tion/index.html
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Heat - Project Onboarding
+DTSTART;VALUE=DATE-TIME:20180522T205000Z
+DTEND;VALUE=DATE-TIME:20180522T213000Z
+UID:21629@openstacksummitboston2017
+DESCRIPTION:Project Onboarding gives attendees a chance to meet some of th
+ e project team and get to know the project. Attendees will learn about the
+  project itself\, the code structure/ overall architecture\, etc\, and pla
+ ces where contribution is needed. Attendees will also get to know some of 
+ the core contributors and other established community members.\n \nIdeall
+ y\, attendees will know/ have completed the basics of contribution (i.e. i
+ rc\, gerrit\, Launchpad\, StoryBoard\, Foundation Membership) BEFORE atten
+ ding the session. All of this can be done through our Contributor Guide[1]
+ .\n \n \n[1] https://docs.openstack.org/contributors/code-and-documenta
+ tion/index.html
+LOCATION:Vancouver Convention Centre West - Level Two - Room 223
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Cinder - Project Onboarding
+DTSTART;VALUE=DATE-TIME:20180522T214000Z
+DTEND;VALUE=DATE-TIME:20180522T222000Z
+UID:21625@openstacksummitboston2017
+DESCRIPTION:Project Onboarding gives attendees a chance to meet some of th
+ e project team and get to know the project. Attendees will learn about the
+  project itself\, the code structure/ overall architecture\, etc\, and pla
+ ces where contribution is needed. Attendees will also get to know some of 
+ the core contributors and other established community members.\n \nIdeall
+ y\, attendees will know/ have completed the basics of contribution (i.e. i
+ rc\, gerrit\, Launchpad\, StoryBoard\, Foundation Membership) BEFORE atten
+ ding the session. All of this can be done through our Contributor Guide[1]
+ .\n \n \n[1] https://docs.openstack.org/contributors/code-and-documenta
+ tion/index.html
+LOCATION:Vancouver Convention Centre West - Level Two - Room 223
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Infra - Project Onboarding
+DTSTART;VALUE=DATE-TIME:20180522T223000Z
+DTEND;VALUE=DATE-TIME:20180522T231000Z
+UID:21631@openstacksummitboston2017
+DESCRIPTION:Project Onboarding gives attendees a chance to meet some of th
+ e project team and get to know the project. Attendees will learn about the
+  project itself\, the code structure/ overall architecture\, etc\, and pla
+ ces where contribution is needed. Attendees will also get to know some of 
+ the core contributors and other established community members.\n \nIdeall
+ y\, attendees will know/ have completed the basics of contribution (i.e. i
+ rc\, gerrit\, Launchpad\, StoryBoard\, Foundation Membership) BEFORE atten
+ ding the session. All of this can be done through our Contributor Guide[1]
+ .\n \n \n[1] https://docs.openstack.org/contributors/code-and-documenta
+ tion/index.html
+LOCATION:Vancouver Convention Centre West - Level Two - Room 223
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ironic - Project Onboarding
+DTSTART;VALUE=DATE-TIME:20180522T234000Z
+DTEND;VALUE=DATE-TIME:20180523T002000Z
+UID:21632@openstacksummitboston2017
+DESCRIPTION:Project Onboarding gives attendees a chance to meet some of th
+ e project team and get to know the project. Attendees will learn about the
+  project itself\, the code structure/ overall architecture\, etc\, and pla
+ ces where contribution is needed. Attendees will also get to know some of 
+ the core contributors and other established community members.\n \nIdeall
+ y\, attendees will know/ have completed the basics of contribution (i.e. i
+ rc\, gerrit\, Launchpad\, StoryBoard\, Foundation Membership) BEFORE atten
+ ding the session. All of this can be done through our Contributor Guide[1]
+ .\n \n \n[1] https://docs.openstack.org/contributors/code-and-documenta
+ tion/index.html
+LOCATION:Vancouver Convention Centre West - Level Two - Room 223
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Cloudkitty - Project Onboarding
+DTSTART;VALUE=DATE-TIME:20180523T003000Z
+DTEND;VALUE=DATE-TIME:20180523T011000Z
+UID:21626@openstacksummitboston2017
+DESCRIPTION:Project Onboarding gives attendees a chance to meet some of th
+ e project team and get to know the project. Attendees will learn about the
+  project itself\, the code structure/ overall architecture\, etc\, and pla
+ ces where contribution is needed. Attendees will also get to know some of 
+ the core contributors and other established community members.\n \nIdeall
+ y\, attendees will know/ have completed the basics of contribution (i.e. i
+ rc\, gerrit\, Launchpad\, StoryBoard\, Foundation Membership) BEFORE atten
+ ding the session. All of this can be done through our Contributor Guide[1]
+ .\n \n \n[1] https://docs.openstack.org/contributors/code-and-documenta
+ tion/index.html
+LOCATION:Vancouver Convention Centre West - Level Two - Room 223
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Barbican - Project Onboarding
+DTSTART;VALUE=DATE-TIME:20180523T160000Z
+DTEND;VALUE=DATE-TIME:20180523T164000Z
+UID:21623@openstacksummitboston2017
+DESCRIPTION:Project Onboarding gives attendees a chance to meet some of th
+ e project team and get to know the project. Attendees will learn about the
+  project itself\, the code structure/ overall architecture\, etc\, and pla
+ ces where contribution is needed. Attendees will also get to know some of 
+ the core contributors and other established community members.\n \nIdeall
+ y\, attendees will know/ have completed the basics of contribution (i.e. i
+ rc\, gerrit\, Launchpad\, StoryBoard\, Foundation Membership) BEFORE atten
+ ding the session. All of this can be done through our Contributor Guide[1]
+ .\n \n\n[1] https://docs.openstack.org/contributors/code-and-documentatio
+ n/index.html
+LOCATION:Vancouver Convention Centre West - Level Two - Room 223
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Kuryr - Project Onboarding
+DTSTART;VALUE=DATE-TIME:20180523T165000Z
+DTEND;VALUE=DATE-TIME:20180523T173000Z
+UID:21635@openstacksummitboston2017
+DESCRIPTION:Project Onboarding gives attendees a chance to meet some of th
+ e project team and get to know the project. Attendees will learn about the
+  project itself\, the code structure/ overall architecture\, etc\, and pla
+ ces where contribution is needed. Attendees will also get to know some of 
+ the core contributors and other established community members.\n \nIdeall
+ y\, attendees will know/ have completed the basics of contribution (i.e. i
+ rc\, gerrit\, Launchpad\, StoryBoard\, Foundation Membership) BEFORE atten
+ ding the session. All of this can be done through our Contributor Guide[1]
+ .\n \n \n[1] https://docs.openstack.org/contributors/code-and-documenta
+ tion/index.html
+LOCATION:Vancouver Convention Centre West - Level Two - Room 223
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horizon - Project Onboarding
+DTSTART;VALUE=DATE-TIME:20180523T180000Z
+DTEND;VALUE=DATE-TIME:20180523T184000Z
+UID:21630@openstacksummitboston2017
+DESCRIPTION:Project Onboarding gives attendees a chance to meet some of th
+ e project team and get to know the project. Attendees will learn about the
+  project itself\, the code structure/ overall architecture\, etc\, and pla
+ ces where contribution is needed. Attendees will also get to know some of 
+ the core contributors and other established community members.\n \nIdeall
+ y\, attendees will know/ have completed the basics of contribution (i.e. i
+ rc\, gerrit\, Launchpad\, StoryBoard\, Foundation Membership) BEFORE atten
+ ding the session. All of this can be done through our Contributor Guide[1]
+ .\n \n \n[1] https://docs.openstack.org/contributors/code-and-documenta
+ tion/index.html
+LOCATION:Vancouver Convention Centre West - Level Two - Room 223
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:TripleO - Project Onboarding
+DTSTART;VALUE=DATE-TIME:20180523T185000Z
+DTEND;VALUE=DATE-TIME:20180523T193000Z
+UID:21652@openstacksummitboston2017
+DESCRIPTION:Project Onboarding gives attendees a chance to meet some of th
+ e project team and get to know the project. Attendees will learn about the
+  project itself\, the code structure/ overall architecture\, etc\, and pla
+ ces where contribution is needed. Attendees will also get to know some of 
+ the core contributors and other established community members.\n \nIdeall
+ y\, attendees will know/ have completed the basics of contribution (i.e. i
+ rc\, gerrit\, Launchpad\, StoryBoard\, Foundation Membership) BEFORE atten
+ ding the session. All of this can be done through our Contributor Guide[1]
+ .\n \n \n[1] https://docs.openstack.org/contributors/code-and-documenta
+ tion/index.html
+LOCATION:Vancouver Convention Centre West - Level Two - Room 223
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Nova - Project Onboarding
+DTSTART;VALUE=DATE-TIME:20180523T205000Z
+DTEND;VALUE=DATE-TIME:20180523T213000Z
+UID:21641@openstacksummitboston2017
+DESCRIPTION:Project Onboarding gives attendees a chance to meet some of th
+ e project team and get to know the project. Attendees will learn about the
+  project itself\, the code structure/ overall architecture\, etc\, and pla
+ ces where contribution is needed. Attendees will also get to know some of 
+ the core contributors and other established community members.\n \nIdeall
+ y\, attendees will know/ have completed the basics of contribution (i.e. i
+ rc\, gerrit\, Launchpad\, StoryBoard\, Foundation Membership) BEFORE atten
+ ding the session. All of this can be done through our Contributor Guide[1]
+ .\n \n \n[1] https://docs.openstack.org/contributors/code-and-documenta
+ tion/index.html
+LOCATION:Vancouver Convention Centre West - Level Two - Room 223
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Magnum - Project Onboarding
+DTSTART;VALUE=DATE-TIME:20180523T214000Z
+DTEND;VALUE=DATE-TIME:20180523T222000Z
+UID:21636@openstacksummitboston2017
+DESCRIPTION:Project Onboarding gives attendees a chance to meet some of th
+ e project team and get to know the project. Attendees will learn about the
+  project itself\, the code structure/ overall architecture\, etc\, and pla
+ ces where contribution is needed. Attendees will also get to know some of 
+ the core contributors and other established community members.\n \nIdeall
+ y\, attendees will know/ have completed the basics of contribution (i.e. i
+ rc\, gerrit\, Launchpad\, StoryBoard\, Foundation Membership) BEFORE atten
+ ding the session. All of this can be done through our Contributor Guide[1]
+ .\n \n \n[1] https://docs.openstack.org/contributors/code-and-documenta
+ tion/index.html
+LOCATION:Vancouver Convention Centre West - Level Two - Room 223
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Vitrage - Project Onboarding
+DTSTART;VALUE=DATE-TIME:20180523T223000Z
+DTEND;VALUE=DATE-TIME:20180523T231000Z
+UID:21653@openstacksummitboston2017
+DESCRIPTION:Project Onboarding gives attendees a chance to meet some of th
+ e project team and get to know the project. Attendees will learn about the
+  project itself\, the code structure/ overall architecture\, etc\, and pla
+ ces where contribution is needed. Attendees will also get to know some of 
+ the core contributors and other established community members.\n \nIdeall
+ y\, attendees will know/ have completed the basics of contribution (i.e. i
+ rc\, gerrit\, Launchpad\, StoryBoard\, Foundation Membership) BEFORE atten
+ ding the session. All of this can be done through our Contributor Guide[1]
+ .\n \n \n[1] https://docs.openstack.org/contributors/code-and-documenta
+ tion/index.html
+LOCATION:Vancouver Convention Centre West - Level Two - Room 223
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mistral - Project Onboarding
+DTSTART;VALUE=DATE-TIME:20180523T234000Z
+DTEND;VALUE=DATE-TIME:20180524T002000Z
+UID:21638@openstacksummitboston2017
+DESCRIPTION:Project Onboarding gives attendees a chance to meet some of th
+ e project team and get to know the project. Attendees will learn about the
+  project itself\, the code structure/ overall architecture\, etc\, and pla
+ ces where contribution is needed. Attendees will also get to know some of 
+ the core contributors and other established community members.\n \nIdeall
+ y\, attendees will know/ have completed the basics of contribution (i.e. i
+ rc\, gerrit\, Launchpad\, StoryBoard\, Foundation Membership) BEFORE atten
+ ding the session. All of this can be done through our Contributor Guide[1]
+ .\n \n \n[1] https://docs.openstack.org/contributors/code-and-documenta
+ tion/index.html
+LOCATION:Vancouver Convention Centre West - Level Two - Room 223
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Monasca - Project Onboarding
+DTSTART;VALUE=DATE-TIME:20180524T003000Z
+DTEND;VALUE=DATE-TIME:20180524T011000Z
+UID:21639@openstacksummitboston2017
+DESCRIPTION:Project Onboarding gives attendees a chance to meet some of th
+ e project team and get to know the project. Attendees will learn about the
+  project itself\, the code structure/ overall architecture\, etc\, and pla
+ ces where contribution is needed. Attendees will also get to know some of 
+ the core contributors and other established community members.\n \nIdeall
+ y\, attendees will know/ have completed the basics of contribution (i.e. i
+ rc\, gerrit\, Launchpad\, StoryBoard\, Foundation Membership) BEFORE atten
+ ding the session. All of this can be done through our Contributor Guide[1]
+ .\n \n \n[1] https://docs.openstack.org/contributors/code-and-documenta
+ tion/index.html
+LOCATION:Vancouver Convention Centre West - Level Two - Room 223
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Oslo - Project Onboarding
+DTSTART;VALUE=DATE-TIME:20180524T160000Z
+DTEND;VALUE=DATE-TIME:20180524T164000Z
+UID:21645@openstacksummitboston2017
+DESCRIPTION:Project Onboarding gives attendees a chance to meet some of th
+ e project team and get to know the project. Attendees will learn about the
+  project itself\, the code structure/ overall architecture\, etc\, and pla
+ ces where contribution is needed. Attendees will also get to know some of 
+ the core contributors and other established community members.\n \nIdeall
+ y\, attendees will know/ have completed the basics of contribution (i.e. i
+ rc\, gerrit\, Launchpad\, StoryBoard\, Foundation Membership) BEFORE atten
+ ding the session. All of this can be done through our Contributor Guide[1]
+ .\n \n \n[1] https://docs.openstack.org/contributors/code-and-documenta
+ tion/index.html
+LOCATION:Vancouver Convention Centre West - Level Two - Room 223
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Manila - Project Onboarding
+DTSTART;VALUE=DATE-TIME:20180524T165000Z
+DTEND;VALUE=DATE-TIME:20180524T173000Z
+UID:21637@openstacksummitboston2017
+DESCRIPTION:Project Onboarding gives attendees a chance to meet some of th
+ e project team and get to know the project. Attendees will learn about the
+  project itself\, the code structure/ overall architecture\, etc\, and pla
+ ces where contribution is needed. Attendees will also get to know some of 
+ the core contributors and other established community members.\n \nIdeall
+ y\, attendees will know/ have completed the basics of contribution (i.e. i
+ rc\, gerrit\, Launchpad\, StoryBoard\, Foundation Membership) BEFORE atten
+ ding the session. All of this can be done through our Contributor Guide[1]
+ .\n \n \n[1] https://docs.openstack.org/contributors/code-and-documenta
+ tion/index.html
+LOCATION:Vancouver Convention Centre West - Level Two - Room 223
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Qinling - Project Onboarding
+DTSTART;VALUE=DATE-TIME:20180524T180000Z
+DTEND;VALUE=DATE-TIME:20180524T184000Z
+UID:21647@openstacksummitboston2017
+DESCRIPTION:Project Onboarding gives attendees a chance to meet some of th
+ e project team and get to know the project. Attendees will learn about the
+  project itself\, the code structure/ overall architecture\, etc\, and pla
+ ces where contribution is needed. Attendees will also get to know some of 
+ the core contributors and other established community members.\n \nIdeall
+ y\, attendees will know/ have completed the basics of contribution (i.e. i
+ rc\, gerrit\, Launchpad\, StoryBoard\, Foundation Membership) BEFORE atten
+ ding the session. All of this can be done through our Contributor Guide[1]
+ .\n \n \n[1] https://docs.openstack.org/contributors/code-and-documenta
+ tion/index.html
+LOCATION:Vancouver Convention Centre West - Level Two - Room 223
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Blazar - Project Onboarding
+DTSTART;VALUE=DATE-TIME:20180524T185000Z
+DTEND;VALUE=DATE-TIME:20180524T193000Z
+UID:21624@openstacksummitboston2017
+DESCRIPTION:Project Onboarding gives attendees a chance to meet some of th
+ e project team and get to know the project. Attendees will learn about the
+  project itself\, the code structure/ overall architecture\, etc\, and pla
+ ces where contribution is needed. Attendees will also get to know some of 
+ the core contributors and other established community members.\n \nIdeall
+ y\, attendees will know/ have completed the basics of contribution (i.e. i
+ rc\, gerrit\, Launchpad\, StoryBoard\, Foundation Membership) BEFORE atten
+ ding the session. All of this can be done through our Contributor Guide[1]
+ .\n \n \n[1] https://docs.openstack.org/contributors/code-and-documenta
+ tion/index.html
+LOCATION:Vancouver Convention Centre West - Level Two - Room 223
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Swift - Project Onboarding
+DTSTART;VALUE=DATE-TIME:20180524T205000Z
+DTEND;VALUE=DATE-TIME:20180524T213000Z
+UID:21650@openstacksummitboston2017
+DESCRIPTION:Project Onboarding gives attendees a chance to meet some of th
+ e project team and get to know the project. Attendees will learn about the
+  project itself\, the code structure/ overall architecture\, etc\, and pla
+ ces where contribution is needed. Attendees will also get to know some of 
+ the core contributors and other established community members.\n \nIdeall
+ y\, attendees will know/ have completed the basics of contribution (i.e. i
+ rc\, gerrit\, Launchpad\, StoryBoard\, Foundation Membership) BEFORE atten
+ ding the session. All of this can be done through our Contributor Guide[1]
+ .\n \n \n[1] https://docs.openstack.org/contributors/code-and-documenta
+ tion/index.html
+LOCATION:Vancouver Convention Centre West - Level Two - Room 223
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Murano - Project Onboarding
+DTSTART;VALUE=DATE-TIME:20180524T214000Z
+DTEND;VALUE=DATE-TIME:20180524T222000Z
+UID:21640@openstacksummitboston2017
+DESCRIPTION:Project Onboarding gives attendees a chance to meet some of th
+ e project team and get to know the project. Attendees will learn about the
+  project itself\, the code structure/ overall architecture\, etc\, and pla
+ ces where contribution is needed. Attendees will also get to know some of 
+ the core contributors and other established community members.\n \nIdeall
+ y\, attendees will know/ have completed the basics of contribution (i.e. i
+ rc\, gerrit\, Launchpad\, StoryBoard\, Foundation Membership) BEFORE atten
+ ding the session. All of this can be done through our Contributor Guide[1]
+ .\n \n \n[1] https://docs.openstack.org/contributors/code-and-documenta
+ tion/index.html
+LOCATION:Vancouver Convention Centre West - Level Two - Room 223
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Senlin - Project Onboarding
+DTSTART;VALUE=DATE-TIME:20180524T223000Z
+DTEND;VALUE=DATE-TIME:20180524T231000Z
+UID:21649@openstacksummitboston2017
+DESCRIPTION:Project Onboarding gives attendees a chance to meet some of th
+ e project team and get to know the project. Attendees will learn about the
+  project itself\, the code structure/ overall architecture\, etc\, and pla
+ ces where contribution is needed. Attendees will also get to know some of 
+ the core contributors and other established community members.\n \nIdeall
+ y\, attendees will know/ have completed the basics of contribution (i.e. i
+ rc\, gerrit\, Launchpad\, StoryBoard\, Foundation Membership) BEFORE atten
+ ding the session. All of this can be done through our Contributor Guide[1]
+ .\n \n \n[1] https://docs.openstack.org/contributors/code-and-documenta
+ tion/index.html
+LOCATION:Vancouver Convention Centre West - Level Two - Room 223
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Zun - Project Onboarding
+DTSTART;VALUE=DATE-TIME:20180524T234000Z
+DTEND;VALUE=DATE-TIME:20180525T002000Z
+UID:21654@openstacksummitboston2017
+DESCRIPTION:Project Onboarding gives attendees a chance to meet some of th
+ e project team and get to know the project. Attendees will learn about the
+  project itself\, the code structure/ overall architecture\, etc\, and pla
+ ces where contribution is needed. Attendees will also get to know some of 
+ the core contributors and other established community members.\n \nIdeall
+ y\, attendees will know/ have completed the basics of contribution (i.e. i
+ rc\, gerrit\, Launchpad\, StoryBoard\, Foundation Membership) BEFORE atten
+ ding the session. All of this can be done through our Contributor Guide[1]
+ .\n \n \n[1] https://docs.openstack.org/contributors/code-and-documenta
+ tion/index.html
+LOCATION:Vancouver Convention Centre West - Level Two - Room 223
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Masakari - Project Onboarding
+DTSTART;VALUE=DATE-TIME:20180525T003000Z
+DTEND;VALUE=DATE-TIME:20180525T011000Z
+UID:21656@openstacksummitboston2017
+DESCRIPTION:Project Onboarding gives attendees a chance to meet some of th
+ e project team and get to know the project. Attendees will learn about the
+  project itself\, the code structure/ overall architecture\, etc\, and pla
+ ces where contribution is needed. Attendees will also get to know some of 
+ the core contributors and other established community members.\n \nIdeall
+ y\, attendees will know/ have completed the basics of contribution (i.e. i
+ rc\, gerrit\, Launchpad\, StoryBoard\, Foundation Membership) BEFORE atten
+ ding the session. All of this can be done through our Contributor Guide[1]
+ .\n \n\n[1] https://docs.openstack.org/contributors/code-and-documentatio
+ n/index.html
+LOCATION:Vancouver Convention Centre West - Level Two - Room 223
+END:VEVENT
+END:VCALENDAR

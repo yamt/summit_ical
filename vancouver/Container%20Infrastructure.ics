@@ -1,0 +1,878 @@
+BEGIN:VCALENDAR
+DTSTART:20180519T080000
+SUMMARY:OpenStack Summit Vancouver 2018: Container Infrastructure
+BEGIN:VTIMEZONE
+TZID:America/Vancouver
+BEGIN:STANDARD
+DTSTART:20171105T020000
+RDATE:20181104T020000
+TZNAME:PST
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20180311T020000
+TZNAME:PDT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+SUMMARY:The Cart and The Horse: OpenStack + Kubernetes
+DTSTART;VALUE=DATE-TIME:20180521T203000Z
+DTEND;VALUE=DATE-TIME:20180521T204000Z
+UID:20653@openstacksummitboston2017
+DESCRIPTION:Integration as a first-class citizen is important for end-user
+ s\, application developers\, and operators as well as B2B and B2C relation
+ ships. No one system or project by itself successfully addresses a use cas
+ e\; even 1s need 0s. One integration that has been identified is OpenStack
+  and Kubernetes. Working to test and improve support for the most popular 
+ OpenStack Software Development Kits (SDKs)—as well as platforms like Kub
+ ernetes\, Terraform\, and Cloud Foundry we have been working to strengthen
+  two of the key components to this integration\; Gophercloud and Terraform
+  (OpenStack provider). We will discuss what we have done\, why we have don
+ e it\, what we plan to do next as it relates to this integration\, and a d
+ emo.
+LOCATION:Vancouver Convention Centre West - Level One - Lightning Talk The
+ ater
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:OpenStack Octavia\, Kubernetes\, and Terraform
+DTSTART;VALUE=DATE-TIME:20180521T203000Z
+DTEND;VALUE=DATE-TIME:20180521T211000Z
+UID:20687@openstacksummitboston2017
+DESCRIPTION:Deploying Kubernetes with Terraform on an OpenStack cloud will
+  ultimately lead to the question what to do about load balancing. Both the
+  Kubernetes API and services need to be load balanced. With its reliabilit
+ y and scalability OpenStack Octavia becomes a natural choice for such a de
+ ployment and this talk will explore the architecture\, the necessary enhan
+ cements to Terraform and K8\, and general setup of such a solution.
+LOCATION:Vancouver Convention Centre West - Level One - Room 109-110
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Linux Container Internals Lab
+DTSTART;VALUE=DATE-TIME:20180521T203000Z
+DTEND;VALUE=DATE-TIME:20180521T220000Z
+UID:20647@openstacksummitboston2017
+DESCRIPTION:This course provides a detailed examination of container archi
+ tecture from the Linux kernel to Kubernetes\, including security & resourc
+ e controls\, kernel structures\, and low level storage & network function.
+  This lab provides hands-on training\, concepts\, and demonstrations\, wit
+ h an emphasis on realistic deployment and troubleshooting exercises.\nTopi
+ cs include security (sVirt\, SELinux\, SECCOMP)\, isolation (kernel namesp
+ aces\, cgroups)\, and data structures (Kubernetes/Linux). Together\, these
+  topics provide an architectural level understanding of the complete conta
+ iner stack\, from the Linux kernel\, to container runtime (Docker\,CRI-O\,
+  runc)\, and container orchestration (Kubernetes).\nFollowing a logical pa
+ th from container host & image\, to container runtime\, to orchestrator\, 
+ we will answer questions like: How does sVirt/SELinux\, SECCOMP\, namespac
+ es\, and isolation really work? How does the Docker Daemon work? How does 
+ Kubernetes talk to the Docker Daemon? How are container images made?\n 
+LOCATION:Vancouver Convention Centre West - Level Two - Room 213-214
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:A DevOps State of Mind: Continuous Security with Kubernetes
+DTSTART;VALUE=DATE-TIME:20180521T212000Z
+DTEND;VALUE=DATE-TIME:20180521T220000Z
+UID:21347@openstacksummitboston2017
+DESCRIPTION:With the rise of DevOps\, containers are at the brink of becom
+ ing a pervasive technology in Enterprise IT to accelerate application deli
+ very for the business. When it comes to adopting containers in the enterpr
+ ise\, Security is the highest adoption barrier. Is your organization ready
+  to address the security risks with containers for your DevOps environment
+ ?  In this presentation\, you'll learn about:\n \n- Best practices for a
+ ddressing the top container security risks in a  container environment in
+ cluding images\, builds\, registry\, deployment\, hosts\, network\, storag
+ e\, APIs\, monitoring & logging\, and federation.\n- Automating and integr
+ ating security vulnerability management & compliance checking for containe
+ r images in a DevOps CI/CD pipeline\n- Deployment strategies for deploying
+  container security updates including recreate\, rolling\, blue/green\, ca
+ nary and a/b testing.\n 
+LOCATION:Vancouver Convention Centre West - Level One - Room 109-110
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:A Unified Approach to Role Based Access Control
+DTSTART;VALUE=DATE-TIME:20180521T221000Z
+DTEND;VALUE=DATE-TIME:20180521T225000Z
+UID:20818@openstacksummitboston2017
+DESCRIPTION:Delegation allows a user to let someone or something else perf
+ orm operations on her behalf.  Delegation is the the key to scaling.    In
+  order to delegate\, you have to make use of the access control mechanisms
+  of your automation.Both Keystone and Kubernetes have Role Based Access Co
+ ntrol (RBAC).  While there is\, as of yet\, no interoperability between th
+ em.  There is also no attempt to support the applications running on top o
+ f them.  In this presentation\, we'll go through the RBAC mechanisms of bo
+ th layers\, and then discuss how to extend a unified view of RBAC to the e
+ nd user facing applications.  Making use of basic Open Source technologies
+  for Ansible Management\, LDAP and Web Single Sign On\, as well as unified
+  API management\, find out how to make a sane strategy for managing your c
+ loud deployments.
+LOCATION:Vancouver Convention Centre West - Level One - Room 109-110
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Update on OpenStack Cinder and Kubernetes Integration
+DTSTART;VALUE=DATE-TIME:20180521T232000Z
+DTEND;VALUE=DATE-TIME:20180521T233000Z
+UID:21151@openstacksummitboston2017
+DESCRIPTION:We presented our work on leveraging Standalone Cinder Containe
+ r as a storage orchestrator for Kubernetes last year. Since then we have m
+ ade more progress on this project and attracted many community contributor
+ s and users. \nThis time we update more Cinder and Kubernetes integration
+ s\, specifically on Cinder Volume Snapshot and Restore Controller for Kube
+ rnetes\, Cinder Volume Resize\, and Container Storage Interface (CSI)\, an
+ d Cinder Block Volume. These projects aim to expose more Cinder capabiliti
+ es to Kubernetes. We walk through architecture\, usage\, and end user use 
+ cases throughout this presentation.
+LOCATION:Vancouver Convention Centre West - Level One - Lightning Talk The
+ ater
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CERN experiences with Multi Cloud\, Federated Kubernetes
+DTSTART;VALUE=DATE-TIME:20180521T232000Z
+DTEND;VALUE=DATE-TIME:20180522T000000Z
+UID:20768@openstacksummitboston2017
+DESCRIPTION:Using public cloud resources to cover for peak workloads is a 
+ practical and economical alternative to over provisioning on-premise resou
+ rces. This is the case in environments like CERN where its large internal 
+ computing infrastructure is usually big enough but where periods prior to 
+ big international conferences or large event reconstruction campaigns see 
+ a significant spike in the amount of workloads submitted.\nWe describe ear
+ ly experiences relying on Kubernetes federations deployed and managed by O
+ penStack Magnum to expand the available capacity to external clouds\, whil
+ e still offering a single entrypoint to our users - using GKE\, AKS\, Amaz
+ on and other clouds. We will cover the internals of the federation integra
+ tion in Magnum\, and some of the issues we had (mainly networking) and how
+  we solved them. We will present how these deployments simplify the integr
+ ation with our main batch system\, and how workloads running on external r
+ esources access their corresponding datasets.
+LOCATION:Vancouver Convention Centre West - Level One - Room 109-110
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:OpenStack-Helm Hands-on Workshop: Deploy & Upgrade OpenStack on Ku
+ bernetes
+DTSTART;VALUE=DATE-TIME:20180521T232000Z
+DTEND;VALUE=DATE-TIME:20180522T005000Z
+UID:20798@openstacksummitboston2017
+DESCRIPTION:Get hands-on experience deploying OpenStack on Kubernetes usin
+ g the OpenStack-Helm project!\nOpenStack-Helm is a Helm chart library that
+  allows simple customization and deployment of OpenStack containers across
+  k8s clusters\, from laptop-scale to data center-scale. This workshop will
+  explain the fundamentals of containerized OpenStack and Kubernetes\, and 
+ how to use the Helm tool to orchestrate customized cloud deployments witho
+ ut the sweat and tears.\nIn this workshop\, participants will have a chanc
+ e 1) to deploy OpenStack on top of Kubernetes with a set of official helm 
+ charts from OpenStack-Helm project\, 2) to deploy logging\, monitoring\, a
+ nd alerting tools\, 3) and to perform OpenStack version upgrade on the run
+ ning OpenStack cluster.\nPlease bring your own laptop\; a VM will be provi
+ ded for the lab.
+LOCATION:Vancouver Convention Centre West - Level Two - Room 213-214
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Managing and Protecting Persistent Volumes for Kubernetes
+DTSTART;VALUE=DATE-TIME:20180522T001000Z
+DTEND;VALUE=DATE-TIME:20180522T005000Z
+UID:20822@openstacksummitboston2017
+DESCRIPTION:How to integrate heterogeneous storage in a cloud native envir
+ onment has always been a challenge.  In this session\, we will discuss how
+  to use Cinder\, the block storage as a service project in OpenStack\, and
+  OpenSDS\, an open source project under Linux Foundation\, to provision\, 
+ manage\, and protect persistent storage for the Kubernetes cluster.  Speci
+ fically the following will be discussed:\n\nHow OpenSDS utilizes the stand
+ alone and containerized Cinder through a CSI (Container Storage Interface)
+  plugin to provision volumes for the Kubernetes cluster.\nHow to use a pol
+ icy engine to periodically and asynchronously create snapshots as point-in
+ -time protection for the Kubernetes persistent volumes.\nHow to use the re
+ plication feature in Cinder and OpenSDS to recover data stored on the Kube
+ rnetes persistent volumes from a disaster.\n
+LOCATION:Vancouver Convention Centre West - Level One - Room 109-110
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Vendorizing your Containers with Kolla
+DTSTART;VALUE=DATE-TIME:20180522T004000Z
+DTEND;VALUE=DATE-TIME:20180522T005000Z
+UID:21252@openstacksummitboston2017
+DESCRIPTION:Wouldn’t it be cool if there was a way to have 3rd party ven
+ dor drivers to have a way to build their own Kolla based containers? In th
+ is talk\, we propose a framework where 3rd party vendor drivers are built 
+ as a layer on top of Kolla’s core containers. This solution allows vendo
+ rs to determine how their containers are built and managed while continuin
+ g to stay out-of-tree. With this solution\, OpenStack operators can still 
+ utilize the power of Kolla’s installer infrastructure to install these c
+ ontainers and also integrate into its configuration framework. The solutio
+ n does not involve using OpenStack CI to build these 3rd party container 
+ images.\nIn this talk\, we will explain the best practices to containerize
+  OpenStack vendor plugins and use vendor hardware or vendor NFV and use 3r
+ d-party CI to gate them with OpenStack using Kolla and do a cool demo at t
+ he end!\n Bring your hardware\, and we'll conainerize its plugins for Ope
+ nStack!\n 
+LOCATION:Vancouver Convention Centre West - Level One - Lightning Talk The
+ ater
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Unified Kubernetes CRI runtimes based on Kata Containers
+DTSTART;VALUE=DATE-TIME:20180522T160000Z
+DTEND;VALUE=DATE-TIME:20180522T164000Z
+UID:20853@openstacksummitboston2017
+DESCRIPTION:Since Dec 2017\, Hyper\, Intel\, and other contributors have b
+ een working on the kata containers project under OpenStack Foundation. The
+  goal of kata containers is to create a hypervisor-based OCI container run
+ time based on the runV and clear containers project\, provide VM-level iso
+ lation and container-like speed. \nDuring the kata containers and frakti p
+ roject developing\, we noticed the Kata Containers could be a first-class 
+ runtime of Kubernetes which is expected to co-work with namespace-based Li
+ nux containers on the same host (regardless of physical server or VM) thro
+ ugh CRI. The integration is about bringing isolation and hard multi-tenanc
+ y to Kubernetes\, and also\, make it possible to run privileged workloads 
+ in Linux containers at the same time.\nThe presentation will introduce how
+  frakti version 2 becomes a unified multi-tenancy enabled kubernetes CRI r
+ untime based on Kata Containers.
+LOCATION:Vancouver Convention Centre West - Level One - Room 109-110
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:How to achieve strong isolation by Pouch
+DTSTART;VALUE=DATE-TIME:20180522T165000Z
+DTEND;VALUE=DATE-TIME:20180522T173000Z
+UID:21557@openstacksummitboston2017
+DESCRIPTION:Container technology is widely spread in the world. All adopte
+ rs are considering how to provide strongly isolated environment for applic
+ ations. Pouch\, an open source container project started by Alibaba\, aims
+  at improving the degree of isolation at the very beginning of its develop
+ ment. Hypervisor-based container technology by supporting kata-container/r
+ unv\, lxcfs guaranteed resource view isolation\, and dirquota supporting a
+ re several isolation features of Pouch's. We will mostly introduce on hype
+ rvisor-based container technology by kata-container/runv on why we choose 
+ it\, how we support it\, what we achieve via it. This is fitable for those
+  who are seeking strong-isolation solutions on container ecosystem\, and w
+ ho are finding practical ways to adopt fancy cloud native technologies in 
+ their legacy IT datacenters. What's more\, a demo of supporting katacontai
+ ner/runV in Pouch and running a legacy application on old kernels will be 
+ presented.
+LOCATION:Vancouver Convention Centre West - Level One - Room 109-110
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Kata Containers: The way to run virtualized containers
+DTSTART;VALUE=DATE-TIME:20180522T180000Z
+DTEND;VALUE=DATE-TIME:20180522T184000Z
+UID:20708@openstacksummitboston2017
+DESCRIPTION:Kata Containers is a new open source project merging two hyper
+ visor-based container runtime efforts: Hyper's runV and Intel's Clear Cont
+ ainers. Providing an OCI and CRI compatible runtime\, it is seamlessly int
+ egrated with OpenStack containers services. Each container\, or each sandb
+ ox as defined by Zun\, is hypervisor-isolated and runs inside a dedicated 
+ Linux VM. Combining Zun and Kata Containers provide OpenStack users with a
+  much stronger isolation layer between all containerized workloads\, while
+  being able to safely run bare metal containers.\nThis talk will walk thro
+ ugh Kata&rsquo\;s unique architecture\, how it integrates with Openstack a
+ nd other Cloud software stacks\, and focus around a few key points like ne
+ tworking and storage. It will highlight the will for Kata Containers to be
+ come a new standard to run virtualized containers\, and encourage people t
+ o contribute. The presenter will demo how Kata Containers can be as fast a
+ s a namespace-based container runtime while being run in a VM.
+LOCATION:Vancouver Convention Centre West - Level One - Room 109-110
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Build Your Serverless Container Cloud with OpenStack and Kubernete
+ s
+DTSTART;VALUE=DATE-TIME:20180522T185000Z
+DTEND;VALUE=DATE-TIME:20180522T193000Z
+UID:20734@openstacksummitboston2017
+DESCRIPTION:Kubernetes make container easier to deploy\, manage and scale.
+  However\, using Kubernetes on OpenStack still requires users to manage th
+ e underlying infrastructure such as a cluster of virtual servers. Users ar
+ e responsible for the initial capacity planning\, such as deciding the clu
+ ster size\, as well as the maintenance of the running clusters.\nThe emerg
+ ing of serverless container technologies or solutions such as Amazon Web S
+ ervice (AWS) Fargate\, Azure Container Instance (ACI) and OpenStack Zun pr
+ ovide a viable alternative to run containers on the cloud. The serverless 
+ approach allows users to run containers without having to pre-create or ma
+ nage their own clusters.\nIn this presentation\, we will talk about how we
+  adopt the serverless approach. We will leverage Kubernetes as the orchest
+ ration layer and make Kubernetes provision &ldquo\;serverless&rdquo\; cont
+ ainers using OpenStack Zun. This approach allows us to use Kubernetes with
+  zero server management.
+LOCATION:Vancouver Convention Centre West - Level One - Room 109-110
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Container Infrastructure Keynotes
+DTSTART;VALUE=DATE-TIME:20180522T205000Z
+DTEND;VALUE=DATE-TIME:20180522T222000Z
+UID:21560@openstacksummitboston2017
+DESCRIPTION:Keynotes will feature speakers talking about emerging use case
+ s within container infrastructure.
+LOCATION:Vancouver Convention Centre West - Level One - Room 109-110
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DPDK  as microservices in ZTE's container network used in 5G Netwo
+ rk Slicing
+DTSTART;VALUE=DATE-TIME:20180522T211000Z
+DTEND;VALUE=DATE-TIME:20180522T212000Z
+UID:20959@openstacksummitboston2017
+DESCRIPTION:In container networking\, there is always a conflict between t
+ he higher forwarding speed demand and the less resources(cores/threads/mem
+ ory) to run the containers. To resolve this problem\, we introduced DPDK a
+ s microservices to ZTE's container network. We used some features of dpdk 
+ such as primary/secondary mode\, lockless ring\, sharing memory\, virtio_u
+ ser\, vhost and so on\, to promote the performance. At the same time\, we 
+ used a heartbeat-like mechanism to keep alive and a fail-safe mechanism to
+  provide high availability. Our model achieved bidirectional zero-copy bet
+ ween containers which brought us high performance at a cost of only one de
+ dicated thread. This model could be used in 5G network slicing and other I
+ CT areas.
+LOCATION:Vancouver Convention Centre West - Level One - Lightning Talk The
+ ater
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Magnum Debugging 101
+DTSTART;VALUE=DATE-TIME:20180522T223000Z
+DTEND;VALUE=DATE-TIME:20180522T224000Z
+UID:20797@openstacksummitboston2017
+DESCRIPTION:The Magnum service brings container orchestration to OpenStack
+ \, allowing OpenStack users to get a turnkey Kubernetes\, Mesos or Docker 
+ Swarm cluster set up and ready to host containers with a simple REST call 
+ to the Magnum API. At least that would be the case in an ideal world. In o
+ ur world\, the key does not always turn. And if it does\, the (Heat) engin
+ e driving Magnum may sputter and die. In the first part\, we will closely 
+ examine the idealized life cycle of a Magnum cluster\, from the initial RE
+ ST call to the point where the user retrieves the access credentials for t
+ he finished cluster. We will follow the cluster through Magnum and the Ope
+ nStack components involved in building it as it takes shape and examine th
+ e roles the individual services play in creating the cluster bit by bit. I
+ n the second part we will provide troubleshooting advice on various parts 
+ of the cluster creation process that commonly fail. This part will cover b
+ oth Magnum and Kubernetes related trouble.
+LOCATION:Vancouver Convention Centre West - Level One - Lightning Talk The
+ ater
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:QA automation in a Kubernetes world
+DTSTART;VALUE=DATE-TIME:20180522T223000Z
+DTEND;VALUE=DATE-TIME:20180522T231000Z
+UID:20891@openstacksummitboston2017
+DESCRIPTION:Kubernetes and Helm allow for near-effortless deployment and m
+ anagement of resilient resources.  This talk will discuss bringing simila
+ r ease to test automation in a container-orchestrated context.\nOpenStack-
+ Helm (OSH) is a Helm chart library that allows simple customization and de
+ ployment of OpenStack containers across k8s clusters\, from laptop-scale t
+ o data center-scale.  As OSH matures\, it integrates robust and seamless 
+ testing via Tempest and Rally functionality.  OSH leverages these tools i
+ n multiple contexts\, from lightweight "helm test" validation to full-blow
+ n Helm charts with customizable container overrides.\nThis talk will provi
+ de an overview of the OSH QA integration as currently implemented\, as wel
+ l as our vision for containerized testing efforts in the future. We hope i
+ t will serve as an informative talk as well as a collaboration point betwe
+ en others in the community to ultimately make containerized testing effort
+ s as functional/robust/useful as possible.
+LOCATION:Vancouver Convention Centre West - Level One - Room 109-110
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ease OpenStack cloud movement era: Non-Containerized to Containeri
+ zed with Kolla
+DTSTART;VALUE=DATE-TIME:20180522T234000Z
+DTEND;VALUE=DATE-TIME:20180523T002000Z
+UID:20899@openstacksummitboston2017
+DESCRIPTION:Today\, most of the OpenStack deployments in production are no
+ n-containerized. Many users/operators are keen to move their deployment to
+  a containerized environment to various benefits of containers. But curren
+ tly\, migration is a nightmare for operators.Kolla already provides produc
+ tion ready containerized deployment for OpenStack services. It is the time
+  to take steps towards solution which allow users and operators to contain
+ erize their existing cloud without much hassle .In this presentation\, we 
+ will discuss on the feasibility and challenges in migrating the cloud to c
+ ontainerized deployment. We will also give a demonstration: **Partly conta
+ inerized OpenStack cluster**.
+LOCATION:Vancouver Convention Centre West - Level One - Room 109-110
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Intro to Kata Containers components : A hands on lab
+DTSTART;VALUE=DATE-TIME:20180522T234000Z
+DTEND;VALUE=DATE-TIME:20180523T011000Z
+UID:20782@openstacksummitboston2017
+DESCRIPTION:A look at various components of Kata containers. This new proj
+ ect combines clear containers and Hyper runV technology. As part of the wo
+ rkshop you will be able to understand clear containers and Hyper runV indi
+ vidually and as a technology behind Kata containers. We will setup the env
+ ironment for this technology and run through various use cases for this te
+ chnology.
+LOCATION:Vancouver Convention Centre West - Level Two - Room 213-214
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Kubernetes network-policies and Neutron security groups - two side
+ s of the same coin?
+DTSTART;VALUE=DATE-TIME:20180523T002000Z
+DTEND;VALUE=DATE-TIME:20180523T003000Z
+UID:21089@openstacksummitboston2017
+DESCRIPTION:In version 1.8 network-policies became an official part of the
+  kubernetes-api.  Kubernetes network policy is a specification of how gro
+ ups of pods are allowed to communicate with each other and other network e
+ ndpoint.\nKuryr-kubernetes is an OpenStack project that enables native neu
+ tron-based networking in Kubernetes. In Kuryr we choose to apply the Kuber
+ netes network policies in OpenStack environment by leveraging the Neutron 
+ security groups.\nIn this talk we will present the difficulties that we’
+ ve encountered with the network policies translation. We will talk about t
+ he implementation of the translation to Neutron security groups compared t
+ o other Kubernetes open-source networking solutions like kubernetes-ovn or
+  Cilium.  
+LOCATION:Vancouver Convention Centre West - Level One - Lightning Talk The
+ ater
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:On the Way to Cloud Native: Working with Containers in a Hybrid En
+ vironment
+DTSTART;VALUE=DATE-TIME:20180523T003000Z
+DTEND;VALUE=DATE-TIME:20180523T011000Z
+UID:20918@openstacksummitboston2017
+DESCRIPTION:As Providers strive to a cloud-native world\, they keep their 
+ feet in the VM world by using hybrid solutions. In our presentation\, we s
+ how an example of a VNF implementation based on VMs and containers. Variou
+ s solutions have been proposed for this challenge. Some solutions use Magn
+ um\, Kuryr\, Fuxi\, or Zun to solve management and networking issues\, but
+  create strong linkage to OS. Others manage containers at VM level\, so OS
+  commands can be used\, not K8S commands. Fully isolated environments coul
+ d use one OS platform for cloud native\, container only platforms and anot
+ her for VMs\, connecting them by a VNF with both containers and VMs\, or w
+ ith an SDN controller for the networking part. Our option allows VNFs to b
+ e developed for hybrid environments\, where installation is based on OS an
+ d networking uses Calico BGP to distribute Neutron networks to container d
+ omain.We address lifecycle management\, including installation\, managemen
+ t\, networking and root cause analysis in the hybrid world.  
+LOCATION:Vancouver Convention Centre West - Level One - Room 109-110
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Running Stateful Applications in Containers with K8S Persistent Vo
+ lumes and StatefulSets
+DTSTART;VALUE=DATE-TIME:20180523T165000Z
+DTEND;VALUE=DATE-TIME:20180523T173000Z
+UID:20759@openstacksummitboston2017
+DESCRIPTION:Containers are great for stateless applications. They are prov
+ ing to be more and more beneficial for stateful applications as the conta
+ iner technologies mature. In this talk\, we will discuss data persistency 
+ in a containerized environment. We will take a deeper look at stateful app
+ lications and understand the challenges of deploying them. You will learn 
+ how you can leverage different Kubernetes features e.g. PersistentVolumes
+ \, PersistentVolumeClaims\, StorageClasses\, StatefulSets\, Quotas etc\, t
+ o deploy and manage stateful applications. The session includes a demo 
+ of scalebable on demand PostgreSQL deployment using Helm charts\, Stateful
+ Sets and dynamic storage provisioning.
+LOCATION:Vancouver Convention Centre West - Level Two - Room 205-207
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Image Lifecycle Management across Bare-metal\, VMs and Containers.
+DTSTART;VALUE=DATE-TIME:20180523T180000Z
+DTEND;VALUE=DATE-TIME:20180523T184000Z
+UID:21111@openstacksummitboston2017
+DESCRIPTION:Image management is the core of any infrastructure. As a servi
+ ce provider or a consumer of infrastructure\, one needs a guarantee of the
+  integrity of the image being used and ensure it is free from vulnerabilit
+ ies. In situations of hybrid infrastructure\, it is challenging to ensure 
+ the security and compliance policies are met uniformly across VMs\, contai
+ ners\, and bare-metal images.  Also\, with growing workload needs of the h
+ ybrid environment\, there&rsquo\;s a need for pre-baked application ready 
+ images to reduce provisioning time.\nAs a solution to above challenges\, w
+ e will demonstrate a framework\, capable of creating pre-packaged applicat
+ ion images for containers\, bare-metal\, and VMs along with scanning them 
+ for CVE&rsquo\;s.
+LOCATION:Vancouver Convention Centre West - Level One - Room 109-110
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Effective Kubernetes Helm engineering: OpenStack-Helm lessons lear
+ ned
+DTSTART;VALUE=DATE-TIME:20180523T184000Z
+DTEND;VALUE=DATE-TIME:20180523T185000Z
+UID:20811@openstacksummitboston2017
+DESCRIPTION:Kubernetes brings a variety of concepts and tools that can be 
+ used to deploy and manage resilient microservices\, but it can be challeng
+ ing to navigate them all from first principles.  In this talk\, members o
+ f the OpenStack-Helm team will help get you to a stateless containerized a
+ rchitecture faster by sharing some of the technical approaches and best pr
+ actices in use by the project today.\nThese reusable techniques\, tooling\
+ , and conventions enable OpenStack-Helm to solve for flexible orchestratio
+ n of complex systems of containerized services.  Real-world examples will
+  be discussed\, and Q&A is encouraged.\nThis presentation also serves as a
+ n introduction into what makes OpenStack-Helm tick\, for those interested 
+ in leveraging or contributing to the project.
+LOCATION:Vancouver Convention Centre West - Level One - Lightning Talk The
+ ater
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Intro to Container Security
+DTSTART;VALUE=DATE-TIME:20180523T185000Z
+DTEND;VALUE=DATE-TIME:20180523T193000Z
+UID:21021@openstacksummitboston2017
+DESCRIPTION:Application containerization is one of the coolest technologie
+ s in IT. It solves numerous problems\, allows for incredible application d
+ ensity\, and can really increase flexibility and responsiveness. But not e
+ veryone understands what makes up container security - it's a LOT more tha
+ n what application is in the container.\nIn this session\, Red Hat&rsquo\;
+ s Thomas Cameron\, will talk about the basic components of container secur
+ ity. He'll talk about kernel namespaces\, Security Enhanced Linux\, Linux 
+ control groups\, the Docker daemon\, etc. and how they all work. He'll pro
+ vide demonstrations of how each of these technologies affect security.\nHe
+ 'll also talk about tips and tricks for planning a secure container enviro
+ nment\, describe some &ldquo\;gotchas&rdquo\; about containers\, and debun
+ k some of the security myths about containers.\nAttendees will understand 
+ the fundamentals of container security when they leave.
+LOCATION:Vancouver Convention Centre West - Level One - Room 109-110
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Low-overhead tracing using eBPF for observability into container a
+ pps and services
+DTSTART;VALUE=DATE-TIME:20180523T205000Z
+DTEND;VALUE=DATE-TIME:20180523T213000Z
+UID:21134@openstacksummitboston2017
+DESCRIPTION:In the Container world\, there is a need to build observabilit
+ y around apps and backing services running in containers.\nThe observabili
+ ty should allow to capture on demand low level metrics at a low overhead.\
+ nThe proposal is to use ebpf as the tracing technology to capture details 
+ at kernel & user level\, and generate on demand flamegraphs\, heat maps fo
+ r applications & backing services.\nThe Linux kernel has a built-in BPF JI
+ T compiler\, and an in-kernel verifier which is used to validate eBPF prog
+ rams. This allows user defined instrumentation on a live kernel image that
+  can never crash\, hang or interfere with the kernel negatively. eBPF prov
+ ides in-kernel implementation of storage maps such as histograms and hash-
+ maps\, which helps in efficient copy of summarized monitoring data from ke
+ rnel to user space with low overhead.\nThese features make eBPF programs s
+ afe to run in production and allow admins and engineers to collect crucial
+  data from systems for performance analysis and monitoring.
+LOCATION:Vancouver Convention Centre West - Level One - Room 109-110
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Integration of Openstack Zun with Kata containers
+DTSTART;VALUE=DATE-TIME:20180523T214000Z
+DTEND;VALUE=DATE-TIME:20180523T222000Z
+UID:21193@openstacksummitboston2017
+DESCRIPTION:Openstack Zun has been the native container orchestration solu
+ tion for openstack. It can manage multiple container runtimes such as inte
+ l clear containers and runc via Docker.Going forward we will use Openstack
+  Zun to communicate with Kata containers to manage secure containers such 
+ as Intel&rsquo\;s clear container and Hyper runv.\nKata containers is an o
+ pen source project which manages secure containers technologies like hyper
+  runv and Intel clear containers.\nIn this session we understand the big p
+ icture of how everything fits in within the openstack space\, explore the 
+ architecture of openstack zun with kata containers. Current state of the p
+ roject implementation and a demo of the currently supported features.
+LOCATION:Vancouver Convention Centre West - Level One - Room 109-110
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Container Storage Interface: What is this? How does it work?
+DTSTART;VALUE=DATE-TIME:20180523T215000Z
+DTEND;VALUE=DATE-TIME:20180523T220000Z
+UID:21280@openstacksummitboston2017
+DESCRIPTION:To support stateful applications Container orchestrations(CO) 
+ systems like Docker\, Mesosphere\, and Kubernetes each created their own i
+ ndependent storage management interfaces. This divergence in the storage u
+ sage caused confusion for users deploying containerized applications and w
+ as difficult for storage vendors to engineer support for all. To resolve t
+ his\, the storage community proposed a new standard interface called Conta
+ iner Storage Interface\, or CSI.\n In this talk we’ll discuss the benef
+ its of CSI and the problems it solves as it relates to persistent storage 
+ in the Cloud.  We’ll go through the current status of the CSI\, integra
+ tion with Kubernetes\, and CSI driver projects like the driver for Cinder.
+LOCATION:Vancouver Convention Centre West - Level One - Lightning Talk The
+ ater
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Kubernetes and Your Open Infrastructure
+DTSTART;VALUE=DATE-TIME:20180523T223000Z
+DTEND;VALUE=DATE-TIME:20180523T231000Z
+UID:21218@openstacksummitboston2017
+DESCRIPTION:How do enterprises transform their architecture with container
+ s\, without losing the reliable components of their current solutions? Joi
+ n our panel of Kubernetes and open cloud experts\, where we&rsquo\;ll offe
+ r real-world practical ideas to address questions like: How Enterprise-rea
+ dy is Kubernetes today? What's missing? What support & services are in pla
+ ce to help with Enterprise adoption? When should you run containers as the
+  overlay or as an underlay? What is the relationship between containers an
+ d VMs (or what should it be)? How does the shift to container-based applic
+ ation deployment models play into IoT & Microservices deployment architect
+ ures? How do apps and enterprise-driven deployment models benefit from con
+ tainers? And lastly\, is there a very wrong way to build this and what sho
+ uld architects and operators watch out for? \nCome join us and let's learn
+ \, discuss\, and have some fun! 
+LOCATION:Vancouver Convention Centre West - Level One - Room 109-110
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Kubernetes networking with Calico - deep dive
+DTSTART;VALUE=DATE-TIME:20180523T225000Z
+DTEND;VALUE=DATE-TIME:20180523T230000Z
+UID:21409@openstacksummitboston2017
+DESCRIPTION:There will be trends this year for OpenStack deployments as co
+ ntainerized microservices moving away from traditional VM/baremetal based 
+ deployments. Calico is one of the SDN solution that provides networking be
+ tween microservices in kubernetes world. Calico is designed to simplify\, 
+ scale and secure cloud networks so that troubleshooting will be easier whe
+ n compared to traditional SDN solutions.This session is intended to go dee
+ p dive into calico networking providing details on what happens under the 
+ hood with respect to linux namespaces\, virtual interfaces\, iptables/ipse
+ ts\, route handling/distribution during life cycle of kubernetes service/p
+ od.\nWe will cover the life cycle of packet for the following scenarios -
+  pod to pod communication - pod to service communication - external to s
+ ervice communication - network policies
+LOCATION:Vancouver Convention Centre West - Level One - Lightning Talk The
+ ater
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AT&T Integrated Cloud -  Transition from Virtualualized to Contain
+ erized control plane CI/CD
+DTSTART;VALUE=DATE-TIME:20180523T234000Z
+DTEND;VALUE=DATE-TIME:20180524T002000Z
+UID:21279@openstacksummitboston2017
+DESCRIPTION:Containerized Control plane brings with it new challanges for 
+ CI/CD\, Deployment and Upgrades.We will talk about Challenges and opportun
+ ities that containerization provides towards refining and modernizing our 
+ CI/CD pipelines\, moving them out of back office into live production site
+ s.How we can maintain existing Service standards for tenants\, such that s
+ witch from Virtual control plane to Containerized control plane is seamles
+ s.Use of different set of tools for building artifacts in vCP v/s cCPThis 
+ presentation will summarize the main challenges for faced during switch to
+  containers such as:- Comparision of virtual to containerized Control plan
+ e (cCP) components and advantages- CICD pipelines cCP for validation and t
+ est executions.- Setting up unified site config files- Transforming site c
+ onfig files for containers during upgrades\n- Rolling out the upgrades see
+ mlessly as compared to vLCP.
+LOCATION:Vancouver Convention Centre West - Level One - Room 109-110
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Kubernetes 101 - Running Your First Web App
+DTSTART;VALUE=DATE-TIME:20180523T234000Z
+DTEND;VALUE=DATE-TIME:20180524T011000Z
+UID:20982@openstacksummitboston2017
+DESCRIPTION:Kubernetes is quickly growing in popularity and more businesse
+ s are adopting it into their infrastructure. In order to better understan
+ d Kubernetes\, this workshop is designed to help users grasp the beginning
+  building blocks of Kubernetes. We will go over the Kubernetes Application
+  Plane. Starting with\, the basic objects that make up Kubernetes such as 
+ pods\, services and volumes. Then we will go into some higher level abstra
+ ctions like ReplicaSets and Deployments.\nOnce we have a good foundation\,
+  we will go through a hands on lab where we build out our first applicatio
+ n using Kubernetes. Students will leave with the knowledge how to deploy a
+ n application and be ready to continue on the path to learn more about Kub
+ ernetes. 
+LOCATION:Vancouver Convention Centre West - Level Two - Room 213-214
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Friendly coexistence of Virtual Machines and Containers on Kuberne
+ tes using KubeVirt
+DTSTART;VALUE=DATE-TIME:20180524T003000Z
+DTEND;VALUE=DATE-TIME:20180524T011000Z
+UID:21323@openstacksummitboston2017
+DESCRIPTION:KubeVirt is intended to provide a convergence point for the da
+ ta center of the future using Kubernetes as an infrastructure fabric for b
+ oth application container and virtual machine workloads. Using a unified m
+ anagement approach simplifies deployments\, allows for better resource uti
+ lization\, and supports different workloads in a more optimal way.This ses
+ sion will outline how the Kubevirt project seeks to achieve this while usi
+ ng the extensible nature of Kubernetes in a way that provides a developer 
+ workflow that is as consistent as possible with the same patterns used for
+  working with application containers.Finally attendees will see a brief de
+ mo of how KubeVirt works today\, before a discussion of where we want to g
+ o next!
+LOCATION:Vancouver Convention Centre West - Level One - Room 109-110
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Telco Carrier Grade Capabilities on Kubernetes with OpenStack Clou
+ d Provider
+DTSTART;VALUE=DATE-TIME:20180524T004000Z
+DTEND;VALUE=DATE-TIME:20180524T005000Z
+UID:21508@openstacksummitboston2017
+DESCRIPTION:Network Functionality Virtualization is gaining huge traction 
+ in telco industry as it offers faster service enablement and cost savings 
+ in deploying Virtual Network Functions (VNFs). Telco providers have to mee
+ t service availability at 99.999% (Carrier-grade). Most of the VNFs are pa
+ ckaged and run on virtual machines. However containers with Kubernetes as 
+ orchestration engine is becoming more popular because of increased agility
+ \, reduced footprint and auto-scaling capabilities.\nThough containers has
+  become a viable alternative to virtual machines\, there are significant g
+ aps to meet carrier grade requirements for network functions in containers
+ .  This talk presents how to operate Kubernetes on OpenStack and provide
+  the following key capabilities:\nMulti-tenancy with resource guarantees\n
+ Multiple network interfaces which is a basic need for functions such as fi
+ rewall\nData acceleration to give high throughput and low latency\nEnhance
+ d Platform Awareness such as SR-IOV\, huge pages\n
+LOCATION:Vancouver Convention Centre West - Level One - Lightning Talk The
+ ater
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The OpenStack and Kubernetes Smørrebrød (Open Sandwich)
+DTSTART;VALUE=DATE-TIME:20180524T160000Z
+DTEND;VALUE=DATE-TIME:20180524T164000Z
+UID:21337@openstacksummitboston2017
+DESCRIPTION:The Kubernetes on OpenStack on Kubernetes Sandwich is now a tr
+ ied and true deployment pattern\, supported by a number of deployment tool
+ s including Kolla-K8s\, OpenStack-Helm\, Magnum and Senlin. In this presen
+ tation we propose a new deployment method for OpenStack and Kubernetes:  w
+ e will deploy OpenStack-Helm on top of a single node self hosted KubeADM c
+ luster with Helm Charts\, before using Ironic and Heat to bring up additio
+ nal kubernetes masters and expand to a secure\, highly available control p
+ lane\, backed by Ceph-Helm for storage.  With this foundation\, we then pr
+ ovision compute hosts that can be used either as pure Kubernetes\, or Open
+ Stack compute nodes.  We will demonstrate using Keystone as a unified IAM 
+ solution for this platform.  This community-driven architecture has the po
+ tential to radically simplify cluster management at scale. Taking advantag
+ e of the best of both the OpenStack and Kubernetes ecosystems\, to manage 
+ the life cycle of a data center from day 0 into the future
+LOCATION:Vancouver Convention Centre West - Level One - Room 109-110
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:OpenStack: Fantastic Journey to Industry Standard CSI
+DTSTART;VALUE=DATE-TIME:20180524T165000Z
+DTEND;VALUE=DATE-TIME:20180524T173000Z
+UID:21440@openstacksummitboston2017
+DESCRIPTION:OpenStack is as a open source cloud infrastructure which provi
+ des compute\, storage\, and networking resources and so forth. More and mo
+ re users are running their businesses on OpenStack. The users are also exp
+ ecting to provision OpenStack storage in the container orchestration syste
+ ms like Kubernetes to provide persistent storage for containers.\nCSI aims
+  to define an industry standard for Container Storage Interface that will 
+ enable storage vendors to develop a plugin and have it work across a numbe
+ r of container orchestration systems like Kubernetes.\nThis presentation w
+ ill share the fantastic journey to support industry standard Container Sto
+ rage Interface by OpenStack\, and also demonstrate how to provide persiste
+ nt storage in Kubernetes by CSI plugin which is based on OpenStack.
+LOCATION:Vancouver Convention Centre West - Level One - Room 109-110
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Leveraging Serverless Functions in Heat to deliver Anything as as 
+ Service (XaaS)
+DTSTART;VALUE=DATE-TIME:20180524T180000Z
+DTEND;VALUE=DATE-TIME:20180524T184000Z
+UID:21446@openstacksummitboston2017
+DESCRIPTION:Heat is a good orchestration engine. But to be great\, Heat ne
+ eds to easily integrate with ANY system or API of your choice. Sure Heat h
+ as extensible modules\, but in general they are very difficult to build\, 
+ maintain\, and upgrade from version to version.\n \nOur solution is to uti
+ lise Fission\,  an open source\, serverless framework built on Kubernetes!
+  We have built a Heat module for Fission that will give you the ability to
+  use your favorite programing/scripting language (Python\, NodeJS\, Go\, C
+ #\, Bash\, etc&hellip\;) to write a simple function\, and Heat will be abl
+ e to execute that function and return it&rsquo\;s result.\n \nHere are thr
+ ee examples of the most common use cases. First\, creation of Active Direc
+ tory Users and Groups. Second\, enabling updates of CMDB or DNS records. T
+ hird\, building a self-service catalog using Murano Apps to provision Anyt
+ hing as a Service (XaaS).
+LOCATION:Vancouver Convention Centre West - Level One - Room 109-110
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Kubernetes and Openstack unified networking using Calico - Hands o
+ n Lab
+DTSTART;VALUE=DATE-TIME:20180524T180000Z
+DTEND;VALUE=DATE-TIME:20180524T193000Z
+UID:21394@openstacksummitboston2017
+DESCRIPTION:Currently in a datacenter everyone has containers managed by K
+ ubernetes and also Openstack as a IAAS platform . we need a unified way to
+  making sure that these kinda of hybrid setup can works on same network . 
+ Project Calico help us to bridge that gap . Calico provides a pure L3 fab
+ ric solution for interconnecting Virtual Machines or Linux Containers (“
+ workloads”). Instead of a vSwitch\, Calico employs a vRouter function in
+  each compute node.From Kubernetes to OpenStack\, AWS to GCE\, Calico sup
+ ports all of major cloud providers . \n 
+LOCATION:Vancouver Convention Centre West - Level Two - Room 213-214
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Multi backend CNI for building hybrid workload clusters with Kuryr
+  and Kubernetes
+DTSTART;VALUE=DATE-TIME:20180524T185000Z
+DTEND;VALUE=DATE-TIME:20180524T193000Z
+UID:21096@openstacksummitboston2017
+DESCRIPTION:Kuryr is an OpenStack project that provides a framework for ad
+ apting different kinds of networking to Cloud Native workloads. Kuryr CNI 
+ supports mixed environments with workloads deployed both on  Bare Metal an
+ d Virtual Machines.\nIn order to provide networking to  different worker n
+ odes it can use varied virtual devices such as SR-IOV and VLAN.\nKuryr has
+  a generic Kubernetes controller that allows watching different Kubernetes
+  resources and perform actions in response to their events. It can support
+  multiple networking backends. Kuryr default implementation is based on Op
+ enStack Neutron\, it can be easily extended to serve other SDNs.\nIn this 
+ talk we will dive into Kuryr-Kubernetes CNI\, explaining its architecture.
+  In addition we will show with the Dragonflow example that Kuryr provides 
+ a generic SDN framework for different networking backends by implementing 
+ some pluggable Python modules.
+LOCATION:Vancouver Convention Centre West - Level One - Room 109-110
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Containerized vs. VM-Based Cloud Foundry - A Performance Compariso
+ n
+DTSTART;VALUE=DATE-TIME:20180524T205000Z
+DTEND;VALUE=DATE-TIME:20180524T213000Z
+UID:21397@openstacksummitboston2017
+DESCRIPTION:SUSE Cloud Foundry (SCF) is an open source project (https://gi
+ thub.com/SUSE/scf) to create a containerized distribution of Cloud Foundry
+  that is deployed on Kubernetes using Helm. In this talk we will discuss t
+ he architecture design for containerization (going beyond making container
+ s\, making it Kubernetes aware) and present our efforts to measure perform
+ ance metrics for SCF. We will compare a "Kubernetes-native" Cloud Foundry 
+ against a "traditional" BOSH OpenStack VM-based installation. The presente
+ r will show the techniques used in these experiments and discuss the compa
+ rison between the two styles of deploying Cloud Foundry. This talk is aime
+ d at operators\, end-users and developers.
+LOCATION:Vancouver Convention Centre West - Level One - Room 109-110
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Containerize your life!
+DTSTART;VALUE=DATE-TIME:20180524T205000Z
+DTEND;VALUE=DATE-TIME:20180524T222000Z
+UID:21228@openstacksummitboston2017
+DESCRIPTION:In this lab I will show a practical way to use heavy software 
+ (like OpenStack) or annoying software (like Cisco AnyConnect) via containe
+ r technologies on insufficient or precious resources - for testing and pre
+ paring customer environments - or just because we can :-) We will start wi
+ th preparing our laptops and then creating a sufficient RHEL image to put 
+ some workloads on it like the AnyConnect and RHOSP-Director to see possibi
+ lities and limits of this approach. This lab is not for deploying producti
+ on environments - it's more about embedding software that's normally runni
+ ng in VMs on your weak Linux Laptop for testing things out. As an example 
+ we use OpenStack - if you know how this one works\, everything else is a b
+ reeze!
+LOCATION:Vancouver Convention Centre West - Level Two - Room 213-214
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Istio: How to make multicloud applications Real
+DTSTART;VALUE=DATE-TIME:20180524T214000Z
+DTEND;VALUE=DATE-TIME:20180524T222000Z
+UID:21521@openstacksummitboston2017
+DESCRIPTION:Istio is a service mesh.\n \nLearn what a service mesh does an
+ d how Istio specificially is used to create multicloud applications from a
+  panel of experts.
+LOCATION:Vancouver Convention Centre West - Level One - Room 109-110
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Bringing Istio to Openstack
+DTSTART;VALUE=DATE-TIME:20180524T234000Z
+DTEND;VALUE=DATE-TIME:20180525T002000Z
+UID:21449@openstacksummitboston2017
+DESCRIPTION:Application service mesh frameworks provide many capabilities 
+ across all application services in the mesh.  Service level capabilities l
+ ike traffic management\, tracing/observability\, policy\, and security imp
+ lemented by a common framework are valuable tools for application develope
+ rs and administrators.  The Istio community provides tooling for creating 
+ service meshes made up of services implemented in containers and/or VMs/ba
+ remetal.  This talk will go through an example Istio on Openstack deployme
+ nt with services in containers and VM/baremetal instances.  Tim and Arvind
+  will describe Openstack features specifically leveraged by the Istio serv
+ ice mesh\, including walking through sample Openstack and Istio deployment
+  configuration.  Various Istio features will be discussed with the focus o
+ n tie in with Openstack capabilities.\n 
+LOCATION:Vancouver Convention Centre West - Level One - Room 109-110
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Monitoring and Logging your kubernetes cluster using OpenStack hel
+ m
+DTSTART;VALUE=DATE-TIME:20180525T003000Z
+DTEND;VALUE=DATE-TIME:20180525T011000Z
+UID:21475@openstacksummitboston2017
+DESCRIPTION:OpenStack adaptation towards microservice architecture with th
+ e help of kubernetes has now shifted its focus from “Installing Openstac
+ k to build your initial cloud” to “Managing the lifecycle of a cloud 
+ – scale out\, upgrade and manage failures”. With this adaptation comes
+  two key ingredients– Monitoring and Logging.\nThis talk will focus on h
+ ow to successfully Monitor and Log your cluster resources with the help of
+  OpenStack Helm - package manager for Kubernetes.\nTalk would be followed 
+ by a demo showcasing some of the features and use cases.\nMonitoring – O
+ penStack Helm + Prometheus + Grafana\nOS Layer – Global cpu usage\, Memo
+ ry usage etc.\nKubernetes Layer – K8s Api health metrics\, ETCD performa
+ nce metrics etc.\nOpenStack Layer – Resource utilization per project\, s
+ ervice etc.\nLogging – OpenStack Helm + Fluentd + Elastic Search + Kiban
+ a\nOS layer – syslog\, boot.log\, kern.log etc.\nKubernetes Layer – co
+ ntainer Logs \nOpenStack Layer – OpenStack service Logs\n 
+LOCATION:Vancouver Convention Centre West - Level One - Room 109-110
+END:VEVENT
+END:VCALENDAR

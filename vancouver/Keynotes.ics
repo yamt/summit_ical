@@ -1,0 +1,49 @@
+BEGIN:VCALENDAR
+DTSTART:20180519T080000
+SUMMARY:OpenStack Summit Vancouver 2018: Keynotes
+BEGIN:VTIMEZONE
+TZID:America/Vancouver
+BEGIN:STANDARD
+DTSTART:20171105T020000
+RDATE:20181104T020000
+TZNAME:PST
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20180311T020000
+TZNAME:PDT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+SUMMARY:Summit Keynotes
+DTSTART;VALUE=DATE-TIME:20180521T160000Z
+DTEND;VALUE=DATE-TIME:20180521T181500Z
+UID:21558@openstacksummitboston2017
+DESCRIPTION:Keynotes will feature speakers talking about emerging use case
+ s and advancements within open infrastructure. Specific topics and speaker
+ s will be shared at a later time.
+LOCATION:Vancouver Convention Centre West - Level One - Ballroom A/B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:OpenDev CI/CD Keynotes
+DTSTART;VALUE=DATE-TIME:20180522T160000Z
+DTEND;VALUE=DATE-TIME:20180522T174500Z
+UID:21578@openstacksummitboston2017
+DESCRIPTION:OpenDev CI/CD keynotes will feature speakers highlighting emer
+ ging use cases and architecture show-and-tells around continuous integrati
+ on\, deployment and delivery (CI/CD). In a software defined economy\, spee
+ d of delivery is a key metric for every organization that wants to stay co
+ mpetitive. The days of annual\, monthly or even weekly releases are long g
+ one\, and today’s most mature organizations ship code many times every d
+ ay. To enable this\, software delivery today takes advantage of new techno
+ logy and methods to automate and manage the process of getting code from d
+ evelopers to production. You’ll hear from community leaders and users of
+  CI/CD open systems like Spinnaker\, Jenkins\, Zuul\, Mesos and TravisCI w
+ ho are defining new ways to develop and manage software within open infras
+ tructure. Specific topics and speakers will be shared at a later time.
+LOCATION:Vancouver Convention Centre West - Level Three - Room 301
+END:VEVENT
+END:VCALENDAR

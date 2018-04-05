@@ -1,0 +1,54 @@
+BEGIN:VCALENDAR
+DTSTART:20180519T080000
+SUMMARY:OpenStack Summit Vancouver 2018: OpenDev CI/CD
+BEGIN:VTIMEZONE
+TZID:America/Vancouver
+BEGIN:STANDARD
+DTSTART:20171105T020000
+RDATE:20181104T020000
+TZNAME:PST
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20180311T020000
+TZNAME:PDT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+SUMMARY:OpenDev CI/CD
+DTSTART;VALUE=DATE-TIME:20180522T182000Z
+DTEND;VALUE=DATE-TIME:20180523T005000Z
+UID:21577@openstacksummitboston2017
+DESCRIPTION:OpenDev CI/CD is a collaborative working event focused on cont
+ inuous integration\, deployment and delivery.  The two-day event\, co-loc
+ ated at the OpenStack Summit on Level 3 of the Convention Centre\, is comp
+ rised of keynotes\, collaborative working sessions\, presentation talks\, 
+ roundtables\, and architecture show-and-tells with a limited number of use
+  case lightning talks. The event is structured to have an impact on future
+  development and integration efforts\, achieved by collaboratively produce
+ d deliverables to share back with the industry and open source communities
+ . All Summit attendees with Full Access passes are invited to attend OpenD
+ ev CI/CD. View the schedule at opendevconf.com/schedule. 
+LOCATION:Vancouver Convention Centre West - Level Three - Room 301
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:OpenDev CI/CD
+DTSTART;VALUE=DATE-TIME:20180523T182000Z
+DTEND;VALUE=DATE-TIME:20180524T005000Z
+UID:21576@openstacksummitboston2017
+DESCRIPTION:OpenDev CI/CD is a collaborative working event focused on cont
+ inuous integration\, deployment and delivery.  The two-day event\, co-loc
+ ated at the OpenStack Summit on Level 3 of the Convention Centre\, is comp
+ rised of keynotes\, collaborative working sessions\, presentation talks\, 
+ roundtables\, and architecture show-and-tells with a limited number of use
+  case lightning talks. The event is structured to have an impact on future
+  development and integration efforts\, achieved by collaboratively produce
+ d deliverables to share back with the industry and open source communities
+ . All Summit attendees with Full Access passes are invited to attend OpenD
+ ev CI/CD. View the schedule at opendevconf.com/schedule. 
+LOCATION:Vancouver Convention Centre West - Level Three - Room 301
+END:VEVENT
+END:VCALENDAR
