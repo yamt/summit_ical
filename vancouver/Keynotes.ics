@@ -18,32 +18,146 @@ TZOFFSETTO:-0700
 END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
-SUMMARY:Summit Keynotes
+SUMMARY:Let's Build the Open Infrastructure Economy
 DTSTART;VALUE=DATE-TIME:20180521T160000Z
-DTEND;VALUE=DATE-TIME:20180521T181500Z
+DTEND;VALUE=DATE-TIME:20180521T162000Z
 UID:21558@openstacksummitboston2017
-DESCRIPTION:Keynotes will feature speakers talking about emerging use case
- s and advancements within open infrastructure. Specific topics and speaker
- s will be shared at a later time.
+DESCRIPTION:We started this OpenStack mission by forming a community of li
+ ke minded people who wanted to build open cloud software. Over time\, the 
+ community grew to include people who successfully combined OpenStack with 
+ many different open source components to automate their infrastructure.\nN
+ ow that we’ve become a community of 90\,000 people in 180 countries that
+  build and operate infrastructure\, there is a much larger opportunity to 
+ bring open infrastructure to new markets. From edge computing\, to AI\, to
+  Container Security\, to CI/CD\, the work we do to ensure that the infrast
+ ructure our economy relies on is truly open has never been more vital.\nWe
+ ’re also lucky to be joined by leaders in open infrastructure\, includin
+ g Jim Blair from Zuul to talk CI/CD\, Melvin Hillsman from OpenLab\, Ildik
+ o Vansca and Beth Cohen from the edge computing working group\, and Amy Le
+ eland & Xu Wang who will introduce us to Kata Containers.\n 
 LOCATION:Vancouver Convention Centre West - Level One - Ballroom A/B
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:OpenDev CI/CD Keynotes
-DTSTART;VALUE=DATE-TIME:20180522T160000Z
-DTEND;VALUE=DATE-TIME:20180522T174500Z
-UID:21578@openstacksummitboston2017
-DESCRIPTION:OpenDev CI/CD keynotes will feature speakers highlighting emer
- ging use cases and architecture show-and-tells around continuous integrati
- on\, deployment and delivery (CI/CD). In a software defined economy\, spee
- d of delivery is a key metric for every organization that wants to stay co
- mpetitive. The days of annual\, monthly or even weekly releases are long g
- one\, and today’s most mature organizations ship code many times every d
- ay. To enable this\, software delivery today takes advantage of new techno
- logy and methods to automate and manage the process of getting code from d
- evelopers to production. You’ll hear from community leaders and users of
-  CI/CD open systems like Spinnaker\, Jenkins\, Zuul\, Mesos and TravisCI w
- ho are defining new ways to develop and manage software within open infras
- tructure. Specific topics and speakers will be shared at a later time.
-LOCATION:Vancouver Convention Centre West - Level Three - Room 301
+SUMMARY:OpenStack community-wide goals and project updates
+DTSTART;VALUE=DATE-TIME:20180521T162000Z
+DTEND;VALUE=DATE-TIME:20180521T163000Z
+UID:21891@openstacksummitboston2017
+DESCRIPTION:Doug Hellman\, chair of the OpenStack TC and Melanie Witt\, th
+ e OpenStack Nova PTL\, will provide an OpenStack community and project upd
+ ate including topics like vGPU support\, fast forward upgrades and extende
+ d maintenance branches. 
+LOCATION:Vancouver Convention Centre West - Level One - Ballroom A/B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Meet Zuul V3
+DTSTART;VALUE=DATE-TIME:20180521T163000Z
+DTEND;VALUE=DATE-TIME:20180521T164000Z
+UID:21892@openstacksummitboston2017
+DESCRIPTION:Jim Blair\, one of the founding members of the Zuul project te
+ am will provide an overview of Zuul\, which drives one of the largest open
+  source project CI systems and what is new in the lastest release\, V3. 
+LOCATION:Vancouver Convention Centre West - Level One - Ballroom A/B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Kata Containers Overview
+DTSTART;VALUE=DATE-TIME:20180521T164000Z
+DTEND;VALUE=DATE-TIME:20180521T164500Z
+UID:21893@openstacksummitboston2017
+DESCRIPTION:Learn more about Kata Containers\, an open source project mana
+ ged by the OpenStack Foundation that delivers increased container security
+  and workload isolation through an implementation of lightweight virtual m
+ achines.
+LOCATION:Vancouver Convention Centre West - Level One - Ballroom A/B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:OpenStack and Kubernetes in a Hybrid Cloud World
+DTSTART;VALUE=DATE-TIME:20180521T164500Z
+DTEND;VALUE=DATE-TIME:20180521T170000Z
+UID:21894@openstacksummitboston2017
+DESCRIPTION:OpenStack has given organizations more choice in an infrastruc
+ ture market once threatened by domination of a few hyperscale providers.
+  Kubernetes lowered switching costs for organizations looking foralternat
+ ives. And although some thought Kubernetes and OpenStack might compete\, 
+ the two technologies are actually complementary\, not competitive. Learn 
+ how OpenStack and Kubernetes each have an important role to play in a hyb
+ rid cloud world\, and how we in the community can help shape this future
+  by making OpenStack and Kubernetes work better together.
+LOCATION:Vancouver Convention Centre West - Level One - Ballroom A/B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Join the Edge Computing Initiative
+DTSTART;VALUE=DATE-TIME:20180521T170000Z
+DTEND;VALUE=DATE-TIME:20180521T170500Z
+UID:21895@openstacksummitboston2017
+DESCRIPTION:Ildiko and Beth\, members of the Edge Computing Group\, will h
+ ighlight the cross-community collaboration that is advancing edge computin
+ g. This work\, including a white paper that outlines three different edge 
+ use cases is achieved by contributors representing a diverse set of indust
+ ries including retail\, telecom\, manufacturing and satellite communicatio
+ ns. 
+LOCATION:Vancouver Convention Centre West - Level One - Ballroom A/B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Open Source Infrastructure
+DTSTART;VALUE=DATE-TIME:20180521T170500Z
+DTEND;VALUE=DATE-TIME:20180521T171500Z
+UID:21896@openstacksummitboston2017
+DESCRIPTION:As we move toward a world where everything is smart and connec
+ ted\, our experiences are becoming increasingly digitized\, resulting in a
+  massive flood of data. We are using the power of that data to transform s
+ ome of the most exciting areas of human activity. Edge computing\, contain
+ er technology and open source continue to be the driving forces behind the
+  next wave of the technology revolution. Edge computing is critical to the
+  massive growth generated by connected devices and sensors\, whereas conta
+ iners are set to usher the third wave of cloud computing enabling micro-se
+ rvices. Imad Sousou\, corporate vice president in the Software and Service
+ s Group and general manager of the Open Source Technology Center for Intel
+  Corporation\, will highlight how Intel is uniquely positioned to power th
+ e cloud to the edge and drive the increasingly smart\, connected world.
+LOCATION:Vancouver Convention Centre West - Level One - Ballroom A/B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Integration testing on an OpenStack public cloud
+DTSTART;VALUE=DATE-TIME:20180521T171500Z
+DTEND;VALUE=DATE-TIME:20180521T172500Z
+UID:21897@openstacksummitboston2017
+DESCRIPTION:This demo will show OpenLab\, a community-led program to test 
+ and improve support across platforms including Kubernetes\, Terraform\, Cl
+ oud Foundry and more running on OpenStack. To highlight the integration te
+ sting across these technologies\, Melvin Hillsman\, a contributor to OpenL
+ ab\, joins Mohammed Naser\, CEO from VEXXHOST\, to deploy an application o
+ n top of Kubernetes\, leveraging the OpenStack cloud provider.
+LOCATION:Vancouver Convention Centre West - Level One - Ballroom A/B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Canonical Sponsored Keynote
+DTSTART;VALUE=DATE-TIME:20180521T172500Z
+DTEND;VALUE=DATE-TIME:20180521T174000Z
+UID:21900@openstacksummitboston2017
+DESCRIPTION:Mark Shuttleworth will perform a demo with Kubeflow running a 
+ machine learning workload on Kubernetes on OpenStack
+LOCATION:Vancouver Convention Centre West - Level One - Ballroom A/B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:OpenStack at Progressive Insurance: Data Science and Machine Learn
+ ing
+DTSTART;VALUE=DATE-TIME:20180521T174000Z
+DTEND;VALUE=DATE-TIME:20180521T175000Z
+UID:21898@openstacksummitboston2017
+DESCRIPTION:Rick and Jeff will provide an overview of how Progressive comb
+ ines OpenStack\, Kubernetes and OpenShift to manage their big data use cas
+ e. 
+LOCATION:Vancouver Convention Centre West - Level One - Ballroom A/B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Superuser Awards
+DTSTART;VALUE=DATE-TIME:20180521T175000Z
+DTEND;VALUE=DATE-TIME:20180521T180000Z
+UID:21899@openstacksummitboston2017
+DESCRIPTION:Tencent will announce the newest winner of the Superuser Award
+ s\, who will join 7 other teams who have been acknowledged for their innov
+ ative use cases and contribtutions back to open source. \nThe Vancouver S
+ ummit Superuser Awards are sponsored by Zenko.
+LOCATION:Vancouver Convention Centre West - Level One - Ballroom A/B
 END:VEVENT
 END:VCALENDAR

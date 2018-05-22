@@ -18,7 +18,8 @@ TZOFFSETTO:-0700
 END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
-SUMMARY:OpenStack Upstream Institute - Day 2 (RSVP Required)
+SUMMARY:OpenStack Upstream Institute Sponsored by Lenovo - Day 2 (RSVP Req
+ uired)
 DTSTART;VALUE=DATE-TIME:20180520T160000Z
 DTEND;VALUE=DATE-TIME:20180521T010000Z
 UID:21579@openstacksummitboston2017
@@ -37,6 +38,22 @@ DESCRIPTION:OpenStack Upstream Institute is an intensive program designed
   member of the OpenStack community.\nPlease note that OpenStack Upstream I
  nstitute is a 2 Day program. You must RSVP to Day 1 in order to attend Day
   2.
+LOCATION:Vancouver Convention Centre West - Level Two - Room 215-216
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:#WeAreOpenStack Diversity Happy Hour Sponsored by Red Hat (RSVP Re
+ quired)
+DTSTART;VALUE=DATE-TIME:20180521T010000Z
+DTEND;VALUE=DATE-TIME:20180521T030000Z
+UID:21791@openstacksummitboston2017
+DESCRIPTION:Kick off your Summit week by joining community leaders at the 
+ #WeAreOpenStack Diversity Happy Hour. This is a unique opportunity to meet
+  and make connections with other community members passionate about divers
+ ity and inclusion. We hope you’ll join us to learn more about how you ca
+ n get involved in building a stronger\, more diverse community.\nPlease R
+ SVP so we can make sure there is enough food and drink for everyone\, ho
+ pe to see you there! \nAlso\, huge thanks to Red Hat for sponsoring this 
+ happy hour! 
 LOCATION:
 END:VEVENT
 BEGIN:VEVENT
@@ -56,6 +73,21 @@ DESCRIPTION:In Sydney the OpenStack Foundation announced a new integration
 LOCATION:Vancouver Convention Centre West - Level One - Room 121-122
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Non-native English speakers in OpenStack communities: A True Story
+DTSTART;VALUE=DATE-TIME:20180521T185500Z
+DTEND;VALUE=DATE-TIME:20180521T190500Z
+UID:21861@openstacksummitboston2017
+DESCRIPTION:The primary language of most open source projects (of course O
+ penStack) is English\, however\, open source users and contributors span t
+ he globe. Non-native speakers face many communication challenges when part
+ icipating in the ecosystem. In this talk\, as a non-native English speaker
+  and contributor to OpenStack projects and its community\, will share the 
+ experiences and some best practices for coping as and including non-native
+  speakers in your project.
+LOCATION:Vancouver Convention Centre West - Level One - Lightning Talk The
+ ater
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Women of OpenStack Speed Mentoring Lunch Sponsored by Intel
 DTSTART;VALUE=DATE-TIME:20180521T191500Z
 DTEND;VALUE=DATE-TIME:20180521T203000Z
@@ -69,22 +101,31 @@ DESCRIPTION:If you're new to OpenStack or in want of some mentoring\, this
   opportunity to ask them a question or two about how you can grow your car
  eer\, get involved in the community\, and make the most of the summit. The
  n\, at the end of 15 minutes\, a new mentor will cycle to your group and t
- he process will repeat.
-LOCATION:Vancouver Convention Centre West - Level One - TBA
+ he process will repeat.\n \nIf you are interested in being a mentor\, ple
+ ase fill out this form: https://openstackfoundation.formstack.com/forms/y
+ rv_rocky_speed_mentoring_mentor 
+LOCATION:Vancouver Convention Centre West - Level Two - Room 215-216
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Life after OpenStack
-DTSTART;VALUE=DATE-TIME:20180521T223000Z
-DTEND;VALUE=DATE-TIME:20180521T224000Z
-UID:20631@openstacksummitboston2017
-DESCRIPTION:With corporate contributions to OpenStack - both capital and t
- alent - in a constant ebb and flow\, many community members are keeping an
-  eye to the future. Hear the journey of a former Full-Time contributor\,
-  on how the unique skills learned while working on OpenStack\, have ser
- ved me well in a post-OpenStack career.\nCan you remain involved in the co
- mmunity? Will you still have time to contribute? Will the friends you've 
- made still talk to you after years away from the Mothership? This\, and mo
- re\, will be discussed during this presentation.
+SUMMARY:What comes with OpenStack's Next Generation: Fujitsu’s Answer.
+DTSTART;VALUE=DATE-TIME:20180521T200500Z
+DTEND;VALUE=DATE-TIME:20180521T202500Z
+UID:21843@openstacksummitboston2017
+DESCRIPTION: \nFujitsu’s contribution to OpenStack has been to globally
+  expand its availability to suit the needs of various users. We are now fo
+ cusing on continued integration with Kubernetes to provide the best “Clo
+ ud-native” platform. \nIn this session\, we’ll further explore the fu
+ ture possibilities of OpenStack. This includes functionality like “bare 
+ metal provisioning”\, “no-downtime upgrading”\, “troubleshooting e
+ nhancements”\, and more to come. 
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:State of the User Committee
+DTSTART;VALUE=DATE-TIME:20180521T211000Z
+DTEND;VALUE=DATE-TIME:20180521T213000Z
+UID:21862@openstacksummitboston2017
+DESCRIPTION:TBA
 LOCATION:Vancouver Convention Centre West - Level One - Lightning Talk The
  ater
 END:VEVENT
@@ -108,6 +149,35 @@ DESCRIPTION:Open source is fueled by the continual influx of new contribut
  model over 1x1 mentor interaction as we pinpoint what works most effective
  ly for our OpenStack community.
 LOCATION:Vancouver Convention Centre West - Level One - Room 121-122
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The multi-release\, multi-project road to volume multi-attach
+DTSTART;VALUE=DATE-TIME:20180522T001000Z
+DTEND;VALUE=DATE-TIME:20180522T005000Z
+UID:20850@openstacksummitboston2017
+DESCRIPTION:While the number of public and private cloud deployments is ra
+ pidly growing the transition towards cloud-native applications is still in
+  progress. It is crucial to provide support for different kinds of workloa
+ ds by adding functionality even if it is considered somewhat old-fashioned
+ .Development of the volume multi-attach feature started in 2014 and the fi
+ rst version was released in Queens. We will guide you through the journey 
+ of the development process and beyond the history lesson will highlight th
+ e use cases behind the high demand from users and vendors alike.You will l
+ earn about the functionality including the API design\, caveats and effort
+ s put into the CI testing with Tempest and Zuulv3 and plans for improvemen
+ ts. This talk will be valuable for operators\, users\, and contributors an
+ d give a glimpse into the work of a complicated cross-project change devel
+ oped by numerous contributors from different vendors.
+LOCATION:Vancouver Convention Centre West - Level Three - Room 301
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ambassador Meet & Greet at the OpenInfra Mixer
+DTSTART;VALUE=DATE-TIME:20180522T010000Z
+DTEND;VALUE=DATE-TIME:20180522T020000Z
+UID:21865@openstacksummitboston2017
+DESCRIPTION:Come meet the OpenStack Ambassadors\, who support user groups 
+ all over the world\, fostering the adoption of open infrastructure.
+LOCATION:
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Rinse \, Lather and  Repeat  - A practical guide to being a mentee
@@ -171,79 +241,55 @@ UID:20744@openstacksummitboston2017
 DESCRIPTION:At present\, China has become the second largest contribution 
  of OpenStack\, and enterprises from China occupy nearly half of the OpenSt
  ack gold membership. So how about the current development and trend of Ope
- nStack in China?\nThree experts from China will separately introduce the i
- nvestigation report on the use of OpenStack by Chinese users\, industry cl
- oud trend in China and the application of OpenStack in Chinese large Inter
- net company.\n 
+ nStack in China?\nThree experts from China will separately introduce the 
+ investigation report on the use of OpenStack by Chinese users\, industry c
+ loud trend in China and the application of OpenStack in Chinese large Inte
+ rnet company.\n 
 LOCATION:Vancouver Convention Centre West - Level One - Room 121-122
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:OpenStack Roadmap: Learn what's coming in the Rocky release
-DTSTART;VALUE=DATE-TIME:20180523T160000Z
-DTEND;VALUE=DATE-TIME:20180523T164000Z
-UID:20641@openstacksummitboston2017
-DESCRIPTION:The next OpenStack release\, Rocky\, is scheduled to be releas
- ed at the end of August 2018. The OpenStack Roadmap is a community-generat
- ed document that outlines the major priorities of the upcoming release\, s
- hows trends in project focuses\, and looks at significant changes between 
- releases. Come learn what's new in OpenStack Rocky and what current users 
- can expect.\n 
+SUMMARY:Fostering diversity & inclusion in an open source world
+DTSTART;VALUE=DATE-TIME:20180522T223000Z
+DTEND;VALUE=DATE-TIME:20180522T231000Z
+UID:21710@openstacksummitboston2017
+DESCRIPTION:Join open source leaders who are actively pushing the boundari
+ es around race and gender representation in IT - each from a different per
+ spective. Hear their challenges as well as the progress being made to impr
+ ove the diversity within open source communities. The panel is moderated b
+ y Nithya Ruff\, who leads the open source team at Comcast and has particip
+ ated in diversity initiatives in many open source communities. Each paneli
+ st will bring a unique view into how they’ve tackled diversity in the te
+ ch community and what they’re doing to continue pushing for inclusion an
+ d minority representation: \nBryan Johnson is the Founding Director at Bl
+ ack Boys Code\, a Vancouver-based nonprofit aimed at getting young boys of
+  color more actively involved in technology.Joseph Sandoval of Adobe Adver
+ tising Cloud is an active participant in the OpenStack community and an ad
+ vocate for increasing Hispanic representation in tech. Jennifer Cloer is 
+ the founder of Chasing Grace\, a docu-series around highlighting the chall
+ enges and successes of women in tech and the tougher topics faced by women
+  in the tech industry. Amy Marrich of Linux Academy leads the Diversity W
+ orking Group in the OpenStack community
 LOCATION:Vancouver Convention Centre West - Level One - Room 121-122
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:COA: the importance for your career and tips to achieve it! (In En
- glish & en Español)
-DTSTART;VALUE=DATE-TIME:20180523T180000Z
-DTEND;VALUE=DATE-TIME:20180523T184000Z
-UID:21492@openstacksummitboston2017
-DESCRIPTION:The Certified OpenStack Administrator is a certification gaini
- ng more value for professionals with the increase of OpenStack deployments
-  all over the world. The fact that it evaluates operational skills makes i
- t more challenging\, but at the same time\, sets a new standard and makes 
- it a good source for companies to find skilled professionals\, with proven
-  hands-on experience. This session will be given bi-lingually in English a
- nd in Spanish and will describe the value of getting the certification\, a
- nd at the same time will provide some tips for preparing for the exam.\nLa
-  certificación COA (Certified OpenStack Administrator) está ganando mayo
- r valor para profesionales dado el crecimiento de despliegues OpenStack al
- rededor del mundo. El hecho de que evalúe habilidades operativas la hacen
-  más retadora\, pero al mismo tiempo\, define un nuevo estándar y la con
- vierte en una buena fuente de profesionales hábiles para las empresas que
-  buscan experiencia probada en el campo (hands-on) Esta sesión será pres
- entada de manera bilingüe en Español e Inglés\, y describirá el valor 
- de obtener la certificación\, y al mismo tiempo\, proveerá algunos conse
- jos para preparar el examen.
-LOCATION:Vancouver Convention Centre West - Level One - Room 121-122
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:OpenStack Days and MeetUps across Canada - A Community Story
-DTSTART;VALUE=DATE-TIME:20180523T182000Z
-DTEND;VALUE=DATE-TIME:20180523T183000Z
-UID:21541@openstacksummitboston2017
-DESCRIPTION:Present what we did in 2017 for OpenStack Days in Canada\, Spe
- aking about OpenStack days in Ottawa\, how to contribute to the community.
-  Evolving to Kata containers and build networking and local communities ac
- ross Canada\nMe as a Women in OpenStack\, I would like to speak more about
-  envolving more Women's in OpenStack community in Canada.\n I would like 
- also to highlight efforts that Canadian community did for Meetups in Canad
- a.\n 
+SUMMARY:Chasing Grace Screening
+DTSTART;VALUE=DATE-TIME:20180522T231000Z
+DTEND;VALUE=DATE-TIME:20180522T234000Z
+UID:21782@openstacksummitboston2017
+DESCRIPTION:Women can lose more than $1m dollars over the course of their 
+ lifetime due to the wage gap. Unfortunately\, though\, that's only part of
+  the story.\nJoin Jennifer Cloer\, the executive producer and director of 
+ the Chasing Grace project for a private screening of Episode One: Eighty T
+ wenty. This 22-minute episode\, explores both the economic and emotional t
+ oll the pay gap has on women in tech and their desire to stay in tech.\nTh
+ e Chasing Grace Project is a documentary series about women in tech. It in
+ cludes six episodes\, each focused on a different topic within the women i
+ n tech narrative. From the pay gap\, online harassment and female entrepre
+ neurship to access to the best jobs\, the decision to leave or stay in tec
+ h and the role of male allies\, the series will illustrate how we pave the
+  way forward.\nLearn more at https://www.chasinggracefilm.com/
 LOCATION:Vancouver Convention Centre West - Level One - Lightning Talk The
  ater
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:How to work with adjacent open source communities - user\, develop
- er\, vendor\, board perspectives
-DTSTART;VALUE=DATE-TIME:20180523T185000Z
-DTEND;VALUE=DATE-TIME:20180523T193000Z
-UID:20861@openstacksummitboston2017
-DESCRIPTION:As OpenStack is moving toward an "open infrastructure" directi
- on\, there is an increased need for the OpenStack community (developers\, 
- users\, vendors\, and the board) to collaborate with adjacent open source 
- communities. In this panel\, we will have stakeholders (listed above) to d
- iscuss the various collaborations OpenStack current has with adjacent comm
- unities\, the challenges we face\, and the possible solutions or proposals
-  to work with adjacent communities
-LOCATION:Vancouver Convention Centre West - Level One - Room 121-122
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Working Remotely in a Worldwide Community
@@ -255,48 +301,72 @@ DESCRIPTION:In a community as large as ours\, there are a lot of different
   are those with long commutes\, and there are those who work remotely. Reg
  ardless of your workspace\, if you are an OpenStack contributor\, you are 
  also a remote worker. \nBeing a remote worker can be an intensely lonely e
- xperience if you aren&rsquo\;t connected with the people you work with. Of
- tentimes\, you work more closely with people who do not work for the same 
- company that you do. With the increase of remote workers\, community healt
- h and these relationships are even more important to the community at larg
- e. 
+ xperience if you aren’t connected with the people you work with. Oftenti
+ mes\, you work more closely with people who do not work for the same compa
+ ny that you do. With the increase of remote workers\, community health and
+  these relationships are even more important to the community at large. 
 LOCATION:Vancouver Convention Centre West - Level One - Room 121-122
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:The multi-release\, multi-project road to volume multi-attach
-DTSTART;VALUE=DATE-TIME:20180524T205000Z
-DTEND;VALUE=DATE-TIME:20180524T213000Z
-UID:20850@openstacksummitboston2017
-DESCRIPTION:While the number of public and private cloud deployments is ra
- pidly growing the transition towards cloud-native applications is still in
-  progress. It is crucial to provide support for different kinds of workloa
- ds by adding functionality even if it is considered somewhat old-fashioned
- .Development of the volume multi-attach feature started in 2014 and the fi
- rst version was released in Queens. We will guide you through the journey 
- of the development process and beyond the history lesson will highlight th
- e use cases behind the high demand from users and vendors alike.You will l
- earn about the functionality including the API design\, caveats and effort
- s put into the CI testing with Tempest and Zuulv3 and plans for improvemen
- ts. This talk will be valuable for operators\, users\, and contributors an
- d give a glimpse into the work of a complicated cross-project change devel
- oped by numerous contributors from different vendors.
+SUMMARY:User Community Leadership Planning Session
+DTSTART;VALUE=DATE-TIME:20180524T214000Z
+DTEND;VALUE=DATE-TIME:20180524T231000Z
+UID:21789@openstacksummitboston2017
+DESCRIPTION:Join Ambassadors\, User Group Leaders\, and some UC members an
+ d Foundation staff in a discussion around collaboration among community le
+ adership. If there is a specific topic or idea you’d like to discuss\, p
+ lease add it to this etherpad.
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rio de Janeiro Hackathon Winner: Team Alirou
+DTSTART;VALUE=DATE-TIME:20180524T223000Z
+DTEND;VALUE=DATE-TIME:20180524T230000Z
+UID:21882@openstacksummitboston2017
+DESCRIPTION:Meet the winners and sponsors of the “Smart City Cloud Hacka
+ thon OpenStack Rio de Janeiro” and learn about how fun and productive it
+  was.Alirou Team\nAlexandre Werneck\nJesiel Conceição\nLuíza Valério\n
+ Pedro Mendes\n \n 
+LOCATION:Vancouver Convention Centre West - Level One - Lightning Talk The
+ ater
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Working Remotely in a Worldwide Community
+DTSTART;VALUE=DATE-TIME:20180524T165000Z
+DTEND;VALUE=DATE-TIME:20180524T173000Z
+UID:20815@openstacksummitboston2017
+DESCRIPTION:In a community as large as ours\, there are a lot of different
+  types of workers. There are those who go into the office everyday\, there
+  are those with long commutes\, and there are those who work remotely. Reg
+ ardless of your workspace\, if you are an OpenStack contributor\, you are 
+ also a remote worker. \nBeing a remote worker can be an intensely lonely e
+ xperience if you aren’t connected with the people you work with. Oftenti
+ mes\, you work more closely with people who do not work for the same compa
+ ny that you do. With the increase of remote workers\, community health and
+  these relationships are even more important to the community at large. 
 LOCATION:Vancouver Convention Centre West - Level One - Room 121-122
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:What we learned from Metrics as Community Managers
-DTSTART;VALUE=DATE-TIME:20180524T234000Z
-DTEND;VALUE=DATE-TIME:20180525T002000Z
-UID:20823@openstacksummitboston2017
-DESCRIPTION:Many open source projects use metrics to inspect community par
- ticipation by looking into the numbers of different forms of contributions
-  and overall ecosystem support by following user adoption and event statis
- tics. On longer term\, these metrics are also used to get a view on commun
- ity health\, growth and overall dynamics. While these numbers can encourag
- e participation and transparency\, they can often be misleading if used wi
- thout context and/or more in-depth analysis and could even lead to unhealt
- hy behaviors.  In this session\, Ildiko and Ray will discuss how metrics a
- re used in communities such as OpenStack and OPNFV and share their learnin
- gs from community metrics initiatives.  \n 
-LOCATION:Vancouver Convention Centre West - Level One - Room 121-122
+SUMMARY:User Community Leadership Planning Session
+DTSTART;VALUE=DATE-TIME:20180524T214000Z
+DTEND;VALUE=DATE-TIME:20180524T231000Z
+UID:21789@openstacksummitboston2017
+DESCRIPTION:Join Ambassadors\, User Group Leaders\, and some UC members an
+ d Foundation staff in a discussion around collaboration among community le
+ adership. If there is a specific topic or idea you’d like to discuss\, p
+ lease add it to this etherpad.
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rio de Janeiro Hackathon Winner: Team Alirou
+DTSTART;VALUE=DATE-TIME:20180524T223000Z
+DTEND;VALUE=DATE-TIME:20180524T230000Z
+UID:21882@openstacksummitboston2017
+DESCRIPTION:Meet the winners and sponsors of the “Smart City Cloud Hacka
+ thon OpenStack Rio de Janeiro” and learn about how fun and productive it
+  was.Alirou Team\nAlexandre Werneck\nJesiel Conceição\nLuíza Valério\n
+ Pedro Mendes\n \n 
+LOCATION:Vancouver Convention Centre West - Level One - Lightning Talk The
+ ater
 END:VEVENT
 END:VCALENDAR

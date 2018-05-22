@@ -18,21 +18,45 @@ TZOFFSETTO:-0700
 END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
-SUMMARY:OpenStack-Chef - Project Onboarding
+SUMMARY:Default Roles
 DTSTART;VALUE=DATE-TIME:20180521T183500Z
 DTEND;VALUE=DATE-TIME:20180521T191500Z
-UID:21644@openstacksummitboston2017
-DESCRIPTION:Project Onboarding gives attendees a chance to meet some of th
- e project team and get to know the project. Attendees will learn about the
-  project itself\, the code structure/ overall architecture\, etc\, and pla
- ces where contribution is needed. Attendees will also get to know some of 
- the core contributors and other established community members.\n \nIdeall
- y\, attendees will know/ have completed the basics of contribution (i.e. i
- rc\, gerrit\, Launchpad\, StoryBoard\, Foundation Membership) BEFORE atten
- ding the session. All of this can be done through our Contributor Guide[1]
- .\n \n \n[1] https://docs.openstack.org/contributors/code-and-documenta
- tion/index.html
-LOCATION:Vancouver Convention Centre West - Level Two - Room 223
+UID:21761@openstacksummitboston2017
+DESCRIPTION:The past few Forums have really helped shape a way forward for
+  fixing some of the RBAC issues across OpenStack. These issues hinder an e
+ ntire set of people from using OpenStack without major modifications and c
+ ustom policies. During the PTG we settled on an approach that should make 
+ it easier for deployers looking to have common personas available out-of-t
+ he-box. The current proposal [0] is getting positive feedback from other O
+ penStack developers and we'd like to take the opportunity to socialize thi
+ s work with operators and deployers. [0] https://review.openstack.org/#/c/
+ 523973/
+LOCATION:Vancouver Convention Centre West - Level Two - Room 221-222
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Forum 101
+DTSTART;VALUE=DATE-TIME:20180521T183500Z
+DTEND;VALUE=DATE-TIME:20180521T191500Z
+UID:21783@openstacksummitboston2017
+DESCRIPTION:Forum 101
+LOCATION:Vancouver Convention Centre West - Level Two - Room 220
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Continuing the Migration: Launchpad -> StoryBoard
+DTSTART;VALUE=DATE-TIME:20180521T203000Z
+DTEND;VALUE=DATE-TIME:20180521T211000Z
+UID:21736@openstacksummitboston2017
+DESCRIPTION:Again I will be proposing a release goal (this time for the St
+ ein release) for the migration of projects to StoryBoard. Concerns last pr
+ oposal was that there weren't enough projects or large projects that had b
+ een migrated. Ironic has since migrated (along with at least a half a doze
+ n other smaller projects) and TripleO is currently doing a phased migratio
+ n of a few squads at a time. This discussion will be focused on gathering 
+ feedback from users and identifying main blockers stopping remaining proje
+ cts from migrating. The focus will be come up with the last set of blocker
+ s and a plan to remove them so that the remainder of projects can migrate 
+ by the end of the Stein release.
+LOCATION:Vancouver Convention Centre West - Level Two - Room 224
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Docs/i18n - Project Onboarding
@@ -52,6 +76,102 @@ DESCRIPTION:Project Onboarding gives attendees a chance to meet some of th
 LOCATION:Vancouver Convention Centre West - Level Two - Room 223
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Standalone Cinder Introduction
+DTSTART;VALUE=DATE-TIME:20180521T203000Z
+DTEND;VALUE=DATE-TIME:20180521T211000Z
+UID:21734@openstacksummitboston2017
+DESCRIPTION:A lot of work has gone into improving Cinder's functionality w
+ hen working stand-alone. This is also an area for potential growth. In thi
+ s session we would like to discuss:\n Current Status\n Traditional as well
+  as Containerized approaches\n Current usage model\n Possible future direc
+ tions with CSI\, K8's\, etc.\n We would also like to get feedback on how o
+ thers are using this or would like to use this in the future.
+LOCATION:Vancouver Convention Centre West - Level Two - Room 221-222
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Users / Operators adoption of QA tools / plugins
+DTSTART;VALUE=DATE-TIME:20180521T203000Z
+DTEND;VALUE=DATE-TIME:20180521T211000Z
+UID:21742@openstacksummitboston2017
+DESCRIPTION:QA team missions is to make test frameworks (Tempest\, Patrole
+  etc) as portable as possible. They should be able to run against any Open
+ Stack cloud.  Many tools hosted by the QA program are suitable for consump
+ tion in downstream CI systems and possibly other use cases as well. Many Q
+ A tools have plugin mechanism and it is good to know whether they fit into
+  user requirements/expectation or not.  Since QA is not included in the us
+ er survey\, we'd like to use the forum as an opportunity to reach out to p
+ eople in the Users and Operators community that use OpenStack QA tools and
+  learn\n How they are being used\n What we could do better \n What other Q
+ A tools or type of tests exists downstream that the whole community could 
+ benefit from.\n
+LOCATION:Vancouver Convention Centre West - Level Two - Room 220
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:A New Face and Place for the OpenStack Mentoring Program
+DTSTART;VALUE=DATE-TIME:20180521T212000Z
+DTEND;VALUE=DATE-TIME:20180521T220000Z
+UID:21726@openstacksummitboston2017
+DESCRIPTION:Mentoring has always been a big part of the OpenStack Communit
+ y and the time has come for changes. Historically\, the Women of OpenStack
+  have owned and run the mentoring program that our community offers to new
+  comers. However\, in order to reach a wider audience and to remove any th
+ oughts that the program was women only\, we are looking to move the Long T
+ erm Mentoring program out from under the Women of OpenStack to a new home.
+  Potential groups that already exist that could own/help manage it are: Fi
+ rst Contact SIG or Diversity WG.  In addition to a new overlord\, the form
+ at of the program itself could use updates. Previously\, there was a 1 men
+ tee to 1 mentor ratio that would often struggle for want of a defined goal
+  and slow downs when the mentor would switch jobs or be on vacation. The p
+ roposed new format will use cohorts to mentor community members and help t
+ hem to would require fewer overall mentors helping mentees work towards a 
+ defined common goal.  So what does this mean for you? We need one or more 
+ volunteers to help get the new program off the ground and oversee the new 
+ mentoring program. To be involved from the ground up- helping design what 
+ it should look like\, what goals are\, recruiting mentors and mentees- and
+  continuing to support the program into the future.
+LOCATION:Vancouver Convention Centre West - Level Two - Room 224
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Python Testing Interface
+DTSTART;VALUE=DATE-TIME:20180521T212000Z
+DTEND;VALUE=DATE-TIME:20180521T220000Z
+UID:21763@openstacksummitboston2017
+DESCRIPTION:With the recent introduction of the new PTI for python testing
+  that has a clear and explicit interface for running tests in python many 
+ projects have yet to migrate to it. For example:http://codesearch.openstac
+ k.org/?q=python%20setup.py%20test&i=nope&files=tox.ini&repos=http://codese
+ arch.openstack.org/?q=ostestr&i=nope&files=tox.ini&repos= This session wil
+ l discuss what we need to do to get all projects on to the PTI and what ga
+ ps there are with the tooling or the interface definition which are preven
+ ting people from using it.
+LOCATION:Vancouver Convention Centre West - Level Two - Room 220
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Requirements for Resource Reservation
+DTSTART;VALUE=DATE-TIME:20180521T212000Z
+DTEND;VALUE=DATE-TIME:20180521T220000Z
+UID:21743@openstacksummitboston2017
+DESCRIPTION:In the past few cycles\, the Blazar team has focused on reserv
+ ation of compute resources\, i.e. instances and hosts. Starting from the R
+ ocky cycle\, the team is investigating support for reserving other kinds o
+ f resources\, e.g. network resources. However\, the requirements for "What
+ " and "How" users reserve and provision a reserved resource are different 
+ based on the user's background and specific use cases. We assume there is 
+ a diverse set of additional requests and requirements for such reservation
+  service. This forum session covers the followings items:\n What additiona
+ l resources (and with which characteristics) do you want to reserve?\n vir
+ tual resource: network (floating IP addresses\, subnets\, bandwith\, etc.)
+ \, volume (volume storage)\, or another resource?\n physical resource: net
+ work (bandwith in host?)\, PCI-passthrough devices\, etc.\n How to create 
+ a reservation and how to provision a reserved resource?\n Do users create 
+ their reserved resource with reservation-id (this is a way the instance/ho
+ st reservations do)?\n Does Blazar create their reserved resource at start
+ _time and assign the resource to the user?\n Resource utilization\n  In ad
+ dition\, we would like to receive feedback from Blazar operators about the
+  current instance and host reservation features.
+LOCATION:Vancouver Convention Centre West - Level Two - Room 221-222
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Tacker - Project Onboarding
 DTSTART;VALUE=DATE-TIME:20180521T212000Z
 DTEND;VALUE=DATE-TIME:20180521T220000Z
@@ -67,6 +187,64 @@ DESCRIPTION:Project Onboarding gives attendees a chance to meet some of th
  .\n \n \n[1] https://docs.openstack.org/contributors/code-and-documenta
  tion/index.html
 LOCATION:Vancouver Convention Centre West - Level Two - Room 223
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Building the path to extracting Placement from Nova
+DTSTART;VALUE=DATE-TIME:20180521T221000Z
+DTEND;VALUE=DATE-TIME:20180521T225000Z
+UID:21716@openstacksummitboston2017
+DESCRIPTION:Since its creation in early 2016\, within Nova\, there's alway
+ s been a hope and plan that the Placement service would be extracted to it
+ s own project and repository. Work has begun in Rocky to lay the groundwor
+ k to make this possible\, but there is still plenty more that needs to be 
+ done to make it happen\, including:\nGathering feedback from operators and
+  deployers on their concerns and plans.\nDetailing the several options for
+  managing data migrations.\nDetermining which of those are the best.\nMana
+ ging standard resource classes (probably with an os-resource-classes libra
+ ry in similar form to os-traits).\nFinishing up work on getting nova impor
+ ts out of placement code.\nStrategies for managing functional and integrat
+ ion tests in Nova and other clients of Placement.\nSee a related email to 
+ the openstack-dev list for some background: http://lists.openstack.org/pip
+ ermail/openstack-dev/2018-March/128004.html
+LOCATION:Vancouver Convention Centre West - Level Two - Room 221-222
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:First Contact SIG Operator Inclusion
+DTSTART;VALUE=DATE-TIME:20180521T221000Z
+DTEND;VALUE=DATE-TIME:20180521T225000Z
+UID:21712@openstacksummitboston2017
+DESCRIPTION:Now that the First Contact SIG is off the ground and getting m
+ ore established\, its been requested that we work on gathering resources a
+ nd knowledge to help operators. Up until this point\, the majority of our 
+ activities have been focused on helping out new contributors looking to do
+  code development. Given that contribution encompasses all kinds of other 
+ activities besides development\, we want to be a group that supports more 
+ types of contribution. This discussion will begin with a state of the unio
+ n on resources that exist for new contributors and where we have gaps in t
+ hose resources. The goal of the session is to come out of discussions with
+  a better feel for resources that exist to help support new contributors t
+ hat are operators and garner involvement from more established operators i
+ n our SIG.
+LOCATION:Vancouver Convention Centre West - Level Two - Room 224
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Machine Learning for CI Results Analysis
+DTSTART;VALUE=DATE-TIME:20180521T221000Z
+DTEND;VALUE=DATE-TIME:20180521T225000Z
+UID:21764@openstacksummitboston2017
+DESCRIPTION:Over the past few year we've increasingly been relying on data
+  analytics and automation to keep on track of our increasing number of CI 
+ job results. With things like elastic recheck\, subunit2sql\, openstack-he
+ alth\, and grafana we've got an increasing number of tools to track result
+ s and provide insights into what's happening in the gate. But\, even with 
+ all this data capture a great deal of the analysis has to happen by hand i
+ n these systems. Either by identifying things to track or combing through 
+ the data to find points of interest. It would be great if we could automat
+ e as much of that as possible\, which is an a good application for machine
+  learning. This session is about bootstraping a community effort to build 
+ tooling to apply machine learning techniques to our CI results analysis to
+  provide useful insights in an automated manner.
+LOCATION:Vancouver Convention Centre West - Level Two - Room 220
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Octavia - Project Onboarding
@@ -103,6 +281,93 @@ DESCRIPTION:Project Onboarding gives attendees a chance to meet some of th
 LOCATION:Vancouver Convention Centre West - Level Two - Room 223
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Ops/Devs: One community
+DTSTART;VALUE=DATE-TIME:20180521T232000Z
+DTEND;VALUE=DATE-TIME:20180522T000000Z
+UID:21747@openstacksummitboston2017
+DESCRIPTION:Contributing to OpenStack and operating OpenStack are two side
+ s of the same coin. Everyone does a bit of both\, and yet we built two sep
+ arate communities. Severak steps were already taken to erase that artifici
+ al categorization and enable more seamless collaboration: we introduced "S
+ IGs" and encouraged merging the Ops midcycle with the PTG. In this session
+  we'll discuss potential next steps toward that end goal of considering ev
+ eryone as one community\, including refactoring our mailing-lists.
+LOCATION:Vancouver Convention Centre West - Level Two - Room 224
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Planning to use Placement in Cinder
+DTSTART;VALUE=DATE-TIME:20180521T232000Z
+DTEND;VALUE=DATE-TIME:20180522T000000Z
+UID:21718@openstacksummitboston2017
+DESCRIPTION:A recently proposed spec to Cinder suggests using a database t
+ o avoid raciness when multiple schedulers are used in the Cinder environme
+ nt. The described raciness is the result of each scheduler having an indep
+ endent view of the available resources in the environment. This problem ca
+ n be solved by having a single authoritative service for tracking resource
+  inventory and usage. Placement does this. This session will bring Placeme
+ nt and Cinder community members together to determine how Cinder can use P
+ lacement. We will:\n Help Placement developers understand how scheduling c
+ urrently works in Cinder.\n Help Cinder developers understand what Placeme
+ nt can do.\n Develop short and medium term plans to get started with makin
+ g it real.\n This session will also be great for other projects interested
+  in learning how Placement can be leveraged for some of their needs\, and 
+ hopefully provide an example of how to introduce Placement into their proj
+ ects.
+LOCATION:Vancouver Convention Centre West - Level Two - Room 221-222
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SDK Testing and Certification
+DTSTART;VALUE=DATE-TIME:20180521T232000Z
+DTEND;VALUE=DATE-TIME:20180522T000000Z
+UID:21758@openstacksummitboston2017
+DESCRIPTION:In this session\, we will build a working plan for creating an
+  OpenStack SDK testing and validation utility. Our goal is to create a ser
+ vice that third party SDKs can use to verify that their tools can successf
+ ully perform a set of standard operations on OpenStack clouds. This tool w
+ ill also be used for reporting SDK capabilities to a common test grid. htt
+ ps://etherpad.openstack.org/p/sdk-certification-framework
+LOCATION:Vancouver Convention Centre West - Level Two - Room 220
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ops Meetups Team: catch-up and PTG merger discussion
+DTSTART;VALUE=DATE-TIME:20180522T001000Z
+DTEND;VALUE=DATE-TIME:20180522T004000Z
+UID:21788@openstacksummitboston2017
+DESCRIPTION:In place of the weekly meeting on IRC of the OpenStack Operato
+ rs Meetups team\, let's meet in person to discuss any relevant business.In
+  particular we recently discussed co-locating future mid-cycle* meetups wi
+ th OpenStack Project Team Gathering. We can go  over the motivation and p
+ ossible benefits of this and collect any concerns from the Ops attending. 
+ Other typical topics include refreshing the team and improving the way we 
+ work such as timing and cadence of meetings etc. *these are the meetups mi
+ d-way between Summits\, although no longer in the middle of an OpenStack r
+ elease cycle
+LOCATION:Vancouver Convention Centre West - Level Two - Room 224
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Cyborg/FPGA Support for Cloud/NFV
+DTSTART;VALUE=DATE-TIME:20180522T001000Z
+DTEND;VALUE=DATE-TIME:20180522T005000Z
+UID:21720@openstacksummitboston2017
+DESCRIPTION:Cyborg is an emerging project\, dealing with accelerators such
+  as FPGAs in the cloud\, which is a rapidly emerging area of interest for 
+ many players in the industry. It would benefit both Cyborg developers and 
+ cloud/NFV operators to align on what is needed and what is planned to be d
+ elivered\, not only for Rocky but also going forward. With that background
+ \, we (Cyborg developers) propose to engage with the operators on the foll
+ owing focus areas. Other topics are welcome to be added.\n What use cases 
+ are the operators interested in\, and in what priority?What workloads and 
+ bitstreams do they think is essential for a cloud FPGA service? \n Do they
+  plan to develop their own IP to any extent\, or will rely on 3rd parties?
+ \n For 3rd party bitstreams\, how do they plan to validate the bitstreams\
+ , if at all?\n There is a train of thought that IP developers will hold th
+ eir bitstreams confidential and not share with operators. OTOH\, operators
+  may want to validate the bitstream first before even adding it to their r
+ epo. What is their take?\nTheir top concerns/challenges and priorities\, a
+ part from the above.\n
+LOCATION:Vancouver Convention Centre West - Level Two - Room 221-222
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Keystone - Project Onboarding
 DTSTART;VALUE=DATE-TIME:20180522T001000Z
 DTEND;VALUE=DATE-TIME:20180522T005000Z
@@ -118,6 +383,15 @@ DESCRIPTION:Project Onboarding gives attendees a chance to meet some of th
  .\n \n \n[1] https://docs.openstack.org/contributors/code-and-documenta
  tion/index.html
 LOCATION:Vancouver Convention Centre West - Level Two - Room 223
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Python 2 Deprecation Timeline
+DTSTART;VALUE=DATE-TIME:20180522T001000Z
+DTEND;VALUE=DATE-TIME:20180522T005000Z
+UID:21741@openstacksummitboston2017
+DESCRIPTION:We need to figure out our next step for moving from Python 2 t
+ o 3\, and figure out when we're going to be able to drop support for 2.
+LOCATION:Vancouver Convention Centre West - Level Two - Room 220
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Kolla - Project Onboarding
@@ -137,6 +411,31 @@ DESCRIPTION:Project Onboarding gives attendees a chance to meet some of th
 LOCATION:Vancouver Convention Centre West - Level Two - Room 223
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Users & Ops feedback for Heat
+DTSTART;VALUE=DATE-TIME:20180522T160000Z
+DTEND;VALUE=DATE-TIME:20180522T164000Z
+UID:21713@openstacksummitboston2017
+DESCRIPTION:We're looking for Users and Operators' feedback on Orchestrati
+ on services. We need Use cases\, ideas\, and experiences that tell us what
+ 's working and what's not. So we can know what should we work on to provid
+ e a better life for ops and users. Also would love to know any use cases\,
+  and experiences so we can know better who and how people use Heat. Whatev
+ er provided\, we will try hard to keep tasks as our future works.
+LOCATION:Vancouver Convention Centre West - Level Two - Room 220
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Image handling in an edge cloud infrastructure
+DTSTART;VALUE=DATE-TIME:20180522T160000Z
+DTEND;VALUE=DATE-TIME:20180522T173000Z
+UID:21768@openstacksummitboston2017
+DESCRIPTION:The edge-computing-group formalized some image handling requir
+ ements for edge clouds in https://wiki.openstack.org/wiki/OpenStack_Edge_D
+ iscussions_Dublin_PTG#VM_images_source_side and in https://wiki.openstack.
+ org/wiki/OpenStack_Edge_Discussions_Dublin_PTG#VM_images_receiver_side . L
+ et's discuss the requirements and their relation to Glance.
+LOCATION:Vancouver Convention Centre West - Level Two - Room 221-222
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:QA - Project Onboarding
 DTSTART;VALUE=DATE-TIME:20180522T165000Z
 DTEND;VALUE=DATE-TIME:20180522T173000Z
@@ -152,6 +451,50 @@ DESCRIPTION:Project Onboarding gives attendees a chance to meet some of th
  .\n \n \n[1] https://docs.openstack.org/contributors/code-and-documenta
  tion/index.html
 LOCATION:Vancouver Convention Centre West - Level Two - Room 223
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:User and Ops Feedback session for OpenStack-Ansible
+DTSTART;VALUE=DATE-TIME:20180522T165000Z
+DTEND;VALUE=DATE-TIME:20180522T173000Z
+UID:21715@openstacksummitboston2017
+DESCRIPTION:We're looking for Users and Operators' feedback on our deploym
+ ent tool: OpenStack-Ansible. We need your use cases\, your experiences of 
+ what's working great and what could be improved. We have many points that 
+ we heard from operators could deserve improvement\, but I'd like to know y
+ our opinion. Here are the topics we'd like to discuss with the users and o
+ perators\, but any new topic is welcomed:\nDeploy faster\nHave offline ins
+ talls\nHave package installs\nHave more resilient installs (adding new pro
+ jects from the self-healing SIG)\nHave more performant default\, and share
+  the knowledge of performace tuning.\n
+LOCATION:Vancouver Convention Centre West - Level Two - Room 220
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Cinder High Availability (HA) Discussion
+DTSTART;VALUE=DATE-TIME:20180522T180000Z
+DTEND;VALUE=DATE-TIME:20180522T184000Z
+UID:21731@openstacksummitboston2017
+DESCRIPTION:We are making HA a focus for the Rocky release. With that in m
+ ind I think it would be good for the team to understand if users are using
+  Cinder in an HA Active/Active or even Active/Passive configuration. Are u
+ sers seeing issues? If so\, what kinds of issues? What are expectations fr
+ om our users with regards to HA development and documentation going forwar
+ d?
+LOCATION:Vancouver Convention Centre West - Level Two - Room 221-222
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Possible edge architectures for Keystone
+DTSTART;VALUE=DATE-TIME:20180522T180000Z
+DTEND;VALUE=DATE-TIME:20180522T184000Z
+UID:21737@openstacksummitboston2017
+DESCRIPTION:edge-computing-group and FEMDC-SIG are working on the requirem
+ ent collection of different OpenStack components in an edge cloud infrastr
+ ucture. One high level target is to synchronise the infrastructure user an
+ d project specific information among the different edge cloud instances. L
+ et's discuss the different possibilities. Collection of features and requi
+ rements: https://wiki.openstack.org/wiki/OpenStack_Edge_Discussions_Dublin
+ _PTG Place for random notes even before the session: https://etherpad.open
+ stack.org/p/YVR-edge-keystone-brainstorming
+LOCATION:Vancouver Convention Centre West - Level Two - Room 224
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Sahara - Project Onboarding
@@ -171,6 +514,25 @@ DESCRIPTION:Project Onboarding gives attendees a chance to meet some of th
 LOCATION:Vancouver Convention Centre West - Level Two - Room 223
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Users & Ops feedback for Monasca (Monitoring & Logging aaS)
+DTSTART;VALUE=DATE-TIME:20180522T180000Z
+DTEND;VALUE=DATE-TIME:20180522T184000Z
+UID:21784@openstacksummitboston2017
+DESCRIPTION:The OpenStack deployments are complex to maintain and require 
+ efficient monitoring\, Monasca is the OpenStack project which aims to addr
+ ess this issue and get the operator an easy to setup and use way to manage
+  alerts when a problem occurs or when metrics/trends signal that the envir
+ onment is not in optimal condition any more\, as Monasca is part of OpenSt
+ ack it provides multi-tenancy and the ability to expose the metrics to Ope
+ nStack users. The Monasca team is interested in collecting ideas from actu
+ al and potential users\, we are looking for user stories to understand wha
+ t is missing or can be improved in our solution\, what stops operators to 
+ use Monasca and go for other monitoring and logging systems.  The Monasca 
+ team is open to discuss with other teams about the current level of integr
+ ation and future improvements.
+LOCATION:Vancouver Convention Centre West - Level Two - Room 220
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Glance - Project Onboarding
 DTSTART;VALUE=DATE-TIME:20180522T185000Z
 DTEND;VALUE=DATE-TIME:20180522T193000Z
@@ -183,9 +545,35 @@ DESCRIPTION:Project Onboarding gives attendees a chance to meet some of th
  y\, attendees will know/ have completed the basics of contribution (i.e. i
  rc\, gerrit\, Launchpad\, StoryBoard\, Foundation Membership) BEFORE atten
  ding the session. All of this can be done through our Contributor Guide[1]
- .\n \n \n[1] https://docs.openstack.org/contributors/code-and-documenta
- tion/index.html
-LOCATION:
+ .\n  \n[1] https://docs.openstack.org/contributors/code-and-documentatio
+ n/index.html
+LOCATION:Vancouver Convention Centre West - Level Two - Room 223
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ironic Ops and User feedback
+DTSTART;VALUE=DATE-TIME:20180522T185000Z
+DTEND;VALUE=DATE-TIME:20180522T193000Z
+UID:21753@openstacksummitboston2017
+DESCRIPTION:Being a very operations centric project\, Ironic derives a gre
+ at deal of it's tasks from operator asks\, so it is that time again for us
+  to sit down and discuss aspects that are important to us all. How are thi
+ ngs working?\n Traits\n Routed Networks\n Ansible deploy interface\n iSCSI
+  Boot from Volume\n We've also recently been discussing major operations p
+ roblems in the community\, and this is also the time for us to gather requ
+ irements and use cases.\n Attestation/TPM Security integration\n Firmware 
+ management\n Additional use scenarios\n
+LOCATION:Vancouver Convention Centre West - Level Two - Room 220
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Multi-attach introduction and future direction
+DTSTART;VALUE=DATE-TIME:20180522T185000Z
+DTEND;VALUE=DATE-TIME:20180522T193000Z
+UID:21732@openstacksummitboston2017
+DESCRIPTION:Now that we have gotten multi-attach into Cinder and Nova this
+  would be an opportunity to share with our users the following:\nWhat's th
+ ere\nGotchas\nWhat's next\nWe would also like to discuss user needs\, want
+ s and wishes.
+LOCATION:Vancouver Convention Centre West - Level Two - Room 221-222
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Heat - Project Onboarding
@@ -205,6 +593,34 @@ DESCRIPTION:Project Onboarding gives attendees a chance to meet some of th
 LOCATION:Vancouver Convention Centre West - Level Two - Room 223
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Pre-emptible instances - the way forward
+DTSTART;VALUE=DATE-TIME:20180522T205000Z
+DTEND;VALUE=DATE-TIME:20180522T213000Z
+UID:21787@openstacksummitboston2017
+DESCRIPTION:With the newly proposed functionality of the 'Reaper' to handl
+ e resource exhaustion and stopped of pre-emptible instances\, some functio
+ nality needs further discussion\nState of current Reaper proposal - https:
+ //gitlab.cern.ch/ttsiouts/ReaperServicePrototype\nState of Nova support fo
+ r additional states\nNotification of the guests (https://review.openstack.
+ org/552483) for per-hypervisor configuration\, would it be interesting to 
+ have per-flavor overrides also?\nHow to define policies for spot instance 
+ removal to create the right size hole and define the appropriate buffer of
+  free resources\n Reference: https://etherpad.openstack.org/p/YVR18-scient
+ ific-sig-brainstorming
+LOCATION:Vancouver Convention Centre West - Level Two - Room 221-222
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Upgrading OpenStack - war stories
+DTSTART;VALUE=DATE-TIME:20180522T205000Z
+DTEND;VALUE=DATE-TIME:20180522T213000Z
+UID:21785@openstacksummitboston2017
+DESCRIPTION:Let's share our experience and stories related to upgrade Open
+ Stack. - Do you have any advice? Tips and tricks? - What was tricky? - Wha
+ t was the impact for users? - Any lessons learned? - Interesting fails? - 
+ How many releases did you skip?
+LOCATION:Vancouver Convention Centre West - Level Two - Room 220
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Cinder - Project Onboarding
 DTSTART;VALUE=DATE-TIME:20180522T214000Z
 DTEND;VALUE=DATE-TIME:20180522T222000Z
@@ -222,10 +638,29 @@ DESCRIPTION:Project Onboarding gives attendees a chance to meet some of th
 LOCATION:Vancouver Convention Centre West - Level Two - Room 223
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Infra - Project Onboarding
+SUMMARY:nova/neutron + ops cross-project session
 DTSTART;VALUE=DATE-TIME:20180522T223000Z
 DTEND;VALUE=DATE-TIME:20180522T231000Z
-UID:21631@openstacksummitboston2017
+UID:21754@openstacksummitboston2017
+DESCRIPTION:This would be a session to get nova and neutron developers in 
+ the same room with operators to discuss a few open issues and get feedback
+  to move forward. Specifically:Bandwidth-based scheduling\nSpec: https://r
+ eview.openstack.org/#/c/502306/ This is something that users have requeste
+ d for awhile\, and was called out during the Foundation's marketing highli
+ ghts for Rocky: https://youtu.be/Lt8EhrDg4lU?t=692 but it's pretty hairy a
+ nd we need to make sure all stakeholders agree on the design.What to do ab
+ out FQDNs and the dhcp_domain option Bug: https://bugs.launchpad.net/nova/
+ +bug/1698010 There has been some discussion in the mailing list between de
+ vs and operators already about this\, but no agreement on the plan to move
+  forward or how people are dealing with FQDN and DNS in their clouds\, so 
+ we need operator feedback before we can work on a solution.
+LOCATION:Vancouver Convention Centre West - Level Two - Room 220
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Oslo - Project Onboarding
+DTSTART;VALUE=DATE-TIME:20180522T223000Z
+DTEND;VALUE=DATE-TIME:20180522T231000Z
+UID:21645@openstacksummitboston2017
 DESCRIPTION:Project Onboarding gives attendees a chance to meet some of th
  e project team and get to know the project. Attendees will learn about the
   project itself\, the code structure/ overall architecture\, etc\, and pla
@@ -237,6 +672,76 @@ DESCRIPTION:Project Onboarding gives attendees a chance to meet some of th
  .\n \n \n[1] https://docs.openstack.org/contributors/code-and-documenta
  tion/index.html
 LOCATION:Vancouver Convention Centre West - Level Two - Room 223
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Supporting General Federation for Large-Scale Collaborations
+DTSTART;VALUE=DATE-TIME:20180522T223000Z
+DTEND;VALUE=DATE-TIME:20180522T231000Z
+UID:21786@openstacksummitboston2017
+DESCRIPTION:Dr. Craig A. Lee\, NIST/IEEE Joint Working Group on Federated 
+ Cloud\, lee@aero.org Dr. Martial Michel\, Data Machines\, Inc.\, martialmi
+ chel@datamachines.io Dr. Khalil Yazdi\, Yazdi and Associates Dr. Robert Bo
+ hn\, National Institute of Standards and TechnologyPurpose Determine how t
+ he OpenStack Community can partner with the NIST/IEEE Joint WG on Federate
+ d Cloud\, and the Open Research Cloud Alliance (ORCA)\, to develop support
+  for general cloud federation\, and enable a wide range of collaborative a
+ pplication domains at any level in the software stack: IaaS\, PaaS\, or Sa
+ aS.Background The momentum around cloud federation continues to grow. The 
+ NIST/IEEE Joint WG on Federated Cloud [1\,2\,3] has been running for almos
+ t seven months now\, and recently held their first workshop [4] to report-
+ out on current work and invite stakeholders to review\, comment\, help in 
+ charting the course of future work. The Open Research Cloud Alliance [5] h
+ as been actively developing consensus across the scientific community stak
+ eholders and will be holding their 4th Open Research Cloud Congress at the
+  Vancouver Summit. The Open Geospatial Consortium will also be kicking-off
+  their Testbed-14 [6] project in April which has a federated cloud task to
+  demonstrate specific geospatial data sharing scenarios. This Forum topic 
+ will continue the discussion around cloud federation started at the OpenSt
+ ack Summit Forum in Sydney [7\,8]. Keystone\, OpenStack and the OpenStack 
+ community are in a unique position to take a leadership position and make 
+ significant contributions to this process. Keystone has already built-out 
+ basic support to "federate-in" identities and "federate-out" OpenStack ser
+ vices. With modest additional capabilities Keystone could support general 
+ federations across multiple administrative domains [9] at any level in the
+  system stack\, i.e.\, IaaS\, Paas\, and SaaS. This would facilitate a wid
+ e variety of collaborations\, including areas as diverse as international 
+ "big science" collaborations\, international disaster response\, and suppl
+ y chain management\, just to name a few. This discussion session will cent
+ er around possible federation deployment and governance models that could 
+ be built-out in Keystone that embody the key concepts and design principle
+ s being developed in the NIST/IEEE Joint WG and ORCA. The success of these
+  efforts will depend directly on engaging with cloud builders\, operators\
+ , and stakeholders. We welcome the opportunity to pursue this goal with th
+ e OpenStack community.\n[1] Press Release: http://standards.ieee.org/news/
+ 2017/intercloud_interoperability_and_federation.html[2] NIST Public WG on 
+ Federated Cloud:Twiki Page: http://collaborate.nist.gov/twiki-cloud-comput
+ ing/bin/view/CloudComputing/FederatedCloudPWGFCMailing List: fedcloud@nist
+ .gov[3] IEEE/P2302 Intercloud WG: Project Site: http://sites.ieee.org/sagr
+ oups-2302/ Mailing List: STDS-P2302@ieee.org [4] NIST/IEEE Federation Clou
+ d Workshop\, http://federatedcloud.eventbrite.com  [5] http://www.openrese
+ archcloud.org [6] OGC Testbed-14\, http://www.opengeospatial.org/projects/
+ initiatives/testbed14  [7] https://etherpad.openstack.org/p/Supporting-Gen
+ eral-Federation  [8] https://www.openstack.org/summit/sydney-2017/summit-s
+ chedule/events/20534/3rd-open-research-cloudcongress [9] Lee\, C. A.\, "Tu
+ rn OpenStack into the Global Intercloud
+LOCATION:Vancouver Convention Centre West - Level Two - Room 221-222
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CellsV2 migration process sync with operators
+DTSTART;VALUE=DATE-TIME:20180522T234000Z
+DTEND;VALUE=DATE-TIME:20180523T002000Z
+UID:21755@openstacksummitboston2017
+DESCRIPTION:We've got several operators working through moving to cellsv2 
+ right now. Some of that feedback (from CERN) has been rolling in well\, bu
+ t others haven't been as vocal. We should determine if that's good or badh
+ ttps://etherpad.openstack.org/p/cellsv1-to-v2-migration\n Looking for feed
+ back on upgrade from multi CellsV1 to CellsV2 (Ocata)\n CellsV1 deprecatio
+ n/removal warning to operators while they're here\n Check to see progress 
+ on rolling forward though and past moving away from CachingScheduler\n Che
+ ck to see if anyone has rolled to the point where they're using alternates
+  for reschedules\nhttps://specs.openstack.org/openstack/nova-specs/specs/q
+ ueens/implemented/return-alternate-hosts.html\n
+LOCATION:Vancouver Convention Centre West - Level Two - Room 220
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Ironic - Project Onboarding
@@ -256,6 +761,42 @@ DESCRIPTION:Project Onboarding gives attendees a chance to meet some of th
 LOCATION:Vancouver Convention Centre West - Level Two - Room 223
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Fault Management/Monitoring for NFV/Edge/5G/IoT
+DTSTART;VALUE=DATE-TIME:20180522T234000Z
+DTEND;VALUE=DATE-TIME:20180523T011000Z
+UID:21744@openstacksummitboston2017
+DESCRIPTION:For fault management in cloud\, traditional and current teleme
+ try/monitoring architectures are good\, but you should enhance the telemet
+ ry/monitoring architecture for NFV/Edge/5G/IoT. Because these new services
+  have several system architectures\, SLAs that are far from cloud's one\, 
+ huge amount of targets you have to monitoring. In Sydney Summit\, there we
+ re some great sessions for monitoring/fault management.[1][2][3][4][5][6][
+ 7] So We can discuss next generation fault management. In this forum\, we 
+ are sharing architecture\, use cases\, gap analysis\, OSS for collecting/a
+ nalyzing/storing/notifying\, related projects. OPNFV and ONAP has Doctor[8
+ ]\, Barometer[9] and DCAE[10] that focus on monitoring and fault managemen
+ t. We can also discuss how to adapt these projects to your environments. A
+ nd the goal of this forum is sharing of real use cases requiring such faul
+ t management and those solutions currently used or to be used in future\, 
+ in order to start discussion of good architecture. [1] https://www.opensta
+ ck.org/summit/sydney-2017/summit-schedule/events/20085/monitoring-the-nect
+ ar-research-cloud [2] https://www.openstack.org/summit/sydney-2017/summit-
+ schedule/events/19736/monitoring-performance-of-your-openstack-environment
+  [3] https://www.openstack.org/summit/sydney-2017/summit-schedule/events/1
+ 9748/the-experience-of-telemetry-under-large-scale-openstack-cluster [4] h
+ ttps://www.openstack.org/summit/sydney-2017/summit-schedule/events/19470/p
+ roactive-monitoring-for-openstack [5] https://www.openstack.org/summit/syd
+ ney-2017/summit-schedule/events/19448/use-case-help-me-from-tons-of-alarms
+  [6] https://www.openstack.org/summit/sydney-2017/summit-schedule/events/1
+ 9178/dmadistributed-monitoring-and-analysis-monitoring-practice-and-lifecy
+ cle-management-for-telecom [7] https://www.openstack.org/summit/sydney-201
+ 7/summit-schedule/events/19650/monitoring-openstack-deployments [8] https:
+ //wiki.opnfv.org/display/doctor/Doctor+Home [9] https://wiki.opnfv.org/dis
+ play/fastpath/Barometer+Home [10] https://wiki.onap.org/pages/viewpage.act
+ ion?pageId=1015831
+LOCATION:Vancouver Convention Centre West - Level Two - Room 221-222
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Cloudkitty - Project Onboarding
 DTSTART;VALUE=DATE-TIME:20180523T003000Z
 DTEND;VALUE=DATE-TIME:20180523T011000Z
@@ -273,163 +814,35 @@ DESCRIPTION:Project Onboarding gives attendees a chance to meet some of th
 LOCATION:Vancouver Convention Centre West - Level Two - Room 223
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Barbican - Project Onboarding
-DTSTART;VALUE=DATE-TIME:20180523T160000Z
-DTEND;VALUE=DATE-TIME:20180523T164000Z
-UID:21623@openstacksummitboston2017
-DESCRIPTION:Project Onboarding gives attendees a chance to meet some of th
- e project team and get to know the project. Attendees will learn about the
-  project itself\, the code structure/ overall architecture\, etc\, and pla
- ces where contribution is needed. Attendees will also get to know some of 
- the core contributors and other established community members.\n \nIdeall
- y\, attendees will know/ have completed the basics of contribution (i.e. i
- rc\, gerrit\, Launchpad\, StoryBoard\, Foundation Membership) BEFORE atten
- ding the session. All of this can be done through our Contributor Guide[1]
- .\n \n\n[1] https://docs.openstack.org/contributors/code-and-documentatio
- n/index.html
-LOCATION:Vancouver Convention Centre West - Level Two - Room 223
+SUMMARY:Keystone Feedback Session
+DTSTART;VALUE=DATE-TIME:20180523T003000Z
+DTEND;VALUE=DATE-TIME:20180523T011000Z
+UID:21762@openstacksummitboston2017
+DESCRIPTION:Keystone is always looking to hear what we can do better as a 
+ project and distinguishing those from areas that are working optimally. We
+  want operators to tell us:\n How they are using keystone\n What painpoint
+ s they are hitting in their deployments\n
+LOCATION:Vancouver Convention Centre West - Level Two - Room 220
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Kuryr - Project Onboarding
-DTSTART;VALUE=DATE-TIME:20180523T165000Z
-DTEND;VALUE=DATE-TIME:20180523T173000Z
-UID:21635@openstacksummitboston2017
-DESCRIPTION:Project Onboarding gives attendees a chance to meet some of th
- e project team and get to know the project. Attendees will learn about the
-  project itself\, the code structure/ overall architecture\, etc\, and pla
- ces where contribution is needed. Attendees will also get to know some of 
- the core contributors and other established community members.\n \nIdeall
- y\, attendees will know/ have completed the basics of contribution (i.e. i
- rc\, gerrit\, Launchpad\, StoryBoard\, Foundation Membership) BEFORE atten
- ding the session. All of this can be done through our Contributor Guide[1]
- .\n \n \n[1] https://docs.openstack.org/contributors/code-and-documenta
- tion/index.html
-LOCATION:Vancouver Convention Centre West - Level Two - Room 223
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Horizon - Project Onboarding
-DTSTART;VALUE=DATE-TIME:20180523T180000Z
-DTEND;VALUE=DATE-TIME:20180523T184000Z
-UID:21630@openstacksummitboston2017
-DESCRIPTION:Project Onboarding gives attendees a chance to meet some of th
- e project team and get to know the project. Attendees will learn about the
-  project itself\, the code structure/ overall architecture\, etc\, and pla
- ces where contribution is needed. Attendees will also get to know some of 
- the core contributors and other established community members.\n \nIdeall
- y\, attendees will know/ have completed the basics of contribution (i.e. i
- rc\, gerrit\, Launchpad\, StoryBoard\, Foundation Membership) BEFORE atten
- ding the session. All of this can be done through our Contributor Guide[1]
- .\n \n \n[1] https://docs.openstack.org/contributors/code-and-documenta
- tion/index.html
-LOCATION:Vancouver Convention Centre West - Level Two - Room 223
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:TripleO - Project Onboarding
-DTSTART;VALUE=DATE-TIME:20180523T185000Z
-DTEND;VALUE=DATE-TIME:20180523T193000Z
-UID:21652@openstacksummitboston2017
-DESCRIPTION:Project Onboarding gives attendees a chance to meet some of th
- e project team and get to know the project. Attendees will learn about the
-  project itself\, the code structure/ overall architecture\, etc\, and pla
- ces where contribution is needed. Attendees will also get to know some of 
- the core contributors and other established community members.\n \nIdeall
- y\, attendees will know/ have completed the basics of contribution (i.e. i
- rc\, gerrit\, Launchpad\, StoryBoard\, Foundation Membership) BEFORE atten
- ding the session. All of this can be done through our Contributor Guide[1]
- .\n \n \n[1] https://docs.openstack.org/contributors/code-and-documenta
- tion/index.html
-LOCATION:Vancouver Convention Centre West - Level Two - Room 223
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Nova - Project Onboarding
-DTSTART;VALUE=DATE-TIME:20180523T205000Z
-DTEND;VALUE=DATE-TIME:20180523T213000Z
-UID:21641@openstacksummitboston2017
-DESCRIPTION:Project Onboarding gives attendees a chance to meet some of th
- e project team and get to know the project. Attendees will learn about the
-  project itself\, the code structure/ overall architecture\, etc\, and pla
- ces where contribution is needed. Attendees will also get to know some of 
- the core contributors and other established community members.\n \nIdeall
- y\, attendees will know/ have completed the basics of contribution (i.e. i
- rc\, gerrit\, Launchpad\, StoryBoard\, Foundation Membership) BEFORE atten
- ding the session. All of this can be done through our Contributor Guide[1]
- .\n \n \n[1] https://docs.openstack.org/contributors/code-and-documenta
- tion/index.html
-LOCATION:Vancouver Convention Centre West - Level Two - Room 223
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Magnum - Project Onboarding
-DTSTART;VALUE=DATE-TIME:20180523T214000Z
-DTEND;VALUE=DATE-TIME:20180523T222000Z
-UID:21636@openstacksummitboston2017
-DESCRIPTION:Project Onboarding gives attendees a chance to meet some of th
- e project team and get to know the project. Attendees will learn about the
-  project itself\, the code structure/ overall architecture\, etc\, and pla
- ces where contribution is needed. Attendees will also get to know some of 
- the core contributors and other established community members.\n \nIdeall
- y\, attendees will know/ have completed the basics of contribution (i.e. i
- rc\, gerrit\, Launchpad\, StoryBoard\, Foundation Membership) BEFORE atten
- ding the session. All of this can be done through our Contributor Guide[1]
- .\n \n \n[1] https://docs.openstack.org/contributors/code-and-documenta
- tion/index.html
-LOCATION:Vancouver Convention Centre West - Level Two - Room 223
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Vitrage - Project Onboarding
-DTSTART;VALUE=DATE-TIME:20180523T223000Z
-DTEND;VALUE=DATE-TIME:20180523T231000Z
-UID:21653@openstacksummitboston2017
-DESCRIPTION:Project Onboarding gives attendees a chance to meet some of th
- e project team and get to know the project. Attendees will learn about the
-  project itself\, the code structure/ overall architecture\, etc\, and pla
- ces where contribution is needed. Attendees will also get to know some of 
- the core contributors and other established community members.\n \nIdeall
- y\, attendees will know/ have completed the basics of contribution (i.e. i
- rc\, gerrit\, Launchpad\, StoryBoard\, Foundation Membership) BEFORE atten
- ding the session. All of this can be done through our Contributor Guide[1]
- .\n \n \n[1] https://docs.openstack.org/contributors/code-and-documenta
- tion/index.html
-LOCATION:Vancouver Convention Centre West - Level Two - Room 223
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Mistral - Project Onboarding
-DTSTART;VALUE=DATE-TIME:20180523T234000Z
-DTEND;VALUE=DATE-TIME:20180524T002000Z
-UID:21638@openstacksummitboston2017
-DESCRIPTION:Project Onboarding gives attendees a chance to meet some of th
- e project team and get to know the project. Attendees will learn about the
-  project itself\, the code structure/ overall architecture\, etc\, and pla
- ces where contribution is needed. Attendees will also get to know some of 
- the core contributors and other established community members.\n \nIdeall
- y\, attendees will know/ have completed the basics of contribution (i.e. i
- rc\, gerrit\, Launchpad\, StoryBoard\, Foundation Membership) BEFORE atten
- ding the session. All of this can be done through our Contributor Guide[1]
- .\n \n \n[1] https://docs.openstack.org/contributors/code-and-documenta
- tion/index.html
-LOCATION:Vancouver Convention Centre West - Level Two - Room 223
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Monasca - Project Onboarding
-DTSTART;VALUE=DATE-TIME:20180524T003000Z
-DTEND;VALUE=DATE-TIME:20180524T011000Z
-UID:21639@openstacksummitboston2017
-DESCRIPTION:Project Onboarding gives attendees a chance to meet some of th
- e project team and get to know the project. Attendees will learn about the
-  project itself\, the code structure/ overall architecture\, etc\, and pla
- ces where contribution is needed. Attendees will also get to know some of 
- the core contributors and other established community members.\n \nIdeall
- y\, attendees will know/ have completed the basics of contribution (i.e. i
- rc\, gerrit\, Launchpad\, StoryBoard\, Foundation Membership) BEFORE atten
- ding the session. All of this can be done through our Contributor Guide[1]
- .\n \n \n[1] https://docs.openstack.org/contributors/code-and-documenta
- tion/index.html
-LOCATION:Vancouver Convention Centre West - Level Two - Room 223
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Oslo - Project Onboarding
+SUMMARY:Extended Maintenance part I: past\, present and future
 DTSTART;VALUE=DATE-TIME:20180524T160000Z
 DTEND;VALUE=DATE-TIME:20180524T164000Z
-UID:21645@openstacksummitboston2017
+UID:21721@openstacksummitboston2017
+DESCRIPTION:Since the Sydney Forum we have made small steps towards making
+  the stable policy align better with what operators and vendors want. See:
+  https://review.openstack.org/#/c/552733/ and https://review.openstack.org
+ /#/c/548916/ The point of this session would be to help operators and vend
+ ors understand the new policy and process and proactively determine how co
+ ntributions should be done. I expect there will also be a on-boarding sess
+ ion but this is more brainstromy / Q&A'ish than that.
+LOCATION:Vancouver Convention Centre West - Level Two - Room 220
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Infra - Project Onboarding
+DTSTART;VALUE=DATE-TIME:20180524T160000Z
+DTEND;VALUE=DATE-TIME:20180524T164000Z
+UID:21631@openstacksummitboston2017
 DESCRIPTION:Project Onboarding gives attendees a chance to meet some of th
  e project team and get to know the project. Attendees will learn about the
   project itself\, the code structure/ overall architecture\, etc\, and pla
@@ -441,6 +854,32 @@ DESCRIPTION:Project Onboarding gives attendees a chance to meet some of th
  .\n \n \n[1] https://docs.openstack.org/contributors/code-and-documenta
  tion/index.html
 LOCATION:Vancouver Convention Centre West - Level Two - Room 223
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Neutron project handling of its RYU dependency
+DTSTART;VALUE=DATE-TIME:20180524T160000Z
+DTEND;VALUE=DATE-TIME:20180524T164000Z
+UID:21766@openstacksummitboston2017
+DESCRIPTION:Neutron uses extensively the RYU framework (https://osrg.githu
+ b.io/ryu/) in its openflow related code. The group maintaining RYU has adv
+ ised the Neutron team that maintenance work will not continue after the en
+ d of 2018. The purpose of this session is to get together the RYU and Neut
+ ron teams to plan out how to handle this change in maintenance status. The
+  etherpad for this meeting is here: https://etherpad.openstack.org/p/neutr
+ on-ryu-future-plans
+LOCATION:Vancouver Convention Centre West - Level Two - Room 221-222
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Extended Maintenance part II: EM and release cycles
+DTSTART;VALUE=DATE-TIME:20180524T165000Z
+DTEND;VALUE=DATE-TIME:20180524T173000Z
+UID:21745@openstacksummitboston2017
+DESCRIPTION:At the Dublin PTG we had a long discussion around release cycl
+ e length\, maintenance windows and extended maintenance model. In this ses
+ sion we will continue this discussion and update our community on the rece
+ nt changes around Extended Maintenance. In particular we'll discuss the op
+ portunity to extend Ocata maintenance in 6 months.
+LOCATION:Vancouver Convention Centre West - Level Two - Room 220
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Manila - Project Onboarding
@@ -460,6 +899,35 @@ DESCRIPTION:Project Onboarding gives attendees a chance to meet some of th
 LOCATION:Vancouver Convention Centre West - Level Two - Room 223
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:[neutron] extend-logging-api
+DTSTART;VALUE=DATE-TIME:20180524T165000Z
+DTEND;VALUE=DATE-TIME:20180524T173000Z
+UID:21773@openstacksummitboston2017
+DESCRIPTION:As you know\, logging api has been released in Queens cycle wi
+ th security group(native ovsfw) supported. This session we will show curre
+ nt status and plan of developing of logging api for firewall\, SNAT and se
+ curity group (linuxbridge iptables).
+LOCATION:Vancouver Convention Centre West - Level Two - Room 221-222
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:OpenStack is "mature" -- time to get serious on Maintainers
+DTSTART;VALUE=DATE-TIME:20180524T180000Z
+DTEND;VALUE=DATE-TIME:20180524T184000Z
+UID:21759@openstacksummitboston2017
+DESCRIPTION:OpenStack is in production and being rolled out all over. It's
+  time to get serious about sustaining engineering\, often called "Maintain
+ ers" in OSS. The community has seen a loss of numbers of developers and ti
+ ghter focus on filling gaps\, along with integrating new/related technolog
+ ies. This means we need to formalize the contributions of Maintainers to k
+ eep the projects healthy. Maintainers should reduce technical debt: fix bu
+ gs\, backport to older releases\, refactor code for {maintain\, scale\, re
+ ad\, reliable}*ity\, and even help lighten the cost of drive-by contributi
+ ons.  We need to start the discussion to sketch out the path we think our 
+ community could best adopt and incorporate into our DNA. Let's start that 
+ discussion here in Vancouver
+LOCATION:Vancouver Convention Centre West - Level Two - Room 220
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Qinling - Project Onboarding
 DTSTART;VALUE=DATE-TIME:20180524T180000Z
 DTEND;VALUE=DATE-TIME:20180524T184000Z
@@ -475,6 +943,15 @@ DESCRIPTION:Project Onboarding gives attendees a chance to meet some of th
  .\n \n \n[1] https://docs.openstack.org/contributors/code-and-documenta
  tion/index.html
 LOCATION:Vancouver Convention Centre West - Level Two - Room 223
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[neutron-fwaas] firewall l7 fitlering
+DTSTART;VALUE=DATE-TIME:20180524T180000Z
+DTEND;VALUE=DATE-TIME:20180524T184000Z
+UID:21774@openstacksummitboston2017
+DESCRIPTION:This session will collect idea and requirements for firewall L
+ 7 filtering feature.
+LOCATION:Vancouver Convention Centre West - Level Two - Room 221-222
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Blazar - Project Onboarding
@@ -494,6 +971,68 @@ DESCRIPTION:Project Onboarding gives attendees a chance to meet some of th
 LOCATION:Vancouver Convention Centre West - Level Two - Room 223
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Image Lifecycle Management
+DTSTART;VALUE=DATE-TIME:20180524T185000Z
+DTEND;VALUE=DATE-TIME:20180524T193000Z
+UID:21770@openstacksummitboston2017
+DESCRIPTION:The "Hidden Images" spec is a start on this. Any comments\, co
+ ncerns\, and what should be next? Also\, that spec is speculative at this 
+ point\, that is\, we don't have development resources specifically committ
+ ed to it yet.https://review.openstack.org/#/c/545397/
+LOCATION:Vancouver Convention Centre West - Level Two - Room 221-222
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:S Release Goals
+DTSTART;VALUE=DATE-TIME:20180524T185000Z
+DTEND;VALUE=DATE-TIME:20180524T193000Z
+UID:21738@openstacksummitboston2017
+DESCRIPTION:Discuss the current proposed release goals\, and come to conse
+ nsus on which to take forward. As time permits\, also have a broader discu
+ ssion on how we should go about cycle goal selection. Community goal backl
+ og: https://etherpad.openstack.org/p/community-goals
+LOCATION:Vancouver Convention Centre West - Level Two - Room 220
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Community Contributor Awards and Feedback Session
+DTSTART;VALUE=DATE-TIME:20180524T193000Z
+DTEND;VALUE=DATE-TIME:20180524T205000Z
+UID:21854@openstacksummitboston2017
+DESCRIPTION:Grab lunch\, grab an award\, and leave your feedback! All in o
+ ne place!
+LOCATION:Vancouver Convention Centre West - Level Two - Room 215-216
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Manila Ops feedback: running at scale\, overcoming barriers to dep
+ loyment
+DTSTART;VALUE=DATE-TIME:20180524T205000Z
+DTEND;VALUE=DATE-TIME:20180524T213000Z
+UID:21780@openstacksummitboston2017
+DESCRIPTION:At what scale is manila being deployed in real clouds? What sc
+ ale is anticipated? What performance and/or scale bottlenecks are being hi
+ t?
+LOCATION:Vancouver Convention Centre West - Level Two - Room 221-222
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Official projects and the boundary of "what is OpenStack"
+DTSTART;VALUE=DATE-TIME:20180524T205000Z
+DTEND;VALUE=DATE-TIME:20180524T213000Z
+UID:21739@openstacksummitboston2017
+DESCRIPTION:Join members of the Technical Committee to discuss effectively
+  evaluating applications from projects that want to be "official" OpenStac
+ k projects. Each time an application happens there is extensive discussion
+  about what it means to be official and how any individual applications fi
+ ts into the bigger picture of what we are trying to create in OpenStack. W
+ e shouldn't move the goalposts during an application\, but then we forget 
+ to talk about the difficulties again until the next time an application ha
+ ppens. In this session\, we'll remember and reflect on all the things said
+  in conversations like http://eavesdrop.openstack.org/irclogs/%23openstack
+ -tc/%23openstack-tc.2018-03-29.log.html#t2018-03-29T15:04:56 but discuss t
+ hem outside the context of an individual application\, hopefully reaching 
+ some clarity on how to effectively evaluate applications for fit and the g
+ rowth of OpenStack.
+LOCATION:Vancouver Convention Centre West - Level Two - Room 220
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Swift - Project Onboarding
 DTSTART;VALUE=DATE-TIME:20180524T205000Z
 DTEND;VALUE=DATE-TIME:20180524T213000Z
@@ -511,21 +1050,42 @@ DESCRIPTION:Project Onboarding gives attendees a chance to meet some of th
 LOCATION:Vancouver Convention Centre West - Level Two - Room 223
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Murano - Project Onboarding
+SUMMARY:TC Retrospective
 DTSTART;VALUE=DATE-TIME:20180524T214000Z
 DTEND;VALUE=DATE-TIME:20180524T222000Z
-UID:21640@openstacksummitboston2017
-DESCRIPTION:Project Onboarding gives attendees a chance to meet some of th
- e project team and get to know the project. Attendees will learn about the
-  project itself\, the code structure/ overall architecture\, etc\, and pla
- ces where contribution is needed. Attendees will also get to know some of 
- the core contributors and other established community members.\n \nIdeall
- y\, attendees will know/ have completed the basics of contribution (i.e. i
- rc\, gerrit\, Launchpad\, StoryBoard\, Foundation Membership) BEFORE atten
- ding the session. All of this can be done through our Contributor Guide[1]
- .\n \n \n[1] https://docs.openstack.org/contributors/code-and-documenta
- tion/index.html
-LOCATION:Vancouver Convention Centre West - Level Two - Room 223
+UID:21740@openstacksummitboston2017
+DESCRIPTION:Review our progress on our vision and consider changes to how 
+ the TC organizes itself. Include ~5 minutes to update progress on working 
+ with adjascent communities.
+LOCATION:Vancouver Convention Centre West - Level Two - Room 220
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Unified Limits
+DTSTART;VALUE=DATE-TIME:20180524T214000Z
+DTEND;VALUE=DATE-TIME:20180524T222000Z
+UID:21760@openstacksummitboston2017
+DESCRIPTION:The Queens release was a big step forward for providing a base
+  unified limit and quota strategy in OpenStack. A set of projects dedicate
+ d time during the Dublin PTG to help shape what the next steps for unified
+  limits looks like across the services. The main goal of this session is t
+ o socialize the outcomes of what was discussed in Dublin with operators. I
+ n addition to that we are going to ask operators who are using multi-tenan
+ cy how they expect a system like this to behave.
+LOCATION:Vancouver Convention Centre West - Level Two - Room 221-222
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Cross-community governance between OSF projects
+DTSTART;VALUE=DATE-TIME:20180524T223000Z
+DTEND;VALUE=DATE-TIME:20180524T231000Z
+UID:21746@openstacksummitboston2017
+DESCRIPTION:While they are under separate technical governance models\, th
+ e various projects under the OpenStack Foundation (OpenStack and Kata Cont
+ ainers in particular) need to paint a valuable overarching complementary s
+ tory. The first step is to get to know each other better and explore the c
+ omplementary points between the various pieces. A forum session is probabl
+ y the best venue for such a cross-community discussion. Moderators: Thierr
+ y Carrez\, Jeremy Stanley
+LOCATION:Vancouver Convention Centre West - Level Two - Room 220
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Senlin - Project Onboarding
@@ -545,10 +1105,75 @@ DESCRIPTION:Project Onboarding gives attendees a chance to meet some of th
 LOCATION:Vancouver Convention Centre West - Level Two - Room 223
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Zun - Project Onboarding
+SUMMARY:Advanced RCA use cases - taking Vitrage to the next level
+DTSTART;VALUE=DATE-TIME:20180524T224000Z
+DTEND;VALUE=DATE-TIME:20180524T231000Z
+UID:21727@openstacksummitboston2017
+DESCRIPTION:Vitrage is the OpenStack Root Cause Analysis service\, that he
+ lps the cloud administrator understand and manage the faults that happen i
+ n the cloud.  Vitrage is already used in production environments\, and it 
+ supports several use cases: alarm deduction\, root cause analysis\, and to
+ gether with Mistral it can provide recovery actions.  Now that the technol
+ ogy is mature\, let's think about the next step. How can we enhance Vitrag
+ e to provide even more value to the end users? What other use cases can be
+  supported\, and how? We will be happy to hear from all our users about th
+ eir experience and use cases. We would like to brainstorm and decide about
+  new features that can be added to Vitrage.
+LOCATION:Vancouver Convention Centre West - Level Two - Room 221-222
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Adjutant official project status
 DTSTART;VALUE=DATE-TIME:20180524T234000Z
 DTEND;VALUE=DATE-TIME:20180525T002000Z
-UID:21654@openstacksummitboston2017
+UID:21752@openstacksummitboston2017
+DESCRIPTION:Follow-up on Adjunct's project application and continue the di
+ scussions started on IRC[1][2] and Gerrit[3]. We'll need people from Mistr
+ al as well. There has been some other discussion on the list[4][5][6] - bu
+ t mainly about adjutant-mfa work\, and not the project inclusion. 1 - http
+ ://eavesdrop.openstack.org/irclogs/%23openstack-tc/%23openstack-tc.2018-03
+ -28.log.html#t2018-03-28T12:04:06 2 - http://eavesdrop.openstack.org/irclo
+ gs/%23openstack-tc/%23openstack-tc.2018-03-22.log.html#t2018-03-22T15:04:0
+ 1 3 - https://review.openstack.org/#/c/553643/ 4 - http://lists.openstack.
+ org/pipermail/openstack-sigs/2018-February/000257.html 5 - http://lists.op
+ enstack.org/pipermail/openstack-operators/2018-February/014852.html 6 - ht
+ tp://lists.openstack.org/pipermail/openstack-operators/2018-April/015106.h
+ tml
+LOCATION:Vancouver Convention Centre West - Level Two - Room 220
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Vitrage RCA over K8s. Pets and Cattle - Monitor each cow?
+DTSTART;VALUE=DATE-TIME:20180524T234000Z
+DTEND;VALUE=DATE-TIME:20180525T002000Z
+UID:21729@openstacksummitboston2017
+DESCRIPTION:In the Rocky release\, Vitrage provides root cause analysis ov
+ er k8s clusters. At this point\, it considers the k8s nodes but does not g
+ et to the pods granularity. The purpose of this forum discussion is to con
+ sider leveraging Vitrage topology and RCA to include services and pods. We
+  hope to get feedback from users about their needs and use cases. We will 
+ discuss the pros and cons of adding pods to Vitrage topology (enhanced RCA
+  vs. performance etc.) and think about the optimal solution for adding it 
+ in Vitrage Stein release.\n 
+LOCATION:Vancouver Convention Centre West - Level Two - Room 221-222
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Extended Maintenance part I: past\, present and future
+DTSTART;VALUE=DATE-TIME:20180524T160000Z
+DTEND;VALUE=DATE-TIME:20180524T164000Z
+UID:21721@openstacksummitboston2017
+DESCRIPTION:Since the Sydney Forum we have made small steps towards making
+  the stable policy align better with what operators and vendors want. See:
+  https://review.openstack.org/#/c/552733/ and https://review.openstack.org
+ /#/c/548916/ The point of this session would be to help operators and vend
+ ors understand the new policy and process and proactively determine how co
+ ntributions should be done. I expect there will also be a on-boarding sess
+ ion but this is more brainstromy / Q&A'ish than that.
+LOCATION:Vancouver Convention Centre West - Level Two - Room 220
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Infra - Project Onboarding
+DTSTART;VALUE=DATE-TIME:20180524T160000Z
+DTEND;VALUE=DATE-TIME:20180524T164000Z
+UID:21631@openstacksummitboston2017
 DESCRIPTION:Project Onboarding gives attendees a chance to meet some of th
  e project team and get to know the project. Attendees will learn about the
   project itself\, the code structure/ overall architecture\, etc\, and pla
@@ -562,10 +1187,36 @@ DESCRIPTION:Project Onboarding gives attendees a chance to meet some of th
 LOCATION:Vancouver Convention Centre West - Level Two - Room 223
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Masakari - Project Onboarding
-DTSTART;VALUE=DATE-TIME:20180525T003000Z
-DTEND;VALUE=DATE-TIME:20180525T011000Z
-UID:21656@openstacksummitboston2017
+SUMMARY:Neutron project handling of its RYU dependency
+DTSTART;VALUE=DATE-TIME:20180524T160000Z
+DTEND;VALUE=DATE-TIME:20180524T164000Z
+UID:21766@openstacksummitboston2017
+DESCRIPTION:Neutron uses extensively the RYU framework (https://osrg.githu
+ b.io/ryu/) in its openflow related code. The group maintaining RYU has adv
+ ised the Neutron team that maintenance work will not continue after the en
+ d of 2018. The purpose of this session is to get together the RYU and Neut
+ ron teams to plan out how to handle this change in maintenance status. The
+  etherpad for this meeting is here: https://etherpad.openstack.org/p/neutr
+ on-ryu-future-plans
+LOCATION:Vancouver Convention Centre West - Level Two - Room 221-222
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Extended Maintenance part II: EM and release cycles
+DTSTART;VALUE=DATE-TIME:20180524T165000Z
+DTEND;VALUE=DATE-TIME:20180524T173000Z
+UID:21745@openstacksummitboston2017
+DESCRIPTION:At the Dublin PTG we had a long discussion around release cycl
+ e length\, maintenance windows and extended maintenance model. In this ses
+ sion we will continue this discussion and update our community on the rece
+ nt changes around Extended Maintenance. In particular we'll discuss the op
+ portunity to extend Ocata maintenance in 6 months.
+LOCATION:Vancouver Convention Centre West - Level Two - Room 220
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Manila - Project Onboarding
+DTSTART;VALUE=DATE-TIME:20180524T165000Z
+DTEND;VALUE=DATE-TIME:20180524T173000Z
+UID:21637@openstacksummitboston2017
 DESCRIPTION:Project Onboarding gives attendees a chance to meet some of th
  e project team and get to know the project. Attendees will learn about the
   project itself\, the code structure/ overall architecture\, etc\, and pla
@@ -574,8 +1225,265 @@ DESCRIPTION:Project Onboarding gives attendees a chance to meet some of th
  y\, attendees will know/ have completed the basics of contribution (i.e. i
  rc\, gerrit\, Launchpad\, StoryBoard\, Foundation Membership) BEFORE atten
  ding the session. All of this can be done through our Contributor Guide[1]
- .\n \n\n[1] https://docs.openstack.org/contributors/code-and-documentatio
- n/index.html
+ .\n \n \n[1] https://docs.openstack.org/contributors/code-and-documenta
+ tion/index.html
 LOCATION:Vancouver Convention Centre West - Level Two - Room 223
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[neutron] extend-logging-api
+DTSTART;VALUE=DATE-TIME:20180524T165000Z
+DTEND;VALUE=DATE-TIME:20180524T173000Z
+UID:21773@openstacksummitboston2017
+DESCRIPTION:As you know\, logging api has been released in Queens cycle wi
+ th security group(native ovsfw) supported. This session we will show curre
+ nt status and plan of developing of logging api for firewall\, SNAT and se
+ curity group (linuxbridge iptables).
+LOCATION:Vancouver Convention Centre West - Level Two - Room 221-222
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:OpenStack is "mature" -- time to get serious on Maintainers
+DTSTART;VALUE=DATE-TIME:20180524T180000Z
+DTEND;VALUE=DATE-TIME:20180524T184000Z
+UID:21759@openstacksummitboston2017
+DESCRIPTION:OpenStack is in production and being rolled out all over. It's
+  time to get serious about sustaining engineering\, often called "Maintain
+ ers" in OSS. The community has seen a loss of numbers of developers and ti
+ ghter focus on filling gaps\, along with integrating new/related technolog
+ ies. This means we need to formalize the contributions of Maintainers to k
+ eep the projects healthy. Maintainers should reduce technical debt: fix bu
+ gs\, backport to older releases\, refactor code for {maintain\, scale\, re
+ ad\, reliable}*ity\, and even help lighten the cost of drive-by contributi
+ ons.  We need to start the discussion to sketch out the path we think our 
+ community could best adopt and incorporate into our DNA. Let's start that 
+ discussion here in Vancouver
+LOCATION:Vancouver Convention Centre West - Level Two - Room 220
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Qinling - Project Onboarding
+DTSTART;VALUE=DATE-TIME:20180524T180000Z
+DTEND;VALUE=DATE-TIME:20180524T184000Z
+UID:21647@openstacksummitboston2017
+DESCRIPTION:Project Onboarding gives attendees a chance to meet some of th
+ e project team and get to know the project. Attendees will learn about the
+  project itself\, the code structure/ overall architecture\, etc\, and pla
+ ces where contribution is needed. Attendees will also get to know some of 
+ the core contributors and other established community members.\n \nIdeall
+ y\, attendees will know/ have completed the basics of contribution (i.e. i
+ rc\, gerrit\, Launchpad\, StoryBoard\, Foundation Membership) BEFORE atten
+ ding the session. All of this can be done through our Contributor Guide[1]
+ .\n \n \n[1] https://docs.openstack.org/contributors/code-and-documenta
+ tion/index.html
+LOCATION:Vancouver Convention Centre West - Level Two - Room 223
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[neutron-fwaas] firewall l7 fitlering
+DTSTART;VALUE=DATE-TIME:20180524T180000Z
+DTEND;VALUE=DATE-TIME:20180524T184000Z
+UID:21774@openstacksummitboston2017
+DESCRIPTION:This session will collect idea and requirements for firewall L
+ 7 filtering feature.
+LOCATION:Vancouver Convention Centre West - Level Two - Room 221-222
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Blazar - Project Onboarding
+DTSTART;VALUE=DATE-TIME:20180524T185000Z
+DTEND;VALUE=DATE-TIME:20180524T193000Z
+UID:21624@openstacksummitboston2017
+DESCRIPTION:Project Onboarding gives attendees a chance to meet some of th
+ e project team and get to know the project. Attendees will learn about the
+  project itself\, the code structure/ overall architecture\, etc\, and pla
+ ces where contribution is needed. Attendees will also get to know some of 
+ the core contributors and other established community members.\n \nIdeall
+ y\, attendees will know/ have completed the basics of contribution (i.e. i
+ rc\, gerrit\, Launchpad\, StoryBoard\, Foundation Membership) BEFORE atten
+ ding the session. All of this can be done through our Contributor Guide[1]
+ .\n \n \n[1] https://docs.openstack.org/contributors/code-and-documenta
+ tion/index.html
+LOCATION:Vancouver Convention Centre West - Level Two - Room 223
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Image Lifecycle Management
+DTSTART;VALUE=DATE-TIME:20180524T185000Z
+DTEND;VALUE=DATE-TIME:20180524T193000Z
+UID:21770@openstacksummitboston2017
+DESCRIPTION:The "Hidden Images" spec is a start on this. Any comments\, co
+ ncerns\, and what should be next? Also\, that spec is speculative at this 
+ point\, that is\, we don't have development resources specifically committ
+ ed to it yet.https://review.openstack.org/#/c/545397/
+LOCATION:Vancouver Convention Centre West - Level Two - Room 221-222
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:S Release Goals
+DTSTART;VALUE=DATE-TIME:20180524T185000Z
+DTEND;VALUE=DATE-TIME:20180524T193000Z
+UID:21738@openstacksummitboston2017
+DESCRIPTION:Discuss the current proposed release goals\, and come to conse
+ nsus on which to take forward. As time permits\, also have a broader discu
+ ssion on how we should go about cycle goal selection. Community goal backl
+ og: https://etherpad.openstack.org/p/community-goals
+LOCATION:Vancouver Convention Centre West - Level Two - Room 220
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Community Contributor Awards and Feedback Session
+DTSTART;VALUE=DATE-TIME:20180524T193000Z
+DTEND;VALUE=DATE-TIME:20180524T205000Z
+UID:21854@openstacksummitboston2017
+DESCRIPTION:Grab lunch\, grab an award\, and leave your feedback! All in o
+ ne place!
+LOCATION:Vancouver Convention Centre West - Level Two - Room 215-216
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Manila Ops feedback: running at scale\, overcoming barriers to dep
+ loyment
+DTSTART;VALUE=DATE-TIME:20180524T205000Z
+DTEND;VALUE=DATE-TIME:20180524T213000Z
+UID:21780@openstacksummitboston2017
+DESCRIPTION:At what scale is manila being deployed in real clouds? What sc
+ ale is anticipated? What performance and/or scale bottlenecks are being hi
+ t?
+LOCATION:Vancouver Convention Centre West - Level Two - Room 221-222
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Official projects and the boundary of "what is OpenStack"
+DTSTART;VALUE=DATE-TIME:20180524T205000Z
+DTEND;VALUE=DATE-TIME:20180524T213000Z
+UID:21739@openstacksummitboston2017
+DESCRIPTION:Join members of the Technical Committee to discuss effectively
+  evaluating applications from projects that want to be "official" OpenStac
+ k projects. Each time an application happens there is extensive discussion
+  about what it means to be official and how any individual applications fi
+ ts into the bigger picture of what we are trying to create in OpenStack. W
+ e shouldn't move the goalposts during an application\, but then we forget 
+ to talk about the difficulties again until the next time an application ha
+ ppens. In this session\, we'll remember and reflect on all the things said
+  in conversations like http://eavesdrop.openstack.org/irclogs/%23openstack
+ -tc/%23openstack-tc.2018-03-29.log.html#t2018-03-29T15:04:56 but discuss t
+ hem outside the context of an individual application\, hopefully reaching 
+ some clarity on how to effectively evaluate applications for fit and the g
+ rowth of OpenStack.
+LOCATION:Vancouver Convention Centre West - Level Two - Room 220
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Swift - Project Onboarding
+DTSTART;VALUE=DATE-TIME:20180524T205000Z
+DTEND;VALUE=DATE-TIME:20180524T213000Z
+UID:21650@openstacksummitboston2017
+DESCRIPTION:Project Onboarding gives attendees a chance to meet some of th
+ e project team and get to know the project. Attendees will learn about the
+  project itself\, the code structure/ overall architecture\, etc\, and pla
+ ces where contribution is needed. Attendees will also get to know some of 
+ the core contributors and other established community members.\n \nIdeall
+ y\, attendees will know/ have completed the basics of contribution (i.e. i
+ rc\, gerrit\, Launchpad\, StoryBoard\, Foundation Membership) BEFORE atten
+ ding the session. All of this can be done through our Contributor Guide[1]
+ .\n \n \n[1] https://docs.openstack.org/contributors/code-and-documenta
+ tion/index.html
+LOCATION:Vancouver Convention Centre West - Level Two - Room 223
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:TC Retrospective
+DTSTART;VALUE=DATE-TIME:20180524T214000Z
+DTEND;VALUE=DATE-TIME:20180524T222000Z
+UID:21740@openstacksummitboston2017
+DESCRIPTION:Review our progress on our vision and consider changes to how 
+ the TC organizes itself. Include ~5 minutes to update progress on working 
+ with adjascent communities.
+LOCATION:Vancouver Convention Centre West - Level Two - Room 220
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Unified Limits
+DTSTART;VALUE=DATE-TIME:20180524T214000Z
+DTEND;VALUE=DATE-TIME:20180524T222000Z
+UID:21760@openstacksummitboston2017
+DESCRIPTION:The Queens release was a big step forward for providing a base
+  unified limit and quota strategy in OpenStack. A set of projects dedicate
+ d time during the Dublin PTG to help shape what the next steps for unified
+  limits looks like across the services. The main goal of this session is t
+ o socialize the outcomes of what was discussed in Dublin with operators. I
+ n addition to that we are going to ask operators who are using multi-tenan
+ cy how they expect a system like this to behave.
+LOCATION:Vancouver Convention Centre West - Level Two - Room 221-222
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Cross-community governance between OSF projects
+DTSTART;VALUE=DATE-TIME:20180524T223000Z
+DTEND;VALUE=DATE-TIME:20180524T231000Z
+UID:21746@openstacksummitboston2017
+DESCRIPTION:While they are under separate technical governance models\, th
+ e various projects under the OpenStack Foundation (OpenStack and Kata Cont
+ ainers in particular) need to paint a valuable overarching complementary s
+ tory. The first step is to get to know each other better and explore the c
+ omplementary points between the various pieces. A forum session is probabl
+ y the best venue for such a cross-community discussion. Moderators: Thierr
+ y Carrez\, Jeremy Stanley
+LOCATION:Vancouver Convention Centre West - Level Two - Room 220
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Senlin - Project Onboarding
+DTSTART;VALUE=DATE-TIME:20180524T223000Z
+DTEND;VALUE=DATE-TIME:20180524T231000Z
+UID:21649@openstacksummitboston2017
+DESCRIPTION:Project Onboarding gives attendees a chance to meet some of th
+ e project team and get to know the project. Attendees will learn about the
+  project itself\, the code structure/ overall architecture\, etc\, and pla
+ ces where contribution is needed. Attendees will also get to know some of 
+ the core contributors and other established community members.\n \nIdeall
+ y\, attendees will know/ have completed the basics of contribution (i.e. i
+ rc\, gerrit\, Launchpad\, StoryBoard\, Foundation Membership) BEFORE atten
+ ding the session. All of this can be done through our Contributor Guide[1]
+ .\n \n \n[1] https://docs.openstack.org/contributors/code-and-documenta
+ tion/index.html
+LOCATION:Vancouver Convention Centre West - Level Two - Room 223
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Advanced RCA use cases - taking Vitrage to the next level
+DTSTART;VALUE=DATE-TIME:20180524T224000Z
+DTEND;VALUE=DATE-TIME:20180524T231000Z
+UID:21727@openstacksummitboston2017
+DESCRIPTION:Vitrage is the OpenStack Root Cause Analysis service\, that he
+ lps the cloud administrator understand and manage the faults that happen i
+ n the cloud.  Vitrage is already used in production environments\, and it 
+ supports several use cases: alarm deduction\, root cause analysis\, and to
+ gether with Mistral it can provide recovery actions.  Now that the technol
+ ogy is mature\, let's think about the next step. How can we enhance Vitrag
+ e to provide even more value to the end users? What other use cases can be
+  supported\, and how? We will be happy to hear from all our users about th
+ eir experience and use cases. We would like to brainstorm and decide about
+  new features that can be added to Vitrage.
+LOCATION:Vancouver Convention Centre West - Level Two - Room 221-222
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Adjutant official project status
+DTSTART;VALUE=DATE-TIME:20180524T234000Z
+DTEND;VALUE=DATE-TIME:20180525T002000Z
+UID:21752@openstacksummitboston2017
+DESCRIPTION:Follow-up on Adjunct's project application and continue the di
+ scussions started on IRC[1][2] and Gerrit[3]. We'll need people from Mistr
+ al as well. There has been some other discussion on the list[4][5][6] - bu
+ t mainly about adjutant-mfa work\, and not the project inclusion. 1 - http
+ ://eavesdrop.openstack.org/irclogs/%23openstack-tc/%23openstack-tc.2018-03
+ -28.log.html#t2018-03-28T12:04:06 2 - http://eavesdrop.openstack.org/irclo
+ gs/%23openstack-tc/%23openstack-tc.2018-03-22.log.html#t2018-03-22T15:04:0
+ 1 3 - https://review.openstack.org/#/c/553643/ 4 - http://lists.openstack.
+ org/pipermail/openstack-sigs/2018-February/000257.html 5 - http://lists.op
+ enstack.org/pipermail/openstack-operators/2018-February/014852.html 6 - ht
+ tp://lists.openstack.org/pipermail/openstack-operators/2018-April/015106.h
+ tml
+LOCATION:Vancouver Convention Centre West - Level Two - Room 220
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Vitrage RCA over K8s. Pets and Cattle - Monitor each cow?
+DTSTART;VALUE=DATE-TIME:20180524T234000Z
+DTEND;VALUE=DATE-TIME:20180525T002000Z
+UID:21729@openstacksummitboston2017
+DESCRIPTION:In the Rocky release\, Vitrage provides root cause analysis ov
+ er k8s clusters. At this point\, it considers the k8s nodes but does not g
+ et to the pods granularity. The purpose of this forum discussion is to con
+ sider leveraging Vitrage topology and RCA to include services and pods. We
+  hope to get feedback from users about their needs and use cases. We will 
+ discuss the pros and cons of adding pods to Vitrage topology (enhanced RCA
+  vs. performance etc.) and think about the optimal solution for adding it 
+ in Vitrage Stein release.\n 
+LOCATION:Vancouver Convention Centre West - Level Two - Room 221-222
 END:VEVENT
 END:VCALENDAR

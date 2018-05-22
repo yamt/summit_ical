@@ -18,6 +18,44 @@ TZOFFSETTO:-0700
 END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
+SUMMARY:High Performance Ceph for Hyper-converged Telco NFV Infrastructure
+DTSTART;VALUE=DATE-TIME:20180521T183500Z
+DTEND;VALUE=DATE-TIME:20180521T191500Z
+UID:21452@openstacksummitboston2017
+DESCRIPTION:The next wave of transformation for Telco Cloud is Hyper-conve
+ rged NFV infrastructure (NFVi) which is expected to bring cost efficiency 
+ and scale.  Storage is a key piece of any Hyper-converged platform and ne
+ w solid-state storage technologies such as Intel Optane\, are bringing a b
+ ig shift in compute vs storage budget balance in Hyper-converged platforms
+ .  Intel and its Telco partners are collaborating on developing new ways 
+ to leverage these technologies in Ceph to enable a low latency\, high perf
+ ormance OpenStack platform for Telco NFV applications.  Join the team to 
+ hear about our contributions to Ceph and Openstack-HELM and take away the 
+ basics of tuning Hyper-converged Ceph.
+LOCATION:Vancouver Convention Centre West - Level Two - Room 208-209
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Open HPE Telco NFV-Infrastructure platforms with Red Hat OpenStack
+DTSTART;VALUE=DATE-TIME:20180521T183500Z
+DTEND;VALUE=DATE-TIME:20180521T191500Z
+UID:21815@openstacksummitboston2017
+DESCRIPTION:Telco NFV-Infrastructure transformation is about moving away f
+ rom closed\, monolithic\, appliance-built network to a more open\, flexibl
+ e infrastructure. An open\, agile\, and cloud native model will enable Com
+ munication Service Providers (CSPs) to innovate\, deploy\, and manage new 
+ services. HPE\, in partnership with Red Hat\, offers a new way for CSPs to
+  design\, deploy\, and manage networking services from the Core out to the
+  Edge. The new HPE NFV Blueprints are validated reference designs that com
+ e with toolset that leverages open industry standards like Redfish to auto
+ mate deployment and configuration of the NFVI stack. They help reduce comp
+ lexity\, lower risk\, and enable faster time to value for CSPs to deploy t
+ heir Telco NFV- Infrastructure. By decoupling the network functions from p
+ roprietary hardware appliances and embracing virtualization and open indus
+ try solutions\, CSPs can accelerate new\, compelling services in an effici
+ ent\, cost‐effective model.
+LOCATION:Vancouver Convention Centre West - Level Two - Room 202-204
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:How to use OPNFV Testing tools to test/validate an openstack provi
  ded by a vendor
 DTSTART;VALUE=DATE-TIME:20180521T203000Z
@@ -26,35 +64,13 @@ UID:20851@openstacksummitboston2017
 DESCRIPTION:OPNFV provides different ways to install OpenStack\, but also 
  provides multiple testing tools for OpenStack and\, soon\, even Kubernetes
  . Vendors who integrate OpenStack for service providers also need to know 
- how to validate that OpenStack is a fit for NFV requirements.  This sessio
- n is to be presented by two OPNFV Functest contributors who will detail ho
- w some components developed in OPNFV have been used to test/validate comme
- rcial solutions in addition to the internal QA test. \nThe best practices 
- learned in OPNFV were used to design and build a CI chain including jenkin
- s\, functest\, yardstick\, the test API and the Test DB.
+ how to validate that OpenStack is a fit for NFV requirements. This session
+  is to be presented by two OPNFV Functest contributors who will detail how
+  some components developed in OPNFV have been used to test/validate commer
+ cial solutions in addition to the internal QA test. \nThe best practices l
+ earned in OPNFV were used to design and build a CI chain including jenkins
+ \, functest\, yardstick\, the test API and the Test DB.
 LOCATION:Vancouver Convention Centre West - Level Two - Room 208-209
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:The Wonders of NUMA\, or Why Your High-Performance Application Doe
- sn't Perform
-DTSTART;VALUE=DATE-TIME:20180521T211000Z
-DTEND;VALUE=DATE-TIME:20180521T212000Z
-UID:20831@openstacksummitboston2017
-DESCRIPTION:You select the best possible hardware for the job\, you optimi
- ze the host OS to deliver the best performance ever seen by mankind\, and 
- you tweak your high-performance vSwitch to ensure nothing\, nothing\, coul
- d possibly stop you now. You rub your bloodshot eyes\, run 'openstack serv
- er create' and\, well\, things don't look so rosy.Welcome to the world of 
- OpenStack on NUMA-based architectures\, where one poor scheduling decision
-  can result in drastic performance reductions. Thankfully\, OpenStack real
- ized this some time ago and has been doing many wonderful things since the
- n to prevent this pain. In this talk\, we shine a light on all things NUMA
- \, from both a general and OpenStack-orientated perspective.Coming out of 
- this talk\, you should know everything there is to know about NUMA in Open
- Stack and will be able to\, one can hope\, finally put those performance i
- ssues to bed and get some sleep.
-LOCATION:Vancouver Convention Centre West - Level One - Lightning Talk The
- ater
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:The Practice of NFV Pre-integration with OpenStack in ChinaMobile
@@ -120,26 +136,74 @@ DESCRIPTION:   One of the challenges for NFV is to achieve the performance
 LOCATION:Vancouver Convention Centre West - Level Two - Room 208-209
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Coordinate Local Virtual networks and 3rd Party SDN Controllers fo
- r Multi-domain VNFs
+SUMMARY:The Modern Telco Is Open
+DTSTART;VALUE=DATE-TIME:20180521T232000Z
+DTEND;VALUE=DATE-TIME:20180522T000000Z
+UID:21819@openstacksummitboston2017
+DESCRIPTION:Modern telco network data traffic is growing at an extraordina
+ ry pace. To address this challenge\, Red Hat's open telco model offers a s
+ trong 5G architecture foundation that helps telcos deploy multiaccess edge
+  computing (MEC) applications like Virtual RAN\, artificial reality\, and 
+ industrial Internet of Things (IoT). Red Hat and its global partner ecosys
+ tem have shaped innovations in emerging open technologies and tools that h
+ ave helped cloud-scale companies and telecommunications providers achieve 
+ these operational efficiencies at scale.
+LOCATION:Vancouver Convention Centre West - Level Two - Room 202-204
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Cloud Native Applications in a Telco World - How Micro Do You Go?
 DTSTART;VALUE=DATE-TIME:20180522T001000Z
 DTEND;VALUE=DATE-TIME:20180522T005000Z
-UID:20702@openstacksummitboston2017
-DESCRIPTION:Network services today consist of multiple virtual network fun
- ctions (VNFs) which are usually deployed across multiple domains. To conne
- ct different domains\, the NFV orchestrator often has to interface with va
- rious legacy systems and physical network functions to establish well desi
- gned underlay (e.g. Layer3 VPN based on WAN or SPTN) and overlay (e.g. EV
- PN based VXLAN). In each domain OpenStack is usually used to build an op
- en infrastructure. While\, the third-party SDN products from legacy networ
- k system vendors are also leveraged to manage virtual networks. It becomes
-  problems how to coordinate the local virtual networks and legacy SDN pro
- ducts and how to achieve the VPN connectivity across different domains. I
- n this presentation\, we will introduce a Neutron ML2 hierarchical port bi
- nding based solution by a typical NFV use case built in ONAP Amsterdam Rel
- ease and analyze the network packets travel path through different network
- ing devices.\n 
+UID:21820@openstacksummitboston2017
+DESCRIPTION:Mobile Operators are going through a profound disruption in th
+ eir industry. With mobile data traffic more than doubling every year\, and
+  OTT providers competing for subscriber revenue\, operators are transition
+ ing to virtualized\, cloud native architectures to help economically scale
+  their networks and provide the necessary service agility to rapidly intro
+ duce new services. In the session\, Affirmed Networks and Red Hat will dis
+ cuss what are the necessary adaptations required to deliver telco applicat
+ ions on a cloud native architectures. It will provide answers to questions
+  such as "How do you balance performance with the flexibility of microserv
+ ices?" and "How do you handle telco complex routing requirements?"
+LOCATION:Vancouver Convention Centre West - Level Two - Room 202-204
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Leveraging open source test projects for NFVI compliance validatio
+ n
+DTSTART;VALUE=DATE-TIME:20180522T001000Z
+DTEND;VALUE=DATE-TIME:20180522T005000Z
+UID:20805@openstacksummitboston2017
+DESCRIPTION:The OPNFV Verified Program is a freshly launched compliance pr
+ ogram targeting the validation of API compliance and behavioral characteri
+ stics of a NFVI platform. The program leverages test cases written both in
+  OPNFV itself as well as test cases available in upstream communities. Wit
+ hin the OPNFV community\, the Dovetail project is working on the technical
+  realization of the program by creating a test tool\, selecting test cases
+ \, and engaging with the OPNFV community and upstream communities to estab
+ lish new test cases.In this talk\, we will present a high-level overview o
+ f the OPNFV Verified Program to the broader OpenStack community. We will s
+ how how Dovetail ties into the overall test ecosystem and leverages OPNFV 
+ and upstream test tools. Finally\, we want to spark discussions in the com
+ munity about closing gaps in test coverage\, test strategy and how we can 
+ join forces across communities.
 LOCATION:Vancouver Convention Centre West - Level Two - Room 208-209
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Building NFV Solutions with OpenStack and Cisco ACI
+DTSTART;VALUE=DATE-TIME:20180522T160000Z
+DTEND;VALUE=DATE-TIME:20180522T164000Z
+UID:21871@openstacksummitboston2017
+DESCRIPTION:Network Function Virtualization (NFV) is one of the major driv
+ ing factors in the adoption of OpenStack in the service provider industry.
+  In this session\, you will learn about the advanced NFV features using th
+ e integration of Cisco ACI with Neutron. This session will explain how ACI
+  offers a solution for service chaining and BGP peering with high perf
+ ormance\, DPDK-based virtual switching and seamless automation.   This 
+ session will cover: • NFV features of the ACI Neutron Plugin • SVI int
+ erface and BGP peering with OpenStack VMs • Deployment of service chain 
+ using Neutron SFC API to configure multi-node Policy Based Redirect (PBR) 
+ on ACI • Support for Neutron trunk port and usage in NFV
+LOCATION:Vancouver Convention Centre West - Level Two - Room 202-204
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:dynamic SFC from Tacker to incept specific traffic of VM
@@ -157,25 +221,44 @@ DESCRIPTION: VNFFG feature in Tacker allows introduce traffic with specifi
 LOCATION:Vancouver Convention Centre West - Level Two - Room 208-209
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Containers vs VM vs Bare Metal for Telecom Applications.
+SUMMARY:Revisiting Scalability and Applicability of OpenStack Placement
 DTSTART;VALUE=DATE-TIME:20180522T165000Z
 DTEND;VALUE=DATE-TIME:20180522T173000Z
-UID:20671@openstacksummitboston2017
-DESCRIPTION:Telecom industry is in the evolution with IOT\, 5G and MicroEd
- ge design. Network for millions of subscribers and IOT devices must be rel
- iable\, scalable\, secure\, affordable and provide low latency with high t
- hroughput. To achieve that goals telecom industry is trying to find most e
- fficient application&rsquo\;s architecture to meet highly demanding goals 
- and fully utilize available resources. At this moment there are 3 main way
- s to design telco applications: micro services architecture with container
- s\, Virtual Machines and Bare Metal.  \nI would share recommendations on d
- esigning telco applications with all 3 methods based on results of AT&T in
- ternal POCs and research work. AT&T labs has spent significant amount of t
- ime working with vendors and performing different types of testing includi
- ng security and performance testing. Taking into consideration that result
- s we can provide very clear recommendation for selecting VM&rsquo\;s vs Co
- ntainers vs Bare metal for telecom applications. 
+UID:21708@openstacksummitboston2017
+DESCRIPTION:Placement in OpenStack carries two fundamental issues that lim
+ it its scalability. First\, Nova scheduler is too slow for large clouds\, 
+ as it requires full knowledge of the system's state for its decisions. Sec
+ ond\, the orchestration engine (Heat) enables launching multi-VM cloud app
+ lications\, but deploys them one at a time since Nova lacks the required a
+ pplication level awareness. This may lead to under-utilization and sub-opt
+ imal performance.\nThis session addresses both issues. We will show a fast
+ er alternative to Nova scheduler and an enhancement for application level 
+ deployment. Through extensive evaluation on real datasets\, we will show t
+ hat the new scheduler achieves up to x5.3 faster placements with similar q
+ uality.  We will also show that our enhancement improves the performance 
+ and acceptance ratio of network services.
 LOCATION:Vancouver Convention Centre West - Level Two - Room 208-209
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:From Core to Edge: Making Clouds Work for Telcos
+DTSTART;VALUE=DATE-TIME:20180522T180000Z
+DTEND;VALUE=DATE-TIME:20180522T184000Z
+UID:21873@openstacksummitboston2017
+DESCRIPTION:The power of a service provider is in its footprint. Only they
+  can get clouds in proximity to customer\, and only they are in the natura
+ l path between the customer and the internet. This introduces a whole set 
+ of problems: if managing just one cloud takes a team of people\, how big a
+  team do you need to manage tens and hundreds of various size clouds\, spr
+ ead out over hundreds and thousands of miles?    Cisco VIM was designed 
+ from the outset with cloud management in mind\, addressing the most expens
+ ive part of telco cloud and NFV deployments – operations. Chandra and I
+ an will discuss the Cisco VIM model and architecture\, and how it can prov
+ ide cost effective clouds at any location within a telco network while pro
+ viding tools to manage those clouds through deployment\, repair and upgrad
+ e cycles. They will discuss both how Cisco VIM can be used today\, and how
+  in the future it will be optimized and enhanced to deliver ever more cost
+ -effective cloud infrastructure.
+LOCATION:Vancouver Convention Centre West - Level Two - Room 202-204
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:The Illusion of Infinite Capacity Part 2 - Oversubscription
@@ -237,6 +320,38 @@ DESCRIPTION:Openstack Vitrage provides a framework for analyzing and expan
 LOCATION:Vancouver Convention Centre West - Level Two - Room 208-209
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Moving to the Edge with NFV
+DTSTART;VALUE=DATE-TIME:20180522T185000Z
+DTEND;VALUE=DATE-TIME:20180522T193000Z
+UID:21870@openstacksummitboston2017
+DESCRIPTION:NFV (Network Function Virtualization) once predominantly viewe
+ d as a Data Center paradigm is spreading far and wide across a Service Pro
+ vider’s vast landscape. Several factors such as footprint\, location\, a
+ vailability\, throughput\, latency and performance are driving a broad set
+  of varied requirements. At the same time\, a subset of these requirements
+  are driving consistency and commonalities with respect to deployment\, op
+ erations and connectivity.\n \nIn this session\, come join us to learn ab
+ out the shape and form of NFV deployments that are evolving in an SP envir
+ onment. As NFV clouds are formed in an SP’s environment\, what options c
+ an be considered to drive consistency and commonalities? Are there ways to
+  leverage the vast footprint of an SP to enable availability and resilienc
+ y of services? As NFV penetrates into the depths of an SP environment\, is
+  Edge truly a single specific location?
+LOCATION:Vancouver Convention Centre West - Level Two - Room 202-204
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Workload Optimized OpenStack made easy
+DTSTART;VALUE=DATE-TIME:20180522T191500Z
+DTEND;VALUE=DATE-TIME:20180522T193500Z
+UID:21814@openstacksummitboston2017
+DESCRIPTION:In order to create OpenStack platform optimized for any worklo
+ ad type one need to address both HW choices and configuration and OpenStac
+ k configuration. Manage both HW and SW at the same time in unison requires
+  right tooling. We present JetPack and concepts of profiles to make admini
+ strator life simpler.
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Model-driven Orchestration for ONAP Operations Manager with OpenSt
  ack\, TOSCA\, and Kubernetes
 DTSTART;VALUE=DATE-TIME:20180522T192000Z
@@ -257,45 +372,39 @@ LOCATION:Vancouver Convention Centre West - Level One - Lightning Talk The
  ater
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Implications of Ceph Client Performance for Hyper-converged Telco 
- NFV
+SUMMARY:T-Mobile Virtual EPC: Learnings from OpenStack Lab Testing
 DTSTART;VALUE=DATE-TIME:20180522T205000Z
 DTEND;VALUE=DATE-TIME:20180522T213000Z
-UID:21445@openstacksummitboston2017
-DESCRIPTION:Ceph is a leading choice of block and object storage for OpenS
- tack-based Telco NFV deployments. Hyperconverged architectures are gaining
-  popularity in this space\, where Ceph client and OSD components compete f
- or resources with VNF compute instances.  NFV deployments aim at maximizin
- g VNF packing\, thus resource available for storage is precious\, particul
- arly Ceph RBD client\, which we found to be a significant consumer of CPU 
- resources on a Hyperconverged node. This motivated us to take an in-depth 
- look at the Ceph RBD client datapath\, which hasn't been a focus in the pa
- st. Join us to hear about this exploration\, performance profiling howtos\
- , our current findings and opportunities for performance optimizations as 
- it relates to Telco NFV.
-LOCATION:Vancouver Convention Centre West - Level Two - Room 208-209
+UID:21875@openstacksummitboston2017
+DESCRIPTION:In the true spirit of supporting T-Mobile’s Un-carrier effor
+ ts along with minimizing time to market and solving Industry pain points a
+ round data growth\, T-Mobile is deploying Openstack based virtual EPC so t
+ hat we can continue to support large scale\, consumer facing data connecti
+ vity to devices and better prepare for upcoming 5G deployments.\nT-Mobile 
+ is looking for exponential footprint growth in EPC network to serve the gr
+ owing demands. Openstack is a key component to address this demand and bei
+ ng used for other NFV programs. Having Openstack as a baseline for telco c
+ ore systems helps in automation and shortens time-to-market for launching 
+ services. T-Mobile NFV team has provided tremendous number of improvements
+  to NFV implementation of EPC on Openstack that helped to improve stabilit
+ y\, increase capacity and improve availability. In this session\, we are g
+ oing to share the T-Mobile use-case for virtual EPC using Openstack as pla
+ tform and challenges around that.
+LOCATION:Vancouver Convention Centre West - Level One - Room 121-122
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Barometer beyond Service Assurance: monitoring as a service in OPN
- FV and beyond
-DTSTART;VALUE=DATE-TIME:20180522T214000Z
-DTEND;VALUE=DATE-TIME:20180522T222000Z
-UID:21205@openstacksummitboston2017
-DESCRIPTION:We have previously shown how OPNFV Barometer (Platform Service
-  Assurance) can facilitate the adoption of NFV by providing the critical p
- latform and NFVI metrics required to detect and correct faults before serv
- ice outages occur.\nOutside of SA\, Barometer has proven quite useful by p
- roviding standardized metric sets for different applications fulfilling a 
- variety of purposes e.g.\, benchmarking\, Intelligent orchestration\, SUT 
- characterization/analysis\, etc\nThe OPNFV Bottlenecks project simulates e
- xtreme or long term product usage to verify if the SUT could survive to me
- et some quality requirements which are based on the monitoring metrics.\nT
- he OPNFV Yardstick project has made use of these same metrics in network s
- ervices benchmarking and for VNF characterization.\nThis talk will show ho
- w Barometer can be used in conjunction with Bottlenecks and Yardstick to f
- ulfill use cases beyond service assurance to further ease the transition t
- o NFV by promoting standardization and interoperability.
-LOCATION:Vancouver Convention Centre West - Level Two - Room 208-209
+SUMMARY:VNF Onboarding: Operator and Vendor Strategies and Methods
+DTSTART;VALUE=DATE-TIME:20180522T205000Z
+DTEND;VALUE=DATE-TIME:20180522T213000Z
+UID:21824@openstacksummitboston2017
+DESCRIPTION:In this presentation we will review the workflow of VNF onboar
+ ding\, what standards--de facto or otherwise--exist\, and what issues and 
+ solutions we have uncovered to make VNF onboarding easier and applicable t
+ o multiple service providers. We will also cover what various OpenStack pr
+ ojects are doing in the area of NFV and VNF onboarding. NetApp and Interdy
+ namix will discuss how they are approaching successful outcomes with telco
+  customers and NFV member organizations.
+LOCATION:Vancouver Convention Centre West - Level Two - Room 202-204
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Superfluidity: One network to rule them all!
@@ -333,7 +442,7 @@ DESCRIPTION:Open Source is here to stay\, and a number of interesting proj
  ETSI NFV Plugtests\, where Whitestack used OpenStack and Open Source MANO 
  together and also interoperating with other open and proprietary solutions
   to test an ETSI compliant NFV MANO.
-LOCATION:Vancouver Convention Centre West - Level Two - Room 208-209
+LOCATION:Vancouver Convention Centre West - Level Two - Room 212
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Closing the Loop between ONAP and OpenStack for the Resilience of 
@@ -374,248 +483,30 @@ DESCRIPTION:In this talk the team leading AT&T's OpenStack cloud deploymen
 LOCATION:Vancouver Convention Centre West - Level Two - Room 208-209
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:VNF Onboarding in Telco Cloud Environment
-DTSTART;VALUE=DATE-TIME:20180523T010000Z
-DTEND;VALUE=DATE-TIME:20180523T011000Z
-UID:21451@openstacksummitboston2017
-DESCRIPTION:VNF Onboarding is the process of obtaining a VNF package from 
- a vendor and ensuring that is compliant and can be fully managed from a li
- fecycle perspective in the Telco providers environment with their specific
-  NFV infrastructure and management tools. It is a great challenge in the i
- ndustry today owing to lack of standards and multitude of proprietary impl
- ementations of each layer of the NFV stack which needs to be checked again
- st. We describe some of the challenges and tools we are building to automa
- te the certification and validation of VNFs as part of the onboarding proc
- ess. The goal\, in short\, is to enable Telecom operators to build a VNF o
- nboarding factory where high volumes of VNFs can be certified quickly and 
- efficiently and made available for production deployment.
-LOCATION:Vancouver Convention Centre West - Level One - Lightning Talk The
- ater
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Cloud on Steroids - Accelerating your cloud via Cyborg
-DTSTART;VALUE=DATE-TIME:20180523T160000Z
-DTEND;VALUE=DATE-TIME:20180523T164000Z
-UID:20795@openstacksummitboston2017
-DESCRIPTION:In a Telco environment\, developers often leverage cloud-offlo
- ading to improve application or VNF performance\, and as more workloads mi
- grate to Cloud\, hardware acceleration has already become a necessity rath
- er than an interesting option. Cyborg provides the ability to manage accel
- erators in an OpenStack framework.\nIn this talk\, we will provide reasons
-  for needing Cyborg\; including the inconvenience of managing different ki
- nds of hardware workloads that are beyond the capabilities of core OpenSta
- ck projects like Nova or Neutron. We will then talk about how we utilized 
- Cyborg to manage accelerator resources like Netronome Network Card\, Xlinu
- x FPGA Card and Intel's QAT card. This particular section will cover what 
- we have done with Cyborg API\, Conductor\, drivers\, as well as Nova or Ne
- utron in order to follow and enhance Cyborg&rsquo\;s capabilities.\nWe wil
- l then conclude by providing our experience using Cyborg and potential pit
- falls that the operators need to be mindful off.
-LOCATION:Vancouver Convention Centre West - Level Two - Room 208-209
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:How to build & design production ready vEPC (Evolved Packet Core) 
- solution on OpenStack?
-DTSTART;VALUE=DATE-TIME:20180523T165000Z
-DTEND;VALUE=DATE-TIME:20180523T173000Z
-UID:21375@openstacksummitboston2017
-DESCRIPTION:In this session\, we will provide a design overview of Telco N
- FV solution for large EPC deployment. We discuss how the challenges faced 
- during NFV integration\, performance and scale testing are addressed by pr
- oper dimensioning\, testing and enhancement in the networking stack. What 
- role different OpenStack & OpenContrail features played during this integr
- ation and scale testing? What are the lessons learned from this and how fu
- ture looks like for NFV Microservices architecture? Every vendor VNF desig
- n and architecture is different and how VNF can leverage OpenStack & OpenC
- ontrail provided services to achieve the best performance. What are differ
- ent design principles taken into consideration to achieve higher scale and
-  performance for complex VNF solutions testing phase. 
-LOCATION:Vancouver Convention Centre West - Level Two - Room 208-209
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Leveraging open source test projects for NFVI compliance validatio
- n
-DTSTART;VALUE=DATE-TIME:20180523T180000Z
-DTEND;VALUE=DATE-TIME:20180523T181000Z
-UID:20805@openstacksummitboston2017
-DESCRIPTION:The OPNFV Verified Program is a freshly launched compliance pr
- ogram targeting the validation of API compliance and behavioral characteri
- stics of a NFVI platform. The program leverages test cases written both in
-  OPNFV itself as well as test cases available in upstream communities. Wit
- hin the OPNFV community\, the Dovetail project is working on the technical
-  realization of the program by creating a test tool\, selecting test cases
- \, and engaging with the OPNFV community and upstream communities to estab
- lish new test cases.In this talk\, we will present a high-level overview o
- f the OPNFV Verified Program to the broader OpenStack community. We will s
- how how Dovetail ties into the overall test ecosystem and leverages OPNFV 
- and upstream test tools. Finally\, we want to spark discussions in the com
- munity about closing gaps in test coverage\, test strategy and how we can 
- join forces across communities.
-LOCATION:Vancouver Convention Centre West - Level One - Lightning Talk The
- ater
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Integration of Multiple OpenStack Clouds with a Core MPLS Network
-DTSTART;VALUE=DATE-TIME:20180523T180000Z
-DTEND;VALUE=DATE-TIME:20180523T184000Z
-UID:21163@openstacksummitboston2017
-DESCRIPTION:In Service Providers there is the need to deploy many OpenStac
- k clouds\, some big\, some small\, and some on the edge. With Neutron havi
- ng programmable APIs\, as well as additional agents and or SDN systems tha
- t can be deployed as add-ons or plugins\, there is the ability to deeply i
- ntegrate multiple OpenStack deployments into core SP networks where OpenSt
- ack simply becomes part of the network.\nIn this presentation we will cove
- r various options and architectures for integrating OpenStack into a large
- r network\, from Neutron BGP dynamic routing to full blown SDN based solut
- ions. We will further cover why core networks\, often based on MPLS\, need
-  to be considered by the OpenStack community\, specifically how they relat
- e to the potential requirement of Network Slicing in 5G deployments.\nWe w
- ill also cover how to simulate a core MPLS network with multiple OpenStack
-  clouds\, including simulating latency due to large geographic distances (
- such as what one might find in Canada).
-LOCATION:Vancouver Convention Centre West - Level Two - Room 208-209
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:OpenStack-based NFV Cloud at Swisscom: Challenges and Experiences
-DTSTART;VALUE=DATE-TIME:20180523T185000Z
-DTEND;VALUE=DATE-TIME:20180523T193000Z
-UID:21550@openstacksummitboston2017
-DESCRIPTION:Swisscom TV MediaCloud is currently operating a large OpenStac
- k-based cloud for supporting NFV applications and is expanding further as 
- we on-board more applications. Our deployment runs on COTS servers and is
-  fully capable for service level orchestration. Swisscom currently impleme
- nts virtualized/containerized TV media functions such as transcoding\, str
- eaming\, and hosting backend applications. Using respective API functions 
- of TV MediaCloud\, Swisscom is able to deploy services within minutes inst
- ead of weeks.\nIn this talk\, we will share the challenges and the lessons
-  learned in designing and building this OpenStack-based NFV Cloud. We will
-  focus on both business and technical aspects of the NFV applications we o
- n-boarded and how that translated into the highly challenging requirements
-  from the underlying cloud. For example\, to ensure hugh availability of e
- very component and no single point of failure\, we needed to support ZERO 
- packet loss multicast traffic and very low jitter.\n \n \n 
-LOCATION:Vancouver Convention Centre West - Level Two - Room 208-209
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Painless Cache allocation in Cloud
-DTSTART;VALUE=DATE-TIME:20180523T205000Z
-DTEND;VALUE=DATE-TIME:20180523T210000Z
-UID:20988@openstacksummitboston2017
-DESCRIPTION:As more and more workloads move off dedicated hardware into th
- e cloud as virtual appliances\, it is critical to ensure predictable perfo
- rmance and guarantee the quality of service. Contention for hardware resou
- rce such as cache\, memory and network bandwidth affects performance in th
- e same vein as resources such as CPU and RAM，especially for latency and 
- jitter sensitive Network Virtual Functions (NFV) workload. We introduce Re
- source Management Daemon (RMD)\, a system daemon running on generic Linux 
- platforms\, to provide cache allocation capability to the resource control
-  arsenal.\nIn this talk we discuss the Resource Management Daemon (RMD) ar
- chitecture\, components\, and the design of monitor component that will tr
- ack and fine tune allocations to meet service level agreements. We then sh
- ow how RMD significantly benefits the NFV use case. Last but not least we 
- share how RMD can be leveraged by cloud and container orchestration engine
- s to effectively introduce cache allocation capabilities.
-LOCATION:Vancouver Convention Centre West - Level One - Lightning Talk The
- ater
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:SDN Contrail Automation using Shaker framework on the AT&T Integra
- ted Cloud (AIC)
-DTSTART;VALUE=DATE-TIME:20180523T205000Z
-DTEND;VALUE=DATE-TIME:20180523T222000Z
-UID:21314@openstacksummitboston2017
-DESCRIPTION:Testing of artifacts like VMs\, networks & volumes within a di
- stributed data plane. Shaker scenarios specify the deployment and list of 
- tests to execute. Additionally tests may be tuned dynamically in command-l
- ine.\nParticipants will get to develop and execute test automation in the 
- following areas:\n* User-defined topology via Heat templates\n* Simultaneo
- usly test execution on multiple instances\n* Pluggable tools\, Dynamic com
- mand line execution\nScenario tests executed for measuring bandwidth betwe
- en pairs of instances deployed in different virtual networks\, L3 East-Wes
- t & North-South. Service chaining\, QoS\, VLAN trunking\, Spot scenarios 
- are executed between the local machine (where shaker runs) and the remote\
- , with TCP/UDP/ICMP bandwidth & latency tests to the destination host.  S
- hare the experiences or short comings of Shaker & enhancements done to con
- tainerize the deployment as CICD quality gate. All with no shortage of see
- ing and writing code!
-LOCATION:Vancouver Convention Centre West - Level Two - Room 213-214
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Vehicular Technology and OpenStack NFV
-DTSTART;VALUE=DATE-TIME:20180523T214000Z
-DTEND;VALUE=DATE-TIME:20180523T222000Z
-UID:21453@openstacksummitboston2017
-DESCRIPTION:Radar\, Lidar\, V2X\, ADAS\, AV all these vehicular technology
-  require cloud systems and devices to collect and respond with precise cal
- culations within the latency limitations to respond for steering and drivi
- ng  decisions. Add to this the maps and traffic patterns and various smar
- t transportaion and short range communication standards the ability of Ope
- nstack Cloud to interafce and work with different radio technologies. In t
- his presentation the speakers will provide insight into research and compa
- rions of different possibilitie how Openstack can help drive these efforts
-  through its existing and evolving edge startegies to enable local and glo
- bal decisions along with its IoT\, Sensors and efforts to support devices 
- meeting LTE Rel 12-14 PC5 & LTE-V standards. 
-LOCATION:Vancouver Convention Centre West - Level Two - Room 208-209
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:ETSI NFV Plugtests: Challenges and results
-DTSTART;VALUE=DATE-TIME:20180523T223000Z
-DTEND;VALUE=DATE-TIME:20180523T231000Z
-UID:20942@openstacksummitboston2017
-DESCRIPTION:Interoperability of the various components comprising an NFV s
- ystem has taken on a vital importance as the development of different solu
- tions progresses rapidly. Open source communities are developing multiple 
- components\, and the standards communities are forging ahead with their wo
- rk as well. ETSI\, which hosts the NFV ISG\, runs the NFV Plugtests Progra
- mme to enable end to end interoperability testing among different VNFs\, M
- ANO solutions and NFV Platforms. The initiative has been joined by 48 orga
- nizations and is supported by multiple open source communities\, including
-  OpenStack\, which is at the core of  many of the platforms participating 
- to the testing. This presentation will outline the organization of the Plu
- gtests by the ETSI CTI and the NFV TST Working Group: the technical challe
- nges\, the test plans\, and the results achieved so far\, which give a gre
- at indication of the industry progress towards the implementation of Telco
- -grade multi-vendor NFV systems.
-LOCATION:Vancouver Convention Centre West - Level Two - Room 208-209
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Lessons Learnt from Telco NFV deployments with SR-IOV
-DTSTART;VALUE=DATE-TIME:20180523T234000Z
-DTEND;VALUE=DATE-TIME:20180524T002000Z
-UID:21408@openstacksummitboston2017
-DESCRIPTION:In this presentation\, we will describe the limitations that S
- R-IOV networking has and the ways to overcome these. We will discuss the i
- ssues that customers are facing in OpenStack to have high throughput traff
- ic with SR-IOV like:\n\nUse of correct Nova Filters\nLink Redundancy\nVLAN
-  Tagging\nLink Monitoring\nPacket Monitoring\nVM Migration\n\nWe will desc
- ribe the lesson learned from the real-world deployments with SRIOV on Open
- Stack.
-LOCATION:Vancouver Convention Centre West - Level Two - Room 208-209
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Lab as a Service: Compose Your Cloud Automatically with Few Clicks
-DTSTART;VALUE=DATE-TIME:20180524T003000Z
-DTEND;VALUE=DATE-TIME:20180524T011000Z
-UID:21290@openstacksummitboston2017
-DESCRIPTION:Getting NFV Platform and numerous networking features up and r
- unning can tie you in knots\, you need to make a number of decisions where
-  each decision leads you down a path where options you may want can start 
- to disappear. Apart from that\, not everyone is lucky enough to have DC in
-  their basement either\, missing the chance to deploy production-like stac
- k. So\, would you like to have Ubuntu\, CentOS\, or openSUSE? OpenStack or
-  Kubernetes? What about SDN Controller? Forwarding technology? We have bar
- emetal nodes for you as well. Lab as a Service can take care of this and e
- ven more for you so you just make your selections and watch things happeni
- ng automagically. In the end\, your cloud will be composed\, tested and de
- livered to your mailbox. Learn how to bypass the common roadblocks and wor
- k in a fully automated ecosystem of choice and stability thanks to Lab as 
- a Service.
+SUMMARY:Barometer beyond Service Assurance: monitoring as a service in OPN
+ FV and beyond
+DTSTART;VALUE=DATE-TIME:20180524T160000Z
+DTEND;VALUE=DATE-TIME:20180524T164000Z
+UID:21205@openstacksummitboston2017
+DESCRIPTION:We have previously shown how OPNFV Barometer (Platform Service
+  Assurance) can facilitate the adoption of NFV by providing the critical p
+ latform and NFVI metrics required to detect and correct faults before serv
+ ice outages occur.\nOutside of SA\, Barometer has proven quite useful by p
+ roviding standardized metric sets for different applications fulfilling a 
+ variety of purposes e.g.\, benchmarking\, Intelligent orchestration\, SUT 
+ characterization/analysis\, etc\nThe OPNFV Bottlenecks project simulates e
+ xtreme or long term product usage to verify if the SUT could survive to m
+ eet some quality requirements which are based on the monitoring metrics.\n
+ The OPNFV Yardstick project has made use of these same metrics in network 
+ services benchmarking and for VNF characterization.\nThis talk will show h
+ ow Barometer can be used in conjunction with Bottlenecks and Yardstick to 
+ fulfill use cases beyond service assurance to further ease the transition 
+ to NFV by promoting standardization and interoperability.
 LOCATION:Vancouver Convention Centre West - Level Two - Room 208-209
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Walk Through of an automated Openstack deployment using TripleO co
- upled with OpenContrail - POC
+ upled with Tungsten Fabric - POC
 DTSTART;VALUE=DATE-TIME:20180524T160000Z
 DTEND;VALUE=DATE-TIME:20180524T173000Z
 UID:21224@openstacksummitboston2017
@@ -623,10 +514,29 @@ DESCRIPTION:In this POC\, learn about an automated installation of an Open
  Stack Cluster in matter of minutes without burning cycles in minuscule det
  ails. his simplified deployment enables the user to jumpstart with NFV wor
  kloads ( Network Function Virtualization ) within a short period of time. 
- This automated package is composed of tripleO\, OpenContrail Networking\, 
- Ceph Storage. We will share the mistakes we made and the lessons we learne
- d along our path in automating this procedure.
+ This automated package is composed of tripleO\, Tungsten Fabric Networking
+ \, Ceph Storage. We will share the mistakes we made and the lessons we lea
+ rned along our path in automating this procedure.
 LOCATION:Vancouver Convention Centre West - Level Two - Room 213-214
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Embrace Central Office 2.0 with QCT NFV Platform
+DTSTART;VALUE=DATE-TIME:20180524T162000Z
+DTEND;VALUE=DATE-TIME:20180524T164000Z
+UID:21794@openstacksummitboston2017
+DESCRIPTION:Telco operators are looking for open source solutions to reduc
+ e vendor lock-in and to meet growing customer demand in transformation. In
+  this session\, we provide a glimpse of common NFVI inquiries from telco c
+ ustomers\, and propose a modularized NFVI OpenStack Platform with flexible
+ \, reliable\, and high-performance infrastructure:\nOpenStack architecture
+  design and network planning for NFVI. We will present how to plan a NFVI 
+ OpenStack environment from scratch.\nEnhanced Platform Awareness (EPA) ado
+ ption and performance evaluation. We will introduce the network stack and 
+ provide detailed performance evaluation results.\nAnsible based auto-deplo
+ yment tool to accelerate the overall deployment process. We will present y
+ ou how our streamlined auto-deployment tool saves your effort to build a w
+ ell-integrated OpenStack.\n
+LOCATION:
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Artificial Intelligence driven Orchestration\, Challenges and Oppo
@@ -663,12 +573,12 @@ DESCRIPTION:Beyond OpenStack for IT\, NFV is another killer use case. Hori
  The proposed solution enables dynamic policy reconfiguration instead of st
  atic OSLO policy.json and enables external PDP to manage multiple OpenStac
  k deployments for NFV NGPoPs. The organization of this PDP contains a set 
- of upstreamed hooks to OpenStack/OSLO\, OpenDaylight/AAA\, and possibly Op
- enContrail in the future. It also proposed a reference implementation of t
- he security engine policy called Moon hosted by the OPNFV community.\nOran
- ge as major Telco operator is planning the deployment in production of thi
- s “external PDP mechanism” in 2019 for its first VNFs\, in collaborati
- on with the upstream community and Red Hat.
+ of upstreamed hooks to OpenStack/OSLO\, OpenDaylight/AAA\, and possibly Tu
+ ngsten Fabric in the future. It also proposed a reference implementation o
+ f the security engine policy called Moon hosted by the OPNFV community.\nO
+ range as major Telco operator is planning the deployment in production of 
+ this “external PDP mechanism” in 2019 for its first VNFs\, in collabor
+ ation with the upstream community and Red Hat.
 LOCATION:Vancouver Convention Centre West - Level Two - Room 208-209
 END:VEVENT
 BEGIN:VEVENT
@@ -715,46 +625,44 @@ LOCATION:Vancouver Convention Centre West - Level One - Lightning Talk The
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Telco Cloud Next Generation Stack Update: What's Changed with Open
- Stack-Helm and OpenContrail-Helm
+ Stack-Helm and Tungsten Fabric-Helm
 DTSTART;VALUE=DATE-TIME:20180524T205000Z
 DTEND;VALUE=DATE-TIME:20180524T213000Z
 UID:21339@openstacksummitboston2017
 DESCRIPTION:Discuss the latest advancements and milestones reached within 
- both the openstack-helm and opencontrail-helm projects and how they are be
- ing leveraged by Telco Clouds. \nIt's been a year since openstack-helm was
-  brought into the openstack namespace.  Review the current stable release\
- , current functionality set\, the community gate capabilities\, the develo
- pment tools for contributors and the timeline for additional openstack ver
- sion support as well as the work occuring to support edge computing. We wi
- ll also review the status of our undercloud deployment process and those o
- pen source tools as well as how we are currently using it at AT&T.\nOpenCo
- ntrail-Helm has also been evolviing.  We'll provide a status on its integr
- ation with openstack-helm\, the community gate functionality\, and new fea
- tures since our last presentation such as DPDK workloads\, Gatewayless For
- warding\, Data Plane Encryption\, and finally additional features that wil
- l enable edge computing.
+ both the openstack-helm and Tungsten Fabric-helm projects and how they are
+  being leveraged by Telco Clouds. \nIt's been a year since openstack-hel
+ m was brought into the openstack namespace.  Review the current stable re
+ lease\, current functionality set\, the community gate capabilities\, the 
+ development tools for contributors and the timeline for additional opensta
+ ck version support as well as the work occuring to support edge computing.
+  We will also review the status of our undercloud deployment process and t
+ hose open source tools as well as how we are currently using it at AT&T.\n
+ OpenContrail-Helm has also been evolviing.  We'll provide a status on its
+  integration with openstack-helm\, the community gate functionality\, and 
+ new features since our last presentation such as DPDK workloads\, Gatewayl
+ ess Forwarding\, Data Plane Encryption\, and finally additional features t
+ hat will enable edge computing.
 LOCATION:Vancouver Convention Centre West - Level Two - Room 208-209
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:How to gain VNF zero down-time during Infrastructure Maintenance a
- nd Upgrade
+SUMMARY:Implications of Ceph Client Performance for Hyper-converged Telco 
+ NFV
 DTSTART;VALUE=DATE-TIME:20180524T214000Z
 DTEND;VALUE=DATE-TIME:20180524T222000Z
-UID:21109@openstacksummitboston2017
-DESCRIPTION:OPNFV Doctor is building a framework to have infrastructure ma
- intenance and upgrade done in interaction with the application running on 
- top of it. By having this\, the application is able to keep zero downtime 
- with its service during the operations as well as to be able to utilize ne
- w capabilities of the upgraded underlying compute nodes. Not only the appl
- ication benefits from this\, but also the infrastructure admin\, as he can
-  even request to down scale the application. That is\, for rolling upgrade
- s in networking systems where there may not be sufficient resources to per
- form rolling upgrade\, e.g. due to strict Return on Investment (ROI) polic
- y for the special Telco hardware used. Using the proposed framework\, you 
- can first down scale the application to free capacity on your hardware for
-  then triggering the rolling upgrade. Presentation shows how this and much
-  more will be accomplished.
-LOCATION:Vancouver Convention Centre West - Level Two - Room 208-209
+UID:21445@openstacksummitboston2017
+DESCRIPTION:Ceph is a leading choice of block and object storage for OpenS
+ tack-based Telco NFV deployments. Hyperconverged architectures are gainin
+ g popularity in this space\, where Ceph client and OSD components compete 
+ for resources with VNF compute instances.  NFV deployments aim at maximiz
+ ing VNF packing\, thus resource available for storage is precious\, parti
+ cularly Ceph RBD client\, which we found to be a significant consumer of C
+ PU resources on a Hyperconverged node. This motivated us to take an in-de
+ pth look at the Ceph RBD client datapath\, which hasn't been a focus in t
+ he past. Join us to hear about this exploration\, performance profiling h
+ owtos\, our current findings and opportunities for performance optimizat
+ ions as it relates to Telco NFV.
+LOCATION:Vancouver Convention Centre West - Level One - Room 118-120
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:VNF Onboarding - Why it is hard and what to do about it
@@ -796,40 +704,246 @@ DESCRIPTION:Telcos use OpenStack to deploy virtualized network functions\,
 LOCATION:Vancouver Convention Centre West - Level Two - Room 208-209
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Revisiting Scalability and Applicability of OpenStack Placement
-DTSTART;VALUE=DATE-TIME:20180524T234000Z
-DTEND;VALUE=DATE-TIME:20180524T235000Z
-UID:20930@openstacksummitboston2017
-DESCRIPTION:Placement in OpenStack carries two fundamental issues that lim
- it its scalability. First\, Nova scheduler is too slow for large clouds\, 
- as it requires full knowledge of the system's state for its decisions. Sec
- ond\, the orchestration engine (Heat) enables launching multi-VM cloud app
- lications\, but deploys them one at a time since Nova lacks the required a
- pplication level awareness. This may lead to under-utilization and sub-opt
- imal performance.\nThis session addresses both issues. We will show a fast
- er alternative to Nova scheduler and an enhancement for application level 
- deployment. Through extensive evaluation on real datasets\, we will show t
- hat the new scheduler achieves up to x5.3 faster placements with similar q
- uality.  We will also show that our enhancement improves the performance 
- and acceptance ratio of network services.
+SUMMARY:Steps to Optimizing OpenStack Resource Utilization for VNFs: Tying
+  OpenStack Services Together
+DTSTART;VALUE=DATE-TIME:20180525T003000Z
+DTEND;VALUE=DATE-TIME:20180525T011000Z
+UID:21507@openstacksummitboston2017
+DESCRIPTION:As the Verizon Wireless OpenStack Edge platform grows\, making
+  efficient use of resources also grows in importance\, to deliver the cost
+  benefits of OpenStack to Verizon customers. This presentation explores ho
+ w utilization at the highest level\, Virtual Network Function (VNF) redund
+ ancy pairs\, relates to utilizations at intermediate and lower levels. For
+  example\, an intermediate level\, a nova server\, corresponds to a lower 
+ level Libvirt instance\, which in turn is composed of CPU cores which each
+  have utilizations. In some cases\, these CPU cores may be pinned by the V
+ NF design\, and used at 100%\, in which case no optimization is possible. 
+ In other cases\, some over-subscription may be possible without impacting 
+ services. In addition to tying a given nova VM together with its foundatio
+ nal levels\, each VNF frequently contains multiple nova instances\, neutro
+ n networks\, and cinder volumes\, which also must be considered when over-
+ subscribing.
+LOCATION:Vancouver Convention Centre West - Level Two - Room 208-209
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Barometer beyond Service Assurance: monitoring as a service in OPN
+ FV and beyond
+DTSTART;VALUE=DATE-TIME:20180524T160000Z
+DTEND;VALUE=DATE-TIME:20180524T164000Z
+UID:21205@openstacksummitboston2017
+DESCRIPTION:We have previously shown how OPNFV Barometer (Platform Service
+  Assurance) can facilitate the adoption of NFV by providing the critical p
+ latform and NFVI metrics required to detect and correct faults before serv
+ ice outages occur.\nOutside of SA\, Barometer has proven quite useful by p
+ roviding standardized metric sets for different applications fulfilling a 
+ variety of purposes e.g.\, benchmarking\, Intelligent orchestration\, SUT 
+ characterization/analysis\, etc\nThe OPNFV Bottlenecks project simulates e
+ xtreme or long term product usage to verify if the SUT could survive to m
+ eet some quality requirements which are based on the monitoring metrics.\n
+ The OPNFV Yardstick project has made use of these same metrics in network 
+ services benchmarking and for VNF characterization.\nThis talk will show h
+ ow Barometer can be used in conjunction with Bottlenecks and Yardstick to 
+ fulfill use cases beyond service assurance to further ease the transition 
+ to NFV by promoting standardization and interoperability.
+LOCATION:Vancouver Convention Centre West - Level Two - Room 208-209
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Walk Through of an automated Openstack deployment using TripleO co
+ upled with Tungsten Fabric - POC
+DTSTART;VALUE=DATE-TIME:20180524T160000Z
+DTEND;VALUE=DATE-TIME:20180524T173000Z
+UID:21224@openstacksummitboston2017
+DESCRIPTION:In this POC\, learn about an automated installation of an Open
+ Stack Cluster in matter of minutes without burning cycles in minuscule det
+ ails. his simplified deployment enables the user to jumpstart with NFV wor
+ kloads ( Network Function Virtualization ) within a short period of time. 
+ This automated package is composed of tripleO\, Tungsten Fabric Networking
+ \, Ceph Storage. We will share the mistakes we made and the lessons we lea
+ rned along our path in automating this procedure.
+LOCATION:Vancouver Convention Centre West - Level Two - Room 213-214
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Embrace Central Office 2.0 with QCT NFV Platform
+DTSTART;VALUE=DATE-TIME:20180524T162000Z
+DTEND;VALUE=DATE-TIME:20180524T164000Z
+UID:21794@openstacksummitboston2017
+DESCRIPTION:Telco operators are looking for open source solutions to reduc
+ e vendor lock-in and to meet growing customer demand in transformation. In
+  this session\, we provide a glimpse of common NFVI inquiries from telco c
+ ustomers\, and propose a modularized NFVI OpenStack Platform with flexible
+ \, reliable\, and high-performance infrastructure:\nOpenStack architecture
+  design and network planning for NFVI. We will present how to plan a NFVI 
+ OpenStack environment from scratch.\nEnhanced Platform Awareness (EPA) ado
+ ption and performance evaluation. We will introduce the network stack and 
+ provide detailed performance evaluation results.\nAnsible based auto-deplo
+ yment tool to accelerate the overall deployment process. We will present y
+ ou how our streamlined auto-deployment tool saves your effort to build a w
+ ell-integrated OpenStack.\n
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Artificial Intelligence driven Orchestration\, Challenges and Oppo
+ rtunities
+DTSTART;VALUE=DATE-TIME:20180524T165000Z
+DTEND;VALUE=DATE-TIME:20180524T173000Z
+UID:20807@openstacksummitboston2017
+DESCRIPTION:As Cloud and SDN technologies mature\, small and large service
+  providers around the world are developing their strategy for E2E Service 
+ Orchestration. This talk will share the journey of operationalizing servic
+ e orchestration platform from developing evaluation criteria (open source/
+ commercial vendors) to architectural considerations in chaos of multi-vend
+ or\, multi domain hybrid cloud ecosystem. We will share key learnings from
+  ONAP PoCs using closed loop orchestration use-cases with real-time and AI
+ /ML predictive analytics to drive policy decisions and express the desired
+  state of ONAP policy engine.We will peek into telecom service providers&r
+ squo\; future of automation and orchestration driven by AI and ML to optim
+ ize cloud/network resource management\, enhance security\, drive better cu
+ stomer experience creating new business opportunities towards future servi
+ ces landscape.
+LOCATION:Vancouver Convention Centre West - Level Two - Room 208-209
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Centralized Policy Engine to Enable multiple OpenStack deployments
+  for Telco/NFV
+DTSTART;VALUE=DATE-TIME:20180524T180000Z
+DTEND;VALUE=DATE-TIME:20180524T184000Z
+UID:21536@openstacksummitboston2017
+DESCRIPTION:Beyond OpenStack for IT\, NFV is another killer use case. Hori
+ zontally\, multiple NGPoPs (OpenStack deployments) are geographically dist
+ ributed but should be centrally controlled. Vertically\, users of cross-la
+ yer services like bare-metal\, IaaS\, VNF and/or SDN should be federated. 
+ Hence\, Identity and Access Management (IAM) module becomes a key issue.\n
+ The proposed solution enables dynamic policy reconfiguration instead of st
+ atic OSLO policy.json and enables external PDP to manage multiple OpenStac
+ k deployments for NFV NGPoPs. The organization of this PDP contains a set 
+ of upstreamed hooks to OpenStack/OSLO\, OpenDaylight/AAA\, and possibly Tu
+ ngsten Fabric in the future. It also proposed a reference implementation o
+ f the security engine policy called Moon hosted by the OPNFV community.\nO
+ range as major Telco operator is planning the deployment in production of 
+ this “external PDP mechanism” in 2019 for its first VNFs\, in collabor
+ ation with the upstream community and Red Hat.
+LOCATION:Vancouver Convention Centre West - Level Two - Room 208-209
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Automation + Machine Learning = Hands free NFV
+DTSTART;VALUE=DATE-TIME:20180524T185000Z
+DTEND;VALUE=DATE-TIME:20180524T193000Z
+UID:21331@openstacksummitboston2017
+DESCRIPTION:While NFV and SDN integrated clouds are growing from centraliz
+ ed to geographically scattered and massively disctributed clouds\, there b
+ y opening doors for IoT and Smart Infrastructures. Orchestration\, Managem
+ ent and Maintenance has become more challenging and requires more attentio
+ n to  accelerated service velocity. Automation is a prime solution to mai
+ ntain complete environment. With a mix of smart hardware like smarnic\, Ma
+ chine Learning with appropriate active  resource and service invetory\, 
+  its possible to target dynamic  cloud management\, allowing operating an
+  Hands Free NFV. Here the focus will be on Infrastructure Management as we
+  move from manul to infrastructure and on to service automation. The cha
+ llenges we face are innumerous and will share what we have experienced dea
+ ling with compute (Redfish)\, storage(swordfish) and Networking (SDN-WAN) 
+ and how we add closed loops and benifit derived form Data Callection and A
+ nalysis with ML.\n 
+LOCATION:Vancouver Convention Centre West - Level Two - Room 208-209
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Use NFV as Layer 3 Gateway for Open Stack VM's
+DTSTART;VALUE=DATE-TIME:20180524T205000Z
+DTEND;VALUE=DATE-TIME:20180524T210000Z
+UID:20840@openstacksummitboston2017
+DESCRIPTION:OpenStack is often used in conjunction with network functions 
+ virtualization technology in data centers to deploy cloud services\, espe
+ cially communications services offered by large service providers and clou
+ d providers.\nIn this presentation we will concentrate on integration of o
+ pensource VyOs NFV in Openstack.\nDemo session will consist of:\n1.  depl
+ oy a Layer 3 routing gateway for Openstack instances using VyOs NFV.\n2. 
+  apply the configuration on VyOS gateway:\nclustering config\nBGP config 
+ for northbound dynamic routing\nzone based firewall config for flow securi
+ ty control\n3.  perform some failover/failback tests\nSome of the advanta
+ ges of using a NFV as gateway for Openstack instances:\ndynamic routing us
+ ing standard protocols like BGP/OSPF/etc\naccess to different network func
+ tionalities(zone based firewall\, IPsec\, network access control\, etc)\ni
+ mproving service agility\, simplifying network operations\n
 LOCATION:Vancouver Convention Centre West - Level One - Lightning Talk The
  ater
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:High Performance Ceph for Hyper-converged Telco NFV Infrastructure
-DTSTART;VALUE=DATE-TIME:20180524T234000Z
-DTEND;VALUE=DATE-TIME:20180525T002000Z
-UID:21452@openstacksummitboston2017
-DESCRIPTION:The next wave of transformation for Telco Cloud is Hyper-conve
- rged NFV infrastructure (NFVi) which is expected to bring cost efficiency 
- and scale.  Storage is a key piece of any Hyper-converged platform and ne
- w solid-state storage technologies such as Intel Optane\, are bringing a b
- ig shift in compute vs storage budget balance in Hyper-converged platforms
- .  Intel and its Telco partners are collaborating on developing new ways 
- to leverage these technologies in Ceph to enable a low latency\, high perf
- ormance OpenStack platform for Telco NFV applications.  Join the team to 
- hear about our contributions to Ceph and Openstack-HELM and take away the 
- basics of tuning Hyper-converged Ceph. 
+SUMMARY:Telco Cloud Next Generation Stack Update: What's Changed with Open
+ Stack-Helm and Tungsten Fabric-Helm
+DTSTART;VALUE=DATE-TIME:20180524T205000Z
+DTEND;VALUE=DATE-TIME:20180524T213000Z
+UID:21339@openstacksummitboston2017
+DESCRIPTION:Discuss the latest advancements and milestones reached within 
+ both the openstack-helm and Tungsten Fabric-helm projects and how they are
+  being leveraged by Telco Clouds. \nIt's been a year since openstack-hel
+ m was brought into the openstack namespace.  Review the current stable re
+ lease\, current functionality set\, the community gate capabilities\, the 
+ development tools for contributors and the timeline for additional opensta
+ ck version support as well as the work occuring to support edge computing.
+  We will also review the status of our undercloud deployment process and t
+ hose open source tools as well as how we are currently using it at AT&T.\n
+ OpenContrail-Helm has also been evolviing.  We'll provide a status on its
+  integration with openstack-helm\, the community gate functionality\, and 
+ new features since our last presentation such as DPDK workloads\, Gatewayl
+ ess Forwarding\, Data Plane Encryption\, and finally additional features t
+ hat will enable edge computing.
+LOCATION:Vancouver Convention Centre West - Level Two - Room 208-209
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Implications of Ceph Client Performance for Hyper-converged Telco 
+ NFV
+DTSTART;VALUE=DATE-TIME:20180524T214000Z
+DTEND;VALUE=DATE-TIME:20180524T222000Z
+UID:21445@openstacksummitboston2017
+DESCRIPTION:Ceph is a leading choice of block and object storage for OpenS
+ tack-based Telco NFV deployments. Hyperconverged architectures are gainin
+ g popularity in this space\, where Ceph client and OSD components compete 
+ for resources with VNF compute instances.  NFV deployments aim at maximiz
+ ing VNF packing\, thus resource available for storage is precious\, parti
+ cularly Ceph RBD client\, which we found to be a significant consumer of C
+ PU resources on a Hyperconverged node. This motivated us to take an in-de
+ pth look at the Ceph RBD client datapath\, which hasn't been a focus in t
+ he past. Join us to hear about this exploration\, performance profiling h
+ owtos\, our current findings and opportunities for performance optimizat
+ ions as it relates to Telco NFV.
+LOCATION:Vancouver Convention Centre West - Level One - Room 118-120
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VNF Onboarding - Why it is hard and what to do about it
+DTSTART;VALUE=DATE-TIME:20180524T221000Z
+DTEND;VALUE=DATE-TIME:20180524T222000Z
+UID:21511@openstacksummitboston2017
+DESCRIPTION:In the NFV space\, early adopters have struggled with onboardi
+ ng new Virualized Network Functions and Network Functions due to the diver
+ sity of those products\, the orchestrators and VIMs they are being deploye
+ d on.  While the world drags standards to completion\, there are still re
+ al world and practical challenges that need to be addressed.\nThe VNF Onbo
+ arding open sourced project has sprung to life to create community driven 
+ tools to automate and simplify authoring blueprints for various orchestrat
+ ors and VIMs\, especially different versions of Openstack across different
+  Hypervisors.  This session will walk us through those tools\, the design
+  and strategy behind them and call to action any community members who wou
+ ld like to contribute to furthering the code base. 
+LOCATION:Vancouver Convention Centre West - Level One - Lightning Talk The
+ ater
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Flexible NFV WAN interconnections with Neutron BGP VPN
+DTSTART;VALUE=DATE-TIME:20180524T223000Z
+DTEND;VALUE=DATE-TIME:20180524T231000Z
+UID:21494@openstacksummitboston2017
+DESCRIPTION:Telcos use OpenStack to deploy virtualized network functions\,
+  and have specific requirements to interconnect these OpenStack deployment
+ s to their backbones and mobile backhaul networks.  These interconnections
+ \, in particular\, need to involve dynamic routing and interconnections wi
+ th operators internal VPNs.\nThis talk will explain the role that the netw
+ orking-bgpvpn Neutron Stadium project plays to address this need\, from th
+ e basics of the BGPVPN Interconnection API\, to more advanced uses made po
+ ssible by evolutions of this API delivered in Queens.\nThe more interestin
+ g use cases will be the opportunity for a step by step demo.\nWe'll give a
+  status of where the project stands today in terms of feature coverage\, l
+ ook at the set of SDN controllers providing an implementation for this API
+  beyond the implementation in reference drivers\, and last\, look at the f
+ uture of the project.
 LOCATION:Vancouver Convention Centre West - Level Two - Room 208-209
 END:VEVENT
 BEGIN:VEVENT

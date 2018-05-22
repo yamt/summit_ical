@@ -18,25 +18,15 @@ TZOFFSETTO:-0700
 END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
-SUMMARY:Better SSH management for clouds. Introducing Tatu: "SSH as a Serv
- ice"
-DTSTART;VALUE=DATE-TIME:20180521T203000Z
-DTEND;VALUE=DATE-TIME:20180521T211000Z
-UID:20693@openstacksummitboston2017
-DESCRIPTION:It's well known that we're generally doing a bad job at SSH ke
- y management: man-in-the-middle attack vulnerability on first connection\;
-  private key sharing\; leaving old keys in the authorized_keys file\; lack
-  of user-level audit\; etc. Companies like Uber and Facebook have blogged 
- about these challenges and how they tackled them internally. Uber also Ope
- n-sourced code that handles the case where a certificate expires or is rev
- oked after login.SSH certificates part of the solution\, but management co
- mplexity persists. At Huawei\, we proposed and are leading Tatu: an Open S
- ource project that makes SSH management for Cloud environments effortless 
- and secure.Tatu provides: CA capabilities\; automatic installation of host
-  certificates in servers\; user SSH certificates\; expiry and revocation o
- f certificates\; strong private key generation\; key rotation\; bastion ma
- nagement\; DNS integration.
-LOCATION:Vancouver Convention Centre West - Level One - Room 121-122
+SUMMARY:OpenStack and GDPR
+DTSTART;VALUE=DATE-TIME:20180521T205500Z
+DTEND;VALUE=DATE-TIME:20180521T211500Z
+UID:21807@openstacksummitboston2017
+DESCRIPTION:The aim of this presentation is to present the use of OpenStac
+ k Swift in the context of the forthcoming General Data Protection Regulati
+ on (GDPR) and how and why OpenStack object storage can help with GDPR comp
+ liance.
+LOCATION:
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Lessons learned from public cloud billing
@@ -79,19 +69,19 @@ DESCRIPTION:Security Monkey is an open source security project from Netfli
 LOCATION:Vancouver Convention Centre West - Level One - Room 121-122
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:How did OpenStack improved for Public cloud in recent releases and
-  What are still missing
+SUMMARY:How did OpenStack improve for Public Cloud in recent releases and 
+ what are we still missing?
 DTSTART;VALUE=DATE-TIME:20180522T160000Z
 DTEND;VALUE=DATE-TIME:20180522T164000Z
 UID:20633@openstacksummitboston2017
-DESCRIPTION:Public Cloud is one of the most important adoption of OpenSta
- ck\, and has received more attention for OpenStack developers in recent r
- eleases.\nIn this topic\, we would like to share what has been done in Ope
- nStack core projects in recent releases in order to shorten the gap betwee
- n upstream OpenStack and public cloud customer requirements.\nWe will also
-  share our true story of how did we running OpenStack-based public cloud a
- ll over the world\, and what is still missing for OpenStack to make the op
- eration of OpenStack-based public cloud more easier and more reliable.
+DESCRIPTION:Public Cloud is one of the most important adoptions of OpenSt
+ ack\, and has received more attention for OpenStack developers in recent 
+ releases.\nIn this topic\, we would like to share what has been done in Op
+ enStack core projects in recent releases in order to shorten the gap betwe
+ en upstream OpenStack and public cloud customer requirements.\nWe will als
+ o share our true story of how we ran a worldwide OpenStack-based public cl
+ oud\, and what is still missing for OpenStack to make the operation of Ope
+ nStack-based public cloud easier and more reliable.
 LOCATION:Vancouver Convention Centre West - Level One - Room 121-122
 END:VEVENT
 BEGIN:VEVENT
@@ -116,6 +106,25 @@ DESCRIPTION:In the past 2017\, China Mobile has published its distributed
 LOCATION:Vancouver Convention Centre West - Level One - Room 121-122
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Closing Automation and DNS Security Gaps in Today's Dynamic World
+DTSTART;VALUE=DATE-TIME:20180522T182500Z
+DTEND;VALUE=DATE-TIME:20180522T184500Z
+UID:21804@openstacksummitboston2017
+DESCRIPTION:Two critical DNS gaps occur within traditional NFV and contain
+ ers deployments - lack of IP address automation and DNS-based security ris
+ ks. In this demo\, Infoblox will highlight how Carrier-grade DNS and IP ad
+ dress management (IPAM) closes these gaps. Infoblox helps speed deployment
+ s and improve visibility by automating provisioning and discovery of dynam
+ ic virtual and container resources by integrating in your orchestration an
+ d ONAP processes. Even though security is top of mind for every telco and 
+ organization across the world\, security holes for DNS are still a major c
+ oncern. Over 95% of tested organizations allowed data exfiltration via DNS
+  tunnels because existing tools allow open DNS communications. In this dem
+ o\, Infoblox will highlight how data can easily be stolen via DNS\, and mo
+ re importantly\, how to stop this risk. 
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:The largest global public cloud footprint - Passport Program Phase
   II
 DTSTART;VALUE=DATE-TIME:20180522T185000Z
@@ -126,12 +135,12 @@ DESCRIPTION:You might have heard of it - the largest public cloud footprin
  an initiative from the Public Cloud Working Group to provide a unified way
   for users to access free trial accounts from OpenStack public cloud provi
  ders around the world\, which allows them to experience the freedom\, perf
- ormance and interoperability of open source infrastructure. \nDuring this 
- session we will show how the program have evolved during its first months 
- in the open\, what new cloud members that have joined\, what more the prog
- ram offers to both the cloud consumer as well as for public cloud provider
- . We will also tell you how we see the future for this program\, but also 
- invite you to join the discussion!
+ ormance and interoperability of open source infrastructure. \nDuring this
+  session we will show how the program have evolved during its first months
+  in the open\, what new cloud members that have joined\, what more the pro
+ gram offers to both the cloud consumer as well as for public cloud provide
+ r. We will also tell you how we see the future for this program\, but also
+  invite you to join the discussion!
 LOCATION:Vancouver Convention Centre West - Level One - Room 121-122
 END:VEVENT
 BEGIN:VEVENT
@@ -176,98 +185,78 @@ DESCRIPTION:Highly available and resilient authentication and authorisatio
 LOCATION:Vancouver Convention Centre West - Level One - Room 121-122
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Encrypt your Volumes with Barbican
-DTSTART;VALUE=DATE-TIME:20180523T165000Z
-DTEND;VALUE=DATE-TIME:20180523T173000Z
-UID:21196@openstacksummitboston2017
-DESCRIPTION:Interested in volume encryption to secure your environment? Fi
- nd out how to design and implement a volume encryption service based on th
- e Barbican project. OnRamp built and deployed a volume encryption service 
- for their Virtual Private Cloud\, allowing users to encrypt their volumes.
-  Each volume the VPC users provision is encrypted with a unique key\, ensu
- ring that their data is not readable by other tenants in the cloud.\nUsing
-  lessons learned from OnRamp&rsquo\;s VPC\, OpenStack Engineer Duncan Wann
- amaker will review the design journey from soup to nuts\, including outlin
- ing requirements\, choosing from the available open source platforms\, dev
- eloping the architecture\, and implementing the volume encryption. Learn f
- rom the challenges OnRamp encountered with a multi-tenant deployment\, and
-  see a demo of how to create an encryption key\, integrate Cinder with Bar
- bican\, and create and attach encrypted volumes.
+SUMMARY:How to implement FaaS in OpenStack for public cloud
+DTSTART;VALUE=DATE-TIME:20180524T160000Z
+DTEND;VALUE=DATE-TIME:20180524T164000Z
+UID:20772@openstacksummitboston2017
+DESCRIPTION:It has never been a better time to be a developer! Thanks to c
+ loud computing\, deploying our applications is much easier than it used to
+  be\, especially after Function-as-a-Service emerged. Despite the big name
+ s such as AWS Lambda\, Google Cloud Functions\, etc. how the OpenStack end
+  users(especially public cloud users) can get benefits from FaaS as well?\
+ nQinling\, an official OpenStack project which was approved at the end of 
+ Queens development cycle\, is aiming at providing FaaS for OpenStack. As p
+ art of the OpenStack ecosystem\, it is tightly integrated with most of the
+  other OpenStack services in order to empower the service users or applica
+ tion developers.\nIn this presentation\, I will revisit the challenges tha
+ t current FaaS implementations are facing\, and how we solved(or partially
+  solved) those issues in Qinling. Most importantly\, this topic will also 
+ cover how Qinling interacts with other open source community(e.g. Kubernet
+ es\, Kata Containers) during its implementation.
 LOCATION:Vancouver Convention Centre West - Level One - Room 121-122
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:We tried OpenStack Passport - Here's what we found out...
-DTSTART;VALUE=DATE-TIME:20180523T205000Z
-DTEND;VALUE=DATE-TIME:20180523T213000Z
-UID:20701@openstacksummitboston2017
-DESCRIPTION:The OpenStack Passport Program was developed to get OpenStack 
- newcomers quick and easy access to OpenStack through a partnership with te
- n OpenStack public cloud providers. It is touted "...to let you experience
-  the freedom\, performance and interoperability of open source infrastruct
- ure." As two OpenStack Ambassadors (U.S. and Canada)\, we're always lookin
- g for new ways to showcase OpenStack and this sounded great! So we signed 
- up - for all 10!\nAnd with ten different cloud providers making up OpenSta
- ck Passport\, you're going to get ten different experiences ranging the si
- gn-up process\, the payment mechanisms\, the version of OpenStack\, and th
- e OpenStack components provided. We're not saying that any particular clou
- d is better than the other\, just that they're different... So before you 
- sign up for OpenStack Passport\, be sure to hear what we have to say!\n \n
-  \n 
-LOCATION:Vancouver Convention Centre West - Level One - Room 121-122
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Glance's power of Image Import Plugins
-DTSTART;VALUE=DATE-TIME:20180523T213000Z
-DTEND;VALUE=DATE-TIME:20180523T214000Z
-UID:20956@openstacksummitboston2017
-DESCRIPTION:Interoperable Image Import got introduced as Experimental API 
- in the OpenStack Pike release. The community has worked hard to harden and
-  test the interface and it's time to move forward with the proposed struct
- ure.\nThis talk will walk through the new plugin model that got implemente
- d in the Queens cycle enabling the power of asynchronous tasks during imag
- e import. The pluggability got introduced in two places of the workflow\, 
- as a option to bring the actual data into Glance in form of web-download P
- OC that is feature par with Images API v1 copy-from and will be last step 
- to enable us removing the Images API v1 from the codebase during Rocky cyc
- le and further down in the flow as operator defined plugins to process the
-  actual data before it will be saved to the backend.
+SUMMARY:Practice to Public Cloud Solution Based on Cell V2
+DTSTART;VALUE=DATE-TIME:20180524T182000Z
+DTEND;VALUE=DATE-TIME:20180524T183000Z
+UID:21229@openstacksummitboston2017
+DESCRIPTION:Cell v2 is formally available in the Pike cycle\, and we apply
+  cell v2 feature to our public cloud solution. In the process of evaluatio
+ n\, we'v found some problems which include issues in the release notes. We
+  have made some change to fix these problems. In order to rull well\, We o
+ ptimize the solution to make a single cell to manage more than 1000 physic
+ al servers.At present\, the public cloud has been running on a large state
+ -owned bank in China. The main customers of the cloud are the various ente
+ rprises and it is not open to individual now.This session includes:\nIntro
+ duction to the architecture of cell v2 \nOur overall solution based on ce
+ ll v2\nThe performance of cell v2 with evaluation results\nThe issues\n
 LOCATION:Vancouver Convention Centre West - Level One - Lightning Talk The
  ater
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:OpenStack for AWS Architects - Similarities\, differences and brid
- ging the gap
-DTSTART;VALUE=DATE-TIME:20180523T223000Z
-DTEND;VALUE=DATE-TIME:20180523T231000Z
-UID:21547@openstacksummitboston2017
-DESCRIPTION:Many times when we as architects only use one tool\, like a ca
- rpenter with only a hammer\, everything looks like a nail. Adding OpenStac
- k to the toolbelt opens up a whole new world of possibilities and solution
- s for on-premise cloud challenges. In this presentation\, we will bridge t
- he two platforms by making direct connections from OpenStack projects to A
- WS products and discuss the commonalities and differences in product featu
- res and architecture. We will dive into the ways both platforms solve comp
- lex business challenges and how each platform is uniquely suited to solvin
- g certain use cases. Of course\, no AWS/OpenStack presentation would be co
- mplete without discussing hybrid and multi-cloud scenarios and how to use 
- some of the products we discuss in a multi-modal architecture. 
+SUMMARY:Securing sensitive data in OpenStack infrastructures
+DTSTART;VALUE=DATE-TIME:20180524T185000Z
+DTEND;VALUE=DATE-TIME:20180524T193000Z
+UID:21145@openstacksummitboston2017
+DESCRIPTION:You are operating an OpenStack cloud. Great! You are consideri
+ ng to use OpenStack to run real world applications\, processing sensitive 
+ data like in financial\, healthcare or government institutions. Wonderful
+ ! But wait – how to provide the security functionality to meet the strin
+ gent requirements regarding user data needed by that kind of applications.
+  OpenStack will not do that for you out of the box!\nHelp is on its way.\n
+ We developed an OpenStack extension that ensures confidentiality and integ
+ rity of user data that is processed\, stored and exchanged between highly 
+ distributed cloud components. It encrypts user data prior to cloud entry. 
+ The encryption keys are managed by the OpenStack client. They are not stor
+ ed in the cloud and remain safely in the users' hands.We will discuss the 
+ status quo of OpenStack security regarding user data\, explain the concept
+ s of our extension and present a live demo of our prototype to meet the st
+ ringent requirements regarding sensitive user data.
 LOCATION:Vancouver Convention Centre West - Level One - Room 121-122
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Enabling Cloud-Native Applications with Application Credentials in
-  Keystone
-DTSTART;VALUE=DATE-TIME:20180524T003000Z
-DTEND;VALUE=DATE-TIME:20180524T011000Z
-UID:20836@openstacksummitboston2017
-DESCRIPTION:Keystone has long been the barrier blocking cloud-native appli
- cations from truly automation-compatible support. Applications\, deploymen
- t tools\, and OpenStack services have all required dedicated keystone user
- s whose passwords are committed to configuration files. This talk introduc
- es Application Credentials\, a new feature in the Queens release of keysto
- ne that enables applications and automation to authenticate with keystone 
- without requiring a dedicated keystone user\, allows graceful rotation of 
- credentials with minimal downtime\, and encourages restrictive permissions
-  delegation to applications.
+SUMMARY:To Overlay or Not to Overlay is the Question
+DTSTART;VALUE=DATE-TIME:20180524T223000Z
+DTEND;VALUE=DATE-TIME:20180524T231000Z
+UID:21518@openstacksummitboston2017
+DESCRIPTION:Using public cloud native networking means relying on the publ
+ ic cloud provider and locking yourself into the public cloud "jail".\nOver
+ lays may be considered as the keys to liberation from "cloud-jails". \nHo
+ wever\, overlays are not "free".\nWhat are the benefits and costs of runni
+ ng overlays in public clouds?\nIf the benefits are to be leveraged and not
+  incur the overheads\, what are the alternatives to the overlay.\nHow does
+  this all relate to the on-prem OpenStack private cloud and the Neutron so
+ lution. \n 
 LOCATION:Vancouver Convention Centre West - Level One - Room 121-122
 END:VEVENT
 BEGIN:VEVENT

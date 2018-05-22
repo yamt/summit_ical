@@ -18,37 +18,404 @@ TZOFFSETTO:-0700
 END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
-SUMMARY:OpenDev CI/CD
-DTSTART;VALUE=DATE-TIME:20180522T182000Z
-DTEND;VALUE=DATE-TIME:20180523T005000Z
-UID:21577@openstacksummitboston2017
-DESCRIPTION:OpenDev CI/CD is a collaborative working event focused on cont
- inuous integration\, deployment and delivery.  The two-day event\, co-loc
- ated at the OpenStack Summit on Level 3 of the Convention Centre\, is comp
- rised of keynotes\, collaborative working sessions\, presentation talks\, 
- roundtables\, and architecture show-and-tells with a limited number of use
-  case lightning talks. The event is structured to have an impact on future
-  development and integration efforts\, achieved by collaboratively produce
- d deliverables to share back with the industry and open source communities
- . All Summit attendees with Full Access passes are invited to attend OpenD
- ev CI/CD. View the schedule at opendevconf.com/schedule. 
+SUMMARY:Welcome & Opening
+DTSTART;VALUE=DATE-TIME:20180522T160000Z
+DTEND;VALUE=DATE-TIME:20180522T161000Z
+UID:21701@openstacksummitboston2017
+DESCRIPTION:Welcome\, housekeeping\, explanation of the event and the goal
+ s\, high level CI/CD trends
 LOCATION:Vancouver Convention Centre West - Level Three - Room 301
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:OpenDev CI/CD
-DTSTART;VALUE=DATE-TIME:20180523T182000Z
-DTEND;VALUE=DATE-TIME:20180524T005000Z
-UID:21576@openstacksummitboston2017
-DESCRIPTION:OpenDev CI/CD is a collaborative working event focused on cont
- inuous integration\, deployment and delivery.  The two-day event\, co-loc
- ated at the OpenStack Summit on Level 3 of the Convention Centre\, is comp
- rised of keynotes\, collaborative working sessions\, presentation talks\, 
- roundtables\, and architecture show-and-tells with a limited number of use
-  case lightning talks. The event is structured to have an impact on future
-  development and integration efforts\, achieved by collaboratively produce
- d deliverables to share back with the industry and open source communities
- . All Summit attendees with Full Access passes are invited to attend OpenD
- ev CI/CD. View the schedule at opendevconf.com/schedule. 
+SUMMARY:Continuous Delivery Across Communities
+DTSTART;VALUE=DATE-TIME:20180522T161000Z
+DTEND;VALUE=DATE-TIME:20180522T162000Z
+UID:21702@openstacksummitboston2017
+DESCRIPTION:Open Platform for NFV (OPNFV) facilitates the development and 
+ evolution of NFV components across various open source ecosystems. OpenDay
+ light (ODL) is a modular open platform for customizing and automating netw
+ orks of any size and scale. OPNFV and ODL communities have been working t
+ ogether in order to establish seamless flow of software across the communi
+ ties by following and applying CI/CD and DevOps principles and best practi
+ ces. One crucial piece of this is ODL Continuous Delivery Pipelines which
+  make the latest & greatest versions of the software available frequently 
+ to OPNFV and anyone else interested in them in different forms such as pac
+ kages\, containers and so on. OPNFV XCI heavily utilizes ODL CD Pipelines
+  to create integrated solutions for next generation telecom networks. Thi
+ s helps other communities and users of ODL to develop new features\, fix b
+ ugs\, create integrated solutions\, and innovate much faster than before.
+  \nDuring this keynote\, we will talk about the challenges our communitie
+ s faced during the early phases and how these communities overcome them by
+  applying CI/CD and DevOps principles and practices.
+LOCATION:Vancouver Convention Centre West - Level Three - Room 301
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Why OpenStack People Should Pay Attention to Spinnaker
+DTSTART;VALUE=DATE-TIME:20180522T162000Z
+DTEND;VALUE=DATE-TIME:20180522T163000Z
+UID:21703@openstacksummitboston2017
+DESCRIPTION:At Mirantis we first heard of Spinnaker when one of our custom
+ ers asked us to implement it as a Horizon replacement on top of Mirantis O
+ penStack a few years back. This prompted us to start digging to see if tha
+ t could be “the thing.” But what we heard back from both internal stak
+ eholders and customers was along the line of: “Nah… it’s a CI/CD thi
+ ng\, not relevant. Show me containers and K8S instead.” In this talk\, w
+ e’ll walk you through the journey that led the OpenStack company to star
+ t paying attention to Spinnaker and explain why the two communities should
+  work closer together.
+LOCATION:Vancouver Convention Centre West - Level Three - Room 301
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CI/CD of Microservices with Containers
+DTSTART;VALUE=DATE-TIME:20180522T163000Z
+DTEND;VALUE=DATE-TIME:20180522T164000Z
+UID:21704@openstacksummitboston2017
+DESCRIPTION:Open source container technologies have become an important co
+ mponent of application testing and microservices deployments in CI/CD pipe
+ lines recently. Benefits for using containers in testing include better ut
+ ilization of testing resources and ability to easily have identical enviro
+ nments for local development\, testing and production microservices. Addit
+ ionally\, Jenkins has plugins for popular containerization platforms inclu
+ ding Kubernetes (https://github.com/jenkinsci/kubernetes-plugin) and Apach
+ e Mesos (https://github.com/jenkinsci/mesos-plugin). The talk will conclud
+ e with a demonstration of a simple\, fully open source\, CI/CD pipeline us
+ ing Jenkins\, GitLab and Apache Mesos via DC/OS.
+LOCATION:Vancouver Convention Centre West - Level Three - Room 301
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Zuul: Testing the Future
+DTSTART;VALUE=DATE-TIME:20180522T164000Z
+DTEND;VALUE=DATE-TIME:20180522T165000Z
+UID:21795@openstacksummitboston2017
+DESCRIPTION:Zuul is a project gating system which focuses on testing futur
+ e states of interrelated projects.  The OpenStack project uses it to dri
+ ve its CI system at massive scale.  A major new version has been release
+ d with a focus on cross-community collaboration and users outside of Ope
+ nStack.  In this presentation\, you'll see Zuul's emphasis on testing th
+ e future enables powerful development and deployment workflows.
+LOCATION:Vancouver Convention Centre West - Level Three - Room 301
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:How Devops Evolves as the Cloud Does
+DTSTART;VALUE=DATE-TIME:20180522T165000Z
+DTEND;VALUE=DATE-TIME:20180522T170000Z
+UID:21705@openstacksummitboston2017
+DESCRIPTION:Much of the recent acceleration and advancement in the devops 
+ tooling landscape and community has some relation to the increased adoptio
+ n of and evolution of the public Cloud. And yet\, the Cloud is still in it
+ s infancy\, and will continue to evolve at a rapid pace\, changing how we 
+ look at\, consume and find new opportunities in its ecosystem. How does th
+ is inform the opportunities in devops? Do the profiles of the users we pri
+ oritize change? What are the things we need to do well as the consumption 
+ of Cloud hits new scales and organizations approach it fundamentally diffe
+ rently? In this talk\, I share thoughts on the kinds of change in Cloud th
+ at the Spinnaker team is prioritizing as signals\, what we see as the thin
+ gs that we need to do well in the near to mid term\, and some tangible thi
+ ngs we are working on in line with those observations.
+LOCATION:Vancouver Convention Centre West - Level Three - Room 301
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Free Software Needs Free Tools
+DTSTART;VALUE=DATE-TIME:20180522T170000Z
+DTEND;VALUE=DATE-TIME:20180522T171000Z
+UID:21706@openstacksummitboston2017
+DESCRIPTION:Over the last decade\, free software developers have been repe
+ atedly tempted by development tools that offer the ability to build free s
+ oftware more efficiently or powerfully. The only cost\, we are told\, is t
+ hat the tools themselves are nonfree or run as network services with code 
+ we cannot see\, copy\, or run ourselves. In this short talk\, I’ll show 
+ how these decisions to embrace nonfree and private development tools under
+ mine our credibility in advocating for software freedom and compromise our
+  freedom\, and that of our users\, in ways that we should reject.
+LOCATION:Vancouver Convention Centre West - Level Three - Room 301
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Closing Remarks / Call to Action for Collab Session work
+DTSTART;VALUE=DATE-TIME:20180522T171000Z
+DTEND;VALUE=DATE-TIME:20180522T173000Z
+UID:21707@openstacksummitboston2017
+DESCRIPTION:TBA
+LOCATION:Vancouver Convention Centre West - Level Three - Room 301
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:We Came Together\, Now What?
+DTSTART;VALUE=DATE-TIME:20180522T180000Z
+DTEND;VALUE=DATE-TIME:20180522T184000Z
+UID:21322@openstacksummitboston2017
+DESCRIPTION:Various initiatives have been going on across open source comm
+ unities to address the challenges in end-to-end integration & testing\, es
+ pecially when there is a need to bring different open source components to
+ gether to see how well they work in system context.\nHowever\, working on 
+ the problems that are common and span across different communities in an i
+ solated manner is not beneficial for the ecosystem since what is done by e
+ ach of these communities can potentially be shared by others who are worki
+ ng on solving similar problems. This includes but not limited to improved 
+ way of working\, alignment on CI/CD\, reuse of the tooling.\nRecently\, de
+ velopers from open source communities came together and started working on
+  things in a collaborative manner. The thinking behind this was that once 
+ we get to know each other and start talking\, the rest would be much easie
+ r and quicker. The topics of interest are infrastructure\, CI/CD\, integra
+ tion & testing so we could look for the answers together.
+LOCATION:Vancouver Convention Centre West - Level Three - Room 301
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Anomaly detection in continuous integration jobs
+DTSTART;VALUE=DATE-TIME:20180522T180000Z
+DTEND;VALUE=DATE-TIME:20180522T193000Z
+UID:21692@openstacksummitboston2017
+DESCRIPTION:Continous integration jobs can generate massive volumes of dat
+ a. When a job fails\, figuring out what went wrong can be a tedious proces
+ s—one that involves investigating logs and discovering the root cause\, 
+ often found in a fraction of the total job output.\nIn this workshop\, we
+ ’ll show attendees how machine learning can help solve the challenge of 
+ anomaly detection in job logs and save time in finding a failure’s root 
+ cause. We’ll also demo Zuul v3 and how it can be extended to integrate l
+ og processing models. Based on a live dataset of Zuul jobs\, attendees wil
+ l use the log-classify project to build a machine learning model and autom
+ atically extract anomalies. The workshop organizer will provide instructio
+ ns and answer any questions\, but attendees are encouraged to contribute t
+ o the discussion.
+LOCATION:Vancouver Convention Centre West - Level Three - Room 304-305
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CD Fundamentals
+DTSTART;VALUE=DATE-TIME:20180522T180000Z
+DTEND;VALUE=DATE-TIME:20180522T193000Z
+UID:21687@openstacksummitboston2017
+DESCRIPTION:Etherpad Link: https://etherpad.openstack.org/p/OpenDev-CD-Fun
+ damentals\nThe OpenDev Collab Discussions are interactive group working se
+ ssions led by a moderator. Each session centers around a topic with partic
+ ipation from all attendees to gather requirements\, document best practice
+ s\, or design technical solutions. The sessions use live note taking tools
+  to record the discussion and document next steps.
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Using CI in an Ecosystem
+DTSTART;VALUE=DATE-TIME:20180522T180000Z
+DTEND;VALUE=DATE-TIME:20180522T193000Z
+UID:21690@openstacksummitboston2017
+DESCRIPTION:Etherpad Link: https://etherpad.openstack.org/p/OpenDev-CI-Eco
+ system\nThe OpenDev Collab Discussions are interactive group working sessi
+ ons led by a moderator. Each session centers around a topic with participa
+ tion from all attendees to gather requirements\, document best practices\,
+  or design technical solutions. The sessions use live note taking tools to
+  record the discussion and document next steps.
+LOCATION:Vancouver Convention Centre West - Level Three - Room 302-303
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Zuul v3 For Gating
+DTSTART;VALUE=DATE-TIME:20180522T185000Z
+DTEND;VALUE=DATE-TIME:20180522T193000Z
+UID:21663@openstacksummitboston2017
+DESCRIPTION:The OpenStack Infra team runs one of the world’s largest Ope
+ n Source CI/CD systems in service of OpenStack’s early decision to mand
+ ate that all merges only be performed by automation if and only if all te
+ sts pass. Accomplishing this at scale involves a combination of software
+  and policy.Zuul is the software engine developed to handle this.Zuul is 
+ not OpenStack specific. With the rise of microservices and kubernetes\, t
+ he number of multi-repo projects is increasing\, as is the need for CI sy
+ stems that understand them. The most recent version ofZuul has been rework
+ ed to make it easy for other people\, communities or organizations to har
+ ness its power regardless of any relationship with OpenStack.We’ll talk
+  about the things that make Zuul special - multi-repository dependencies\
+ , optimistic branch prediction and deep Ansible integration. And we’ll 
+ walk through how to get started with a private or a public Zuul.
+LOCATION:Vancouver Convention Centre West - Level Three - Room 301
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Security Fundamentals
+DTSTART;VALUE=DATE-TIME:20180522T203000Z
+DTEND;VALUE=DATE-TIME:20180522T213000Z
+UID:21834@openstacksummitboston2017
+DESCRIPTION:Etherpad Link: https://etherpad.openstack.org/p/OpenDev-Securi
+ ty\nThe OpenDev Collab Discussions are interactive group working sessions 
+ led by a moderator. Each session centers around a topic with participation
+  from all attendees to gather requirements\, document best practices\, or 
+ design technical solutions. The sessions use live note taking tools to rec
+ ord the discussion and document next steps.
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Cross Community CI/CD
+DTSTART;VALUE=DATE-TIME:20180522T205000Z
+DTEND;VALUE=DATE-TIME:20180522T213000Z
+UID:21697@openstacksummitboston2017
+DESCRIPTION:Etherpad Link: https://etherpad.openstack.org/p/OpenDev-Cross-
+ Community-CICD\nThe OpenDev Collab Discussions are interactive group worki
+ ng sessions led by a moderator. Each session centers around a topic with p
+ articipation from all attendees to gather requirements\, document best pra
+ ctices\, or design technical solutions. The sessions use live note taking 
+ tools to record the discussion and document next steps.
+LOCATION:Vancouver Convention Centre West - Level Three - Room 302-303
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Open CD for Open Infrastructure - Hybrid and Multi-Cloud Deploymen
+ ts with Spinnaker
+DTSTART;VALUE=DATE-TIME:20180522T205000Z
+DTEND;VALUE=DATE-TIME:20180522T213000Z
+UID:21553@openstacksummitboston2017
+DESCRIPTION:Spinnaker is an open source\, multi-cloud continuous delivery 
+ platform built by thought leaders Netflix\, Google\, Microsoft\, and other
+ s. At Netflix\, Spinnaker powers over 4\,000 deployments a day. With Spinn
+ aker\, you can easily automate complex delivery processes using repeatable
+  pipelines that enable rapid deployments across multi-cloud and hybrid sce
+ narions with confidence.\nAndrew will introduce Spinnaker and how it enab
+ les continuous delivery automation from basic first steps through to advan
+ ced pipelines incorporating deployment safeguards\, canary analysis\, out-
+ of-the-box deployment strategies\, sophisticated health checks\, sharing G
+ olden Path pipelines and more. We'll then move onto muiti-cloud and Kube
+ rnetes support and talk about patterns for microservice delivery\, before 
+ wrapping up with a quick tour of Spinnaker in action.
+LOCATION:Vancouver Convention Centre West - Level Three - Room 301
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:How to Install Zuul and Configure Your First Jobs
+DTSTART;VALUE=DATE-TIME:20180522T205000Z
+DTEND;VALUE=DATE-TIME:20180522T231000Z
+UID:21693@openstacksummitboston2017
+DESCRIPTION:One of the great things about the OpenStack project is our CI 
+ platform\, not only does the project do an awesome job ensuring developers
+  have the tools needed for testing\, but we also make it possible for down
+ stream users to contribute results back to the system. \nWith the release
+  of Zuulv3 by the OpenStack Infrastructure team\, Windmill has been create
+ d to help users stand up their own CI infrastructure using Ansible.\nNot o
+ nly will we be setting up Windmill to report results back to the OpenStack
+  project but users will also have the ability to see how Zuulv3 works will
+  GitHub
+LOCATION:Vancouver Convention Centre West - Level Three - Room 304-305
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CI/CD in ETSI NFV environment
+DTSTART;VALUE=DATE-TIME:20180522T214000Z
+DTEND;VALUE=DATE-TIME:20180522T222000Z
+UID:20955@openstacksummitboston2017
+DESCRIPTION:CI/CD and DevOps are common practices for webscale software en
+ abling rapid development of applications and the business. Usage of DevOps
+  requires the automatic management of software components on live systems 
+ and the possibility to send feedback from the live systems to the develope
+ rs. ETSI NFV defined a multi layer MANO framework to manage the different 
+ layers of telecom services. OpenStack\, as the defacto standard VIM\, is a
+  key enabler of DevOps in the NFV architecture\, because of its capability
+  to dynamically manage workloads. Currently there is an activity within t
+ he NFV community to introduce capabilities that allow DevOps and CI/CD co
+ ncepts to fit into this framework. In this presentation we will describe 
+ the challenges of introducing DevOps practices in the telecom environment
+  and we will also describe the planned solutions for these challenges. 
+LOCATION:Vancouver Convention Centre West - Level Three - Room 301
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CI Fundamentals
+DTSTART;VALUE=DATE-TIME:20180522T214000Z
+DTEND;VALUE=DATE-TIME:20180522T231000Z
+UID:21688@openstacksummitboston2017
+DESCRIPTION:Etherpad Link: https://etherpad.openstack.org/p/OpenDev-CI-Fun
+ damentals\nModerators: Monty Taylor\, Fatih Degirmenci\, Clark Boylan\nThe
+  OpenDev Collab Discussions are interactive group working sessions led by 
+ a moderator. Each session centers around a topic with participation from a
+ ll attendees to gather requirements\, document best practices\, or design 
+ technical solutions. The sessions use live note taking tools to record the
+  discussion and document next steps.
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Cross-organizational CI/Certifications
+DTSTART;VALUE=DATE-TIME:20180522T214000Z
+DTEND;VALUE=DATE-TIME:20180522T231000Z
+UID:21691@openstacksummitboston2017
+DESCRIPTION:Etherpad Link: https://etherpad.openstack.org/p/OpenDev-Cross-
+ Org-CI\nThe OpenDev Collab Discussions are interactive group working sessi
+ ons led by a moderator. Each session centers around a topic with participa
+ tion from all attendees to gather requirements\, document best practices\,
+  or design technical solutions. The sessions use live note taking tools to
+  record the discussion and document next steps.
+LOCATION:Vancouver Convention Centre West - Level Three - Room 302-303
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Canary and Blue/Green Continuous Delivery of OpenStack Application
+ s
+DTSTART;VALUE=DATE-TIME:20180522T223000Z
+DTEND;VALUE=DATE-TIME:20180522T231000Z
+UID:20884@openstacksummitboston2017
+DESCRIPTION:We will share our story of CI/CD transformation of 1000s of le
+ gacy monolith applications on OpenStack using Blue/Green and Canary contin
+ uous delivery strategies. Continuous delivery is becoming increasingly cri
+ tical but it still remains a hard problem many enterprises struggle with. 
+ We will present lessons learned in the process of achieving new levels of 
+ automation on OpenStack. \nCanary upgrades and Blue/Green deployment are t
+ he two commonly used patterns to implement continuous delivery. In Canary 
+ upgrades\, a small portion of the production traffic is sent to the new ve
+ rsion under test. In blue/green deployments\, all the traffic is switched 
+ to the new version and programmatically switched back in case the evaluati
+ on fails.\nWe will show how to fully automate above steps to achieve true 
+ continuous delivery in OpenStack using Ansible and LBaaS. We will show how
+  to use analytics to express and automate application evaluation and ML ba
+ sed traffic switching without any downtime.
+LOCATION:Vancouver Convention Centre West - Level Three - Room 301
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ansible Lightning Talk
+DTSTART;VALUE=DATE-TIME:20180522T231000Z
+DTEND;VALUE=DATE-TIME:20180522T232000Z
+UID:21717@openstacksummitboston2017
+DESCRIPTION:TBC
+LOCATION:Vancouver Convention Centre West - Level Three - Room 301
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ansible Community Meetup
+DTSTART;VALUE=DATE-TIME:20180522T234000Z
+DTEND;VALUE=DATE-TIME:20180523T004000Z
+UID:21724@openstacksummitboston2017
+DESCRIPTION:Etherpad Link: https://etherpad.openstack.org/p/OpenDev-Ansibl
+ e-Community-Meetup\n \n4:40-5:00: Making Ansible playbooks and Zuul jobs 
+ easier to troubleshoot with ARA\n5:00-5:40: Collaborative Q&A: Challenges 
+ and solutions to running Ansible at scale
+LOCATION:Vancouver Convention Centre West - Level Three - Room 302-303
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CI/CD Build and Pipelines For OpenStack At Scale
+DTSTART;VALUE=DATE-TIME:20180522T234000Z
+DTEND;VALUE=DATE-TIME:20180523T004000Z
+UID:21213@openstacksummitboston2017
+DESCRIPTION:At Oath\, we deploy a heavily customized version of OpenStack 
+ across many different regions and clusters. We need a way to build each Op
+ enStack component with all of our customizations into a self-contained pac
+ kage that is deployable in our data centers. We also need fine grained con
+ trol over our deployments such that we can swiftly deploy fixes/enhancemen
+ ts to single components in a single cluster with minimal downtime. \nWe de
+ signed a build platform on our open source tool\, Screwdriver\, which is c
+ apable of building and publishing our customized\, self contained packages
+  as both RPMs and PyPi packages. We then built CI/CD pipelines using Screw
+ driver and Chef which pull down the custom packages that are published by 
+ our build system and deploy them individually in minutes. The pipelines ar
+ e capable of deploying individual components without redeploying the entir
+ e stack. Each cluster has its own pipeline which gives us very fine graine
+ d control over our deployments 
+LOCATION:Vancouver Convention Centre West - Level Three - Room 301
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Establishing Collaboration Between Communities / Cross-community T
+ est Strategy
+DTSTART;VALUE=DATE-TIME:20180522T234000Z
+DTEND;VALUE=DATE-TIME:20180523T004000Z
+UID:21689@openstacksummitboston2017
+DESCRIPTION:Etherpad Link: https://etherpad.openstack.org/p/OpenDev-Commun
+ ityCollab-TestStrategy\nThe OpenDev Collab Discussions are interactive gro
+ up working sessions led by a moderator. Each session centers around a topi
+ c with participation from all attendees to gather requirements\, document 
+ best practices\, or design technical solutions. The sessions use live note
+  taking tools to record the discussion and document next steps.
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:OpenDev CI/CD Happy Hour
+DTSTART;VALUE=DATE-TIME:20180523T004000Z
+DTEND;VALUE=DATE-TIME:20180523T020000Z
+UID:21839@openstacksummitboston2017
+DESCRIPTION:Join us in the OpenDev CI/CD lounge area on Level 3 to mix and
+  mingle with other OpenDev attendees. Make sure to stop by the Mirantis an
+ d Ansible booths and thank them for sponsoring this important collaboratie
+  event!\n \n 
 LOCATION:Vancouver Convention Centre West - Level Three - Room 301
 END:VEVENT
 END:VCALENDAR

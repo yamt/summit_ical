@@ -18,6 +18,24 @@ TZOFFSETTO:-0700
 END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
+SUMMARY:Rest Well at Night Knowing Your OpenStack Cloud is Secure
+DTSTART;VALUE=DATE-TIME:20180521T182500Z
+DTEND;VALUE=DATE-TIME:20180521T184500Z
+UID:21802@openstacksummitboston2017
+DESCRIPTION:The self-service and dynamic nature of the cloud creates chall
+ enges for risk and compliance professionals tasked with measuring and demo
+ nstrating adherence to security and privacy controls. Traditional tools an
+ d controls that worked well for security and compliance in the datacenter\
+ , fail in the cloud. In this session\, we will the steps to achieving cont
+ inuous cloud security governance for your OpenStack environment and its ho
+ sted applications. First\, we will examine how to discover\, visualize\, a
+ nd intuitively audit to uncover existing risks and threats. Second\, we wi
+ ll implement cloud-native policy guardrails that identify\, alert on and r
+ emediate risk. Third\, we will move to automated enforcement of these poli
+ cies. This session will include demonstration of these techniques.
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Marrying OpenStack’s Virtual & Bare Metal Cloud Networks
 DTSTART;VALUE=DATE-TIME:20180521T183500Z
 DTEND;VALUE=DATE-TIME:20180521T191500Z
@@ -58,6 +76,68 @@ DESCRIPTION:CERN\, the European Organization for Nuclear Research\, is run
 LOCATION:Vancouver Convention Centre West - Level One - Room 118-120
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:From Metal to "Powered by OpenStack" - The Incredible Journey
+DTSTART;VALUE=DATE-TIME:20180521T191500Z
+DTEND;VALUE=DATE-TIME:20180521T193500Z
+UID:21864@openstacksummitboston2017
+DESCRIPTION:From nothing to a running OpenStack in a mere two hours. As in
+ conceivable as it may sound\, this is the goal our team at Kontron (Canada
+ ) set its sights on. In a matter of a few months\, we built an OpenStack t
+ urnkey solution using SYMKLOUD Converged Platforms. The overall approach e
+ nsures service providers and private cloud architects can achieve high-ava
+ ilability\, ease of deployment and scaling\, monitoring\, Ironic/Bare-meta
+ l\, Ceph\, Kubernetes\, DPDK acceleration\, and SDN and NFV readiness. Fol
+ low us on our journey where\, armed with Canonical OpenStack and tools\, a
+ utomation\, and Kontron in-house continuous integration and development [C
+ I/CD]\, we strove for a uniquely integrated out-of-the-box private cloud s
+ olution.
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Software Defined All the Way with OpenStack
+DTSTART;VALUE=DATE-TIME:20180521T194000Z
+DTEND;VALUE=DATE-TIME:20180521T200000Z
+UID:21808@openstacksummitboston2017
+DESCRIPTION:This session will discuss considerations and trends in softwar
+ e defined infrastructure across storage\, networking\, and compute in and 
+ around OpenStack.
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Monitoring OpenStack with Monasca Best Practices
+DTSTART;VALUE=DATE-TIME:20180521T203000Z
+DTEND;VALUE=DATE-TIME:20180521T205000Z
+UID:21806@openstacksummitboston2017
+DESCRIPTION:Managing OpenStack environments requires visibility and observ
+ ability. However many OpenStack deployments have limited monitoring tools 
+ and as a result enginteers lack visibility into the workings of the OpenSt
+ ack environment. In this track you will learn about an OpenStack native mo
+ nitoring tool called Monasca (Monitoring As A Service At Scale) that provi
+ des visibility into OpenStack environments. Monasca provides visibility of
+  compute\, block storage\, image service\, authentication\, networking\, a
+ nd more. In this presentation we plan to cover:- A tour of OP5's implement
+ ation of Monasca- How to deploy Monasca on bare metal and within OpenStack
+ - Best practices for OpenStack monitoringAbout OP5OP5 has developed an ent
+ erprise level monitoring solution with full support for OpenStack. It is b
+ ased upon the OpenStack project Monasca\, meaning a high performing scalab
+ le fault tolerant solution from start.Monasca is based on microservice arc
+ hitecture which enables high scalability\, both horizontally and verticall
+ y\, and as a result OP5's monitoring solution is able to process millions 
+ of metrics per second.OP5's monitoring solution for OpenStack can also han
+ dle constant data streams being both pulled and pushed from within the env
+ ironment. The architecture is built on a highly-performant message bus cap
+ able of ingesting a constant flow of data streams as opposed to a master-s
+ lave polling for events.Our solution supports agent authentication through
+  Keystone\, a OpenStack authentication project. The use of tenants make it
+  possible to separate authentication and authorization on a per-project-ba
+ sis\, and It makes it possible to separate departments or customers sharin
+ g the same platform\, giving a reliable\, multi-tenant solution.In the sam
+ e vein as OP5's other monitoring solutions\, this is based upon robust API
+ s enabling integrations with other applications for analytics and visualiz
+ ation\, such as Grafana.
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Excitingly simple multi-path OpenStack networking: LAG-less\, L2-l
  ess\, yet fully redundant
 DTSTART;VALUE=DATE-TIME:20180521T203000Z
@@ -93,6 +173,36 @@ DESCRIPTION:In this talk we’ll talk about this architectural approach to
 LOCATION:Vancouver Convention Centre West - Level One - Room 118-120
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:What's New in Security for Red Hat OpenStack Platform?
+DTSTART;VALUE=DATE-TIME:20180521T203000Z
+DTEND;VALUE=DATE-TIME:20180521T211000Z
+UID:21816@openstacksummitboston2017
+DESCRIPTION:Last year\, Red Hat outlined a security roadmap strategy and v
+ ision for Red Hat OpenStack Platform. Since then significant advances have
+  been made. In this session\, you will learn what's new in key management\
+ , encryption at rest and in flight\, compliance\, and more. You'll also ge
+ t a preview of the future of security for Red Hat OpenStack Platform.
+LOCATION:Vancouver Convention Centre West - Level Two - Room 202-204
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Delivering Next Generation Integrated Infrastructure Solutions for
+  Private and Public Cloud Environments
+DTSTART;VALUE=DATE-TIME:20180521T212000Z
+DTEND;VALUE=DATE-TIME:20180521T214000Z
+UID:21813@openstacksummitboston2017
+DESCRIPTION:Whether it is private or public cloud\, unfortunately many cus
+ tomers are coming to a painful realization\, it is not enough to just thro
+ w more cores\, more memory\, more fans or more IO when it comes to satisfy
+ ing the requirements of today's most demanding\, mission critical workload
+ s. What is required is a standards based infrastructure designed ground up
+  to ensure harmony and efficiency among various components to deliver the 
+ lowest TCO and maximum performance for datacenters. In this session\, you 
+ will learn about the latest innovations at Supermicro that is radically tr
+ ansforming the way IT infrastructure is configured\, deployed and managed 
+ in today's open environment.
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:In-depth monitoring for Openstack services
 DTSTART;VALUE=DATE-TIME:20180521T212000Z
 DTEND;VALUE=DATE-TIME:20180521T220000Z
@@ -112,6 +222,27 @@ DESCRIPTION:In 2014\, Ontario Institute for Cancer Research in Toronto\, C
  ud environment for almost three years\, this presentation will have someth
  ing new for both Openstack beginners and veterans.\n 
 LOCATION:Vancouver Convention Centre West - Level One - Room 118-120
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Is the Public Cloud Really Eating OpenStack's Lunch?
+DTSTART;VALUE=DATE-TIME:20180521T212000Z
+DTEND;VALUE=DATE-TIME:20180521T220000Z
+UID:21817@openstacksummitboston2017
+DESCRIPTION:We've all read the news how AWS is making all other clouds irr
+ elevant\, and the naysayers around private cloud. But the research data an
+ d customer implementation reality just do not match that hype. What is the
+  truth about public versus private versus hybrid cloud? What are customers
+  really trying to do\, and how does OpenStack fit in? This session will an
+ swer those questions and more\, walking through what's real and what's hyp
+ e and show how customers are using OpenStack to not only solve real-world 
+ problems and power next-generation applications\, but also how it's a crit
+ ical part of a hybrid cloud infrastructure. You will learn how to align wo
+ rkloads to the right infrastructure and how to develop a cloud strategy th
+ at works for your organization. The speaker has been in the cloud computin
+ g space for nearly a decade and will bring that context to bear. This is a
+  vendor agnostic session that will include customer case studies and globa
+ l research results. 
+LOCATION:Vancouver Convention Centre West - Level Two - Room 202-204
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Supporting Highly Transactional and Low Latency Workloads on Ceph
@@ -149,27 +280,6 @@ DESCRIPTION:Multiple clouds are a must in today&rsquo\;s IT world to preve
 LOCATION:Vancouver Convention Centre West - Level Two - Room 205-207
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:DPDK: Putting Neutron in the fast lane
-DTSTART;VALUE=DATE-TIME:20180521T221000Z
-DTEND;VALUE=DATE-TIME:20180521T222000Z
-UID:20630@openstacksummitboston2017
-DESCRIPTION:As a core component of Openstack\, a deployment of Neutron pla
- ys a critical role in determining the achieved latency and throughput of t
- he virtual network. Consequently\, the network performance of VMs' communi
- cation in an Openstack deployment directly depends on how Neutron is deplo
- yed.\nThis presentation looks deeper into DPDK as an enabler of faster pac
- ket processing in a Neutron deployment. It focuses on introducing DPDK as 
- a technology\, its core components\, and explaining how it can be used in 
- an Openstack deployment to improve the network virtualization. The present
- ation illustrates the layout of a DPDK enabled openvswitch deployment exp
- laining how packets flow within this layout and where performance improvem
- ents are achieved. The presentation ends by briefly showing a comparison 
- of the virtual network performance of a traditional deployment vs a DPDK e
- nabled deployment.\n
-LOCATION:Vancouver Convention Centre West - Level One - Lightning Talk The
- ater
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Federated Keystone Single Sign-On with FreeIPA and OpenID Connect
 DTSTART;VALUE=DATE-TIME:20180521T221000Z
 DTEND;VALUE=DATE-TIME:20180521T225000Z
@@ -189,6 +299,53 @@ DESCRIPTION:Federated keystone identity provides a mechanism for end users
  A. This work is supported by Aristotle\, a NSF DIBBs funded federated clou
  d consortium and SUNY at Buffalo's LakeEffect cloud.
 LOCATION:Vancouver Convention Centre West - Level One - Room 118-120
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:In from the cold with Heat Templates
+DTSTART;VALUE=DATE-TIME:20180521T223000Z
+DTEND;VALUE=DATE-TIME:20180521T224000Z
+UID:21859@openstacksummitboston2017
+DESCRIPTION:Allow your less technical lines of business to launch pre-conf
+ igured instances using Heat templates
+LOCATION:Vancouver Convention Centre West - Level One - Lightning Talk The
+ ater
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Deliver Large-scale Private Cloud Based on Inspur's OpenStack Dist
+ ribution
+DTSTART;VALUE=DATE-TIME:20180521T223500Z
+DTEND;VALUE=DATE-TIME:20180521T225500Z
+UID:21863@openstacksummitboston2017
+DESCRIPTION:Inspur is a full stack cloud service provider. In terms of ser
+ vice capability\, Inspur can provide users with comprehensive cloud servic
+ es covering three levels: IaaS\, PaaS and SaaS. In this session\, we will 
+ demonstrate how we have developed further technologies such as the unified
+  management for container\, vm and bare metal\, intelligent monitoring\, w
+ arning etc. We will share the best practices\, architecture design\, secur
+ ity enhancement\, platform configuration that are used for large-scale and
+  enterprise grade OpenStack deployment.
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Attestable service identity with Copper Argos
+DTSTART;VALUE=DATE-TIME:20180521T232000Z
+DTEND;VALUE=DATE-TIME:20180522T000000Z
+UID:21014@openstacksummitboston2017
+DESCRIPTION:Authentication and authorization for humans is\, more or less\
+ , a solved problem. However\, how do you trust the identity of the hosts (
+ instances) in your cloud? How can you be assured that in a world of man-in
+ -the-middle attacks (arp spoofing\, dns cache poisoning\, etc) that a give
+ n instance really is who it claims to be? And how can we do this without r
+ equiring any manual intervention on the part of a human. \nAt Oath\, we&rs
+ quo\;ve leveraged the power of Open Source to solve exactly this problem. 
+  We have developed and open sourced a service authentication and authoriza
+ tion system called Athenz. By leveraging the strengths of OpenStack and At
+ henz\, we&rsquo\;ve created a solution called &lsquo\;Copper Argos&rsquo\;
+  to provide attestable identity in the form of a unique short lived x509 a
+ nd SSH host certificate for every single instance in our cloud. In this ta
+ lk we will describe the value and design of this system and its components
+ . 
+LOCATION:Vancouver Convention Centre West - Level One - Room 121-122
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:How The Gap Uses Open Source Technologies - including OpenStack an
@@ -229,26 +386,24 @@ DESCRIPTION:Data volume is growing at an unprecedented rate\, and disaggre
 LOCATION:Vancouver Convention Centre West - Level One - Room 118-120
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Curse your bones\, Availability Zones!
-DTSTART;VALUE=DATE-TIME:20180521T234000Z
-DTEND;VALUE=DATE-TIME:20180521T235000Z
-UID:20632@openstacksummitboston2017
-DESCRIPTION:Ugh. Availability Zones are one of the most frequently misunde
- rstood and misused constructs in OpenStack. And no wonder: Implementations
-  vary widely between OpenStack and public cloud providers\, between differ
- ent OpenStack deployments\, and even between different OpenStack big-tent 
- projects.\nToo often they are implemented as a “feel-good” measure wit
- h few tangible benefits\, while at the same time bring hidden costs in the
-  way of increased complexity and operational headaches.\nThis session cove
- rs:\nHow to properly design and assess value of AZs\nHidden costs\, corner
-  cases\, and limitations with AZs that will bite you\nDifferences in AZ im
- plementation between OpenStack big-tent projects and between OpenStack vs 
- public cloud providers\nWRONG ways of using AZs you should be aware of (an
- d avoid)\nCross-functional challenges in the confluence of data center des
- ign\, platform configuration\, tenant applications\, and operations\nHow t
- o determine if AZs are right for you\, and AZ alternatives\n
-LOCATION:Vancouver Convention Centre West - Level One - Lightning Talk The
- ater
+SUMMARY:DPDK: Putting Neutron in the fast lane
+DTSTART;VALUE=DATE-TIME:20180522T001000Z
+DTEND;VALUE=DATE-TIME:20180522T005000Z
+UID:20630@openstacksummitboston2017
+DESCRIPTION:As a core component of Openstack\, a deployment of Neutron pla
+ ys a critical role in determining the achieved latency and throughput of t
+ he virtual network. Consequently\, the network performance of VMs' communi
+ cation in an Openstack deployment directly depends on how Neutron is deplo
+ yed.\nThis presentation looks deeper into DPDK as an enabler of faster pac
+ ket processing in a Neutron deployment. It focuses on introducing DPDK as 
+ a technology\, its core components\, and explaining how it can be used in 
+ an Openstack deployment to improve the network virtualization. The present
+ ation illustrates the layout of a DPDK enabled openvswitch deployment exp
+ laining how packets flow within this layout and where performance improvem
+ ents are achieved. The presentation ends by briefly showing a comparison 
+ of the virtual network performance of a traditional deployment vs a DPDK e
+ nabled deployment.\n
+LOCATION:Vancouver Convention Centre West - Level One - Room 118-120
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Introduction to ProxyFS – Integrated multi-cloud filesystem in O
@@ -269,25 +424,6 @@ DESCRIPTION:Critical to migrating workloads to cloud-native architectures
  c cloud. \nWe look forward to sharing these exciting developments that wil
  l broaden Swift's ability to support more application workloads. 
 LOCATION:Vancouver Convention Centre West - Level Two - Room 205-207
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Scaling OpenStack for the Enterprise
-DTSTART;VALUE=DATE-TIME:20180522T001000Z
-DTEND;VALUE=DATE-TIME:20180522T005000Z
-UID:20692@openstacksummitboston2017
-DESCRIPTION:There are some key design decisions that must be made when dep
- loying a private cloud within a large\, complex enterprise. These include:
- \n\nHow should my control plane(s) map to my underlying data center(s)?\nW
- hat network model (provider/tenant/both) should I adopt?\nHow can I best m
- ap tenants to subsets of compute resources?\nHow do I associate compute an
- d network resources together?\nHow can I orchestrate network and compute r
- esources located anywhere within my data center?\n\nWe'll discuss the opti
- ons\, challenges and associated tradeoffs for each of these questions and 
- elaborate on the design decisions we made to answer them.\nWe'll touch on 
- RBAC for Neutron networks\, host aggregates vs. availability zones\, Nova 
- scheduling filters\, Nova flavor/host aggregate metadata and finally the O
- penStack configuration drive (including IPv6 support). 
-LOCATION:Vancouver Convention Centre West - Level One - Room 118-120
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Multicloud Networking – Connecting OpenStack Private Clouds to P
@@ -334,19 +470,19 @@ SUMMARY:Application-Defined Governance & Compliance for Highly Regulated I
 DTSTART;VALUE=DATE-TIME:20180522T165000Z
 DTEND;VALUE=DATE-TIME:20180522T173000Z
 UID:21496@openstacksummitboston2017
-DESCRIPTION:Many of today&rsquo\;s global businesses weren&rsquo\;t born i
- n the cloud.While cloud\, and often times multi-cloud has become the opera
- tional reality\, real-world banking\, healthcare\, insurance applications 
- were largely not built with the cloud in mind\, making it difficult to ena
- ble cloud at the click of a button. On top of the operational and interope
- rability complexities\, highly regulated industries have IT governance & r
- egulatory compliance considerations that hinder DevOps processes significa
- ntly.This talk will demonstrate how with Application-Defined Governance yo
- u can apply the necessary IT governance required to take back control of y
- our IT resources. \nThis will be demoed on a cross-cloud OpenStack environ
- ment managing resources on both OpenStack and AWS\, the management of a Ku
- bernetes cluster\, as well as the service function chaining of network ser
- vices into the deployment.
+DESCRIPTION:Many of today’s global businesses weren’t born in the clou
+ d.While cloud\, and often times multi-cloud has become the operational rea
+ lity\, real-world banking\, healthcare\, insurance applications were large
+ ly not built with the cloud in mind\, making it difficult to enable cloud 
+ at the click of a button. On top of the operational and interoperability 
+ complexities\, highly regulated industries have IT governance & regulatory
+  compliance considerations that hinder DevOps processes significantly.This
+  talk will demonstrate how with Application-Defined Governance you can app
+ ly the necessary IT governance required to take back control of your IT re
+ sources. \nThis will be demoed on a cross-cloud OpenStack environment man
+ aging resources on both OpenStack and AWS\, the management of a Kubernetes
+  cluster\, as well as the service function chaining of network services in
+ to the deployment.
 LOCATION:Vancouver Convention Centre West - Level Two - Room 205-207
 END:VEVENT
 BEGIN:VEVENT
@@ -363,6 +499,68 @@ DESCRIPTION:Getting Keystone to integrate wtih LDAP is easy in a lab scena
 LOCATION:Vancouver Convention Centre West - Level One - Room 118-120
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Open Stack and NVMe-over-Fabrics - Network connected SSDs with loc
+ al performance
+DTSTART;VALUE=DATE-TIME:20180522T171500Z
+DTEND;VALUE=DATE-TIME:20180522T175500Z
+UID:21869@openstacksummitboston2017
+DESCRIPTION:NVMe-over-Fabrics (NVMe-oF) enables low latency access over RD
+ MA to remote NVMe-attached storage. This makes it a key enabler for disagg
+ regated storage and NVMe pooling in data centers – architectures that dr
+ ive increased efficiency. Intel\, Mellanox and Mirantis joined forces to e
+ nable NVMe-oF in Openstack Cinder and Nova. Come join us to hear about the
+  basics of NVMe-oF and its upcoming implementation in Rocky\, with kernel 
+ LVM and SPDK LVOL based SDS backends.
+LOCATION:Vancouver Convention Centre West - Level Two - Room 212
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:How Vault Systems created a secure OpenStack platform to bring gov
+ ernment entities to the cloud
+DTSTART;VALUE=DATE-TIME:20180522T180000Z
+DTEND;VALUE=DATE-TIME:20180522T182000Z
+UID:21874@openstacksummitboston2017
+DESCRIPTION:If you’re going to help government entities to move to the c
+ loud\, you must deliver a flexible and standards-based platform that meets
+  strict security requirements. See how Vault built a fully redundant\, bla
+ zing fast 100G network to the node\, utilizing DevOps philosophies and lev
+ eraging Cumulus Networks and Mellanox. With this solution\, they can now a
+ utomate switch provisioning while reducing the cost of network maintenance
+ \, all while obtaining the flexibility they require to build a tailored so
+ lution\, along with contributing security elements back to the OpenStack c
+ ommunity.
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Adobe Advertising Cloud: 100K Cores of OpenStack and Multi-Cloud w
+ ith Cloud-Bursting to Boot
+DTSTART;VALUE=DATE-TIME:20180522T180000Z
+DTEND;VALUE=DATE-TIME:20180522T184000Z
+UID:21792@openstacksummitboston2017
+DESCRIPTION:Adobe Advertising Cloud manages roughly $3 billion in annual 
+ ad spend on behalf of more than 1\,000 global clients to help them optimiz
+ e their advertising spend across channels. Adobe’s high-volume real-time
+  bidding application operates today on an OpenStack private cloud with ove
+ r 100\,000 compute cores in six data centers in the US\, Europe and Asia. 
+ Although this is one of the largest OpenStack deployments in the world\, i
+ t is managed by only four Site Reliability Engineers as part of Adobe Adve
+ rtising Cloud Multi-Cloud Infrastructure.\nAdobe Advertising Cloud’s DSP
+ \, formerly TubeMogul\, was launched on the public cloud and hosted on AWS
+  as of 2008\, but in 2015 the team shifted to a Multi-Cloud Infrastructure
+  and to its own OpenStack-driven data centers to achieve better performanc
+ e. The move improved raw compute speed by 3X.\nIn this session\, veteran T
+ echCrunch journalist Frederic Lardinois and Adobe Advertising Cloud Platfo
+ rm Manager Joseph Sandoval will chat about recent developments with Adobe 
+ Advertising Cloud\, including: Progress made with automation of operation
+ al services Cloud bursting of some workloads back to the public cloud Ho
+ w Kubernetes plays into the current and future cloud strategy How the tea
+ m is exploiting skip-level upgrades New perspectives on coexisting as bot
+ h a datacenter and a public cloud in the long term Other challenges and l
+ essons learned\nThis session format was a big hit in Sydney\, so join us i
+ f you want to hear the latest on how a member of the 100k Core Club is gro
+ wing and succeeding in a multicloud world with OpenStack.
+LOCATION:Vancouver Convention Centre West - Level One - Room 121-122
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Evolution of OpenStack Networking at CERN: Nova Network\, Neutron 
  and SDN
 DTSTART;VALUE=DATE-TIME:20180522T180000Z
@@ -373,15 +571,15 @@ DESCRIPTION:CERN is the home of the Large Hadron Collider (LHC)\, a 27km c
  year. Data is stored and processed using a large amount of resources total
  ing over 250.000 cores and 1000s of storage servers\, managed by OpenStack
  .\nNetworking is a critical part of our infrastructure and arguably the ha
- rdest to evolve. Given the size of CERN&rsquo\;s infrastructure\, its flat
-  network is partitioned in segments each representing a separate broadcast
-  domain and potentially offering different levels of service. This fragmen
- tation improves scalability and reduces the impact of misbehaving systems 
- in the datacentre to individual segments. On the other hand\, having multi
- ple broadcast domains means features like floating and virtual IPs are muc
- h harder to offer.\nWe will tell the story of OpenStack Networking at CERN
- . First integration with Nova Network\, the migration to Neutron and how w
- e're adding SDN in our infrastructure.
+ rdest to evolve. Given the size of CERN’s infrastructure\, its flat netw
+ ork is partitioned in segments each representing a separate broadcast doma
+ in and potentially offering different levels of service. This fragmentatio
+ n improves scalability and reduces the impact of misbehaving systems in th
+ e datacentre to individual segments. On the other hand\, having multiple b
+ roadcast domains means features like floating and virtual IPs are much har
+ der to offer.\nWe will tell the story of OpenStack Networking at CERN. Fi
+ rst integration with Nova Network\, the migration to Neutron and how we're
+  adding SDN in our infrastructure.
 LOCATION:Vancouver Convention Centre West - Level One - Room 118-120
 END:VEVENT
 BEGIN:VEVENT
@@ -424,20 +622,20 @@ SUMMARY:China Railway Cloud: The Best Practices and Performance improvemen
 DTSTART;VALUE=DATE-TIME:20180522T185000Z
 DTEND;VALUE=DATE-TIME:20180522T193000Z
 UID:21525@openstacksummitboston2017
-DESCRIPTION:As the end of 2017\, China Railway's mileage had reached 127\,
- 000 kilometers\, including 250\,000 kilometers of high-speed railways. The
-  enormous scale and the ever increasing passengers & freight volume requir
- e solid technical support to satisfy the demand of digitalization transfor
- mation. Meanwhile\, China railway infrastructure should support dozens of 
- mission critical applications\, such as passenger transportation\, freight
-  transportation\, scheduling\, maintenance and public infrastructure platf
- orm. \nBecause of the differences among the application importance\, perfo
- rmance requirements\, fault-tolerant mechanisms\, usage scenarios\, and de
- ployment patterns\, it calls for customizing the storage solution for each
-  application. \nThis talk presents the corresponding storage solution of m
- ain applications\, as well as its testing status and existing problems acc
- ording to the implementations of China Railway Cloud based on OpenStack in
-  China railway production environment. 
+DESCRIPTION:As the end of 2017\, China Railway's mileage had reached 127\
+ ,000 kilometers\, including 250\,000 kilometers of high-speed railways. Th
+ e enormous scale and the ever increasing passengers & freight volume requi
+ re solid technical support to satisfy the demand of digitalization transfo
+ rmation. Meanwhile\, China railway infrastructure should support dozens 
+ of mission critical applications\, such as passenger transportation\, frei
+ ght transportation\, scheduling\, maintenance and public infrastructure pl
+ atform.\nBecause of the differences among the application importance\, per
+ formance requirements\, fault-tolerant mechanisms\, usage scenarios\, and 
+ deployment patterns\, it calls for customizing the storage solution for ea
+ ch application.\nThis talk presents the corresponding storage solution of 
+ main applications\, as well as its testing status and existing problems ac
+ cording to the implementations of China Railway Cloud based on OpenStack i
+ n China railway production environment.
 LOCATION:Vancouver Convention Centre West - Level Two - Room 205-207
 END:VEVENT
 BEGIN:VEVENT
@@ -485,6 +683,22 @@ LOCATION:Vancouver Convention Centre West - Level One - Lightning Talk The
  ater
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Software-Defined Infrastructure delivery based on SUSE's OpenStack
+  distribution
+DTSTART;VALUE=DATE-TIME:20180522T194000Z
+DTEND;VALUE=DATE-TIME:20180522T200000Z
+UID:21809@openstacksummitboston2017
+DESCRIPTION:As an industry-leading open source innovator\, SUSE has been b
+ uilding the value of private clouds for our customers since we defined the
+  OpenStack distribution 8 years ago with SUSE OpenStack Cloud\, but at SUS
+ E we have never stopped adding value. Come and see a demonstration of how 
+ we have developed further technologies such as container management\, soft
+ ware-defined storage and innovative new OpenStack projects to give cloud b
+ uilders the power to decide how to deliver services rather than them being
+  constrained by the infrastructure available.
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Kubernetes and OpenStack Policy Management
 DTSTART;VALUE=DATE-TIME:20180522T205000Z
 DTEND;VALUE=DATE-TIME:20180522T210000Z
@@ -505,22 +719,6 @@ DESCRIPTION:In a paradigm where operators are deploying OpenStack using Ku
  ased control.
 LOCATION:Vancouver Convention Centre West - Level One - Lightning Talk The
  ater
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Managing Millions of Cores with Nova and Ironic
-DTSTART;VALUE=DATE-TIME:20180522T205000Z
-DTEND;VALUE=DATE-TIME:20180522T213000Z
-UID:21534@openstacksummitboston2017
-DESCRIPTION:At Oath\, we use Openstack Ironic to manage millions of cores 
- of bare-metal machines. In this talk the audience will learn about Oath's 
- 'cardboard to compute' approach to data center automation using Ironic\, i
- ncluding what we have done\, are doing and are planning to do in the futur
- e. This talk will also examine how ironic helped in following areas:\n \n\
- n Stack clash vulnerabilities\n Updating bare-metal firmware and bios on h
- undreds of thousands of machines\n Save power in the data center\n Identif
- ying and Retiring old hardware\n Effective forecast and manage demand/quot
- a\n
-LOCATION:Vancouver Convention Centre West - Level Two - Room 205-207
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:OpenStack Manila\, File-share as a Service: Use-cases and Demos
@@ -565,16 +763,37 @@ UID:21013@openstacksummitboston2017
 DESCRIPTION:OpenStack is a mature platform for building private clouds\, a
  nd you’re in the business of selling private clouds. Along comes a custo
  mer  who asks for a new feature - and look\, OpenStack already has a proj
- ect that supports that feature. This will be easy\, right? \n \n… Right
- ?\n \nAt Ormuco\, we have learned that is not always true. Along our jour
- ney from Kilo to Pike\, we have learned some valuable lessons while attemp
- ting to implement and support many of the things our customers have asked 
- for\, such as VPNaaS\, DBaaS\, Backup / DR\, and alternative hypervisors. 
- In this talk\, we’ll cover the pitfalls we encountered while attempting 
- to match feature requests to upstream projects\, and share some advice on 
- how you can avoid them.
+ ect that supports that feature. This will be easy\, right? \n… Right?\n
+ We have learned that is not always true. Along our journey from Kilo to Pi
+ ke\, Jess and Deva learned some valuable lessons while attempting to imple
+ ment and support many of the features our customers asked for\, such as VP
+ NaaS\, DBaaS\, Backup / DR\, and alternative hypervisors. In this talk\, w
+ e’ll cover the pitfalls we encountered while attempting to match feature
+  requests to upstream projects\, and share some advice on how you can avoi
+ d them.
 LOCATION:Vancouver Convention Centre West - Level One - Lightning Talk The
  ater
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Curse your bones\, Availability Zones!
+DTSTART;VALUE=DATE-TIME:20180522T214000Z
+DTEND;VALUE=DATE-TIME:20180522T222000Z
+UID:20632@openstacksummitboston2017
+DESCRIPTION:Ugh. Availability Zones are one of the most frequently misunde
+ rstood and misused constructs in OpenStack. And no wonder: Implementations
+  vary widely between OpenStack and public cloud providers\, between differ
+ ent OpenStack deployments\, and even between different OpenStack big-tent 
+ projects.\nToo often they are implemented as a “feel-good” measure wit
+ h few tangible benefits\, while at the same time bring hidden costs in the
+  way of increased complexity and operational headaches.\nThis session cove
+ rs:\nHow to properly design and assess value of AZs\nHidden costs\, corner
+  cases\, and limitations with AZs that will bite you\nDifferences in AZ im
+ plementation between OpenStack big-tent projects and between OpenStack vs 
+ public cloud providers\nWRONG ways of using AZs you should be aware of (an
+ d avoid)\nCross-functional challenges in the confluence of data center des
+ ign\, platform configuration\, tenant applications\, and operations\nHow t
+ o determine if AZs are right for you\, and AZ alternatives\n
+LOCATION:Vancouver Convention Centre West - Level Two - Room 208-209
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Multiple L3 backends in a cloud
@@ -623,41 +842,40 @@ DTSTART;VALUE=DATE-TIME:20180522T223000Z
 DTEND;VALUE=DATE-TIME:20180522T231000Z
 UID:20769@openstacksummitboston2017
 DESCRIPTION:Mergers can be dynamic events. The Charter Communications acqu
- isition of Time Warner Cable was no exception.  A debate over the future c
- loud strategy created a need to abandon the TWC OpenStack cloud without ne
- gative impact to current users.  This was new territory for the operations
-  team.  The team had been doubling the cloud capacity yearly for the prior
-  two years.  These are lessons learned in sunsetting an OpenStack cloud wi
- th some Cloud Migration.\nQuestions to consider:\n\nDo all work loads tran
- sition to a new infrastructure?  How do you decide?\nAttrition risks of ke
- y people.  Who do you need to be successful?\nWhat are the critical tasks 
- that are the long schedule items?\nHow will you measure success? \nWhat is
-  failure in transitioning?\n\nImportant to note: This presentation is good
-  for those transitioning TO a private OpenStack cloud from something else\
- , exiting an OpenStack Cloud\, as well as VERY GOOD ADVICE for those runni
- ng in production a multi-tenant private OpenStack cloud.
+ isition of Time Warner Cable was no exception.  A debate over the future 
+ cloud strategy created a need to abandon the TWC OpenStack cloud without n
+ egative impact to current users.  This was new territory for the operatio
+ ns team.  The team had been doubling the cloud capacity yearly for the pr
+ ior two years.  These are lessons learned in sunsetting an OpenStack clou
+ d with some Cloud Migration.\nQuestions to consider:\nDo all work loads tr
+ ansition to a new infrastructure?  How do you decide?\nAttrition risks of
+  key people.  Who do you need to be successful?\nWhat are the critical ta
+ sks that are the long schedule items?\nHow will you measure success? \nWha
+ t is failure in transitioning?\nImportant to note: This presentation is go
+ od for those transitioning TO a private OpenStack cloud from something els
+ e\, exiting an OpenStack Cloud\, as well as VERY GOOD ADVICE for those run
+ ning in production a multi-tenant private OpenStack cloud.
 LOCATION:Vancouver Convention Centre West - Level One - Room 118-120
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Scalable global server load balancing on hybrid cloud with OpenSta
- ck
+SUMMARY:Extend Horizon Headers for easy monitoring and fault detection - a
+ nd more
 DTSTART;VALUE=DATE-TIME:20180522T223000Z
 DTEND;VALUE=DATE-TIME:20180522T231000Z
-UID:21535@openstacksummitboston2017
-DESCRIPTION:In 2018 at Paddy Power Betfair\, we have on-boarded more than 
- 400 customer facing applications on OpenStack\, and we want to reach anoth
- er migration milestone by onboarding the remaining micro-services  onto a 
- hybrid cloud with OpenStack and public cloud. We have incorporated AVI net
- wroks as our global server load balancing solution to balance traffic acro
- ss those data-centres and now the challenge is presented by it's integrati
- on across OpenStack data centers and public cloud. The solution requires t
- o be tightly coupled with OpenStack and public cloud architecture\, with a
-  supported elastic scale dependent on demand without manual intervention o
- r configuration. We want a completely programmable solution using Ansible.
-  In this presentation we will show how we have used the AVI Ansible module
- s to automate all our OpenStack  and public cloud GSLB with a demonstratio
- n of the traffic balancing across private and public clouds and it's integ
- ration with the deployment pipelines.
+UID:21358@openstacksummitboston2017
+DESCRIPTION:OpenStack's Horizon Web Interface is a powerful graphical user
+  interface with a large number of web pages. Historically Horizon has been
+  used more for configuration of virtualized resources and service\, and no
+ t as much for real-time monitoring. However with new services such as Vitr
+ age and Masakari which are introducing fault monitoring\, root cause analy
+ sis and real-time recovery\, there is a requirement for introducing constr
+ ucts within Horizon to support such operational type functions.The new Ext
+ ensible Headers feature in Horizon provides a re-usable mechanism for Open
+ Stack Components to display content in an 'always-visible' header on the H
+ orizon display. This session will describe the new feature and demo its us
+ e by Vitrage Alarm Banner. The underlying technologies and new Angular too
+ l set will be discussed.  We will also demo the new capabilites introduce
+ d in Queen's.
 LOCATION:Vancouver Convention Centre West - Level Two - Room 205-207
 END:VEVENT
 BEGIN:VEVENT
@@ -682,6 +900,25 @@ DESCRIPTION:China Mobile's private cloud project at Hohehot data center\,
  y with k8s and container deployment?
 LOCATION:Vancouver Convention Centre West - Level One - Lightning Talk The
  ater
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Supercharging Your Multicloud Strategy
+DTSTART;VALUE=DATE-TIME:20180522T232500Z
+DTEND;VALUE=DATE-TIME:20180522T234500Z
+UID:21812@openstacksummitboston2017
+DESCRIPTION:Supercharging Your Multicloud StrategyEnterprises are leveragi
+ ng the power of cloud to build applications that can scale in real-time to
+  serve their users. The next stage of innovation will necessitate using th
+ is cloud infrastructure and application development platforms on virtual m
+ achines or containers or any cloud with efficiency and consistent operatio
+ ns. A true Multicloud strategy needs to be highly resilient and work with 
+ a multitude of vendor technologies. This session will illustrate how to de
+ sign IaaS and PaaS services in private data centers and move workloads dyn
+ amically and securely between multiple private and public clouds. The aim 
+ is to show Enterprises how cloud operator and user teams can be unshackled
+  and blaze ahead\, leaving cumbersome legacy technologies and lock-ins beh
+ ind.
+LOCATION:
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:The road to OpenStack at UK largest Academic private cloud system:
@@ -746,6 +983,29 @@ DESCRIPTION:What if you lost your datacenter completely in a catastrophe\,
 LOCATION:Vancouver Convention Centre West - Level One - Room 118-120
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Unleashing the Power of Flash for Ceph Data Stores: An All-NVMe Ce
+ ph Performance Deep Dive
+DTSTART;VALUE=DATE-TIME:20180523T003000Z
+DTEND;VALUE=DATE-TIME:20180523T011000Z
+UID:21803@openstacksummitboston2017
+DESCRIPTION:Recent significant Ceph improvements\, coupled with ultra-fast
+  NVMe technology\, will broaden the classes of workloads that are performa
+ nt in the Ceph ecosystem. Few dispute the compelling speed and low latency
+  of NVMe SSDs\, but optimally harnessing that performance for I/O-intensiv
+ e applications in shared VM storage environments is often non-trivial. Mic
+ ron®\, a leader in flash storage technology\, discusses the work designin
+ g\, deploying\, tuning and testing the latest all-flash accelerated Ceph r
+ eference platform leveraging Micron 9200MAX NVMe SSDs.In the session\, we 
+ will\nExplain our Ceph tuning and performance testing methodology across m
+ ultiple IO profiles\nProvide hardware configuration guidance for achieving
+  the right balance of CPU\, DRAM and SSD storage\nDiscuss the partner coll
+ aborations with Red Hat® on characterizing the effects on the tuning Blue
+ Store Ceph Storage Backend\nShare best practices learned for tuning optima
+ l BlueStore block storage performance\nCompare performance results of File
+ Store vs. BlueStore optimizations with all-NVMe Ceph Luminous clusters\n
+LOCATION:Vancouver Convention Centre West - Level Two - Room 202-204
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Keystone Federated Swift: Getting the Most Out of your Object Stor
  age in a Federated Environment
 DTSTART;VALUE=DATE-TIME:20180523T004000Z
@@ -769,334 +1029,52 @@ LOCATION:Vancouver Convention Centre West - Level One - Lightning Talk The
  ater
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Extend Horizon Headers for easy monitoring and fault detection - a
- nd more
-DTSTART;VALUE=DATE-TIME:20180523T160000Z
-DTEND;VALUE=DATE-TIME:20180523T164000Z
-UID:21358@openstacksummitboston2017
-DESCRIPTION:OpenStack's Horizon Web Interface is a powerful graphical user
-  interface with a large number of web pages. Historically Horizon has been
-  used more for configuration of virtualized resources andservice\, and not
-  as much for real-time monitoring. However with new services such as Vitra
- ge and Masakari which are introducing fault monitoring\, root cause analys
- is and real-time recovery\, there is a requirement for introducing constru
- cts within Horizon to support such operational type functions.The new Exte
- nsible Headers feature in Horizon provides a re-usable mechanism for OpenS
- tack Components to display content in an 'always-visible' header on the Ho
- rizon display. This sessionwill describe the new feature and demo its use 
- by Vitrage Alarm Banner. The underlying technologies and new Angular tool 
- set will be discussed.  We will also demo the new capabilites introduced i
- n Queen's.
-LOCATION:Vancouver Convention Centre West - Level Two - Room 205-207
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:To Complete\, not to Compete: Integrating Ironic into CERN’s Pri
- vate Cloud Service
-DTSTART;VALUE=DATE-TIME:20180523T160000Z
-DTEND;VALUE=DATE-TIME:20180523T164000Z
-UID:20833@openstacksummitboston2017
-DESCRIPTION:Since 2012\, CERN is running an OpenStack cloud with currently
-  around 300k cores to provide compute resources to the Large Hadron Collid
- er (LHC)\, the most powerful proton accelerator in the world. To complete 
- the service's offering by provisioning bare metal nodes in addition to vir
- tual machines and containers\, we recently started to integrate Ironic int
- o our service deployment.\nIn this presentation we will go through the int
- egration process as well as the challenges arising from running the bare m
- etal service in an environment managed by multiple teams responsible for d
- ifferent parts of and workflows in the datacenter.\nWe will also show the 
- benefits of moving everything under a unified OpenStack umbrella from both
- \, the user's as well as the operators' perspective. While provisioning ne
- wly arrived hardware and giving access to "exotic" configurations was the 
- primary task\, we will also describe our efforts to transparently migrate 
- already deployed servers into this new service.
-LOCATION:Vancouver Convention Centre West - Level One - Room 118-120
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Leveraging Your OpenStack Troubleshooting Tool Box
-DTSTART;VALUE=DATE-TIME:20180523T160000Z
-DTEND;VALUE=DATE-TIME:20180523T173000Z
-UID:20742@openstacksummitboston2017
-DESCRIPTION:In this session\, attendees will learn how to troubleshoot an 
- OpenStack cloud environment.  Content will focus on the core OpenStack se
- rvices: Glance\, Cinder\, Nova\, Neutron\, Swift\, and Keystone.  Five ma
- jor areas of troubleshooting will be covered.\n \n1)          
-   Enabling debug and use the CLI commands to trace API requests.\n2)  
-           Using external tools such as ip netns\, nc\, wget\, cur
- l\, strace\, and tcpdump.\n3)            Examining the differen
- t databases used by the OpenStack core services.\n4)           
-  Navigating the multitude of log files related to a given OpenStack operat
- ion.\n5)            Discussing ways to become more proficient w
- ith troubleshooting an OpenStack cloud.
-LOCATION:Vancouver Convention Centre West - Level Two - Room 213-214
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:OpenStack Architecture and Deployment at Target
-DTSTART;VALUE=DATE-TIME:20180523T165000Z
-DTEND;VALUE=DATE-TIME:20180523T173000Z
-UID:21186@openstacksummitboston2017
-DESCRIPTION:Target is one of the largest retailers in the US.  OpenStack u
- sage has seen massive growth in support of Target's operations and is rapi
- dly becoming the foundation of Target's compute infrastructure.  This talk
-  will discuss the evolution of Target's OpenStack architecture and deploym
- ent process over three years of production use\, including CI/CD\, contain
- erization\, a move to immutable infrastructure\, the use of ironic for dep
- loyment and reducing reliance on vendor solutions.\n \n 
-LOCATION:Vancouver Convention Centre West - Level One - Room 118-120
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:OpenStack - At the core\, to the edge\, and beyond: The case for a
-  truly distributed hybrid cloud
-DTSTART;VALUE=DATE-TIME:20180523T180000Z
-DTEND;VALUE=DATE-TIME:20180523T184000Z
-UID:20846@openstacksummitboston2017
-DESCRIPTION:Key industry trends over the past few years include the steady
-  replacement of fixed "desktop" equipment by mobile devices\, and the avai
- lability of ubiquitous\, high speed\, inexpensive connectivity. With the i
- mminent deployment of 5G networks\, we stand on the threshold of a new and
-  exciting time.  The talk makes the case for a "Connected Cloud"\, a distr
- ibuted hybrid cloud\, with computing\, resources available in a diversity 
- of locations including the data center\, the CO\, the "IT closet"\, at the
-  top of the lamp pole\, or the set top box. The Connected Cloud provides a
-  mechanism for smart workloads to discover\, provision and operate at the 
- most cost\, power\, and performance effective locations. With the ability 
- to orchestrate bare-metal\, virtual machines and containers\, OpenStack is
-  well suited to be the platform on which this connected cloud is built and
-  operated. 
-LOCATION:Vancouver Convention Centre West - Level One - Room 118-120
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:What is new with Neutron QoS?
-DTSTART;VALUE=DATE-TIME:20180523T185000Z
-DTEND;VALUE=DATE-TIME:20180523T193000Z
-UID:21010@openstacksummitboston2017
-DESCRIPTION:Neutron has offered a QoS (Quality of Service) framework for q
- uite some time now. In this presentation we will discuss its features\, gi
- ve an overview of their implementation and how they have evolved over time
- . We will also present new features\, like QoS for floating IPs implemente
- d during the Queens cycle and how we are implementing in Rocky minimum ban
- dwidth based scheduling\, that enables instances to be placed in hosts tak
- ing into consideration their bandwidth requirements and the availability o
- f bandwidth in the hosts.
-LOCATION:Vancouver Convention Centre West - Level One - Room 118-120
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Distributed File Storage in Multi-Tenant Clouds using CephFS
-DTSTART;VALUE=DATE-TIME:20180523T192000Z
-DTEND;VALUE=DATE-TIME:20180523T193000Z
-UID:20989@openstacksummitboston2017
-DESCRIPTION:CephFS provides a fault-tolerant\, elastic\, scalable open sou
- rce file store that leverages the same distributed Ceph storage cluster th
- at many already use to provide OpenStack object and block storage solution
- s.We'll cover how Manila has been extended to support export of shares bac
- ked by CephFS via the widely-used NFS protocol to tenant VMs\, reasons for
-  using NFS instead of or in addition to using native CephFS as the share p
- rotocol\, and current and planned approaches to solve multi-tenancy\, perf
- ormance\, and scale-out issues.This talk will be of immediate practical in
- terest to cloud operators who have or are planning to use Ceph clusters fo
- r object and block storage and want to use the same cluster for shared fil
- e services as well as to those more generally interested in Manila\, distr
- ibuted file systems\, or Ceph evolution.\n 
-LOCATION:Vancouver Convention Centre West - Level One - Lightning Talk The
- ater
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:RSVP Required: Lunch & Learn - Performance optimization in Red Hat
-  OpenStack Platform
-DTSTART;VALUE=DATE-TIME:20180523T193000Z
-DTEND;VALUE=DATE-TIME:20180523T203000Z
-UID:21658@openstacksummitboston2017
-DESCRIPTION:The Red Hat OpenStack® Platform scheduler is optimized to run
-  as many virtual machines on a single host as possible. However\, with mod
- ern x86 servers\, the default behavior can lead to non-optimal performance
-  of individual virtual machines. CPU pinning and OpenStack Nova filters ca
- n make the Red Hat OpenStack Platform scheduler aware of NUMA in order to 
- achieve better performance for specific virtual machines.\nIn this session
- \, Razique Mahroua will demonstrate how to optimize performance when deplo
- ying large Red Hat OpenStack Platform environments. We'll cover:\nHow to o
- ptimize distributed virtual routing and performance tuning\, including the
-  NUMA architecture\, CPU pinning\, host aggregates\, hugepages\, and compu
- te scheduler filters.\nThe details of how to configure and use of DVR\, th
- e routing traffic direction flows\, nodes components\, and the management 
- of DVR routers.\nThe session is perfect for network engineers\, network op
- erators\, cloud operators\, and cloud administrators who need to manage an
- d tune networking performance in Red Hat OpenStack Platform.\nThe OpenStac
- k® Word Mark and OpenStack Logo are either registered trademarks / servic
- e marks or trademarks / service marks of the OpenStack Foundation\, in the
-  United States and other countries and are used with the OpenStack Foundat
- ion's permission. We are not affiliated with\, endorsed or sponsored by th
- e OpenStack Foundation or the OpenStack community.
-LOCATION:Vancouver Convention Centre West - Level Two - Room 213-214
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Cinder Thin Provisioning: A comprehensive guide
-DTSTART;VALUE=DATE-TIME:20180523T205000Z
-DTEND;VALUE=DATE-TIME:20180523T213000Z
-UID:20950@openstacksummitboston2017
-DESCRIPTION:For many system administrators\, Cinder's thin provisioning ha
- s been the source of great pain\, from deciding the Cinder configuration t
- o figuring out scheduler failures. Since Cinder started supporting thin pr
- ovisioning\, administrators have been facing challenges related to wrongly
-  implemented backends\, bugs in the core implementation or just simply a l
- ack of proper understanding of the feature.\nThis miracle presentation wil
- l deep dive into the Cinder scheduling process for thin provisioned volume
- s\, covering existing functionality and the latest improvements as well as
-  those yet to come. By the time we reach the conclusion your thin provisio
- ning headaches will be miraculously cured\, or at least the pain will have
-  been relieved\, guaranteed.
-LOCATION:Vancouver Convention Centre West - Level One - Room 118-120
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Lesson learned and best practices for large-scale Enterprise Priva
- te Cloud
-DTSTART;VALUE=DATE-TIME:20180523T211000Z
-DTEND;VALUE=DATE-TIME:20180523T212000Z
-UID:20987@openstacksummitboston2017
-DESCRIPTION:In this session\, we will talk about our experience and lesson
-  learned from deploying a 500-nodes OpenStack environment for Enterprise P
- rivate Cloud use case\, with a goal to support 15000 VM. \nWe will discuss
-  the end-to-end solution of provisioning the full-stack environment from h
- ardware configuration to OpenStack software installation and workload vali
- dation\, and report the result of the performance benchmark and scalabilit
- y testing. The key OpenStack components being validated for performance an
- d scalability includes nova\, cinder and neutron. We will share the best p
- ractices\, architecture design\, network topology\, hardware configuration
-  and the performance tuning parameters that are used for such large scale 
- OpenStack deployment.
-LOCATION:Vancouver Convention Centre West - Level One - Lightning Talk The
- ater
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Proactive Root Cause Analysis with Vitrage\, Kubernetes\, Zabbix a
- nd Prometheus
-DTSTART;VALUE=DATE-TIME:20180523T214000Z
-DTEND;VALUE=DATE-TIME:20180523T222000Z
-UID:20964@openstacksummitboston2017
-DESCRIPTION:Vitrage is the official OpenStack project dedicated to root ca
- use analysis (RCA) and deduced insights into the behavior of the Cloud. Vi
- trage receives topology and alarms from different datasources (OpenStack a
- nd externals)\, combines them into one topology graph\, and uses this grap
- h to provide insights about the system health.\nIn this session\, we will 
- present how Vitrage can be used to deduce unrevealed problems in the syste
- m based on its topological insights and various data sources and proactive
- ly take actions to detect the root cause. These actions can include runnin
- g specific health checks\, executing a Mistral workflow\, and more.\nWe wi
- ll demonstrate the latest and coolest features in Vitrage\, including:\n\n
- Proactive actions to detect the root cause of failures\nExecuting Mistral 
- workflows from Vitrage\nRoot Cause Analysis over Kubernetes clusters\nLog 
- change detection using Bell Labs algorithm\n\n 
-LOCATION:Vancouver Convention Centre West - Level One - Room 118-120
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Is your deployment in pants-down mode?
-DTSTART;VALUE=DATE-TIME:20180523T223000Z
-DTEND;VALUE=DATE-TIME:20180523T224000Z
-UID:20737@openstacksummitboston2017
-DESCRIPTION:This talk will discuss some of the recommended best practices 
- that are documented in the OpenStack Security Guide to ensure your cloud d
- eployment is secure and not vulnerable to attacks. While implementing thes
- e best practices and is often the goal\, few deployments have visibility i
- nto their compliance with these guidelines – and even fewer have an auto
- mated approach that reports compliance. Security audits are often manual a
- nd infrequent (if at all)\, and require manual responses to simple/predict
- able issues (like misconfigured security group rules). This talk will disc
- uss an automated approach to continuous monitoring and enforcement of wide
- ly accepted best practices for OpenStack security. Finally\, the talk will
-  conclude with a demonstration of an automated solution to address this pr
- oblem.
-LOCATION:Vancouver Convention Centre West - Level One - Lightning Talk The
- ater
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Utilizing Standalone Cinder in Hybrid OpenStack/non-OpenStack Envi
- ronments
-DTSTART;VALUE=DATE-TIME:20180523T223000Z
-DTEND;VALUE=DATE-TIME:20180523T231000Z
-UID:20900@openstacksummitboston2017
-DESCRIPTION:While there is a lot of talk about Hybrid Cloud and integratin
- g Private and Public Clouds this discussion misses many customer's needs. 
-  Many OpenStack customers have not always been OpenStack customers and hav
- e other virtualization environments (HyperV\, VMWare\, etc.)  that can ben
- efit from the technologies provided by OpenStack.  In this presentation we
-  demonstrate how Standalone Cinder can be leveraged to provide storage to 
- environments outside of OpenStack.  We also demonstrate the benefits of ru
- nning Cinder and OpenStack components within containers and the integratio
- n of monitoring and analytics into the environment to create a flexible\, 
- Open Source based storage controller.
-LOCATION:Vancouver Convention Centre West - Level One - Room 118-120
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Ironic integration with Redfish
-DTSTART;VALUE=DATE-TIME:20180523T234000Z
-DTEND;VALUE=DATE-TIME:20180523T235000Z
-UID:21095@openstacksummitboston2017
-DESCRIPTION:This session introduces RedFish\, the modern\, vendor-agnostic
-  bare metal machine management protocol developed by DMTF (Distributed Man
- agement Task Force) and already supported by several major vendors\, as we
- ll as by Ironic since OpenStack Pike release. We’ll offer historical per
- spective on hardware management and the reasons why RedFish appeared. Next
-  we’ll explain the protocol basics\, common applications\, and the mecha
- nisms of OEM extensions. We’ll also briefly discuss related protocols th
- at are under development for managing specific types of bare-metal resourc
- es\, such as network and storage hardware.
-LOCATION:Vancouver Convention Centre West - Level One - Lightning Talk The
- ater
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Building and Operating an Enormous OpenStack Cloud
-DTSTART;VALUE=DATE-TIME:20180523T234000Z
-DTEND;VALUE=DATE-TIME:20180524T002000Z
-UID:20974@openstacksummitboston2017
-DESCRIPTION:Verizon and Oath operate enormous cloud infrastructures based 
- on Openstack in support of their respective businesses. The talk focuses o
- n learnings from building and operating parts of this architecture using o
- pen source technologies\, and virtualizing workloads that have traditional
- ly been appliances and physical network functions.\nThe architectural choi
- ces made in constructing this environment reflect a long term investment i
- n\, and a highly opinionated view of the evolution of computing trends.\nT
- he talk describes key design\, architecture\, deployment\, organizational\
- , and cultural considerations in making this successful.
-LOCATION:Vancouver Convention Centre West - Level One - Room 118-120
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:The design of rapid and nondestructive upgrade between Openstack b
- ig versions-- Also K to P practice
-DTSTART;VALUE=DATE-TIME:20180524T002000Z
-DTEND;VALUE=DATE-TIME:20180524T003000Z
-UID:21158@openstacksummitboston2017
-DESCRIPTION:Openstack is a complex system and its version upgrade especial
- ly between big versions is a huge challenge. Now\, Openstack is essential 
- in NFV and 5G scenarios which'sAPP reliability requirement almost 100%\, 
- the challenge becomes more huge. During the Openstack Denver PTG\, communi
- ty specifically scheduled two days to discuss skip-level-upgrades\, this e
- nough to illustrate version upgrade will be a long-term significant pain p
- oints for the Cloud based on Openstack. In the use of Openstack\, we have 
- done a thorough analysis\, we think there can be a relatively perfect solu
- tion for version upgrade. At the same time\, we also finished a practice f
- rom Openstack K version to P version with the telecom VNFs no sense.\nThis
-  will be a huge challenging and exciting practice\, we'll always go on.
-LOCATION:Vancouver Convention Centre West - Level One - Lightning Talk The
- ater
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:How Swift is reshaping the future of storage at eBay
-DTSTART;VALUE=DATE-TIME:20180524T003000Z
-DTEND;VALUE=DATE-TIME:20180524T011000Z
-UID:20877@openstacksummitboston2017
-DESCRIPTION:The eBay story with Swift was born many years ago\, as this ob
- ject storage solution is architected for massive scaling and designed for 
- large data access.\nThe eBay storage team enhanced Swift further to fit ma
- ny in-house requests and to achieve high scale. Come join us for this pres
- entation where we will discuss:\n- Quality of Service (QoS)\, Rate Limitin
- g- Caching layer - pushed the concurrent download to 10x- Persistent Stora
- ge across data centers- Large number of Request Per Seconds- Higher Durabi
- lity\, Reliability and Availability- Multi-Tenancy / zone support - Serve 
- multiple zones/ VPC from one cluster\n \nWe will also discuss operational 
- challenges and how eBay solved them:\n- Swift utilization at eBay- Monitor
- ing Swift (ELK)- Applied Hardware optimization and monitoring- Splitting P
- roxy-Account-Container-Object (PACO)\, into PAC-O- Archival storage soluti
- on with Erasure Coding- Security HTTPs/TLS 1.2 enforcements- Swift Horizon
- tal scaling for &ldquo\;massive&rdquo\; throughput- Swift on Kubernetes\n 
-LOCATION:Vancouver Convention Centre West - Level One - Room 118-120
+SUMMARY:Cloud Federation and Open Research Cloud Alliance Congress
+DTSTART;VALUE=DATE-TIME:20180524T153000Z
+DTEND;VALUE=DATE-TIME:20180525T000000Z
+UID:21845@openstacksummitboston2017
+DESCRIPTION:Preliminary information: In-person attendees will also need to
+  be registered for the OpenStack Summit for a one-day pass on Thursday ($3
+ 99 that provides access to the full Summit program and covers meals and re
+ freshments). Hotel information is also provided on the Summit site: https:
+ //www.eventbrite.com/e/openstack-summit-may-2018-vancouver-tickets-4084582
+ 6968?aff=VancouverSummit2018\nThe Open Research Cloud (ORC) is a collabora
+ tion of the international community supporting scientific research computi
+ ng. Having recognized that a number of significant obstacles continue to i
+ nterfere with the ability of globally dispersed researchers to effectively
+  collaborate. It focuses on the federation of data\, identity\, security\,
+  shared compute and storage\; and an interoperable cloud services manageme
+ nt platform. http://www.openresearchcloud.org/\nThe NIST Cloud Computing P
+ rogram (NCCP) recognized\, in the USG Cloud Computing Standards and Techno
+ logy Roadmap (NIST SP 500-293)\, the importance of advancement and develop
+ ment of frameworks to support the seamless implementation of federated com
+ munity cloud environments. In August 2017\, the NCCP Public Working Group 
+ (PWG) on Federated Cloud (PWGFC) initiated a collaborative effort with the
+  IEEE P2302 group\, Standards for Intercloud Interoperability and Federati
+ on (SIIF)\, to advance Federated Cloud through the development of a concep
+ tual architecture and a vocabulary. The IEEE P2302 will develop a standard
+  based on the NIST model. Additional information can be found at https://c
+ ollaborate.nist.gov/twiki-cloud-computing/bin/view/CloudComputing/Federate
+ dCloudPWGFC\nWe are looking forward to the Vancouver Congress and making f
+ urther progress the formation of ORCA as a federation of research clouds a
+ nd regional federated cloud initiatives. Our thanks to the OpenStack Found
+ ation for sponsoring and hosting this meeting in Vancouver.\nThe goal for 
+ this Congress is the review and finalization of the draft declaration as t
+ he foundational understanding under which ORCA will be governed and functi
+ on\, coming to agreement on the scope and sourcing of conventions and soli
+ citing participants and test cases for the formation of supportive service
+ s.\nThe agenda for the meeting will provide an update on the progress to d
+ ate\, including an overview of the individual and joint efforts of ORCA\, 
+ the NIST/IEEE P2302 working groups\, the work of data management groups as
+  well as how those efforts align with NIST/IEEE P2302. The working session
+ s will also cover identity federation\, security\, auditing\, governance a
+ nd other technical and policy aspects.\nRegistration:\n\nAs before\, we wi
+ ll be supporting remote participation. If you are participating remotely\,
+  please use the following link to register: https://4thiorcc-remotepartici
+ pantregistration.eventbrite.com\n\n\nFor in-person attendees\, please use 
+ the following link: https://4thiorcc-inpersonregistration.eventbrite.com\n
+ \n 
+LOCATION:
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Minimal Downtime: Skip Level Upgrade of 20K Cores from Juno to Oca
@@ -1135,6 +1113,43 @@ DESCRIPTION:In OpenStack ecosystem\, we have a lot of tools that help dev
  n this short talk\, I will present to you basic about OSProfiler. Hope tha
  t it will help.
 LOCATION:Vancouver Convention Centre West - Level One - Room 118-120
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:What is the Ardana Cloud Lifecycle Manager?
+DTSTART;VALUE=DATE-TIME:20180524T180000Z
+DTEND;VALUE=DATE-TIME:20180524T181000Z
+UID:21860@openstacksummitboston2017
+DESCRIPTION:This talk will explore the features of the open source Ardana 
+ Cloud Lifecycle Manager project.
+LOCATION:Vancouver Convention Centre West - Level One - Lightning Talk The
+ ater
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Defending the Cloud Castle: The OpenStack Weapons and Warriors Tha
+ t Are Keeping Security Threats at Bay
+DTSTART;VALUE=DATE-TIME:20180524T180000Z
+DTEND;VALUE=DATE-TIME:20180524T184000Z
+UID:21844@openstacksummitboston2017
+DESCRIPTION:Security is at once the most consistent and most rapidly chang
+ ing topic in cloud infrastructure. In this session\, veteran security jour
+ nalist Sean Michael Kerner will lead a conversation with a panel of commun
+ ity members\, each of whom come at the topic of security from a unique poi
+ nt of view.\nIn this session\, we’ll talk about: • Did the Meltdown/S
+ pectre vulnerabilities impact OpenStack-based clouds more or less than any
+ one else\, and was the response to the threat sufficient to meet the chall
+ enge? • Security groups in OpenStack: useful innovation or a critical c
+ atch-up feature? • What are the most common security threats to OpenSta
+ ck? • OpenStack security checkup? What are the roadmap priorities with 
+ respect to security? • Vulnerabilities on the horizon: where should we 
+ place our priorities as a community of developers? • What priorities sh
+ ould users have for hardening their security: the application level (user 
+ workloads) or the organization level (formal agreements with cloud users t
+ o address cloud privacy\, security\, and reliability)? • What role\, if
+  any\, do GDPR and other regulatory influences play in OpenStack security 
+ considerations?\nIf you follow Sean\, you know he asks tough\, focused and
+  fair questions. Join this session if you’re looking for an illuminating
+  and informative overview of the security landscape in OpenStack.
+LOCATION:Vancouver Convention Centre West - Level One - Room 121-122
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:OpenStack Data Jurisdiction Compliance in Hybrid-Clouds
@@ -1259,24 +1274,326 @@ LOCATION:Vancouver Convention Centre West - Level One - Lightning Talk The
  ater
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Responsive hybrid clouds with OpenStack\, GCP\, Kubernetes and Ist
- io
-DTSTART;VALUE=DATE-TIME:20180524T214000Z
-DTEND;VALUE=DATE-TIME:20180524T222000Z
-UID:21190@openstacksummitboston2017
-DESCRIPTION:Building a hybrid cloud can be challenging. Early design choic
- es may lock you into an operational model (e.g. public cloud only provides
-  burst computing\, while private cloud must provide all storage) that does
-  not fit your organization down the road. This talk will demonstrate how t
- o build a responsive hybrid cloud that can adapt to fit your needs as your
-  workloads and operational requirements change. GCP and OpenStack will pro
- vide the public and private halves of the private cloud\, while Kubernetes
-  and Istio will be used to provide federated control. During the talk\, we
-  will demonstrate reconfiguring the hybrid cloud to support different netw
- ork topologies and logging systems. \n\nIntroductions\nKubernetes 101\nIst
- io 101\nWhy Google Cloud Platform and OpenStack?\nOpenStack preparation \n
- GCP preparation\nConnecting things together\nDemo\n
+SUMMARY:Dynamic RBAC in OpenStack- Fix Security loop holes in Real Time
+DTSTART;VALUE=DATE-TIME:20180524T223000Z
+DTEND;VALUE=DATE-TIME:20180524T231000Z
+UID:21283@openstacksummitboston2017
+DESCRIPTION:Access control plays a very important role for both the cloud 
+ providers and tenants to make optimal use of the OpenStack Features. Today
+  Role Based Access Control rules are fixed before deployment on an OpenSta
+ ck instance into a datacenter. Any changes to these roles\, is a very manu
+ al and tedious process that causes consistency issues across 100s of deplo
+ yment and ends up in creating a snow flake deployment environment. Since g
+ ranular roles are not available\, users are tend to be given privileged ro
+ les. Higher privilege access causes a lot of issues including inadvertent 
+ deletes\, access to  tenant data\, and other security issues. With Dynami
+ c RBAC\, it provides the flexibility for Cloud Administrators to define st
+ ringent RBAC rules in real time and apply/activate these roles immediately
+  eliminating the need to the next deployment cycle and tightening any secu
+ rity loop holes.
 LOCATION:Vancouver Convention Centre West - Level One - Room 118-120
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:OpenStack Upgrades Strategy: The Fast Forward Upgrade
+DTSTART;VALUE=DATE-TIME:20180524T234000Z
+DTEND;VALUE=DATE-TIME:20180525T002000Z
+UID:21261@openstacksummitboston2017
+DESCRIPTION:At the OpenStack Sydney Summit\, we presented OpenStack Upgrad
+ e Strategies and how upgrades have evolved with each release. During this 
+ presentation\, we share new alternatives to the traditional single jump up
+ grade. Fast Forward Upgrades provide the solution to the disruption of kee
+ ping up with upgrades twice a year. This option allows you to upgrade in-p
+ lace and cleverly moving past three releases. There&rsquo\;s a demo\, too!
+ \nThe goal is to walk out with a clear understanding of all the options fo
+ r OpenStack upgrades\, the pros and cons of different upgrade strategies\,
+  and maybe deciding which path to take during your next upgrade.
+LOCATION:Vancouver Convention Centre West - Level One - Room 118-120
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Managing OpenStack with Ansible\, a hands-on workshop.
+DTSTART;VALUE=DATE-TIME:20180524T234000Z
+DTEND;VALUE=DATE-TIME:20180525T011000Z
+UID:20857@openstacksummitboston2017
+DESCRIPTION:As OpenStack popularity and complexity continue to rise and ne
+ w feature sets are introduced regularly\, findings ways to simplify and pr
+ oduce consistent results is always at the forefront of any system administ
+ rator’s mind. With the use of Ansible\, an agentless IT automation techn
+ ology\, a system administrator can do just that.\nThe goal of this lab is 
+ to provide a brief introduction to Ansible\, the usability of Ansible play
+ books\, and then show how to leverage key Ansible modules to better manage
+  and simplify OpenStack environments. These management playbooks will cons
+ ist of typical administrative tasks such as:\nManaging Networks\nManaging 
+ Instances\nManaging Resources\nThis lab is best suited for system and Open
+ Stack administrators looking for ways to automate their day-to-day OpenSta
+ ck administrative tasks\nLab Requirements:\n- A laptop with an SSH client 
+ and a modern web browser.
+LOCATION:Vancouver Convention Centre West - Level Two - Room 213-214
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:OpenStack Designate - Best Operational Practices for running your 
+ DNS Service
+DTSTART;VALUE=DATE-TIME:20180525T003000Z
+DTEND;VALUE=DATE-TIME:20180525T011000Z
+UID:21172@openstacksummitboston2017
+DESCRIPTION:Did you know Designate was designed to provide a solid\, Highl
+ y Availible\, DNS Zone and Record management system for OpenStack users?\n
+ In this talk the speaker will cover the following:\n\nHow the Designate co
+ mponents fit together\nHow to deploy Designate in a HA configuration\nHow 
+ to deploy Designate in a secure configuration\nHow to ensure you have a go
+ od Disaster Recovery option setup and running for Designate\nWhat Server P
+ ools are\, and how they can be used\nHow you can deploy a globally distrib
+ uted Designate data plane\nHow Designate allows secure end user mangement 
+ of Reverse DNS for Floating IPs\n\nAll of the above will be demonstrated o
+ n a running system\, and examples for configuration of the system examaine
+ d.\nGraham Hayes is the PTL for the Designate project\, and has run produc
+ tion Designate installs in Public Clouds\, and packaged Designate for use 
+ in on premises private / hybrid clouds.
+LOCATION:Vancouver Convention Centre West - Level One - Room 118-120
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Cloud Federation and Open Research Cloud Alliance Congress
+DTSTART;VALUE=DATE-TIME:20180524T153000Z
+DTEND;VALUE=DATE-TIME:20180525T000000Z
+UID:21845@openstacksummitboston2017
+DESCRIPTION:Preliminary information: In-person attendees will also need to
+  be registered for the OpenStack Summit for a one-day pass on Thursday ($3
+ 99 that provides access to the full Summit program and covers meals and re
+ freshments). Hotel information is also provided on the Summit site: https:
+ //www.eventbrite.com/e/openstack-summit-may-2018-vancouver-tickets-4084582
+ 6968?aff=VancouverSummit2018\nThe Open Research Cloud (ORC) is a collabora
+ tion of the international community supporting scientific research computi
+ ng. Having recognized that a number of significant obstacles continue to i
+ nterfere with the ability of globally dispersed researchers to effectively
+  collaborate. It focuses on the federation of data\, identity\, security\,
+  shared compute and storage\; and an interoperable cloud services manageme
+ nt platform. http://www.openresearchcloud.org/\nThe NIST Cloud Computing P
+ rogram (NCCP) recognized\, in the USG Cloud Computing Standards and Techno
+ logy Roadmap (NIST SP 500-293)\, the importance of advancement and develop
+ ment of frameworks to support the seamless implementation of federated com
+ munity cloud environments. In August 2017\, the NCCP Public Working Group 
+ (PWG) on Federated Cloud (PWGFC) initiated a collaborative effort with the
+  IEEE P2302 group\, Standards for Intercloud Interoperability and Federati
+ on (SIIF)\, to advance Federated Cloud through the development of a concep
+ tual architecture and a vocabulary. The IEEE P2302 will develop a standard
+  based on the NIST model. Additional information can be found at https://c
+ ollaborate.nist.gov/twiki-cloud-computing/bin/view/CloudComputing/Federate
+ dCloudPWGFC\nWe are looking forward to the Vancouver Congress and making f
+ urther progress the formation of ORCA as a federation of research clouds a
+ nd regional federated cloud initiatives. Our thanks to the OpenStack Found
+ ation for sponsoring and hosting this meeting in Vancouver.\nThe goal for 
+ this Congress is the review and finalization of the draft declaration as t
+ he foundational understanding under which ORCA will be governed and functi
+ on\, coming to agreement on the scope and sourcing of conventions and soli
+ citing participants and test cases for the formation of supportive service
+ s.\nThe agenda for the meeting will provide an update on the progress to d
+ ate\, including an overview of the individual and joint efforts of ORCA\, 
+ the NIST/IEEE P2302 working groups\, the work of data management groups as
+  well as how those efforts align with NIST/IEEE P2302. The working session
+ s will also cover identity federation\, security\, auditing\, governance a
+ nd other technical and policy aspects.\nRegistration:\n\nAs before\, we wi
+ ll be supporting remote participation. If you are participating remotely\,
+  please use the following link to register: https://4thiorcc-remotepartici
+ pantregistration.eventbrite.com\n\n\nFor in-person attendees\, please use 
+ the following link: https://4thiorcc-inpersonregistration.eventbrite.com\n
+ \n 
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Minimal Downtime: Skip Level Upgrade of 20K Cores from Juno to Oca
+ ta
+DTSTART;VALUE=DATE-TIME:20180524T160000Z
+DTEND;VALUE=DATE-TIME:20180524T164000Z
+UID:21024@openstacksummitboston2017
+DESCRIPTION:Upgrading directly from Juno to Ocata is something the OpenSta
+ ck community never intended for anyone to do\, however we at Oath managed 
+ it with almost zero impact on our customers. A key piece of this task was 
+ running five database migrations across three components (Nova\, Glance\, 
+ and Keystone)\, which took about an hour. Related work leading up to this 
+ migration was the re-imaging of almost 1\,000 HVs to upgrade the OS and Li
+ bvirt\, and also migrating our custom patches and plugins to work with the
+  Ocata code base. During this entire process\, any given VM was only down 
+ for a few hours during the HV upgrade\, while the Nova API had even less d
+ owntime. We are currently expanding on this work for the Juno to Ocata upg
+ rade of Ironic and Neutron in our Bare Metal clusters and will publish det
+ ails on this at a later date.
+LOCATION:Vancouver Convention Centre West - Level One - Room 118-120
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:OpenStack OSProfiler Overview: What is it? How does it work?
+DTSTART;VALUE=DATE-TIME:20180524T165000Z
+DTEND;VALUE=DATE-TIME:20180524T173000Z
+UID:21045@openstacksummitboston2017
+DESCRIPTION:In OpenStack ecosystem\, we have a lot of tools that help dev 
+ and ops in monitoring\, logging and debugging. However\, they are all lack
+  of request flow.\nUnder Oslo umbrella\, we have OSProfiler - a small libr
+ ary that focus on tracing. This library will be an additional tool (beside
+  monitoring\, logging\, ...) for dev/ops to enhance their OpenStack system
+ .\nOSProfiler can record flow of request and display it as a timeline grap
+ h. This graph contains information to determine/find perfomance bottleneck
+ \, errors and exceptions in that request. Tracing data can be stored in ba
+ ckends like redis\, mongodb\, elasticsearch\, loginsight and even file.\nI
+ n this short talk\, I will present to you basic about OSProfiler. Hope tha
+ t it will help.
+LOCATION:Vancouver Convention Centre West - Level One - Room 118-120
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:What is the Ardana Cloud Lifecycle Manager?
+DTSTART;VALUE=DATE-TIME:20180524T180000Z
+DTEND;VALUE=DATE-TIME:20180524T181000Z
+UID:21860@openstacksummitboston2017
+DESCRIPTION:This talk will explore the features of the open source Ardana 
+ Cloud Lifecycle Manager project.
+LOCATION:Vancouver Convention Centre West - Level One - Lightning Talk The
+ ater
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Defending the Cloud Castle: The OpenStack Weapons and Warriors Tha
+ t Are Keeping Security Threats at Bay
+DTSTART;VALUE=DATE-TIME:20180524T180000Z
+DTEND;VALUE=DATE-TIME:20180524T184000Z
+UID:21844@openstacksummitboston2017
+DESCRIPTION:Security is at once the most consistent and most rapidly chang
+ ing topic in cloud infrastructure. In this session\, veteran security jour
+ nalist Sean Michael Kerner will lead a conversation with a panel of commun
+ ity members\, each of whom come at the topic of security from a unique poi
+ nt of view.\nIn this session\, we’ll talk about: • Did the Meltdown/S
+ pectre vulnerabilities impact OpenStack-based clouds more or less than any
+ one else\, and was the response to the threat sufficient to meet the chall
+ enge? • Security groups in OpenStack: useful innovation or a critical c
+ atch-up feature? • What are the most common security threats to OpenSta
+ ck? • OpenStack security checkup? What are the roadmap priorities with 
+ respect to security? • Vulnerabilities on the horizon: where should we 
+ place our priorities as a community of developers? • What priorities sh
+ ould users have for hardening their security: the application level (user 
+ workloads) or the organization level (formal agreements with cloud users t
+ o address cloud privacy\, security\, and reliability)? • What role\, if
+  any\, do GDPR and other regulatory influences play in OpenStack security 
+ considerations?\nIf you follow Sean\, you know he asks tough\, focused and
+  fair questions. Join this session if you’re looking for an illuminating
+  and informative overview of the security landscape in OpenStack.
+LOCATION:Vancouver Convention Centre West - Level One - Room 121-122
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:OpenStack Data Jurisdiction Compliance in Hybrid-Clouds
+DTSTART;VALUE=DATE-TIME:20180524T180000Z
+DTEND;VALUE=DATE-TIME:20180524T184000Z
+UID:21049@openstacksummitboston2017
+DESCRIPTION:The complex hybrid-cloud computing eco-system has significant 
+ challenges pertaining to data jurisdiction compliance across regions.  \nS
+ teven will share the conceptual models of ISO/IEC\, in conjunction with an
+  OpenStack edition development of IntOS by ComputingStack\, to clarify dat
+ a jurisdiction considerations\, and create a mapping to today&rsquo\;s Ope
+ nStack implementations of Cinder\, Glance\, Swift and Nova. These can be u
+ sed as a foundation to help describe the requirements for Cinder and Swift
+  storage\, process and in-transit concerning Nova and identify the opportu
+ nity to improve. This helps reduce rework\, providing transparency and sec
+ urity pertaining to the data that is being acted upon in what jurisdiction
+ s. \n 
+LOCATION:Vancouver Convention Centre West - Level One - Room 118-120
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Deep Insights: High Availability VM’s with a Simple Reliable Hos
+ t-to-Guest Interface
+DTSTART;VALUE=DATE-TIME:20180524T184000Z
+DTEND;VALUE=DATE-TIME:20180524T185000Z
+UID:21365@openstacksummitboston2017
+DESCRIPTION:OpenStack's approach to monitoring VM's has traditionally been
+  a very 'black box' approach.  VNF Managers have played the role of map
+ ping between a VM's  Application-Specific state and OpenStack's manageme
+ nt of the VM.  Recent work  in the OpenStack Masakari project has start
+ ed to look at leveraging a simple standardized  API between an OpenStack
+  compute host and it's hosted Guest VMs. Such work enables  capabilities
+  as 'active' / white-box type monitoring of the VM and Applications within
+  the VM\,  graceful notifications of potentially service-affecting admin
+ istrative commands on the VM\,  and even the ability to NACK these poten
+ tially service-affecting commands if the HA VM is  not fully synchronize
+ d with it's peer VM. In this session we'll discuss the pros and cons of 
+  such an approach\, and provide a simple demo of these capabilities. 
+LOCATION:Vancouver Convention Centre West - Level One - Lightning Talk The
+ ater
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Will your private cloud platform be able to meet SLAs？
+DTSTART;VALUE=DATE-TIME:20180524T185000Z
+DTEND;VALUE=DATE-TIME:20180524T193000Z
+UID:21088@openstacksummitboston2017
+DESCRIPTION:Virtualization technology adds complexity to the cloud platfor
+ m\, and the evaluation of the cloud platform is therefore more difficult. 
+ Now most of the existing evaluation system of cloud computing only test on
+ e aspect of the performance for the cloud platform and the evaluation mode
+ l is not general. To solve this\, we built a Comprehensive，general evalu
+ ation system model：\n\nPerformance test: CPU、Memory\, Storage\, Networ
+ k\, VPN\, Load Balancing\, Firewalls and so on.\nStability Assessment: Foc
+ uses on the stability of virtual machines in terms of computational perfor
+ mance\, memory performance\, network performance\, and storage performance
+ .\nScenario Based Assessment: Measure the performance using representative
+  real-world workloads（based on HPC and YCSB ）to provides Elasticity an
+ d Scalability \nMonitoring and Metering: In cloud platform\, all kinds o
+ f resources and services should be monitored and metered.\n\n \n 
+LOCATION:Vancouver Convention Centre West - Level One - Room 118-120
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Multicloud connectivity using openNHRP
+DTSTART;VALUE=DATE-TIME:20180524T192000Z
+DTEND;VALUE=DATE-TIME:20180524T193000Z
+UID:21284@openstacksummitboston2017
+DESCRIPTION: \nThe Multicloud is a reality with users balancing the need 
+ for specialized services\, High Availability\, Elasticity\, Security among
+  other things to drive to a solution that solves business needs. Minimizin
+ g the complexity for secure connectivity across the various endpoints is c
+ ritical to ensure that networking does not overwhelm the deployment.\nOpen
+ NHRP (Next Hop Resolution Protocol)is a much better alternative for connec
+ tivity than multiple site to site VPN tunnels to form a mesh. It provides 
+ a mechanism to enable a fully meshed network between the different endpoin
+ ts using multipoint GRE and IPSec. A Routing protocol is used to exchange 
+ Route information. The dynamic nature of the protocol minimizes configurat
+ ion changes with changes to the topology. We share our experience along wi
+ th a demo illustrating an Enterprise application running in a OpenStack Pr
+ ivate cloud as the Hub interacting with components spread across some repr
+ esentative Public Clouds as Spokes.\n 
+LOCATION:Vancouver Convention Centre West - Level One - Lightning Talk The
+ ater
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Cloud Operational Data at your finger tips
+DTSTART;VALUE=DATE-TIME:20180524T205000Z
+DTEND;VALUE=DATE-TIME:20180524T213000Z
+UID:21002@openstacksummitboston2017
+DESCRIPTION:Galaxy is a multi-cloud validation tool which aims to minimize
+  the mean time to detect issues on any number of cloud across Openstack.
+  It is a Python based application which is easily pluggable to existing cl
+ ouds. Openstack clouds are complex in architecture and comprises of seve
+ ral loosely coupled components working in sync to function as a single 
+ entity. The idea behind this tool is to substantiate the results of the O
+ penstack components health and perform validations of all kinds required t
+ o declare the health of the cloud. \nThis tool enables user to triage an 
+ issue related to Openstack clouds/ components in a matter of few mins. It 
+ also provides transparency to the end user\, who would like to know if he/
+ she has lost a node\, or vm\, or has any major rack failures.
+LOCATION:Vancouver Convention Centre West - Level One - Room 118-120
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Root your Openstack on a solid foundation of leaf-spine architectu
+ re!
+DTSTART;VALUE=DATE-TIME:20180524T211000Z
+DTEND;VALUE=DATE-TIME:20180524T212000Z
+UID:21249@openstacksummitboston2017
+DESCRIPTION:A long time ago in a data center far\, far away\, someone plan
+ ted the seeds which one day would grow into the beautiful leaf-spine archi
+ tecture we know today. This architecture's roots have grown strong providi
+ ng stability\, enabling scaling out vs up\, leveraging layer-3 edge and la
+ yer-3 top of rack\, diminishing the massive layer-2 domains into smaller\,
+  wonderful\, much more manageable domains.\nJoin us as we wind our way thr
+ ough the fascinating world of networking covering topics such as Clos Fabr
+ ics\, Layer-3 vs Layer-2 Edge and scaling connectivity. We'll then weave t
+ hese solid underpinning topics up\, tracing their branches as they reach u
+ p and integrate into an Openstack deployment\, discussing node connectivit
+ y\, provider networks and TripleO deployment topologies.\nFinally\, we'll 
+ discuss the fruit of all of this labor - how the tenant instances leverage
+  these complex underpinnings to interconnect and scale! We'll wrap our tal
+ k up with a live demonstration showing the beauty of it all!
+LOCATION:Vancouver Convention Centre West - Level One - Lightning Talk The
+ ater
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Dynamic RBAC in OpenStack- Fix Security loop holes in Real Time

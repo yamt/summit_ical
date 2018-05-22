@@ -18,7 +18,8 @@ TZOFFSETTO:-0700
 END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
-SUMMARY:OpenStack Upstream Institute - Day 1 (RSVP Required)
+SUMMARY:OpenStack Upstream Institute Sponsored by Lenovo - Day 1 (RSVP Req
+ uired)
 DTSTART;VALUE=DATE-TIME:20180519T210000Z
 DTEND;VALUE=DATE-TIME:20180520T010000Z
 UID:21580@openstacksummitboston2017
@@ -35,7 +36,7 @@ DESCRIPTION:OpenStack Upstream Institute is an intensive program designed
  dees are also given the opportunity to join a mentoring program to get fur
  ther help and guidance on their journey to become an active and successful
   member of the OpenStack community.\n 
-LOCATION:
+LOCATION:Vancouver Convention Centre West - Level Two - Room 215-216
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:RSVP REQUIRED: Containers\, Kubernetes and OpenShift - Red Hat Ope
@@ -59,14 +60,59 @@ DESCRIPTION:Join the OpenShift by Red Hat team for a full day of discussio
   OpenShift developer workflow\n\nA laptop with Windows\, Linux or MacOS an
  d WiFi are required. Please install the OpenShift CLI prior to attending t
  he event.\n 
+LOCATION:Vancouver Convention Centre West - Level Two - Room 213-214
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:RSVP REQUIRED: VMware Integrated OpenStack: The fastest and easies
+ t way to deploy NFV using OpenStack
+DTSTART;VALUE=DATE-TIME:20180521T203000Z
+DTEND;VALUE=DATE-TIME:20180522T010000Z
+UID:21828@openstacksummitboston2017
+DESCRIPTION:Session 1: 1:30 – 2:45\nInstall and Configure VMware Integra
+ ted OpenStack\nInstructor: Henrik Blixt\nVMware integrated OpenStack is on
+ e of the easiest OpenStack distributions to install and configure. In this
+  first session you’ll do a (remote) hands-on install of VMware Integrate
+ d OpenStack and experience it for yourself. We will also go through the ma
+ in differences between VMware Integrated OpenStack and other OpenStack dis
+ tributions\, including the benefits as well as the drawbacks.\nKey Take-aw
+ ay:\n1.     Attendees will gain an understanding of how to install VMw
+ are Integrated OpenStack.\n2.     Attendees will learn about the key b
+ enefits of VMware Integrated OpenStack and unique advantages from other Op
+ enStack distributions.\n \nSession 2: 3:00 – 4:15\nAdvanced Networking 
+ with VMware Integrated OpenStack\nInstructor: Marcos Hernandez & Xiao Gao\
+ nVMware NSX is one of the fastest growing segments at VMware and packed wi
+ th advanced features. Networking is an important and integral part of Open
+ Stack\, but also one of the most complex. Our NSX and OpenStack teams have
+  always been working closely together and the result is a solution that gi
+ ves you the best of both worlds.\nIn this session you will gain insight in
+ to the key features of NSX\, the interaction with Neutron and how it all w
+ orks in OpenStack. We will cover key areas including\, firewalls\, load ba
+ lancers\, and micro-segmentation\, amongst other items and show how all th
+ e pieces fit together.\nKey Take-away:\n1.     Attendees will gain an 
+ understanding of the latest advanced networking features available in VMwa
+ re Integrated OpenStack and NSX.\n2.     Attendees will learn how to s
+ et up Neutron networking backed by NSX-T\n \nSession 3: 4:30 – 5:30\nCS
+ Ps deploying VMware Integrated OpenStack for NFV\nInstructor: Vanessa Litt
+ le\nCSPs are quickly adopting OpenStack as a standardized platform for des
+ igning and deploying their VNFs. However\, the complexity of the required 
+ networking combined with OpenStack can make this a daunting task.  If you
+  are deploying VNFs\, VMware Integrated OpenStack\, with its VMware SDDC s
+ tack and OpenStack APIs\, makes your life easier. Learn how to deploy mode
+ l a VNF\, deploy it via an open sourced orchestrator on to VMware Integrat
+ ed OpenStack with NSX quickly and easily in this lab.\nKey Take-away:\nAtt
+ endees will learn how to model and deploy a simple multi-VDU VNF.\nAttende
+ es will learn how to deploy a VNF within a  VMware Integrated OpenStack e
+ nvironment using an open sourced orchestrator\nAttendees will learn the be
+ nefits of VMware Integrated OpenStack in a Telco network\n \nSession 4: 5
+ :30 – 6:00\nCocktails with the Instructor\n \n \n 
 LOCATION:Vancouver Convention Centre West - Level Two - Room 218-219
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:RSVP REQUIRED: SUSE Two-Day Training: OpenStack Administration - P
- repare for the Certified Exams (Day 1)
-DTSTART;VALUE=DATE-TIME:20180523T160000Z
-DTEND;VALUE=DATE-TIME:20180524T010000Z
-UID:21661@openstacksummitboston2017
+ repare for the Certified Exams (Day 2)
+DTSTART;VALUE=DATE-TIME:20180524T160000Z
+DTEND;VALUE=DATE-TIME:20180525T010000Z
+UID:21660@openstacksummitboston2017
 DESCRIPTION:This training is a two day course and participants must attend
   both days in order to complete the courses. An RSVP to Day 1 is an automa
  tic RSVP to Day 2.\nThis course is designed for system administrators and 

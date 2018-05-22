@@ -58,16 +58,6 @@ DESCRIPTION: Project Updates cover the latest changes in the project. See
 LOCATION:Vancouver Convention Centre West - Level Two - Room 212
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Dragonflow - Project Update
-DTSTART;VALUE=DATE-TIME:20180521T214500Z
-DTEND;VALUE=DATE-TIME:20180521T220500Z
-UID:21608@openstacksummitboston2017
-DESCRIPTION:Project Updates cover the latest changes in the project. See w
- hat's new in the latest OpenStack release\, and what you can expect to see
-  from the project in the upcoming release.
-LOCATION:Vancouver Convention Centre West - Level Two - Room 212
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Glance - Project Update
 DTSTART;VALUE=DATE-TIME:20180521T221000Z
 DTEND;VALUE=DATE-TIME:20180521T223000Z
@@ -82,9 +72,9 @@ SUMMARY:Keystone - Project Update
 DTSTART;VALUE=DATE-TIME:20180521T223500Z
 DTEND;VALUE=DATE-TIME:20180521T225500Z
 UID:21584@openstacksummitboston2017
-DESCRIPTION: Project Updates cover the latest changes in the project. See 
- what's new in the latest OpenStack release\, and what you can expect to se
- e from the project in the upcoming release.
+DESCRIPTION:Project Updates cover the latest changes in the project. See w
+ hat's new in the latest OpenStack release\, and what you can expect to see
+  from the project in the upcoming release.
 LOCATION:Vancouver Convention Centre West - Level Two - Room 212
 END:VEVENT
 BEGIN:VEVENT
@@ -158,30 +148,10 @@ DESCRIPTION:Project Updates cover the latest changes in the project. See w
 LOCATION:Vancouver Convention Centre West - Level Two - Room 212
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:CloudKitty - Project Update
-DTSTART;VALUE=DATE-TIME:20180522T171500Z
-DTEND;VALUE=DATE-TIME:20180522T173500Z
-UID:21591@openstacksummitboston2017
-DESCRIPTION:Project Updates cover the latest changes in the project. See w
- hat's new in the latest OpenStack release\, and what you can expect to see
-  from the project in the upcoming release.
-LOCATION:Vancouver Convention Centre West - Level Two - Room 212
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Heat - Project Update
 DTSTART;VALUE=DATE-TIME:20180522T180000Z
 DTEND;VALUE=DATE-TIME:20180522T182000Z
 UID:21595@openstacksummitboston2017
-DESCRIPTION:Project Updates cover the latest changes in the project. See w
- hat's new in the latest OpenStack release\, and what you can expect to see
-  from the project in the upcoming release.
-LOCATION:Vancouver Convention Centre West - Level Two - Room 212
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Infra - Project Update
-DTSTART;VALUE=DATE-TIME:20180522T182500Z
-DTEND;VALUE=DATE-TIME:20180522T184500Z
-UID:21610@openstacksummitboston2017
 DESCRIPTION:Project Updates cover the latest changes in the project. See w
  hat's new in the latest OpenStack release\, and what you can expect to see
   from the project in the upcoming release.
@@ -255,13 +225,13 @@ UID:21655@openstacksummitboston2017
 DESCRIPTION:Come for a project update from the Kata Containers Architectur
  e Committee! Learn what the Kata contributor community is working on and h
  ear about the project's roadmap for its first release and beyond.
-LOCATION:Vancouver Convention Centre West - Level Two - Room 212
+LOCATION:Vancouver Convention Centre West - Level Two - Room 208-209
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Watcher - Project Update
+SUMMARY:CloudKitty - Project Update
 DTSTART;VALUE=DATE-TIME:20180522T234000Z
 DTEND;VALUE=DATE-TIME:20180523T000000Z
-UID:21603@openstacksummitboston2017
+UID:21591@openstacksummitboston2017
 DESCRIPTION:Project Updates cover the latest changes in the project. See w
  hat's new in the latest OpenStack release\, and what you can expect to see
   from the project in the upcoming release.
@@ -278,13 +248,20 @@ DESCRIPTION:Project Updates cover the latest changes in the project. See w
 LOCATION:Vancouver Convention Centre West - Level Two - Room 212
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Congress - Project Update
+SUMMARY:Congress Project Update: Unified Governance for Your Cloud
 DTSTART;VALUE=DATE-TIME:20180523T003000Z
 DTEND;VALUE=DATE-TIME:20180523T005000Z
 UID:21615@openstacksummitboston2017
-DESCRIPTION:Project Updates cover the latest changes in the project. See w
- hat's new in the latest OpenStack release\, and what you can expect to see
-  from the project in the upcoming release.
+DESCRIPTION:Congress is a unified policy layer across the cloud. By suppor
+ ting policies that span the whole cloud rather than be siloed in individua
+ l services\, Congress supports use cases ranging from automated fault reco
+ very to cross-service security policies. We discuss the latest features in
+ cluding Mistral integration to trigger workflows with policy\, configurati
+ on validation to help ops catch improper configurations across the cloud\,
+  and tag-based security to help ops enforce application-based policies in 
+ a self-service infra. We also look forward to delivering next-level cloud 
+ governance with Monasca and Vitrage web hook integration as well as extens
+ ible support for new policy technologies.
 LOCATION:Vancouver Convention Centre West - Level Two - Room 212
 END:VEVENT
 BEGIN:VEVENT
@@ -292,86 +269,6 @@ SUMMARY:Trove - Project Update
 DTSTART;VALUE=DATE-TIME:20180523T005500Z
 DTEND;VALUE=DATE-TIME:20180523T011500Z
 UID:21609@openstacksummitboston2017
-DESCRIPTION:Project Updates cover the latest changes in the project. See w
- hat's new in the latest OpenStack release\, and what you can expect to see
-  from the project in the upcoming release.
-LOCATION:Vancouver Convention Centre West - Level Two - Room 212
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Horizon - Project Update
-DTSTART;VALUE=DATE-TIME:20180523T160000Z
-DTEND;VALUE=DATE-TIME:20180523T162000Z
-UID:21659@openstacksummitboston2017
-DESCRIPTION: Project Updates cover the latest changes in the project. See 
- what's new in the latest OpenStack release\, and what you can expect to se
- e from the project in the upcoming release.
-LOCATION:Vancouver Convention Centre West - Level Two - Room 212
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Magnum - Project Update
-DTSTART;VALUE=DATE-TIME:20180523T162500Z
-DTEND;VALUE=DATE-TIME:20180523T164500Z
-UID:21618@openstacksummitboston2017
-DESCRIPTION:Project Updates cover the latest changes in the project. See w
- hat's new in the latest OpenStack release\, and what you can expect to see
-  from the project in the upcoming release.
-LOCATION:Vancouver Convention Centre West - Level Two - Room 212
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Oslo - Project Update
-DTSTART;VALUE=DATE-TIME:20180523T165000Z
-DTEND;VALUE=DATE-TIME:20180523T171000Z
-UID:21617@openstacksummitboston2017
-DESCRIPTION:Project Updates cover the latest changes in the project. See w
- hat's new in the latest OpenStack release\, and what you can expect to see
-  from the project in the upcoming release.
-LOCATION:Vancouver Convention Centre West - Level Two - Room 212
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Masakari - Project Update
-DTSTART;VALUE=DATE-TIME:20180523T171500Z
-DTEND;VALUE=DATE-TIME:20180523T173500Z
-UID:21622@openstacksummitboston2017
-DESCRIPTION:Project Updates cover the latest changes in the project. See w
- hat's new in the latest OpenStack release\, and what you can expect to see
-  from the project in the upcoming release.
-LOCATION:Vancouver Convention Centre West - Level Two - Room 212
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Nova - Project Update
-DTSTART;VALUE=DATE-TIME:20180523T185000Z
-DTEND;VALUE=DATE-TIME:20180523T193000Z
-UID:21598@openstacksummitboston2017
-DESCRIPTION:Project Updates cover the latest changes in the project. See w
- hat's new in the latest OpenStack release\, and what you can expect to see
-  from the project in the upcoming release.
-LOCATION:Vancouver Convention Centre West - Level Two - Room 212
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Vitrage - Project Update
-DTSTART;VALUE=DATE-TIME:20180523T205000Z
-DTEND;VALUE=DATE-TIME:20180523T211000Z
-UID:21593@openstacksummitboston2017
-DESCRIPTION:Project Updates cover the latest changes in the project. See w
- hat's new in the latest OpenStack release\, and what you can expect to see
-  from the project in the upcoming release.
-LOCATION:Vancouver Convention Centre West - Level Two - Room 212
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Mistral - Project Update
-DTSTART;VALUE=DATE-TIME:20180523T225500Z
-DTEND;VALUE=DATE-TIME:20180523T231500Z
-UID:21620@openstacksummitboston2017
-DESCRIPTION:Project Updates cover the latest changes in the project. See w
- hat's new in the latest OpenStack release\, and what you can expect to see
-  from the project in the upcoming release.
-LOCATION:Vancouver Convention Centre West - Level Two - Room 212
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Monasca - Project Update
-DTSTART;VALUE=DATE-TIME:20180523T234000Z
-DTEND;VALUE=DATE-TIME:20180524T000000Z
-UID:21594@openstacksummitboston2017
 DESCRIPTION:Project Updates cover the latest changes in the project. See w
  hat's new in the latest OpenStack release\, and what you can expect to see
   from the project in the upcoming release.
@@ -418,20 +315,70 @@ DESCRIPTION:Project Updates cover the latest changes in the project. See w
 LOCATION:Vancouver Convention Centre West - Level Two - Room 212
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Murano - Project Update
-DTSTART;VALUE=DATE-TIME:20180524T205000Z
-DTEND;VALUE=DATE-TIME:20180524T211000Z
-UID:21601@openstacksummitboston2017
+SUMMARY:Infra - Project Update
+DTSTART;VALUE=DATE-TIME:20180524T211500Z
+DTEND;VALUE=DATE-TIME:20180524T213500Z
+UID:21610@openstacksummitboston2017
 DESCRIPTION:Project Updates cover the latest changes in the project. See w
  hat's new in the latest OpenStack release\, and what you can expect to see
   from the project in the upcoming release.
 LOCATION:Vancouver Convention Centre West - Level Two - Room 212
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Senlin - Project Update
-DTSTART;VALUE=DATE-TIME:20180524T214000Z
-DTEND;VALUE=DATE-TIME:20180524T220000Z
-UID:21605@openstacksummitboston2017
+SUMMARY:Zun - Project Update
+DTSTART;VALUE=DATE-TIME:20180524T223000Z
+DTEND;VALUE=DATE-TIME:20180524T225000Z
+UID:21599@openstacksummitboston2017
+DESCRIPTION:Project Updates cover the latest changes in the project. See w
+ hat's new in the latest OpenStack release\, and what you can expect to see
+  from the project in the upcoming release.
+LOCATION:Vancouver Convention Centre West - Level Two - Room 212
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Manila - Project Update
+DTSTART;VALUE=DATE-TIME:20180524T160000Z
+DTEND;VALUE=DATE-TIME:20180524T162000Z
+UID:21619@openstacksummitboston2017
+DESCRIPTION:Project Updates cover the latest changes in the project. See w
+ hat's new in the latest OpenStack release\, and what you can expect to see
+  from the project in the upcoming release.
+LOCATION:Vancouver Convention Centre West - Level Two - Room 212
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Qinling - Project Update
+DTSTART;VALUE=DATE-TIME:20180524T171500Z
+DTEND;VALUE=DATE-TIME:20180524T173500Z
+UID:21621@openstacksummitboston2017
+DESCRIPTION:Project Updates cover the latest changes in the project. See w
+ hat's new in the latest OpenStack release\, and what you can expect to see
+  from the project in the upcoming release.
+LOCATION:Vancouver Convention Centre West - Level Two - Room 212
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Blazar - Project Update
+DTSTART;VALUE=DATE-TIME:20180524T180000Z
+DTEND;VALUE=DATE-TIME:20180524T182000Z
+UID:21600@openstacksummitboston2017
+DESCRIPTION:Project Updates cover the latest changes in the project. See w
+ hat's new in the latest OpenStack release\, and what you can expect to see
+  from the project in the upcoming release.
+LOCATION:Vancouver Convention Centre West - Level Two - Room 212
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Swift - Project Update
+DTSTART;VALUE=DATE-TIME:20180524T185000Z
+DTEND;VALUE=DATE-TIME:20180524T193000Z
+UID:21587@openstacksummitboston2017
+DESCRIPTION:Project Updates cover the latest changes in the project. See w
+ hat's new in the latest OpenStack release\, and what you can expect to see
+  from the project in the upcoming release.
+LOCATION:Vancouver Convention Centre West - Level Two - Room 212
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Infra - Project Update
+DTSTART;VALUE=DATE-TIME:20180524T211500Z
+DTEND;VALUE=DATE-TIME:20180524T213500Z
+UID:21610@openstacksummitboston2017
 DESCRIPTION:Project Updates cover the latest changes in the project. See w
  hat's new in the latest OpenStack release\, and what you can expect to see
   from the project in the upcoming release.

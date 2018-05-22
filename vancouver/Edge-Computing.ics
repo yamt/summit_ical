@@ -18,27 +18,30 @@ TZOFFSETTO:-0700
 END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
-SUMMARY:Edge optimized architecture for fabric defect detection in real-ti
- me
-DTSTART;VALUE=DATE-TIME:20180521T205000Z
-DTEND;VALUE=DATE-TIME:20180521T210000Z
-UID:20824@openstacksummitboston2017
-DESCRIPTION:In textile industry\, fabric defect relies on human inspection
-  traditionally\, which is inaccurate\, inconsistent\, inefficient and expe
- nsive. There were automatic systems developed on the defect detection by i
- dentifying the faults in fabric surface using the image and video processi
- ng techniques. However\, the existing solution has insufficiencies in defe
- ct data sharing\, backhaul interconnect\, maintenance and etc. By evolving
-  to an edge-optimized architecture\, we can help textile industry improve 
- fabric quality\, reduce operation cost and increase production efficiency.
-  In this session\, I’ll share:\nWhat’s edge computing and why it’s i
- mportant to intelligence manufacturing\nWhat’s the characteristics\, str
- engths and weaknesses of traditional fabric defect detection method\nWhy t
- extile industry can benefit from edge computing infrastructure \nHow to de
- sign and implement an edge-enabled application for fabric defect detection
-  in real-time\nInsights\, synergy and future research directions\n
-LOCATION:Vancouver Convention Centre West - Level One - Lightning Talk The
- ater
+SUMMARY:Akraino half-day workshop (RSVP Required)
+DTSTART;VALUE=DATE-TIME:20180522T160000Z
+DTEND;VALUE=DATE-TIME:20180522T193000Z
+UID:21866@openstacksummitboston2017
+DESCRIPTION:The Akraino Edge Stack is a new Linux Foundation open source p
+ roject. Akriano aims to expand the development of next-generation zero-tou
+ ch edge cloud infrastructure for carrier and enterprise networks\; the aud
+ ience is operators\, service integrators\, application developers\, cloud 
+ providers and edge application users. OpenStack is one of the building blo
+ cks in the Akraino Stack. Participants will gain an understanding of the A
+ kraino project\, the seed code being contributed by founding members\, and
+  areas for collaborative development between the OpenStack community and A
+ kraino project.Detailed agenda and topics:\n9:00-9:30 - Akraino Introducti
+ on & overview - Kandan Kathirvel\, AT&T & Jenny Koerv\, Intel\n9:30-9:50 
+ – OpenStack Edge working group efforts- Ildiko Vancsa\, OpenStack Founda
+ tion & Beth Cohen\, Verizon\n9:50-10:10 - AT&T Seed Code to Akraino - Kand
+ an Kathirvel\, AT&T\n10:10-10:30 – Airship Overview – Alan Meadows & R
+ odolfo Pacheco\, AT&T\n10:30-10:50 - Intel/Wind River Seed Code to Akraino
+  – Ian Joliffe\, WRS\n10:50 - 11:00 – NEV SDK – Jenny Koerv\, Intel\
+ n11:00 – 11:20 – Akraino Community expectations to OpenStack – Travi
+ s Broughton\, Intel Corporation\n11:20 – 11:40 – Community collaborati
+ on b/w Akraino & OpenStack – Amy Leeland\, Intel\n11:45-12:30 Community 
+ discussion & Q&A – All\n
+LOCATION:Vancouver Convention Centre West - Level Two - Room 218-219
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Enabling Security for OpenStack Guests - TPM Support for VMs at th
@@ -58,24 +61,54 @@ LOCATION:Vancouver Convention Centre West - Level One - Lightning Talk The
  ater
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Leveraging Kubernetes and Tensorflow for IOT analytics in Edge com
- puting environment
-DTSTART;VALUE=DATE-TIME:20180522T215000Z
-DTEND;VALUE=DATE-TIME:20180522T220000Z
-UID:21142@openstacksummitboston2017
-DESCRIPTION:Modern IoT analytics are computational and data intensive. Exi
- sting analytics are mostly hosted in cloud data centers\, and may suffer f
- rom high latency\, network congestion\, and privacy issues. In this presen
- tation We will explore how can we analyze the data using tensorflow on the
-  IOT device itself\, The IOT device will run docker containers managed by 
- kubernetes. The analysis done at IOT devices will be sent to applications 
- running on cloud managed by openstack.\nWe will present a small demo of de
- ploying a tensorflow application using kubernetes on IOT device\, an end t
- o end flow from data collection through IOT device\, data analysis using T
- ensorFlow\, sending the analyzed data to user application running on opens
- tack cloud.
-LOCATION:Vancouver Convention Centre West - Level One - Lightning Talk The
- ater
+SUMMARY:Cinder and Scale HC3 for environments with high performance demand
+ s
+DTSTART;VALUE=DATE-TIME:20180522T185000Z
+DTEND;VALUE=DATE-TIME:20180522T191000Z
+UID:21880@openstacksummitboston2017
+DESCRIPTION:NVMe is designed for unparalleled IO performance and Scale Com
+ puting’s new HyperCore-Direct NVMe integrated architecture is designed f
+ or environments that have intense data operations\, high performance appli
+ cations\, and other exceptional performance requirements. We have now inte
+ grated HyperCore-Direct directly with Cinder to deliver that performance t
+ o the Openstack community.\n \n 
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:StarlingX: cloud infrastructure for high-performance\, low latency
+  applications
+DTSTART;VALUE=DATE-TIME:20180522T205000Z
+DTEND;VALUE=DATE-TIME:20180522T213000Z
+UID:21903@openstacksummitboston2017
+DESCRIPTION: \n \nIan Jolliffe\, Brent Rowsell and Dean Troyer will prov
+ ide a deep dive of the StarlingX architecture and features.  We will disc
+ uss the status of the code base today and some of the things we believe a
+ re on the to-do list.  We hope to engage the community in a conversation 
+ on how to integrate fully into the OpenStack community and ecosystem.\nSta
+ rlingX is open source software that provides cloud infrastructure for the 
+ most demanding applications in edge\, industrial IOT\, and telecom use cas
+ es. It is based on code contributed by Intel and Wind River and combines c
+ omponents of its own with leading open source projects such as OpenStack\
+ , Ceph and OVS.Based on five generations of production software\, this see
+ d code will be the base for future fully open source implementations that 
+ can be productized. In addition to standard cloud functionality\, the proj
+ ect components provide fault management and service management amongst ot
+ hers to ensure high availability of user applications.The code release is 
+ in process and available under the Apache 2 license.\n 
+LOCATION:Vancouver Convention Centre West - Level Two - Room 208-209
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Continuously Delivered: Infrastructure\, Applications and Toolchai
+ ns
+DTSTART;VALUE=DATE-TIME:20180522T234000Z
+DTEND;VALUE=DATE-TIME:20180523T002000Z
+UID:21904@openstacksummitboston2017
+DESCRIPTION:Can (and should) you apply continuous delivery to infrastructu
+ re services? Can (and should) continuous delivery toolchains themselves be
+  provided 'as-a-service'? Join Mirantis' Ryan Day for a demo-rich session 
+ showing that this is exactly what we do\, how we do it and why it's import
+ ant to cloud operators\, developers and SREs. 
+LOCATION:Vancouver Convention Centre West - Level Two - Room 202-204
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Telexistence Robot\, SDN and OpenStack
@@ -120,243 +153,10 @@ DESCRIPTION:Fog/Edge Massively Distributed Clouds (FEMDC) sig is working o
 LOCATION:Vancouver Convention Centre West - Level Two - Room 205-207
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Edge Computing Keynotes
-DTSTART;VALUE=DATE-TIME:20180523T160000Z
-DTEND;VALUE=DATE-TIME:20180523T173000Z
-UID:21559@openstacksummitboston2017
-DESCRIPTION:Keynotes will feature speakers talking about emerging use case
- s within edge computing.
-LOCATION:Vancouver Convention Centre West - Level One - Room 109-110
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Edge TIC: Future edge cloud for China Mobile
-DTSTART;VALUE=DATE-TIME:20180523T180000Z
-DTEND;VALUE=DATE-TIME:20180523T184000Z
-UID:20643@openstacksummitboston2017
-DESCRIPTION:With the emerge of 5G services\, Telco Operators face fierce r
- equirement for building large number of edge clouds to support the low-lat
- ency distributed services\, including MEC & CRAN. In this talk\, we would 
- like to share the future network framework nationwide in China Mobile\, an
- d the architecture\, design and requirement for edge cloud. China Mobile f
- eatures its future network with multiple DC specifically designed for telc
- o scenarios called TIC (Telecom Integrated Cloud) across the whole countri
- es. Edge TICs are small scale CO located in cities and counties\, even bas
- e stations. We can hardly call them as DC or clouds. The unique features o
- f edge TIC raise requirement for light weight OpenStack\, unified accelera
- tion API\, heterogeneous infrastructure resources including VM\, container
- s\, and bare metal. The presentation will introduce our vision on edge TIC
- \, requirements\, and open issues\, including acceleration and container o
- rchestration.
-LOCATION:Vancouver Convention Centre West - Level Two - Room 205-207
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Forming Edge Device Clouds towards Smarter Environments
-DTSTART;VALUE=DATE-TIME:20180523T180000Z
-DTEND;VALUE=DATE-TIME:20180523T193000Z
-UID:21538@openstacksummitboston2017
-DESCRIPTION:It is projected that there will be billions of connected devic
- es and trillions of digitized entities in the years ahead. Increasingly ou
- r everyday devices are being empowered with more processing\, memory\, sto
- rage and input/output capacities. The size of the data getting generated b
- y these devices are humongous whereas the scope\, speed\, and structure of
-  data are varying. Our environments are being stuffed with multifaceted se
- nsors\, actuators and devices. The challenge is to aggregate all the prope
- rty and people data to do localized and cognitive analytics to extricate a
- nd disseminate actionable insights in time to produce smarter devices and 
- people-centric services. The traditional cloud environments are massive in
-  their processing and storage capabilities but the real-time data capture\
- , analytics\, decision-making and actuation are hard. The strategic altern
- ative is to form edge device clouds for instantaneous data capture\, clean
- sing and crunching of sensor and actuator data
-LOCATION:Vancouver Convention Centre West - Level Two - Room 213-214
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Security Considerations for Cloud Edge Computing
-DTSTART;VALUE=DATE-TIME:20180523T185000Z
-DTEND;VALUE=DATE-TIME:20180523T193000Z
-UID:20651@openstacksummitboston2017
-DESCRIPTION:Cloud Edge computing use cases range from IoT to VR/AR and any
-  widely distributed application in between.  However\, taking OpenStack ou
- t of the data center requires an entirely new approach to security when th
- ere is far less ability to restrict access and often the applications requ
- ire a shared tenant model. Some of the factors that need to be considered 
- include:\n\nMore stringent requirements for infrastructure software (code/
- design) in exposed environments\nNew ways of thinking about RBAC at the co
- ntrol interfaces\nConflicts arising from shared ownership and divided resp
- onsibilities for devices/systems/applications\nManaging lifecycle operatio
- ns and deployments over insecure WAN connections\nDifferent ways of lookin
- g at tenant spaces in remote locations\nImposing network/compute/storage/m
- emory separation from the underlying virtualization/hardware components\nM
- anaging security over intermittent WAN connections\nSecuring semi-autonomo
- us and self-managed locations\n
-LOCATION:Vancouver Convention Centre West - Level Two - Room 205-207
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Leading Edge Design - architectural experiences from a top 5 carri
- er
-DTSTART;VALUE=DATE-TIME:20180523T190000Z
-DTEND;VALUE=DATE-TIME:20180523T191000Z
-UID:21342@openstacksummitboston2017
-DESCRIPTION:Bringing cloud services closer to the creators and consumers o
- f data - be they applications or people - is crucial to delivering a high 
- quality smart experience. In this talk we will look at some of the experie
- nces\, both good and bad of different architectures that have been tried f
- or edge computing at one of the world's leading telecommunications compani
- es. With many options including OpenStack\, containers\, virtualisation\, 
- baremetal and different combinations of each\, coupled with twice as many 
- opinions about the right approach\, Edge is an area of much discussion. Jo
- in this session to hear some of these opinions and feel free to bring your
-  own too.
-LOCATION:Vancouver Convention Centre West - Level One - Lightning Talk The
- ater
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Containers\, bare-metal\, VM's: Edge computing choices for workloa
- d flexibility
-DTSTART;VALUE=DATE-TIME:20180523T205000Z
-DTEND;VALUE=DATE-TIME:20180523T213000Z
-UID:20804@openstacksummitboston2017
-DESCRIPTION:As network connected devices and applications become more powe
- rful\, we are experiencing a shift in the requirements for system architec
- ture and methods of utilizing remote hardware resources.\nThe focus today 
- is on how to better manage distributed resources\, applications and how to
-  best package them for optimal performance.  Recent discussions have focu
- sed on container and OpenStack workloads\; however\, virtual machines\, cl
- oudlets and unikernels are all viable options for application deployment a
- nd execution. Is there one right approach?\nThis panel will explore and di
- scuss the strengths and weaknesses of each of these technologies\, coupled
-  with a discussion of technology maturity and market forces involved in de
- livering the right platform for creating practical solutions to fit the ap
- plication.
-LOCATION:Vancouver Convention Centre West - Level Two - Room 205-207
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Edge Computing Operations: Day 1 Deployment and Day 2 Management
-DTSTART;VALUE=DATE-TIME:20180523T214000Z
-DTEND;VALUE=DATE-TIME:20180523T222000Z
-UID:21360@openstacksummitboston2017
-DESCRIPTION:Edge Computing\,  and more generally geographically distribute
- d edge  computing\, presents a number of new challenges for cloud manage
- ment operations.   In this session\, we will discuss learnings from our 
- investigations in the  area of Distributed Edge Computing.  We will revi
- ew requirements and describe  a proposed system model\; discussing topic
- s such as centralized management  versus edge autonomy and the need for 
- both.  We will also discuss some key  challenges and solution options fo
- r areas of sub-cloud installation\, shared  centralized OpenStack Servic
- es\, configuration synchronization strategies across  sub-clouds for var
- ious OpenStack components as well as approaches for dealing with  softwa
- re management of OpenStack software running on 100s of distributed OpenSta
- ck nodes.
-LOCATION:Vancouver Convention Centre West - Level Two - Room 205-207
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Network API Exposure and Context Management at the Edge.
-DTSTART;VALUE=DATE-TIME:20180523T221000Z
-DTEND;VALUE=DATE-TIME:20180523T222000Z
-UID:21482@openstacksummitboston2017
-DESCRIPTION:The advent of 5G will change the communications industry by en
- abling placement of high-bandwidth and low-latency mobile services at the 
- edge of the network. Additionally\, 5G will allow deployment of both virtu
- alized RAN (Radio Access Network) and CN (Core Network) at the Edge\, ther
- eby opening a way to expose many of these mobile services capabilities thr
- ough APIs. \nThese APIs will be used by the 3rd party applications such as
-  AR/VR\, IoT\, media etc. It is expected that the exposure of network APIs
-  at the Edge will drive further innovation.\nIn this presentation\, we wil
- l share:\nVarious architectural options for exposing APIs at the Edge to b
- e consumed by both Telco and Web applications. \nHow OpenStack can be util
- ized to deploy the various architectural options for exposing APIs?\nEdge 
- cloud placement of analytics that will leverage local information in real-
- time.\nHow analytics at the Edge can be utilized to manage the distributed
-  infrastructure by utilizing OpenStack\, Kubernetes etc.?\n
-LOCATION:Vancouver Convention Centre West - Level One - Lightning Talk The
- ater
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Boosting innovation at the edge of the network\, with OpenStack ba
- sed small scale MEC hosts
-DTSTART;VALUE=DATE-TIME:20180523T223000Z
-DTEND;VALUE=DATE-TIME:20180523T231000Z
-UID:20985@openstacksummitboston2017
-DESCRIPTION:With the usage of edge clouds\, it will be possible to run ban
- dwidth hungry applications with low latency and ensure significant cost sa
- vings.The cloud will evolve into a distributed network of clouds which are
-  connected to each other and holistically managed. Applications can be acc
- elerated by increased responsiveness and maximized interactivity from the 
- edge. Real-time analytics can be performed at the point of capture and cor
- rective actions\, can be taken locally.The ETSI MEC group has specified th
- e architecture\, interfaces and APIs for a distributed application platfor
- m. The MEC specifications aim to stimulate innovation and promote interope
- rability and deployment. They enable rapid service creation and delivery\,
-  efficient and intelligent orchestration and flexible exposure of network 
- and context information. In this presentation we will discuss the MEC requ
- irements for the infrastructure and show how an OpenStack based edge host 
- can fulfill these requirements.
-LOCATION:Vancouver Convention Centre West - Level Two - Room 205-207
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Using Neutron BGP VPN for edge networking
-DTSTART;VALUE=DATE-TIME:20180523T234000Z
-DTEND;VALUE=DATE-TIME:20180524T002000Z
-UID:21074@openstacksummitboston2017
-DESCRIPTION:Edge clouds are here. But what is typically missed out in curr
- ent discussions is that data center networking doesn&rsquo\;t mix well wit
- h WAN infrastructure. Having these networks understand and talk to each ot
- her while eliminating gateways will reduce network infrastructure footprin
- t in edge sites.\nWe will discuss common issues and how utilizing the Neut
- ron's BGP-VPN API lets us address this and\, in the process\, make your ed
- ge cloud network be an extension of a wider VPN without any special overla
- ys or network stitching. Additionally\, it can request and receive guarant
- ees in terms of bandwidth or latency as needed. All these are achieved not
-  with investments in extra network equipment\, but by merging the traditio
- nal CE/PE roles and providing higher port utilization and high throughput.
-  Finally\, we will also discuss how BGPVPN API's need to adapted for emerg
- ing network paradigms like Segment Routing etc.
-LOCATION:Vancouver Convention Centre West - Level Two - Room 205-207
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:An Edge computing case study for Monasca: Smart City (AI-powered) 
- Surveillance and Monitoring
-DTSTART;VALUE=DATE-TIME:20180524T003000Z
-DTEND;VALUE=DATE-TIME:20180524T011000Z
-UID:21201@openstacksummitboston2017
-DESCRIPTION:This case study presents a Smart City pilot in Messina (Italy)
- \, featuring surveillance infrastructure based on  smart\, AI-powered\, ca
- meras.\nTo support several Smart City activities\, the University of Messi
- na developed an OpenStack-based framework called Stack4Things (IoTronic). 
- Stack4Things exchanges information between IoT/Edge nodes (e.g. smart came
- ras) and OpenStack via Horizon and Neutron.\nStack4Things\, together with 
- Monasca\, the OpenStack Monitoring Service\, controls the health of IoT/ed
- ge nodes: preprocessing sensor data at the edge\, collecting and presentin
- g higher-level information to citizens\, law enforcement personnel and mun
- icipality staff.
-LOCATION:Vancouver Convention Centre West - Level Two - Room 205-207
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Keystone in the context of Fog/Edge Massively Distributed Clouds
-DTSTART;VALUE=DATE-TIME:20180524T160000Z
-DTEND;VALUE=DATE-TIME:20180524T164000Z
-UID:21212@openstacksummitboston2017
-DESCRIPTION:Since 2016\, the FEMDC SiG has been investigating how OpenStac
- k could operate Edge Cloud infrastructures. Among the challenges that have
-  been identified by the SiG\, dealing with latency issues and network spli
- t brains is important for most OpenStack services.\nIn this presentation\,
-  we focus on how they impact the Keystone Identity Service. Keystone offer
- s different deployment approaches\, from a centralized one\, to a federati
- on\, as well as a replication using database clustering. By varying the nu
- mber of regions and latency between those regions\, we compare the followi
- ng deployments:\n\nOne centralized Keystone handling requests of all regio
- ns\nA replicated Keystone using Galera Cluster to synchronize databases in
-  the different regions\nA replicated Keystone leveraging the NewSQL Cockro
- achDB database\nA federated Keystone\n\nWe present the methodology\, resul
- ts and identification of possible improvements towards a more decentralize
- d management of the OpenStack services.\n 
-LOCATION:Vancouver Convention Centre West - Level Two - Room 205-207
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Can We Operate and Use an Edge Computing Infrastructure with OpenS
  tack?
-DTSTART;VALUE=DATE-TIME:20180524T165000Z
-DTEND;VALUE=DATE-TIME:20180524T173000Z
+DTSTART;VALUE=DATE-TIME:20180524T160000Z
+DTEND;VALUE=DATE-TIME:20180524T164000Z
 UID:21187@openstacksummitboston2017
 DESCRIPTION:While Edge computing is a future reality\, the question of how
   to operate such distributed infrastructures remains. We still miss a reso
@@ -375,25 +175,64 @@ DESCRIPTION:While Edge computing is a future reality\, the question of how
 LOCATION:Vancouver Convention Centre West - Level Two - Room 205-207
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:OpenStack and Linux Foundation joint blueprint on Edge Computing
+SUMMARY:Akraino Edge Stack BoF
+DTSTART;VALUE=DATE-TIME:20180524T165000Z
+DTEND;VALUE=DATE-TIME:20180524T173000Z
+UID:21833@openstacksummitboston2017
+DESCRIPTION:Get to know the new open source project\, Akraino Edge Stack. 
+ https://www.akraino.org. In this session\, we’ll explore opportunities f
+ or cross-community collaboration between Akraino and OpenStack. Bring your
+  questions and meet the community leaders.
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Keystone in the context of Fog/Edge Massively Distributed Clouds
+DTSTART;VALUE=DATE-TIME:20180524T165000Z
+DTEND;VALUE=DATE-TIME:20180524T173000Z
+UID:21212@openstacksummitboston2017
+DESCRIPTION:Since 2016\, the FEMDC SiG has been investigating how OpenStac
+ k could operate Edge Cloud infrastructures. Among the challenges that have
+  been identified by the SiG\, dealing with latency issues and network spli
+ t brains is important for most OpenStack services.\nIn this presentation\,
+  we focus on how they impact the Keystone Identity Service. Keystone offer
+ s different deployment approaches\, from a centralized one\, to a federati
+ on\, as well as a replication using database clustering. By varying the nu
+ mber of regions and latency between those regions\, we compare the followi
+ ng deployments:\n\nOne centralized Keystone handling requests of all regio
+ ns\nA replicated Keystone using Galera Cluster to synchronize databases in
+  the different regions\nA replicated Keystone leveraging the NewSQL Cockro
+ achDB database\nA federated Keystone\n\nWe present the methodology\, resul
+ ts and identification of possible improvements towards a more decentralize
+ d management of the OpenStack services.\n 
+LOCATION:Vancouver Convention Centre West - Level Two - Room 205-207
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:OpenStack + Scale Computing...computing from the Data Center to th
+ e Edge
 DTSTART;VALUE=DATE-TIME:20180524T180000Z
 DTEND;VALUE=DATE-TIME:20180524T184000Z
-UID:21275@openstacksummitboston2017
-DESCRIPTION:In the past decade\, there has been a concerted effort among a
- n all companies to move the IT infrastructure to centralized clouds\, enab
- led by virtualization. With the emergence of new technologies such as augm
- ented and virtual reality\, autonomous cars\, drones and IOT with smart ci
- ties\, data is increasingly being produced at the user end of the network.
-  These use cases demand real-time processing and communication between dis
- tributed endpoints\, creating the need for efficient processing at the net
- work edge.\nAT&T and Intel has explored several Edge architecture options 
- to run Edge applications and Virtual Network Functions (VNFs) at the Edge 
- and developed a full Edge solution using containerized OpenStack\, Kuberne
- tes\, and ONAP\, etc.\,\nWe will share Open Source based Edge reference ar
- chitecture which converges OpenStack and Linux Foundation communities to a
- chieve the goals together without duplication of effort as the time\, reso
- urces and funding are limited in the industry.
+UID:21877@openstacksummitboston2017
+DESCRIPTION:Edge Computing is computing that takes place outside of the tr
+ aditional datacenter. IT infrastructure must move closer to the source of 
+ data creation because it is becoming increasing impossible to move the exp
+ onential explosion of data back to the data center. Scale Computing has in
+ tegrated it’s compute\, storage\, and network platform into the OpenStac
+ k orchestration ecosystem. This allows Scale to push data center caliber t
+ echnology out to the edge and condense it to solve edge specific business 
+ problems for OpenStack users.
 LOCATION:Vancouver Convention Centre West - Level Two - Room 205-207
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Edge Computing Group BoF
+DTSTART;VALUE=DATE-TIME:20180524T180000Z
+DTEND;VALUE=DATE-TIME:20180524T193000Z
+UID:21685@openstacksummitboston2017
+DESCRIPTION:Agenda & Notes: https://etherpad.openstack.org/p/edge_computin
+ g_group_bof_vancouver2018\nGet plugged in with the active cross-community 
+ Edge Computing Group that's been meeting weekly since November 2017.\nLear
+ n more about the initaitve and see the latest whitepaper at openstack.org/
+ edge. 
+LOCATION:
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:5G\, Edge and Autoscaling
@@ -437,6 +276,38 @@ DESCRIPTION:Openstack has been the leading Cloud option for VIM in most MA
 LOCATION:Vancouver Convention Centre West - Level Two - Room 205-207
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Network API Exposure and Context Management at the Edge
+DTSTART;VALUE=DATE-TIME:20180524T214000Z
+DTEND;VALUE=DATE-TIME:20180524T222000Z
+UID:21857@openstacksummitboston2017
+DESCRIPTION:The advent of 5G will change the communications industry by en
+ abling placement of high-bandwidth and low-latency mobile services at the 
+ edge of the network. Additionally\, 5G will allow deployment of both virtu
+ alized RAN (Radio Access Network) and CN (Core Network) at the Edge\, ther
+ eby opening a way to expose many of these mobile services capabilities t
+ hrough APIs.\nThese APIs will be used by the 3rd party applications such a
+ s AR/VR\, IoT\, media etc. It is expected that the exposure of network AP
+ Is at the Edge will drive further innovation.\nIn this presentation\, we w
+ ill share:\nVarious architectural options for exposing APIs at the Edge to
+  be consumed by both Telco and Web applications.\nHow OpenStack can be uti
+ lized to deploy the various architectural options for exposing APIs?\nEdge
+  cloud placement of analytics that will leverage local information in rea
+ l-time.\nHow analytics at the Edge can be utilized to manage the distribut
+ ed infrastructure by utilizing OpenStack\, Kubernetes etc.?\n\nWhat can I 
+ expect to learn?\nThe audience is expected to gain the following from this
+  presentation:\nVarious options for exposing mobility and network services
+  APIs at the edge of the network.\nHow various network APIs can be consume
+ d by the 3rd party application developers?\nManagement of context informat
+ ion at the Edge.\nHow can OpenStack be utilized to deploy various network 
+ components to support the network exposure of APIs?\nHow real-time analyti
+ cs data at the Edge can optimize the distributed infrastructure management
+  with OpenStack\, Kubernetes etc.?\nCagatay Buyukkoc\, Lead RAN Architect\
+ , AT&T is one of the co-authors of this TechTalk but he could not attend d
+ ue to last minute business priorities. We are appreciative of his contribu
+ tion to the content of this presentation.\n
+LOCATION:Vancouver Convention Centre West - Level Two - Room 208-209
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:An edge-cloud architecture - China Unicom case study
 DTSTART;VALUE=DATE-TIME:20180524T214000Z
 DTEND;VALUE=DATE-TIME:20180524T222000Z
@@ -456,6 +327,263 @@ DESCRIPTION:China Unicom\, a world leading telco\, has deployed one of the
   of OpenStack for edge use cases and the needs for hardware accelerator de
  vices (e.g. FPGA\, GPU) as well as NFV requirements.
 LOCATION:Vancouver Convention Centre West - Level Two - Room 205-207
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Edge optimized architecture for fabric defect detection in real-ti
+ me
+DTSTART;VALUE=DATE-TIME:20180524T223000Z
+DTEND;VALUE=DATE-TIME:20180524T231000Z
+UID:20824@openstacksummitboston2017
+DESCRIPTION:In textile industry\, fabric defect relies on human inspection
+  traditionally\, which is inaccurate\, inconsistent\, inefficient and expe
+ nsive. There were automatic systems developed on the defect detection by i
+ dentifying the faults in fabric surface using the image and video processi
+ ng techniques. However\, the existing solution has insufficiencies in defe
+ ct data sharing\, backhaul interconnect\, maintenance and etc. By evolving
+  to an edge-optimized architecture\, we can help textile industry improve 
+ fabric quality\, reduce operation cost and increase production efficiency.
+  In this session\, I’ll share:\nWhat’s edge computing and why it’s i
+ mportant to intelligence manufacturing\nWhat’s the characteristics\, str
+ engths and weaknesses of traditional fabric defect detection method\nWhy t
+ extile industry can benefit from edge computing infrastructure\nHow to des
+ ign and implement an edge-enabled application for fabric defect detection 
+ in real-time\nInsights\, synergy and future research directions\n
+LOCATION:Vancouver Convention Centre West - Level One - Room 109-110
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Push Infrastructure to the Edge with Hyperconverged Cloudlets
+DTSTART;VALUE=DATE-TIME:20180524T223000Z
+DTEND;VALUE=DATE-TIME:20180524T231000Z
+UID:21220@openstacksummitboston2017
+DESCRIPTION:Within US Public Sector\, the need for tactical field kits is 
+ abundent. This applies to disaster response\, cyber response\, remote comp
+ uting locations\, etc. The field kits need to be rugged\, portable\, and f
+ ully capable to run all the applications and tools that run back in the ce
+ ntral data center. While I focus on Public Sector customers this same set 
+ of use cases applies to commercial entities as well.\nDuring this presenta
+ tion\, I will demonstrate a cloudlet that our team has been utilizing to s
+ olve the same prolems as our customers. Repeatable infrastructure in a sma
+ ll form factor that can run the same workloads that will run in our custom
+ ers data centers. We often have limited network connectivity and need a co
+ mpletely isolated environment to demonstrate our open source software stac
+ k.\nWe are working with many customers to help translate what we've done f
+ or our own solutation architects in the field to solve their field kit nee
+ ds.\n 
+LOCATION:Vancouver Convention Centre West - Level Two - Room 205-207
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Microclouds for Fragmented Markets: getting OpenStack everywhere!
+DTSTART;VALUE=DATE-TIME:20180525T003000Z
+DTEND;VALUE=DATE-TIME:20180525T011000Z
+UID:21359@openstacksummitboston2017
+DESCRIPTION:Openstack Microclouds is a project that aims to reduce the ent
+ ry costs and simplify the process of transitioning to cloud technologies o
+ f new clients\, by sharing geo-distributed controller nodes among multiple
+  deployments. By leaving only the networking and compute functions to the 
+ client\, we make the process of setting up a public cloud with highly avai
+ lable controller nodes a simple task. Using technologies like Ansible and 
+ Docker we are able to present each client with an isolated and independent
+  OpenStack deployment\, making management of multiple deployments almost a
+  trivial job. 
+LOCATION:Vancouver Convention Centre West - Level Two - Room 205-207
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Can We Operate and Use an Edge Computing Infrastructure with OpenS
+ tack?
+DTSTART;VALUE=DATE-TIME:20180524T160000Z
+DTEND;VALUE=DATE-TIME:20180524T164000Z
+UID:21187@openstacksummitboston2017
+DESCRIPTION:While Edge computing is a future reality\, the question of how
+  to operate such distributed infrastructures remains. We still miss a reso
+ urce management system that enables the aggregation/supervision/exposure o
+ f all edge resources\, and the implementation of new services.\nCan OpenSt
+ ack be extended to satisfy the requirements? How? Our community should add
+ ress these questions.\nBefore proposing new pieces of software\, it is ess
+ ential to conduct a gap analysis of the current code base. This talk prese
+ nts the study carried within the FEMDC SiG.\nFirst\, we introduce capabili
+ ties admins/users may expect - from the simplest\, start a VM at a specifi
+ c location\; to the most advanced\, interoperability across cloud stacks. 
+ Second\, we discuss how we evaluated the different deployment scenarios th
+ at might be envisioned with the current OpenStack code base. We conclude b
+ y presenting the premise of a possible architecture leveraging OpenStack w
+ ith the goal of initiating the debate with the community.
+LOCATION:Vancouver Convention Centre West - Level Two - Room 205-207
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Akraino Edge Stack BoF
+DTSTART;VALUE=DATE-TIME:20180524T165000Z
+DTEND;VALUE=DATE-TIME:20180524T173000Z
+UID:21833@openstacksummitboston2017
+DESCRIPTION:Get to know the new open source project\, Akraino Edge Stack. 
+ https://www.akraino.org. In this session\, we’ll explore opportunities f
+ or cross-community collaboration between Akraino and OpenStack. Bring your
+  questions and meet the community leaders.
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Keystone in the context of Fog/Edge Massively Distributed Clouds
+DTSTART;VALUE=DATE-TIME:20180524T165000Z
+DTEND;VALUE=DATE-TIME:20180524T173000Z
+UID:21212@openstacksummitboston2017
+DESCRIPTION:Since 2016\, the FEMDC SiG has been investigating how OpenStac
+ k could operate Edge Cloud infrastructures. Among the challenges that have
+  been identified by the SiG\, dealing with latency issues and network spli
+ t brains is important for most OpenStack services.\nIn this presentation\,
+  we focus on how they impact the Keystone Identity Service. Keystone offer
+ s different deployment approaches\, from a centralized one\, to a federati
+ on\, as well as a replication using database clustering. By varying the nu
+ mber of regions and latency between those regions\, we compare the followi
+ ng deployments:\n\nOne centralized Keystone handling requests of all regio
+ ns\nA replicated Keystone using Galera Cluster to synchronize databases in
+  the different regions\nA replicated Keystone leveraging the NewSQL Cockro
+ achDB database\nA federated Keystone\n\nWe present the methodology\, resul
+ ts and identification of possible improvements towards a more decentralize
+ d management of the OpenStack services.\n 
+LOCATION:Vancouver Convention Centre West - Level Two - Room 205-207
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:OpenStack + Scale Computing...computing from the Data Center to th
+ e Edge
+DTSTART;VALUE=DATE-TIME:20180524T180000Z
+DTEND;VALUE=DATE-TIME:20180524T184000Z
+UID:21877@openstacksummitboston2017
+DESCRIPTION:Edge Computing is computing that takes place outside of the tr
+ aditional datacenter. IT infrastructure must move closer to the source of 
+ data creation because it is becoming increasing impossible to move the exp
+ onential explosion of data back to the data center. Scale Computing has in
+ tegrated it’s compute\, storage\, and network platform into the OpenStac
+ k orchestration ecosystem. This allows Scale to push data center caliber t
+ echnology out to the edge and condense it to solve edge specific business 
+ problems for OpenStack users.
+LOCATION:Vancouver Convention Centre West - Level Two - Room 205-207
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Edge Computing Group BoF
+DTSTART;VALUE=DATE-TIME:20180524T180000Z
+DTEND;VALUE=DATE-TIME:20180524T193000Z
+UID:21685@openstacksummitboston2017
+DESCRIPTION:Agenda & Notes: https://etherpad.openstack.org/p/edge_computin
+ g_group_bof_vancouver2018\nGet plugged in with the active cross-community 
+ Edge Computing Group that's been meeting weekly since November 2017.\nLear
+ n more about the initaitve and see the latest whitepaper at openstack.org/
+ edge. 
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:5G\, Edge and Autoscaling
+DTSTART;VALUE=DATE-TIME:20180524T185000Z
+DTEND;VALUE=DATE-TIME:20180524T193500Z
+UID:21483@openstacksummitboston2017
+DESCRIPTION:5G standards are designed to take advantage of virtualization 
+ and edge computing. They are meant to adapt automatically to changes in de
+ mand. The massively distributed clouds that result will be complex and th
+ ere are many implementation decisions to make.\nThe scale of 5G network\, 
+ the distribution of the control function\, reemphasize not just the need f
+ or automation but also the benefits of AI and predictive analytics. \nAut
+ omation will be built in multiple systems that have complementary but some
+ time overlapping scope. Openstack is one of them. The variety of architect
+ ures result in a variety of options.\nAutoscaling is a good example of suc
+ h automation. Some of this logic will be built into the application layer 
+ possibly by a specialized microservice. But some of it can be built at the
+  network layer in some Master orchestrator such as ONAP. Still some may al
+ so be built at the node level\, in the Virtual infrastructure manager or i
+ n Openstack. \n \n 
+LOCATION:Vancouver Convention Centre West - Level Two - Room 205-207
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ONAP in Edge Computing leveraging Openstack
+DTSTART;VALUE=DATE-TIME:20180524T205000Z
+DTEND;VALUE=DATE-TIME:20180524T213000Z
+UID:21101@openstacksummitboston2017
+DESCRIPTION:Openstack has been the leading Cloud option for VIM in most MA
+ NO implementaions. The OPNFV chose Openstack and so did ONAP\,  and OpenBa
+ ton. The preference was clear for Telco and NFV Vendors and now the same i
+ s reflected in Edge Computing. What is there and what is not has baffled e
+ ven the ardent followers of Edge Computing. The pace of change has made us
+ e case selections for the Edge Computing a work in progress. This can be d
+ irectly resolved by an architetcural view of ONAP as it dwells into Edge C
+ omputing requirents from MEC to production grade demanded by Cloud and Com
+ munication Service Providers.\nThe Presentaion will focus on \n1. ONAP R2 
+ Architecture and moving to R3 and its Requirments for Edge computing use c
+ ases\n2.  Role  of Federation for Edge Computing with latency and throughp
+ ut considerations\n3. What Openstack can provide to ONAP to leverage for E
+ dge Cloud Infrastructure.
+LOCATION:Vancouver Convention Centre West - Level Two - Room 205-207
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Network API Exposure and Context Management at the Edge
+DTSTART;VALUE=DATE-TIME:20180524T214000Z
+DTEND;VALUE=DATE-TIME:20180524T222000Z
+UID:21857@openstacksummitboston2017
+DESCRIPTION:The advent of 5G will change the communications industry by en
+ abling placement of high-bandwidth and low-latency mobile services at the 
+ edge of the network. Additionally\, 5G will allow deployment of both virtu
+ alized RAN (Radio Access Network) and CN (Core Network) at the Edge\, ther
+ eby opening a way to expose many of these mobile services capabilities t
+ hrough APIs.\nThese APIs will be used by the 3rd party applications such a
+ s AR/VR\, IoT\, media etc. It is expected that the exposure of network AP
+ Is at the Edge will drive further innovation.\nIn this presentation\, we w
+ ill share:\nVarious architectural options for exposing APIs at the Edge to
+  be consumed by both Telco and Web applications.\nHow OpenStack can be uti
+ lized to deploy the various architectural options for exposing APIs?\nEdge
+  cloud placement of analytics that will leverage local information in rea
+ l-time.\nHow analytics at the Edge can be utilized to manage the distribut
+ ed infrastructure by utilizing OpenStack\, Kubernetes etc.?\n\nWhat can I 
+ expect to learn?\nThe audience is expected to gain the following from this
+  presentation:\nVarious options for exposing mobility and network services
+  APIs at the edge of the network.\nHow various network APIs can be consume
+ d by the 3rd party application developers?\nManagement of context informat
+ ion at the Edge.\nHow can OpenStack be utilized to deploy various network 
+ components to support the network exposure of APIs?\nHow real-time analyti
+ cs data at the Edge can optimize the distributed infrastructure management
+  with OpenStack\, Kubernetes etc.?\nCagatay Buyukkoc\, Lead RAN Architect\
+ , AT&T is one of the co-authors of this TechTalk but he could not attend d
+ ue to last minute business priorities. We are appreciative of his contribu
+ tion to the content of this presentation.\n
+LOCATION:Vancouver Convention Centre West - Level Two - Room 208-209
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:An edge-cloud architecture - China Unicom case study
+DTSTART;VALUE=DATE-TIME:20180524T214000Z
+DTEND;VALUE=DATE-TIME:20180524T222000Z
+UID:21429@openstacksummitboston2017
+DESCRIPTION:China Unicom\, a world leading telco\, has deployed one of the
+  first edge-cloud solution in Tianjin (China). Its edge-cloud infrastructu
+ re with low-latency and high performance network is a proven architecture 
+ for telco&rsquo\;s 5G network transformation. In this solution\, China Uni
+ com demonstrated a full-stack integrated architecture from data center inf
+ rastructure\, resource management\, orchestration to edge applications. Th
+ ese includes VR interactive video\, broadcasting\, Edge CDN\, AI-based sec
+ urity monitoring\, and MEC-based (Multi-Access Edge Computing) multi-angle
+  live video and broadcaster interaction service with Mercedes-Benz.\n In t
+ his session\, we will share our experience in edge-cloud deployment. We wi
+ ll present the OpenStack-based edge-cloud architecture\, its hardware conf
+ iguration\, applications and the MEC design. We will also discuss the gaps
+  of OpenStack for edge use cases and the needs for hardware accelerator de
+ vices (e.g. FPGA\, GPU) as well as NFV requirements.
+LOCATION:Vancouver Convention Centre West - Level Two - Room 205-207
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Edge optimized architecture for fabric defect detection in real-ti
+ me
+DTSTART;VALUE=DATE-TIME:20180524T223000Z
+DTEND;VALUE=DATE-TIME:20180524T231000Z
+UID:20824@openstacksummitboston2017
+DESCRIPTION:In textile industry\, fabric defect relies on human inspection
+  traditionally\, which is inaccurate\, inconsistent\, inefficient and expe
+ nsive. There were automatic systems developed on the defect detection by i
+ dentifying the faults in fabric surface using the image and video processi
+ ng techniques. However\, the existing solution has insufficiencies in defe
+ ct data sharing\, backhaul interconnect\, maintenance and etc. By evolving
+  to an edge-optimized architecture\, we can help textile industry improve 
+ fabric quality\, reduce operation cost and increase production efficiency.
+  In this session\, I’ll share:\nWhat’s edge computing and why it’s i
+ mportant to intelligence manufacturing\nWhat’s the characteristics\, str
+ engths and weaknesses of traditional fabric defect detection method\nWhy t
+ extile industry can benefit from edge computing infrastructure\nHow to des
+ ign and implement an edge-enabled application for fabric defect detection 
+ in real-time\nInsights\, synergy and future research directions\n
+LOCATION:Vancouver Convention Centre West - Level One - Room 109-110
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Push Infrastructure to the Edge with Hyperconverged Cloudlets

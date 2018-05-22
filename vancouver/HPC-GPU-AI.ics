@@ -31,11 +31,11 @@ DESCRIPTION:Modern research computing needs at academic institutions are e
  ontrast to typical clouds\, Stratus does not manage internal infrastructur
  e\; rather\, Stratus complements bare-metal\, fully-managed HPC\, with a s
  elf-service model that can accommodate non-traditional computational and s
- torage needs with HPC-like performance.  \nThis talk describes the lessons
-  learned in launching a platform to support research with specific data-us
- e agreements\; and also issues concerning accountability\, risk acceptance
- \, and the role of project leadership when a large supercomputing facility
-  deviates from its traditional base of support. 
+ torage needs with HPC-like performance.  \nThis talk describes the lesson
+ s learned in launching a platform to support research with specific data-u
+ se agreements\; and also issues concerning accountability\, risk acceptanc
+ e\, and the role of project leadership when a large supercomputing facilit
+ y deviates from its traditional base of support. 
 LOCATION:Vancouver Convention Centre West - Level Three - Room 301
 END:VEVENT
 BEGIN:VEVENT
@@ -61,17 +61,17 @@ SUMMARY:Call it real : Virtual GPUs in Nova
 DTSTART;VALUE=DATE-TIME:20180521T221000Z
 DTEND;VALUE=DATE-TIME:20180521T225000Z
 UID:20802@openstacksummitboston2017
-DESCRIPTION:GPUs in OpenStack? It&rsquo\;s a long-standing question. There
-  are many business cases for providing high-profile GPUs for every instanc
- e&mdash\;namely AI\, mining\, and desktop. Until Queens\, the only solutio
- n to expose these devices to the guests was PCI passthrough in Nova&mdash\
- ;effective\, but wasteful in terms of resources.\nIn this session\, we&rsq
- uo\;ll show you how\, as of Queens\, you can request virtual GPUs (vGPUs) 
- for XenServer and libvirt/KVM Nova drivers. We'll share how the feature wa
- s discussed in the Nova community to integrate with the new Placement serv
- ice\, as well as how very different Nova drivers were able to cooperate to
-  implement a major feature. We'll also provide a demo\, discuss current fe
- ature limitations\, and share the roadmap for the next releases.
+DESCRIPTION:GPUs in OpenStack? It’s a long-standing question. There are 
+ many business cases for providing high-profile GPUs for every instance—n
+ amely AI\, mining\, and desktop. Until Queens\, the only solution to expos
+ e these devices to the guests was PCI passthrough in Nova—effective\, bu
+ t wasteful in terms of resources.\nIn this session\, we’ll show you how\
+ , as of Queens\, you can request virtual GPUs (vGPUs) for the libvirt/KVM 
+ Nova driver. We'll share how the feature was discussed in the Nova communi
+ ty to integrate with the new Placement service\, as well as how very diffe
+ rent Nova drivers (Xen and libvirt/KVM) were able to cooperate to implemen
+ t a major feature. We'll also discuss current feature limitations\, and sh
+ are the roadmap for the next releases.
 LOCATION:Vancouver Convention Centre West - Level Three - Room 301
 END:VEVENT
 BEGIN:VEVENT
@@ -120,54 +120,22 @@ LOCATION:Vancouver Convention Centre West - Level One - Lightning Talk The
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Ironing the clouds: A truly performant bare metal OpenStack!
-DTSTART;VALUE=DATE-TIME:20180524T000000Z
-DTEND;VALUE=DATE-TIME:20180524T001000Z
-UID:20929@openstacksummitboston2017
+DTSTART;VALUE=DATE-TIME:20180524T160000Z
+DTEND;VALUE=DATE-TIME:20180524T164000Z
+UID:21781@openstacksummitboston2017
 DESCRIPTION:For some time now Ironic has been used for OpenStack bare met
  al provisioning. Bare metal clouds are often used for high end workloads s
  uch as scientific computing\, HPC\, ML/AI etc. These workloads typically 
- use InfiniBand network to maximize the full potential of the cloud.\n \nB
- y combining software-defined compute\, networking and storage\, the Common
- wealth Scientific and Industrial Research Organization (CSIRO) of Australi
- a and Mellanox deliver API-driven access to native performance of the unde
- rlying resources. This means that the researchers no longer have to make c
- hoices between flexible and performant computing platforms and can easily 
- apply DevOps methodology to deploying and running the most demanding scien
- tific applications\n \nIn this talk\,  CSIRO and Mellanox will present I
- ronic over InfiniBand implementation specifics and the way it was integrat
- ed with OpenStack through real life deployment experience.
-LOCATION:Vancouver Convention Centre West - Level One - Lightning Talk The
- ater
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Use kuberenetes as HPC sheduler
-DTSTART;VALUE=DATE-TIME:20180524T160000Z
-DTEND;VALUE=DATE-TIME:20180524T164000Z
-UID:21390@openstacksummitboston2017
-DESCRIPTION:In life sciences\, HPC application requires massive storage\, 
- latency network\, strong compute ability\, so virtualization is not suitab
- le for performance sensitive scene though it can bring scale convenience a
- nd bigger granularity. we use container and kubernetes instead of the trad
- itional scheduler\, for example\, SGE. This  topic will focus on how to re
- place SGE with kubernetes and what benefit will be archived.
-LOCATION:Vancouver Convention Centre West - Level Three - Room 301
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:HPC using OpenStack
-DTSTART;VALUE=DATE-TIME:20180524T165000Z
-DTEND;VALUE=DATE-TIME:20180524T173000Z
-UID:20656@openstacksummitboston2017
-DESCRIPTION:High-Performance Computing (HPC) proposes to design a Super Co
- mputer around the use of parallel processing to run advanced application p
- rograms efficiently\, reliably and quickly. OpenStack is a set of softwar
- e tools for building and managing cloud computing platforms for public and
-  private clouds.\nIf you are looking for common deployment models for HPC 
- & OpenStack\, come and interact with our community and learn if other peop
- le are doing similar work and start a collaboration.\nThis session will be
-  an opportunity for architects and operators pairing HPC with OpenStack to
-  get together and discuss:\nbest practices and common deployment models \
- npain points \nwar stories \nwish lists\nSpecific discussion points woul
- d likely include:\nSLURM integration \nAccelerators integration\n
+ use InfiniBand network to maximize the full potential of the cloud.\nBy co
+ mbining software-defined compute\, networking and storage\, the Commonweal
+ th Scientific and Industrial Research Organization (CSIRO) of Australia an
+ d Mellanox deliver API-driven access to native performance of the underlyi
+ ng resources. This means that the researchers no longer have to make choic
+ es between flexible and performant computing platforms and can easily appl
+ y DevOps methodology to deploying and running the most demanding scientifi
+ c applications\nIn this talk\,  CSIRO and Mellanox will present Ironic ov
+ er InfiniBand implementation specifics and the way it was integrated with 
+ OpenStack through real life deployment experience.
 LOCATION:Vancouver Convention Centre West - Level Three - Room 301
 END:VEVENT
 BEGIN:VEVENT
@@ -295,8 +263,174 @@ DESCRIPTION:Join our presentation to learn how you can build your cluster
  -open sourced reference cluster model with Ansible and container orchestra
  tor automation. The environment built on GPU computation and high speed st
  orage\, in which we use Chainer and ChainerMN learning framework with many
-  NVIDIDA GPU nodes\, and attach perfectly scalable OpenStack Swift object 
- storage with file system APIs as the high speed data storage.
+  NVIDIA GPU nodes\, and attach perfectly scalable OpenStack Swift object s
+ torage with file system APIs as the high speed data storage.
+LOCATION:Vancouver Convention Centre West - Level Three - Room 301
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tuning OpenStack for HPC - experiences from TH-2
+DTSTART;VALUE=DATE-TIME:20180525T003000Z
+DTEND;VALUE=DATE-TIME:20180525T011000Z
+UID:21079@openstacksummitboston2017
+DESCRIPTION:In this session we will talk something about OpenStack based H
+ PC ecosystem which is currently running on TianHe-2 Super computer. Curren
+ tly we have thousands of nodes running in production mainly used for simul
+ ation\, analysis\, and government security applications. In order to get b
+ est performance for compute intensive application\, LXC is used as virtual
+ ization for OpenStack\, lots of optimizations have been made and some patc
+ hes are added to kernel and nova to support features like volume based LXC
+ \, GPU passthrough for better performance.\nThis session will focus on how
+  we tuning/modify Openstack and Operating system for large scale HPC\, and
+  what's we gained by running HPC on OpenStack.
+LOCATION:Vancouver Convention Centre West - Level Three - Room 301
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ironing the clouds: A truly performant bare metal OpenStack!
+DTSTART;VALUE=DATE-TIME:20180524T160000Z
+DTEND;VALUE=DATE-TIME:20180524T164000Z
+UID:21781@openstacksummitboston2017
+DESCRIPTION:For some time now Ironic has been used for OpenStack bare met
+ al provisioning. Bare metal clouds are often used for high end workloads s
+ uch as scientific computing\, HPC\, ML/AI etc. These workloads typically 
+ use InfiniBand network to maximize the full potential of the cloud.\nBy co
+ mbining software-defined compute\, networking and storage\, the Commonweal
+ th Scientific and Industrial Research Organization (CSIRO) of Australia an
+ d Mellanox deliver API-driven access to native performance of the underlyi
+ ng resources. This means that the researchers no longer have to make choic
+ es between flexible and performant computing platforms and can easily appl
+ y DevOps methodology to deploying and running the most demanding scientifi
+ c applications\nIn this talk\,  CSIRO and Mellanox will present Ironic ov
+ er InfiniBand implementation specifics and the way it was integrated with 
+ OpenStack through real life deployment experience.
+LOCATION:Vancouver Convention Centre West - Level Three - Room 301
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Can we boost more HPC performance? : Integrate IBM Power servers w
+ ith GPUs to OpenStack Environment
+DTSTART;VALUE=DATE-TIME:20180524T180000Z
+DTEND;VALUE=DATE-TIME:20180524T184000Z
+UID:21090@openstacksummitboston2017
+DESCRIPTION:Deep learning(DL)\, High-Performance Computing(HPC)\, Big Data
+  Analysis etc. has achieved remarkable progress in the recent years. To ma
+ nage the heavy workloads\, we need high-speed communication between CPU-GP
+ U and GPU-GPU. At the same time\, rapid enhancement of GPGPU programming i
+ s required but its so complicated. We know utilizing OpenACC and CUDA Unif
+ ied Memory will be helpful to reduce programming complexity but it require
+ s more cost between CPU and GPU.So we choose IBM Power server with the ful
+ l NVLink connectivity between CPU and GPU which efficiently reduces these 
+ costs as possible. It also has high bandwidth path between CPU and GPU tha
+ n PCIe Gen3 x16.Our main aim is to provide private cloud as in-house servi
+ ce within our company after integrating IBM Power server to our internal O
+ penStack environment. Then\, comparison is made among IBM Power servers wi
+ th GPUs and other x86_64 servers with GPUs (like NVIDIA DGX-1 servers)
+LOCATION:Vancouver Convention Centre West - Level Three - Room 301
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Building Efficient HPC Clouds with MVAPICH2 and OpenStack over SR-
+ IOV-enabled Heterogeneous Clusters
+DTSTART;VALUE=DATE-TIME:20180524T185000Z
+DTEND;VALUE=DATE-TIME:20180524T193000Z
+UID:21292@openstacksummitboston2017
+DESCRIPTION:Single Root I/O Virtualization (SR-IOV) technology has been st
+ eadily gainingmomentum for high-performance interconnects. SR-IOV can deli
+ ver near-nativeperformance but lacks locality-aware communication support.
+  This talk presentsan efficient approach to building HPC clouds based on M
+ VAPICH2 over OpenStackwith SR-IOV enabled virtualized heterogeneous cluste
+ rs. We discusshigh-performance designs of the VM and container aware MVAPI
+ CH2 library overOpenStack-based HPC Clouds with SR-IOV-enabled InfiniBand\
+ , KNL\, and GPGPU. Thetalk will present a high-performance VM migration fr
+ amework for MPIapplications on SR-IOV enabled InfiniBand clouds. A compreh
+ ensive performanceevaluation with micro-benchmarks and HPC applications on
+  NSF-supportedChameleon Cloud\, which is developed on OpenStack\, shows th
+ at our design candeliver the near bare-metal performance. The MVAPICH2 ove
+ r OpenStack softwarepackage presented in this talk is publicly available f
+ romhttp://mvapich.cse.ohio-state.edu.
+LOCATION:Vancouver Convention Centre West - Level Three - Room 301
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Optimized HPC/AI cloud with OpenStack acceleration service and com
+ posable hardware
+DTSTART;VALUE=DATE-TIME:20180524T205000Z
+DTEND;VALUE=DATE-TIME:20180524T213000Z
+UID:21215@openstacksummitboston2017
+DESCRIPTION:Today data scientist is turning to cloud for AI and HPC worklo
+ ads. However\, AI/HPC applications require high computational throughput w
+ here generic cloud resources would not suffice. There is a strong demand f
+ or OpenStack to support hardware accelerated devices in a dynamic model. \
+ nIn this session\, we will introduce OpenStack Acceleration Service &ndash
+ \; Cyborg\, which provides a management framework for accelerator devices 
+ (e.g. FPGA\, GPU\, NVMe SSD). We will also discuss Rack Scale Design (RSD)
+  technology and explain how physical hardware resources can be dynamically
+  aggregated to meet the AI/HPC requirements. The ability to &ldquo\;compos
+ e on the fly&rdquo\; with workload-optimized hardware and accelerator devi
+ ces through an API allow data center managers to manage these resources in
+  an efficient automated manner. \nWe will also introduce an enhanced telem
+ etry solution with Gnnochi\, bandwidth discovery and smart scheduling\, by
+  leveraging RSD technology\, for efficient workloads management in HPC/AI 
+ cloud.
+LOCATION:Vancouver Convention Centre West - Level Three - Room 301
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Building Big Data Analytics Data Lake with All-Flash Ceph
+DTSTART;VALUE=DATE-TIME:20180524T213000Z
+DTEND;VALUE=DATE-TIME:20180524T214000Z
+UID:20905@openstacksummitboston2017
+DESCRIPTION:Big data analytics data lake architecture aims to meet the sca
+ lability requirement while adopting all-flash Ceph to address high I/O nee
+ d. Leveraging Ceph RGW flexibility\, users can have multiple clusters runn
+ ing different workloads concurrently with single back-end storage\, making
+  it suitable for big data analytics. Big data query engines Hadoop Hive an
+ d Presto is applied to represent user scenario. A comparable performance r
+ esult is observed between disaggregated and hyper-converged architecture\,
+  providing users an option to ensure cluster flexibility as well as optima
+ l performance. Tests to evaluate NVMe performance is also conducted. By co
+ mparing all-flash disks to spinning drives\, improvements in performance a
+ nd resource utilization are observed.\nIn this session\, we will share per
+ formance analysis of disaggregated architecture with all-flash Ceph. You w
+ ill learn how parameters tuning affect performance and a suggested practic
+ e to configure Ceph for big data.\n 
+LOCATION:Vancouver Convention Centre West - Level One - Lightning Talk The
+ ater
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Containers on Baremetal and Preemptible VMs at CERN and SKA
+DTSTART;VALUE=DATE-TIME:20180524T223000Z
+DTEND;VALUE=DATE-TIME:20180524T231000Z
+UID:21148@openstacksummitboston2017
+DESCRIPTION:CERN the European Laboratory for Nuclear Research and SKA the 
+ Square Kilmeter Array are preparing the next generation of research infras
+ tructure for the new large scale scientific instruments that will produce 
+ new magnitudes of data. In Sydney OpenStack Summit we presented the collab
+ oration and the platform that we plan to develop for scaling science.\nIn 
+ this talk will present the work done related with Preemptible VMs and Cont
+ ainers on Baremetal. Preemptible VMs are instances that use idle allocated
+  resources in the infrastructure and can be terminated when this capacity 
+ is required. Containers in Baremetal eliminate the virtualization overhead
+  enabling the container full performance required for scientific workloads
+ .\nWe will present the current state\, development and integration decisio
+ ns and how these functionalities can be used in a common OpenStack infrast
+ ructure.
+LOCATION:Vancouver Convention Centre West - Level Three - Room 301
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Case Study: Large Scale Deployment for Machine Learning with High 
+ Speed Storage
+DTSTART;VALUE=DATE-TIME:20180524T234000Z
+DTEND;VALUE=DATE-TIME:20180525T002000Z
+UID:20791@openstacksummitboston2017
+DESCRIPTION:Join our presentation to learn how you can build your cluster 
+ for machine learning business. Machine learning and AI are obviously recen
+ t new trend of technologies. NTT\, our big telecommunication company\, als
+ o has its AI brand "Corevo". This presentation shares the experience\, how
+  to build and manage our cloud-like computing infrastructure for our compa
+ ny use case\, in which how we've been managing the full open source comput
+ ing cluster environment including OpenStack components and container techn
+ ologies.\nIn this talk\, we'd like to introduce our case study that a full
+ -open sourced reference cluster model with Ansible and container orchestra
+ tor automation. The environment built on GPU computation and high speed st
+ orage\, in which we use Chainer and ChainerMN learning framework with many
+  NVIDIA GPU nodes\, and attach perfectly scalable OpenStack Swift object s
+ torage with file system APIs as the high speed data storage.
 LOCATION:Vancouver Convention Centre West - Level Three - Room 301
 END:VEVENT
 BEGIN:VEVENT

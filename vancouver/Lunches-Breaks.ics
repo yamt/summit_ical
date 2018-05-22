@@ -30,7 +30,10 @@ SUMMARY:Lunch
 DTSTART;VALUE=DATE-TIME:20180521T191500Z
 DTEND;VALUE=DATE-TIME:20180521T203000Z
 UID:21561@openstacksummitboston2017
-DESCRIPTION:Lunch
+DESCRIPTION:Monday\nGrab 'n' Go Lunches on all three levels (Level 1: Mark
+ etplace\, Level 2: Room 211\, Level 3: Foyer)\nTuesday - Thursday\nGrab 'n
+ ' Go Lunches on all three levels\nHot buffet on Level 1 (Ballrooms A/B)\nV
+ iew the Menus
 LOCATION:
 END:VEVENT
 BEGIN:VEVENT
@@ -39,16 +42,6 @@ DTSTART;VALUE=DATE-TIME:20180521T225000Z
 DTEND;VALUE=DATE-TIME:20180521T232000Z
 UID:21572@openstacksummitboston2017
 DESCRIPTION:Afternoon Break
-LOCATION:
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:OpenInfra Mixer
-DTSTART;VALUE=DATE-TIME:20180522T010000Z
-DTEND;VALUE=DATE-TIME:20180522T023000Z
-UID:21575@openstacksummitboston2017
-DESCRIPTION:All attendees are invited to join us in the OpenStack Marketpl
- ace Expo Hall for drinks and snacks\; this is a great time to mix\, mingle
-  and checkout the sponsor booths.
 LOCATION:
 END:VEVENT
 BEGIN:VEVENT
@@ -64,7 +57,10 @@ SUMMARY:Lunch
 DTSTART;VALUE=DATE-TIME:20180522T193000Z
 DTEND;VALUE=DATE-TIME:20180522T205000Z
 UID:21562@openstacksummitboston2017
-DESCRIPTION:Lunch
+DESCRIPTION:Monday\nGrab 'n' Go Lunches on all three levels (Level 1: Mark
+ etplace\, Level 2: Room 211\, Level 3: Foyer)\nTuesday - Thursday\nGrab 'n
+ ' Go Lunches on all three levels\nHot buffet on Level 1 (Ballrooms A/B)\nV
+ iew the Menus
 LOCATION:
 END:VEVENT
 BEGIN:VEVENT
@@ -76,27 +72,14 @@ DESCRIPTION:Afternoon Break
 LOCATION:
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Morning Break
-DTSTART;VALUE=DATE-TIME:20180523T173000Z
-DTEND;VALUE=DATE-TIME:20180523T180000Z
-UID:21573@openstacksummitboston2017
-DESCRIPTION:Morning Break
-LOCATION:
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Lunch
-DTSTART;VALUE=DATE-TIME:20180523T193000Z
-DTEND;VALUE=DATE-TIME:20180523T205000Z
-UID:21563@openstacksummitboston2017
-DESCRIPTION:Lunch
-LOCATION:
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Afternoon Break
-DTSTART;VALUE=DATE-TIME:20180523T231000Z
-DTEND;VALUE=DATE-TIME:20180523T234000Z
-UID:21570@openstacksummitboston2017
-DESCRIPTION:Afternoon Break
+SUMMARY:User Committee Breakfast / Meet & Greet
+DTSTART;VALUE=DATE-TIME:20180524T143000Z
+DTEND;VALUE=DATE-TIME:20180524T160000Z
+UID:21837@openstacksummitboston2017
+DESCRIPTION:Curious to meet the newest members of the User Committee?  Ha
+ ve burning questions about user or operator related things? Want the lates
+ t on the User Survey? \nJoin us and let us know how the User Committee ca
+ n help support you!
 LOCATION:
 END:VEVENT
 BEGIN:VEVENT
@@ -112,7 +95,48 @@ SUMMARY:Lunch
 DTSTART;VALUE=DATE-TIME:20180524T193000Z
 DTEND;VALUE=DATE-TIME:20180524T205000Z
 UID:21564@openstacksummitboston2017
-DESCRIPTION:Lunch
+DESCRIPTION:Monday\nGrab 'n' Go Lunches on all three levels (Level 1: Mark
+ etplace\, Level 2: Room 211\, Level 3: Foyer)\nTuesday - Thursday\nGrab 'n
+ ' Go Lunches on all three levels\nHot buffet on Level 1 (Ballrooms A/B)\nV
+ iew the Menus
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Afternoon Break
+DTSTART;VALUE=DATE-TIME:20180524T231000Z
+DTEND;VALUE=DATE-TIME:20180524T234000Z
+UID:21569@openstacksummitboston2017
+DESCRIPTION:Afternoon Break
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:User Committee Breakfast / Meet & Greet
+DTSTART;VALUE=DATE-TIME:20180524T143000Z
+DTEND;VALUE=DATE-TIME:20180524T160000Z
+UID:21837@openstacksummitboston2017
+DESCRIPTION:Curious to meet the newest members of the User Committee?  Ha
+ ve burning questions about user or operator related things? Want the lates
+ t on the User Survey? \nJoin us and let us know how the User Committee ca
+ n help support you!
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Morning Break
+DTSTART;VALUE=DATE-TIME:20180524T173000Z
+DTEND;VALUE=DATE-TIME:20180524T180000Z
+UID:21574@openstacksummitboston2017
+DESCRIPTION:Morning Break
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunch
+DTSTART;VALUE=DATE-TIME:20180524T193000Z
+DTEND;VALUE=DATE-TIME:20180524T205000Z
+UID:21564@openstacksummitboston2017
+DESCRIPTION:Monday\nGrab 'n' Go Lunches on all three levels (Level 1: Mark
+ etplace\, Level 2: Room 211\, Level 3: Foyer)\nTuesday - Thursday\nGrab 'n
+ ' Go Lunches on all three levels\nHot buffet on Level 1 (Ballrooms A/B)\nV
+ iew the Menus
 LOCATION:
 END:VEVENT
 BEGIN:VEVENT
